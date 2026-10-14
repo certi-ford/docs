@@ -2,9 +2,9 @@
 
 > Studio CRM의 고객 목록에서 직접 등록과 CSV 업로드로 고객을 넣고, 필터 조건을 세그먼트로 저장하고, 고객 상세에서 수신 동의·고객 연결·태그를 관리하고, 같은 전화번호의 중복 고객을 병합하는 방법을 안내합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/studio/screens/crm/customers)
+[사람이 읽는 원문](https://certi.life/docs/guide/studio/screens/crm/customers)
 
-CRM의 모든 일은 `고객 목록`에서 시작합니다. 고객을 넣는 방법은 세 가지입니다. 한두 명은 `직접 등록`, 기존 명단은 `CSV 업로드`, 인증서나 EMR 데이터는 [데이터 연동](https://docs.certi.life/guide/studio/screens/crm/connectors)으로 넣습니다. 고객이 모이면 조건으로 나누어 세그먼트로 저장하고, 그 세그먼트에 메시지를 보냅니다.
+CRM의 모든 일은 `고객 목록`에서 시작합니다. 고객을 넣는 방법은 세 가지입니다. 한두 명은 `직접 등록`, 기존 명단은 `CSV 업로드`, 인증서나 EMR 데이터는 [데이터 연동](https://certi.life/docs/guide/studio/screens/crm/connectors)으로 넣습니다. 고객이 모이면 조건으로 나누어 세그먼트로 저장하고, 그 세그먼트에 메시지를 보냅니다.
 
 **위치:** CRM > 고객 목록
 
@@ -35,7 +35,7 @@ CRM의 모든 일은 `고객 목록`에서 시작합니다. 고객을 넣는 방
 
 "필러 맞은 지 6개월 지난 분만 골라 주세요" 같은 요청은 이 화면에서 처리합니다. 검색창에 이름이나 전화번호를 넣고 `검색`을 누릅니다. 조건으로 거르려면 필터를 씁니다. 목록 위쪽에는 `데이터 소스`, `고객 속성`, `세그먼트`, `내 저장 세그먼트` 카드와 `전체 유입경로` 필터가 있습니다.
 
-목록의 열은 `고객`, `프로필`, `최근 활동`, `고객 속성`, `시나리오 편입`, `최근 메시지`, `유입`입니다. 시술 이력과 방문일은 별도의 열이 아니라 `고객 속성`, [EMR 연동](https://docs.certi.life/guide/studio/screens/crm/connectors)이 넣어 주는 속성(`최근 예약일`, `다음 예약일` 등), 고객 편집의 `NFT 인증서` 탭(시술 정보)으로 들어옵니다. 필터에서 고를 수 있는 조건의 전체 목록은 이 문서에서 확인하지 못했으므로 화면의 필터 항목을 따르세요.
+목록의 열은 `고객`, `프로필`, `최근 활동`, `고객 속성`, `시나리오 편입`, `최근 메시지`, `유입`입니다. 시술 이력과 방문일은 별도의 열이 아니라 `고객 속성`, [EMR 연동](https://certi.life/docs/guide/studio/screens/crm/connectors)이 넣어 주는 속성(`최근 예약일`, `다음 예약일` 등), 고객 편집의 `NFT 인증서` 탭(시술 정보)으로 들어옵니다. 필터에서 고를 수 있는 조건의 전체 목록은 이 문서에서 확인하지 못했으므로 화면의 필터 항목을 따르세요.
 
 고객을 누르면 오른쪽에 상세가 열려 `프로필`, `고객 연결`, `고객 속성 값`, `진행 중 시나리오`, `최근 메시지`, `유입 · 데이터 원천`, `태그`를 볼 수 있습니다. 아래의 `편집`으로 상세 편집 화면에 들어가고, `1명 캠페인`으로 이 고객에게만 보내는 캠페인을 시작할 수 있습니다.
 
@@ -47,7 +47,7 @@ CRM의 모든 일은 `고객 목록`에서 시작합니다. 고객을 넣는 방
 2. `필터 조건으로 세그먼트 만들기`(또는 `새 세그먼트`)를 누릅니다.
 3. `현재 필터를 세그먼트로 저장` 창에 `세그먼트 이름`을 적고 `저장`합니다.
 
-세그먼트는 조건을 저장한 것이라, 나중에 조건에 맞는 고객이 새로 생기면 그 세그먼트에 포함됩니다. 어떤 기준으로 나눌지는 [CRM 세그먼트 계획](https://docs.certi.life/guide/products/crm-messaging/segment-planning)을 참고하세요. "시술 3개월 뒤"처럼 고객마다 시점이 다른 안내는 세그먼트가 아니라 [시나리오 자동화](https://docs.certi.life/guide/studio/screens/crm/automation)로 보냅니다.
+세그먼트는 조건을 저장한 것이라, 나중에 조건에 맞는 고객이 새로 생기면 그 세그먼트에 포함됩니다. 어떤 기준으로 나눌지는 [CRM 세그먼트 계획](https://certi.life/docs/guide/products/crm-messaging/segment-planning)을 참고하세요. "시술 3개월 뒤"처럼 고객마다 시점이 다른 안내는 세그먼트가 아니라 [시나리오 자동화](https://certi.life/docs/guide/studio/screens/crm/automation)로 보냅니다.
 
 `운영 홈`과 이 화면의 `세그먼트 분포`는 고객을 `신규`, `재활동`, `정기`, `단골`, `이탈위험`으로 나누어 보여 줍니다. 각 단계의 판정 기준은 화면에 표시되지 않아 이 문서에서 확인하지 못했습니다.
 
@@ -90,10 +90,10 @@ CRM의 모든 일은 `고객 목록`에서 시작합니다. 고객을 넣는 방
 | 알고 싶은 것        | 탭         | 내용                                                                                                             |
 | -------------- | --------- | -------------------------------------------------------------------------------------------------------------- |
 | 이 고객에게 무엇을 보냈나 | `활동 이력`   | 메시지 발송과 고객 등록 같은 시스템 이벤트가 시간순으로 나옵니다                                                                           |
-| 자동화에 넣고 싶다     | `시나리오`    | 이 고객을 [시나리오 자동화](https://docs.certi.life/guide/studio/screens/crm/automation)에 직접 편입합니다                        |
-| 언제 내원하나        | `예약`      | 이 고객의 일정이 나오고 `열기`로 일정을 엽니다. 일정은 [캘린더](https://docs.certi.life/guide/studio/screens/crm/calendar)에서 관리합니다      |
+| 자동화에 넣고 싶다     | `시나리오`    | 이 고객을 [시나리오 자동화](https://certi.life/docs/guide/studio/screens/crm/automation)에 직접 편입합니다                        |
+| 언제 내원하나        | `예약`      | 이 고객의 일정이 나오고 `열기`로 일정을 엽니다. 일정은 [캘린더](https://certi.life/docs/guide/studio/screens/crm/calendar)에서 관리합니다      |
 | 동료에게 남길 말이 있다  | `메모`      | 팀이 함께 보는 내부 메모입니다. 고객에게는 보이지 않으며 1,000자까지 씁니다                                                                  |
-| 어떤 상담을 했나      | `태그`      | 상담 태그를 붙입니다. 태그 목록은 [백과사전](https://docs.certi.life/guide/studio/screens/encyclopedia)의 태그를 쓰고, 시나리오의 조건에도 쓰입니다 |
+| 어떤 상담을 했나      | `태그`      | 상담 태그를 붙입니다. 태그 목록은 [백과사전](https://certi.life/docs/guide/studio/screens/encyclopedia)의 태그를 쓰고, 시나리오의 조건에도 쓰입니다 |
 | 추가 정보를 넣고 싶다   | `고객 속성`   | CSV나 연동에서 들어온 기본 정보 외의 값을 확인하고 고칩니다                                                                            |
 | 병원 시스템의 정보는    | `EMR 연동`  | 담당의, 다음 예약, 차트번호, 예약 이력을 봅니다. 연동한 조직에만 값이 있습니다                                                                 |
 | 인증서를 받았나       | `NFT 인증서` | 인증서 발급 이력과 시술 정보를 봅니다                                                                                          |
@@ -109,7 +109,7 @@ CRM의 모든 일은 `고객 목록`에서 시작합니다. 고객을 넣는 방
 
 ## 함께 보기
 
-- [데이터 연동](https://docs.certi.life/guide/studio/screens/crm/connectors): 인증서·EMR에서 고객 가져오기
-- [캠페인](https://docs.certi.life/guide/studio/screens/crm/campaigns): 세그먼트에 메시지 보내기
-- [CRM 메시징](https://docs.certi.life/guide/products/crm-messaging): 세그먼트와 지표의 뜻
-- [개인정보 및 보안](https://docs.certi.life/guide/help/privacy-security)
+- [데이터 연동](https://certi.life/docs/guide/studio/screens/crm/connectors): 인증서·EMR에서 고객 가져오기
+- [캠페인](https://certi.life/docs/guide/studio/screens/crm/campaigns): 세그먼트에 메시지 보내기
+- [CRM 메시징](https://certi.life/docs/guide/products/crm-messaging): 세그먼트와 지표의 뜻
+- [개인정보 및 보안](https://certi.life/docs/guide/help/privacy-security)

@@ -2,9 +2,9 @@
 
 > Studio 백과사전(화면 제목 상담 백과사전)에서 태그와 폴더로 상담 지식을 정리하고, 태그 추가로 새 문서를 작성하거나 파일을 업로드하고, 파일로 문서를 덮어쓰고, 버전 기록에서 예전 버전으로 복원하고, 봇 칩과 챗봇 시점으로 문서를 쓰는 챗봇을 확인·연결하고, 태그 이름을 바꾸고, 인용문으로 상담원용 빠른 입력 문구를 만들고, 고객 태그를 관리하는 방법을 목적별로 안내합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/studio/screens/encyclopedia)
+[사람이 읽는 원문](https://certi.life/docs/guide/studio/screens/encyclopedia)
 
-`백과사전`은 조직의 상담 지식을 한곳에 모아 두는 문서 보관소입니다. 여기 등록한 문서는 세 군데에서 함께 쓰입니다. v2 챗봇의 학습자료로 연결되고, 콜봇의 지식 베이스에 담기고, 상담원이 [상담](https://docs.certi.life/guide/studio/screens/counsel/reply-tools#상담-백과사전에서-찾아-넣기) 화면의 `상담 백과사전`에서 찾아봅니다. **문서를 한 번만 잘 관리하면 챗봇, 콜봇, 상담원의 안내가 같은 내용으로 맞춰집니다.**
+`백과사전`은 조직의 상담 지식을 한곳에 모아 두는 문서 보관소입니다. 여기 등록한 문서는 세 군데에서 함께 쓰입니다. v2 챗봇의 학습자료로 연결되고, 콜봇의 지식 베이스에 담기고, 상담원이 [상담](https://certi.life/docs/guide/studio/screens/counsel/reply-tools#상담-백과사전에서-찾아-넣기) 화면의 `상담 백과사전`에서 찾아봅니다. **문서를 한 번만 잘 관리하면 챗봇, 콜봇, 상담원의 안내가 같은 내용으로 맞춰집니다.**
 
 **위치:** 백과사전 (화면 제목은 `상담 백과사전`으로 표시됩니다)
 
@@ -26,15 +26,15 @@
 
 | 하고 싶은 일                      | 섹션                                                                                                                   |
 | ---------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| 새 안내 문서를 직접 쓰고 싶어요           | [새 문서 직접 작성하기](https://docs.certi.life/guide/studio/screens/encyclopedia#새-문서-직접-작성하기)                               |
-| 가지고 있는 파일을 등록하고 싶어요          | [파일을 올려 문서 등록하기](https://docs.certi.life/guide/studio/screens/encyclopedia#파일을-올려-문서-등록하기)                           |
-| 안내 내용이 바뀌어 고치고 싶어요           | [문서 내용 고치기](https://docs.certi.life/guide/studio/screens/encyclopedia#문서-내용-고치기)                                     |
-| 문서 하나를 새 파일로 통째 바꾸고 싶어요      | [파일로 문서 덮어쓰기](https://docs.certi.life/guide/studio/screens/encyclopedia#파일로-문서-덮어쓰기)                                 |
-| 잘못 고친 문서를 예전 내용으로 되돌리고 싶어요   | [예전 버전으로 되돌리기](https://docs.certi.life/guide/studio/screens/encyclopedia#예전-버전으로-되돌리기)                               |
-| 이 문서를 어느 챗봇이 쓰는지 보고 싶어요      | [이 문서를 쓰는 챗봇 확인하고 연결하기](https://docs.certi.life/guide/studio/screens/encyclopedia#이-문서를-쓰는-챗봇-확인하고-연결하기)             |
-| 상담원이 버튼 하나로 안내 문구를 넣게 하고 싶어요 | [상담원용 빠른 입력 문구 만들기](https://docs.certi.life/guide/studio/screens/encyclopedia#상담원용-빠른-입력-문구-만들기)                     |
-| 고객에게 붙일 태그를 만들고 싶어요          | [고객 태그 만들기](https://docs.certi.life/guide/studio/screens/encyclopedia#고객-태그-만들기)                                     |
-| 등록한 문서를 챗봇이 쓰게 하고 싶어요        | [AI 학습자료 설정에서 연결](https://docs.certi.life/guide/studio/screens/chatbot/settings/training-materials#v2-백과사전-문서를-연결하기) |
+| 새 안내 문서를 직접 쓰고 싶어요           | [새 문서 직접 작성하기](https://certi.life/docs/guide/studio/screens/encyclopedia#새-문서-직접-작성하기)                               |
+| 가지고 있는 파일을 등록하고 싶어요          | [파일을 올려 문서 등록하기](https://certi.life/docs/guide/studio/screens/encyclopedia#파일을-올려-문서-등록하기)                           |
+| 안내 내용이 바뀌어 고치고 싶어요           | [문서 내용 고치기](https://certi.life/docs/guide/studio/screens/encyclopedia#문서-내용-고치기)                                     |
+| 문서 하나를 새 파일로 통째 바꾸고 싶어요      | [파일로 문서 덮어쓰기](https://certi.life/docs/guide/studio/screens/encyclopedia#파일로-문서-덮어쓰기)                                 |
+| 잘못 고친 문서를 예전 내용으로 되돌리고 싶어요   | [예전 버전으로 되돌리기](https://certi.life/docs/guide/studio/screens/encyclopedia#예전-버전으로-되돌리기)                               |
+| 이 문서를 어느 챗봇이 쓰는지 보고 싶어요      | [이 문서를 쓰는 챗봇 확인하고 연결하기](https://certi.life/docs/guide/studio/screens/encyclopedia#이-문서를-쓰는-챗봇-확인하고-연결하기)             |
+| 상담원이 버튼 하나로 안내 문구를 넣게 하고 싶어요 | [상담원용 빠른 입력 문구 만들기](https://certi.life/docs/guide/studio/screens/encyclopedia#상담원용-빠른-입력-문구-만들기)                     |
+| 고객에게 붙일 태그를 만들고 싶어요          | [고객 태그 만들기](https://certi.life/docs/guide/studio/screens/encyclopedia#고객-태그-만들기)                                     |
+| 등록한 문서를 챗봇이 쓰게 하고 싶어요        | [AI 학습자료 설정에서 연결](https://certi.life/docs/guide/studio/screens/chatbot/settings/training-materials#v2-백과사전-문서를-연결하기) |
 
 ## 새 문서 직접 작성하기
 
@@ -47,7 +47,7 @@
 
 > **저장하지 않고 이동하면 사라집니다**
 >
-> 이 화면에는 저장하지 않은 내용을 지켜 주는 확인 창이 없습니다. 다른 태그를 누르거나, 다른 메뉴로 이동하거나, 새로고침하거나, 브라우저 탭을 닫아도 묻지 않고 편집이 사라집니다. 그 전에 반드시 `저장`을 누르세요. 저장할 때마다 새 버전이 기록되므로, 저장한 내용은 [예전 버전으로 되돌리기](https://docs.certi.life/guide/studio/screens/encyclopedia#예전-버전으로-되돌리기)에서 되살릴 수 있습니다. 저장하지 않은 편집은 버전에 남지 않습니다.
+> 이 화면에는 저장하지 않은 내용을 지켜 주는 확인 창이 없습니다. 다른 태그를 누르거나, 다른 메뉴로 이동하거나, 새로고침하거나, 브라우저 탭을 닫아도 묻지 않고 편집이 사라집니다. 그 전에 반드시 `저장`을 누르세요. 저장할 때마다 새 버전이 기록되므로, 저장한 내용은 [예전 버전으로 되돌리기](https://certi.life/docs/guide/studio/screens/encyclopedia#예전-버전으로-되돌리기)에서 되살릴 수 있습니다. 저장하지 않은 편집은 버전에 남지 않습니다.
 
 ## 파일을 올려 문서 등록하기
 
@@ -76,11 +76,11 @@
 1. 왼쪽에서 태그를 누르면 오른쪽에 연결된 문서가 열립니다. 문서가 둘 이상이면 `문서 선택`에서 고릅니다.
 2. 본문을 고치고 `저장`을 누릅니다.
 
-올렸던 원본 파일이 필요하면 `원본 다운로드`를 누릅니다. 직접 작성한 문서처럼 업로드 원본이 없는 문서는 내려받을 수 없습니다. 일부 문장이 아니라 파일 전체로 바꾸려면 [파일로 문서 덮어쓰기](https://docs.certi.life/guide/studio/screens/encyclopedia#파일로-문서-덮어쓰기)를 보세요.
+올렸던 원본 파일이 필요하면 `원본 다운로드`를 누릅니다. 직접 작성한 문서처럼 업로드 원본이 없는 문서는 내려받을 수 없습니다. 일부 문장이 아니라 파일 전체로 바꾸려면 [파일로 문서 덮어쓰기](https://certi.life/docs/guide/studio/screens/encyclopedia#파일로-문서-덮어쓰기)를 보세요.
 
 > **고치면 어디에 반영되나요?**
 >
-> v2 챗봇은 연결이 "최신 내용 자동 반영"으로 되어 있으면 검색 준비가 끝난 뒤 고친 내용을 자동으로 씁니다. 특정 버전에 고정된 연결은 [AI 학습자료 설정](https://docs.certi.life/guide/studio/screens/chatbot/settings/training-materials#v2-백과사전-문서를-연결하기)에 `수정 내용 미반영`으로 표시되니 거기서 `최신 내용 자동 반영`을 눌러 주세요.
+> v2 챗봇은 연결이 "최신 내용 자동 반영"으로 되어 있으면 검색 준비가 끝난 뒤 고친 내용을 자동으로 씁니다. 특정 버전에 고정된 연결은 [AI 학습자료 설정](https://certi.life/docs/guide/studio/screens/chatbot/settings/training-materials#v2-백과사전-문서를-연결하기)에 `수정 내용 미반영`으로 표시되니 거기서 `최신 내용 자동 반영`을 눌러 주세요.
 
 ## 파일로 문서 덮어쓰기
 
@@ -101,13 +101,13 @@
 
 > **추가와 덮어쓰기를 헷갈리지 마세요**
 >
-> 문서를 하나 더 만들려면 왼쪽 아래 `추가` > `파일 업로드`를 씁니다. 위쪽 `업로드`는 문서가 열려 있을 때만 덮어쓰기로 동작합니다. 챗봇 연결에는 [문서 내용 고치기](https://docs.certi.life/guide/studio/screens/encyclopedia#문서-내용-고치기)와 같은 반영 규칙이 적용됩니다.
+> 문서를 하나 더 만들려면 왼쪽 아래 `추가` > `파일 업로드`를 씁니다. 위쪽 `업로드`는 문서가 열려 있을 때만 덮어쓰기로 동작합니다. 챗봇 연결에는 [문서 내용 고치기](https://certi.life/docs/guide/studio/screens/encyclopedia#문서-내용-고치기)와 같은 반영 규칙이 적용됩니다.
 
 ## 예전 버전으로 되돌리기
 
 **위치:** 백과사전 > (태그 선택) > 버전 N
 
-문서를 `저장`하거나 [파일로 덮어쓸](https://docs.certi.life/guide/studio/screens/encyclopedia#파일로-문서-덮어쓰기) 때마다 새 버전이 기록됩니다. 문서 위쪽 버튼 줄의 `버전 N`에서 N은 쌓인 버전 수이고, 마우스를 올리면 `이 문서의 버전 기록`이라고 표시됩니다.
+문서를 `저장`하거나 [파일로 덮어쓸](https://certi.life/docs/guide/studio/screens/encyclopedia#파일로-문서-덮어쓰기) 때마다 새 버전이 기록됩니다. 문서 위쪽 버튼 줄의 `버전 N`에서 N은 쌓인 버전 수이고, 마우스를 올리면 `이 문서의 버전 기록`이라고 표시됩니다.
 
 1. 왼쪽에서 태그를 눌러 문서를 엽니다.
 2. 위쪽의 `버전 N`을 누릅니다. `버전` 창이 열리고 버전이 최신순으로 보입니다. 지금 쓰는 버전에는 `현재`가 붙어 있습니다.
@@ -147,7 +147,7 @@
 3. 아래쪽 막대에서 `학습자료로 등록`(또는 `등록 해제`)을 누릅니다. 고르던 것을 모두 풀려면 `선택 해제`를 누릅니다.
 4. 챗봇 시점을 끝내려면 `챗봇 시점` 선택란의 ×를 누릅니다.
 
-문서가 없는 태그는 등록되지 않고 결과에 "건너뜀(문서 없음)"으로 셉니다. 연결 상태와 챗봇이 실제로 쓰는 버전은 챗봇의 [AI 학습자료 설정](https://docs.certi.life/guide/studio/screens/chatbot/settings/training-materials#v2-백과사전-문서를-연결하기)에서도 확인할 수 있습니다.
+문서가 없는 태그는 등록되지 않고 결과에 "건너뜀(문서 없음)"으로 셉니다. 연결 상태와 챗봇이 실제로 쓰는 버전은 챗봇의 [AI 학습자료 설정](https://certi.life/docs/guide/studio/screens/chatbot/settings/training-materials#v2-백과사전-문서를-연결하기)에서도 확인할 수 있습니다.
 
 ## 상담원용 빠른 입력 문구 만들기
 
@@ -188,7 +188,7 @@
 
 ## 어떤 문서를 넣어야 하나요?
 
-백과사전의 문서는 챗봇과 콜봇이 고객에게 그대로 안내할 수 있는 내용입니다. 고객에게 공개해도 되는 승인된 자료만 넣고, 고객 기록이나 내부 메모, 직원 연락처는 넣지 마세요. 같은 내용이 여러 문서에 다르게 적혀 있으면 답변이 흔들리므로 주제당 기준 문서를 하나로 정리하는 것이 좋습니다. 선별과 갱신 기준은 [상담 지식 관리](https://docs.certi.life/guide/studio/knowledge-management)에 있습니다.
+백과사전의 문서는 챗봇과 콜봇이 고객에게 그대로 안내할 수 있는 내용입니다. 고객에게 공개해도 되는 승인된 자료만 넣고, 고객 기록이나 내부 메모, 직원 연락처는 넣지 마세요. 같은 내용이 여러 문서에 다르게 적혀 있으면 답변이 흔들리므로 주제당 기준 문서를 하나로 정리하는 것이 좋습니다. 선별과 갱신 기준은 [상담 지식 관리](https://certi.life/docs/guide/studio/knowledge-management)에 있습니다.
 
 ## 문제가 생기면
 
@@ -229,13 +229,13 @@
 | 화면 표시                                   | 뜻                                                                | 할 일                                                                                                               |
 | --------------------------------------- | ---------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
 | `연결된 봇 없음`                              | 이 문서를 학습자료로 쓰는 v2 챗봇이 없습니다                                       | 챗봇이 이 문서로 답해야 한다면 칩을 눌러 챗봇을 연결합니다                                                                                 |
-| `v2로 응답하는 봇이 없습니다`, `v2로 응답하는 챗봇이 없습니다` | 응답 버전이 v2인 챗봇이 없어 연결할 대상이 없습니다                                   | 챗봇의 [AI 설정](https://docs.certi.life/guide/studio/screens/chatbot/settings/ai-settings#응답-버전-바꾸기)에서 `응답 버전`을 확인합니다 |
+| `v2로 응답하는 봇이 없습니다`, `v2로 응답하는 챗봇이 없습니다` | 응답 버전이 v2인 챗봇이 없어 연결할 대상이 없습니다                                   | 챗봇의 [AI 설정](https://certi.life/docs/guide/studio/screens/chatbot/settings/ai-settings#응답-버전-바꾸기)에서 `응답 버전`을 확인합니다 |
 | `등록 상태를 불러오지 못했습니다`                     | `챗봇 시점`에서 고른 챗봇의 연결 상태를 읽지 못했습니다. 이때는 태그가 흐려지지 않고 체크박스도 생기지 않습니다 | 옆의 `다시 시도`를 누릅니다                                                                                                  |
-| `연결된 문서 없음`                             | 이 태그에 연결된 문서가 없습니다                                               | 화면 안내대로 위쪽 `업로드`로 파일을 올리거나, [AI](https://docs.certi.life/guide/studio/screens/ai) 화면의 문서에 이 태그를 붙입니다              |
+| `연결된 문서 없음`                             | 이 태그에 연결된 문서가 없습니다                                               | 화면 안내대로 위쪽 `업로드`로 파일을 올리거나, [AI](https://certi.life/docs/guide/studio/screens/ai) 화면의 문서에 이 태그를 붙입니다              |
 | `즐겨찾기한 폴더·태그가 없습니다`                     | ★를 누른 폴더나 태그가 없습니다                                               | 자주 쓰는 태그 옆의 ★를 누릅니다                                                                                               |
 
 ## 함께 보기
 
-- [AI](https://docs.certi.life/guide/studio/screens/ai): AI와 함께 문서를 작성하고 카탈로그 태그를 붙이기
-- [AI 학습자료 설정](https://docs.certi.life/guide/studio/screens/chatbot/settings/training-materials): 문서를 챗봇에 연결하기
-- [콜봇 지식 베이스](https://docs.certi.life/guide/studio/screens/callbot/knowledge): 문서를 콜봇에 담기
+- [AI](https://certi.life/docs/guide/studio/screens/ai): AI와 함께 문서를 작성하고 카탈로그 태그를 붙이기
+- [AI 학습자료 설정](https://certi.life/docs/guide/studio/screens/chatbot/settings/training-materials): 문서를 챗봇에 연결하기
+- [콜봇 지식 베이스](https://certi.life/docs/guide/studio/screens/callbot/knowledge): 문서를 콜봇에 담기

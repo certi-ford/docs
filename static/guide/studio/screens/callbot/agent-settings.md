@@ -2,7 +2,7 @@
 
 > Studio 콜봇의 에이전트 상세 화면에서 LLM·음성·언어, 첫 메시지, 프롬프트, 도구, 지식 베이스, 매뉴얼, 통화 정보 추출, 발화 설정, 통화 설정, 보안 설정, 웹훅 설정을 바꾸고 테스트한 뒤 배포하는 방법을 목적별로 안내합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/studio/screens/callbot/agent-settings)
+[사람이 읽는 원문](https://certi.life/docs/guide/studio/screens/callbot/agent-settings)
 
 에이전트 목록에서 에이전트를 누르면 설정 화면이 열립니다. 이 화면에서 기억할 것은 하나입니다. **고친 내용은 `배포`를 눌러야 실제 통화에 반영됩니다.** 별도의 저장 버튼은 없고, `배포`가 편집 내용을 저장해 새 버전으로 게시하는 일을 한 번에 합니다. 배포하기 전에는 오른쪽 테스트 패널에서 얼마든지 시험해 볼 수 있습니다.
 
@@ -14,20 +14,20 @@
 
 | 하고 싶은 일                        | 섹션                                                                                                           |
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------ |
-| 목소리나 말하는 속도를 바꾸고 싶어요           | [목소리와 말투 정하기](https://docs.certi.life/guide/studio/screens/callbot/agent-settings#목소리와-말투-정하기)               |
-| 전화를 받자마자 하는 인사말을 바꾸고 싶어요       | [첫 인사말 정하기](https://docs.certi.life/guide/studio/screens/callbot/agent-settings#첫-인사말-정하기)                   |
-| 응대 내용과 규칙을 고치고 싶어요             | [응대 내용 고치기](https://docs.certi.life/guide/studio/screens/callbot/agent-settings#응대-내용-고치기)                   |
-| 모르는 질문은 담당자에게 넘기게 하고 싶어요       | [통화 중에 할 수 있는 일 늘리기](https://docs.certi.life/guide/studio/screens/callbot/agent-settings#통화-중에-할-수-있는-일-늘리기) |
-| 우리 회사 정보로 답하게 하고 싶어요           | [회사 정보로 답하게 하기](https://docs.certi.life/guide/studio/screens/callbot/agent-settings#회사-정보로-답하게-하기)           |
-| 통화가 끝나면 예약 희망일 같은 정보를 기록하고 싶어요 | [통화에서 정보 뽑아 기록하기](https://docs.certi.life/guide/studio/screens/callbot/agent-settings#통화에서-정보-뽑아-기록하기)       |
-| 고객이 말을 끊으면 멈추게 하고 싶어요          | [말하는 방식과 통화 시간 조정하기](https://docs.certi.life/guide/studio/screens/callbot/agent-settings#말하는-방식과-통화-시간-조정하기) |
-| 녹음을 남기지 않거나 보존 기간을 정하고 싶어요     | [녹음과 개인정보 보존 정하기](https://docs.certi.life/guide/studio/screens/callbot/agent-settings#녹음과-개인정보-보존-정하기)       |
+| 목소리나 말하는 속도를 바꾸고 싶어요           | [목소리와 말투 정하기](https://certi.life/docs/guide/studio/screens/callbot/agent-settings#목소리와-말투-정하기)               |
+| 전화를 받자마자 하는 인사말을 바꾸고 싶어요       | [첫 인사말 정하기](https://certi.life/docs/guide/studio/screens/callbot/agent-settings#첫-인사말-정하기)                   |
+| 응대 내용과 규칙을 고치고 싶어요             | [응대 내용 고치기](https://certi.life/docs/guide/studio/screens/callbot/agent-settings#응대-내용-고치기)                   |
+| 모르는 질문은 담당자에게 넘기게 하고 싶어요       | [통화 중에 할 수 있는 일 늘리기](https://certi.life/docs/guide/studio/screens/callbot/agent-settings#통화-중에-할-수-있는-일-늘리기) |
+| 우리 회사 정보로 답하게 하고 싶어요           | [회사 정보로 답하게 하기](https://certi.life/docs/guide/studio/screens/callbot/agent-settings#회사-정보로-답하게-하기)           |
+| 통화가 끝나면 예약 희망일 같은 정보를 기록하고 싶어요 | [통화에서 정보 뽑아 기록하기](https://certi.life/docs/guide/studio/screens/callbot/agent-settings#통화에서-정보-뽑아-기록하기)       |
+| 고객이 말을 끊으면 멈추게 하고 싶어요          | [말하는 방식과 통화 시간 조정하기](https://certi.life/docs/guide/studio/screens/callbot/agent-settings#말하는-방식과-통화-시간-조정하기) |
+| 녹음을 남기지 않거나 보존 기간을 정하고 싶어요     | [녹음과 개인정보 보존 정하기](https://certi.life/docs/guide/studio/screens/callbot/agent-settings#녹음과-개인정보-보존-정하기)       |
 
 ## 목소리와 말투 정하기
 
 **위치:** 콜봇 > 에이전트 > (에이전트 선택) > 음성
 
-- **`음성`:** 제공사, 언어, 음성을 차례로 골라 목소리를 정합니다. 옆의 톱니에서 `속도`와 `볼륨`을 조정합니다. 어떤 목소리가 있는지는 [보이스](https://docs.certi.life/guide/studio/screens/callbot/voices)에서 미리 들어 볼 수 있습니다.
+- **`음성`:** 제공사, 언어, 음성을 차례로 골라 목소리를 정합니다. 옆의 톱니에서 `속도`와 `볼륨`을 조정합니다. 어떤 목소리가 있는지는 [보이스](https://certi.life/docs/guide/studio/screens/callbot/voices)에서 미리 들어 볼 수 있습니다.
 - **`언어`:** 통화에 쓸 언어를 고릅니다. 톱니의 `인식 속도`(`빠름`, `중간`, `느림`)는 음성 인식의 속도와 정확도 사이의 균형입니다. 고객 말을 자주 잘못 알아듣는다면 느리게 조정해 보세요.
 - **`LLM`:** 응답을 만드는 모델을 고릅니다. 톱니의 `창의성 (Temperature)`은 응답의 창의성과 무작위성을 조절합니다. 안내가 매번 같아야 하는 업무라면 `낮음` 쪽으로 둡니다.
 
@@ -49,7 +49,7 @@
 
 `프롬프트`에는 에이전트의 역할, 대화 스타일, 목표처럼 모든 통화에 공통으로 적용할 내용을 적습니다. AI가 만들어 준 초안이라면 영업시간, 가격, 위치처럼 사실이 걸린 문장부터 확인해 고치세요.
 
-전화는 글과 달리 듣고 바로 이해해야 합니다. 한 번에 길게 말하지 않게 하고, 숫자와 시간은 또박또박 말하게 하고, 못 알아들었을 때 다시 묻는 방법을 적어 두면 통화 품질이 좋아집니다. 특정 상황에서만 필요한 긴 절차는 프롬프트에 다 넣지 말고 [매뉴얼](https://docs.certi.life/guide/studio/screens/callbot/manuals)로 떼어 내세요.
+전화는 글과 달리 듣고 바로 이해해야 합니다. 한 번에 길게 말하지 않게 하고, 숫자와 시간은 또박또박 말하게 하고, 못 알아들었을 때 다시 묻는 방법을 적어 두면 통화 품질이 좋아집니다. 특정 상황에서만 필요한 긴 절차는 프롬프트에 다 넣지 말고 [매뉴얼](https://certi.life/docs/guide/studio/screens/callbot/manuals)로 떼어 내세요.
 
 ## 통화 중에 할 수 있는 일 늘리기
 
@@ -61,15 +61,15 @@
 >
 > 도구가 하나도 없으면 콜봇이 모르는 질문을 받았을 때 통화를 그냥 끝냅니다. 사람 연결이 필요한 업무라면 통화 전환을 꼭 넣으세요.
 
-직접 만든 API 도구는 `커스텀 도구 관리...`에서 [도구](https://docs.certi.life/guide/studio/screens/callbot/tools) 화면으로 이동해 편집합니다. 가운데에는 `알림톡 도구`, `브랜드메시지 도구`, `상담사 연결 도구` 섹션도 따로 있습니다.
+직접 만든 API 도구는 `커스텀 도구 관리...`에서 [도구](https://certi.life/docs/guide/studio/screens/callbot/tools) 화면으로 이동해 편집합니다. 가운데에는 `알림톡 도구`, `브랜드메시지 도구`, `상담사 연결 도구` 섹션도 따로 있습니다.
 
 ## 회사 정보로 답하게 하기
 
 **위치:** 콜봇 > 에이전트 > (에이전트 선택) > 지식 베이스
 
-`지식 베이스` 섹션에서 [지식 베이스](https://docs.certi.life/guide/studio/screens/callbot/knowledge)를 연결하면 에이전트가 그 문서를 근거로 답합니다. 연결하지 않으면 일반적인 답변만 합니다. **지식 베이스를 만들어 문서를 담아 두는 것만으로는 쓰이지 않고, 여기서 에이전트에 연결해야** 실제 응대에 반영됩니다.
+`지식 베이스` 섹션에서 [지식 베이스](https://certi.life/docs/guide/studio/screens/callbot/knowledge)를 연결하면 에이전트가 그 문서를 근거로 답합니다. 연결하지 않으면 일반적인 답변만 합니다. **지식 베이스를 만들어 문서를 담아 두는 것만으로는 쓰이지 않고, 여기서 에이전트에 연결해야** 실제 응대에 반영됩니다.
 
-`매뉴얼` 섹션에서는 [매뉴얼](https://docs.certi.life/guide/studio/screens/callbot/manuals)을 연결합니다. 통화 중 트리거 상황이 오면 에이전트가 연결된 매뉴얼의 절차를 불러와 따릅니다. 매뉴얼 **연결을 바꾼 것은 배포해야 반영**되고, 매뉴얼 **본문 수정은 배포 없이 즉시 반영**됩니다.
+`매뉴얼` 섹션에서는 [매뉴얼](https://certi.life/docs/guide/studio/screens/callbot/manuals)을 연결합니다. 통화 중 트리거 상황이 오면 에이전트가 연결된 매뉴얼의 절차를 불러와 따릅니다. 매뉴얼 **연결을 바꾼 것은 배포해야 반영**되고, 매뉴얼 **본문 수정은 배포 없이 즉시 반영**됩니다.
 
 ## 통화에서 정보 뽑아 기록하기
 
@@ -94,7 +94,7 @@
 
 > **아무것도 선택하지 않으면 남지 않습니다**
 >
-> `저장할 데이터`에서 아무것도 선택하지 않으면 녹음, 스크립트, 분석 데이터가 모두 보존되지 않습니다. 나중에 통화를 확인하거나 통계를 볼 수 없게 되므로 의도한 설정인지 확인하세요. 보존 기준은 조직의 개인정보 처리 기준에 맞춰 정합니다. 참고: [개인정보 및 보안](https://docs.certi.life/guide/help/privacy-security)
+> `저장할 데이터`에서 아무것도 선택하지 않으면 녹음, 스크립트, 분석 데이터가 모두 보존되지 않습니다. 나중에 통화를 확인하거나 통계를 볼 수 없게 되므로 의도한 설정인지 확인하세요. 보존 기준은 조직의 개인정보 처리 기준에 맞춰 정합니다. 참고: [개인정보 및 보안](https://certi.life/docs/guide/help/privacy-security)
 
 외부 시스템과 연동하려면 `웹훅 설정`에서 `인바운드 웹훅 URL`, `통화 데이터 웹훅 URL` 등을 등록합니다. https로 시작하는 주소만 쓸 수 있으며 개발 담당자와 함께 진행하세요.
 
@@ -108,10 +108,10 @@
 
 배포하지 않은 편집이 있는 채로 이 화면을 떠나려 하면 `저장하지 않은 변경사항이 있어요` 창("지금 나가면 편집한 내용이 사라집니다. 저장하지 않고 나갈까요?")이 뜹니다. `계속 편집`을 누르면 이 화면에 머물고, `나가기`를 누르면 편집한 내용이 사라집니다. 새로고침하거나 브라우저 탭을 닫을 때는 브라우저가 직접 떠날지 묻습니다.
 
-처음 배포하는 에이전트라면 전화를 받으려면 [번호 관리](https://docs.certi.life/guide/studio/screens/callbot/phone-numbers)에서 번호에 에이전트를 연결해야 합니다. 에이전트를 없애려면 `삭제`를 누릅니다. 번호에 연결된 에이전트를 삭제하면 그 번호로 오는 전화를 받지 못하게 되니 먼저 확인하세요.
+처음 배포하는 에이전트라면 전화를 받으려면 [번호 관리](https://certi.life/docs/guide/studio/screens/callbot/phone-numbers)에서 번호에 에이전트를 연결해야 합니다. 에이전트를 없애려면 `삭제`를 누릅니다. 번호에 연결된 에이전트를 삭제하면 그 번호로 오는 전화를 받지 못하게 되니 먼저 확인하세요.
 
 ## 함께 보기
 
-- [플로우 편집](https://docs.certi.life/guide/studio/screens/callbot/flow-editor): 플로우 타입 에이전트의 대화 순서 그리기
-- [전화상담](https://docs.certi.life/guide/studio/screens/phone-counsel): 실제 통화 내용과 분석 확인하기
-- [출시 체크리스트](https://docs.certi.life/guide/studio/launch-checklist)
+- [플로우 편집](https://certi.life/docs/guide/studio/screens/callbot/flow-editor): 플로우 타입 에이전트의 대화 순서 그리기
+- [전화상담](https://certi.life/docs/guide/studio/screens/phone-counsel): 실제 통화 내용과 분석 확인하기
+- [출시 체크리스트](https://certi.life/docs/guide/studio/launch-checklist)

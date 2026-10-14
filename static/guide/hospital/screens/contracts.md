@@ -2,7 +2,7 @@
 
 > Hospital 병원 관리의 시술동의서에서 임플란트 시술동의서를 작성해 환자에게 알림톡으로 보내 서명을 받고 PDF로 내려받는 방법과, 근로계약서에서 직원 근로계약서를 작성하고 서명 상태 확인, 재발송, 퇴사 처리, 책임자 연락처 인증으로 민감정보를 확인하는 방법을 안내합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/hospital/screens/contracts)
+[사람이 읽는 원문](https://certi.life/docs/guide/hospital/screens/contracts)
 
 `병원 관리`에는 **종이 대신 전자 서명으로 받는 문서** 두 가지가 있습니다. `시술동의서`는 환자에게, `근로계약서`는 직원에게 받습니다. 두 메뉴 모두 작성한 뒤 알림톡으로 보내고, 서명이 끝나면 상태가 자동으로 바뀝니다.
 
@@ -14,11 +14,11 @@
 
 | 하려는 일               | 가는 곳                                                                                      |
 | ------------------- | ----------------------------------------------------------------------------------------- |
-| 시술 전에 환자 동의를 받기     | [시술동의서 받기](https://docs.certi.life/guide/hospital/screens/contracts#시술동의서-받기)             |
-| 환자가 알림톡을 못 받았다고 할 때 | [서명 확인하고 다시 보내기](https://docs.certi.life/guide/hospital/screens/contracts#서명-확인하고-다시-보내기) |
-| 새 직원과 근로계약서 쓰기      | [근로계약서 쓰기](https://docs.certi.life/guide/hospital/screens/contracts#근로계약서-쓰기)             |
-| 직원 연락처나 계약 상세 보기    | [민감정보 확인하기](https://docs.certi.life/guide/hospital/screens/contracts#민감정보-확인하기)           |
-| 직원이 퇴사했을 때          | [퇴사 처리하기](https://docs.certi.life/guide/hospital/screens/contracts#퇴사-처리하기)               |
+| 시술 전에 환자 동의를 받기     | [시술동의서 받기](https://certi.life/docs/guide/hospital/screens/contracts#시술동의서-받기)             |
+| 환자가 알림톡을 못 받았다고 할 때 | [서명 확인하고 다시 보내기](https://certi.life/docs/guide/hospital/screens/contracts#서명-확인하고-다시-보내기) |
+| 새 직원과 근로계약서 쓰기      | [근로계약서 쓰기](https://certi.life/docs/guide/hospital/screens/contracts#근로계약서-쓰기)             |
+| 직원 연락처나 계약 상세 보기    | [민감정보 확인하기](https://certi.life/docs/guide/hospital/screens/contracts#민감정보-확인하기)           |
+| 직원이 퇴사했을 때          | [퇴사 처리하기](https://certi.life/docs/guide/hospital/screens/contracts#퇴사-처리하기)               |
 
 ## 시술동의서 받기
 
@@ -81,7 +81,7 @@
 1. `관리자 전화번호`를 입력하고 `인증요청`을 누릅니다.
 2. 받은 `인증번호`를 입력하고 `확인`을 누릅니다.
 
-인증에는 **책임자 연락처**가 쓰입니다. 등록되어 있지 않으면 "민감정보 확인을 위해 책임자 연락처 등록이 필요합니다."라는 안내와 함께 [병원 정보 관리](https://docs.certi.life/guide/hospital/screens/hospital-info#책임자-연락처-등록하기)로 이동할지 묻습니다.
+인증에는 **책임자 연락처**가 쓰입니다. 등록되어 있지 않으면 "민감정보 확인을 위해 책임자 연락처 등록이 필요합니다."라는 안내와 함께 [병원 정보 관리](https://certi.life/docs/guide/hospital/screens/hospital-info#책임자-연락처-등록하기)로 이동할지 묻습니다.
 
 ## 퇴사 처리하기
 
@@ -90,9 +90,9 @@
 1. 직원 행에서 `퇴사`를 누릅니다.
 2. `퇴사 처리` 창에서 `퇴사일자`를 고르고 `확인`을 누릅니다.
 
-처리된 직원은 `퇴사자` 탭으로 옮겨집니다. 퇴사한 직원이 Hospital 서브계정을 쓰고 있었다면 [계정 관리](https://docs.certi.life/guide/hospital/screens/accounts#계정-고치고-정리하기)에서 계정도 함께 정리하세요.
+처리된 직원은 `퇴사자` 탭으로 옮겨집니다. 퇴사한 직원이 Hospital 서브계정을 쓰고 있었다면 [계정 관리](https://certi.life/docs/guide/hospital/screens/accounts#계정-고치고-정리하기)에서 계정도 함께 정리하세요.
 
 ## 함께 보기
 
-- [구매/주문 관리](https://docs.certi.life/guide/hospital/screens/orders#전자계약-확인하기)의 전자계약
-- [Hospital 안전한 운영 가이드](https://docs.certi.life/guide/hospital/safe-operation)
+- [구매/주문 관리](https://certi.life/docs/guide/hospital/screens/orders#전자계약-확인하기)의 전자계약
+- [Hospital 안전한 운영 가이드](https://certi.life/docs/guide/hospital/safe-operation)

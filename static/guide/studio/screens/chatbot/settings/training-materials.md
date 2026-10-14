@@ -2,7 +2,7 @@
 
 > Studio 챗봇 설정의 AI 학습자료 설정(화면 제목 AI 학습자료 관리)에서 v1 파일 업로드, v2 백과사전 카탈로그 태그 연결, 병원 정보 기반 학습자료 생성으로 챗봇 답변의 근거 자료를 관리하는 방법을 안내합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/studio/screens/chatbot/settings/training-materials)
+[사람이 읽는 원문](https://certi.life/docs/guide/studio/screens/chatbot/settings/training-materials)
 
 AI 답변의 품질은 여기에 넣은 자료가 결정합니다. 챗봇은 학습자료에 있는 내용을 근거로 답하므로, 자료가 없거나 오래되면 답도 비거나 틀립니다. 자료를 넣는 방법은 챗봇의 응답 버전에 따라 다릅니다. **v1은 파일을 직접 올리고, v2는 백과사전에 등록된 문서를 연결합니다.**
 
@@ -14,14 +14,14 @@ AI 답변의 품질은 여기에 넣은 자료가 결정합니다. 챗봇은 학
 
 **위치:** 챗봇 > 설정 > AI 학습자료 설정 > AI 학습자료 관리
 
-화면 제목 옆의 `v1` / `v2` 버튼은 **어느 버전의 자료를 관리할지** 고르는 것입니다. 챗봇이 실제로 어느 버전으로 답하는지는 여기가 아니라 [`AI 설정`의 `응답 버전`](https://docs.certi.life/guide/studio/screens/chatbot/settings/ai-settings#응답-버전-바꾸기)에서 정합니다.
+화면 제목 옆의 `v1` / `v2` 버튼은 **어느 버전의 자료를 관리할지** 고르는 것입니다. 챗봇이 실제로 어느 버전으로 답하는지는 여기가 아니라 [`AI 설정`의 `응답 버전`](https://certi.life/docs/guide/studio/screens/chatbot/settings/ai-settings#응답-버전-바꾸기)에서 정합니다.
 
 | 챗봇의 응답 버전 | 자료를 넣는 방법                                                                                                           |
 | --------- | ------------------------------------------------------------------------------------------------------------------- |
-| v1        | [파일을 직접 올립니다](https://docs.certi.life/guide/studio/screens/chatbot/settings/training-materials#v1-파일을-올려-학습시키기)     |
-| v2        | [백과사전 문서를 연결합니다](https://docs.certi.life/guide/studio/screens/chatbot/settings/training-materials#v2-백과사전-문서를-연결하기) |
+| v1        | [파일을 직접 올립니다](https://certi.life/docs/guide/studio/screens/chatbot/settings/training-materials#v1-파일을-올려-학습시키기)     |
+| v2        | [백과사전 문서를 연결합니다](https://certi.life/docs/guide/studio/screens/chatbot/settings/training-materials#v2-백과사전-문서를-연결하기) |
 
-화면은 현재 응답 버전에 맞는 쪽을 자동으로 열어 줍니다. v2는 동기화한 자료를 사용하므로, 챗봇이 v2로 답하는데 v1 쪽에 새 파일을 올렸다면 [`AI 설정`의 `학습자료 동기화`](https://docs.certi.life/guide/studio/screens/chatbot/settings/ai-settings#응답-버전-바꾸기)를 실행해야 답변에 반영됩니다.
+화면은 현재 응답 버전에 맞는 쪽을 자동으로 열어 줍니다. v2는 동기화한 자료를 사용하므로, 챗봇이 v2로 답하는데 v1 쪽에 새 파일을 올렸다면 [`AI 설정`의 `학습자료 동기화`](https://certi.life/docs/guide/studio/screens/chatbot/settings/ai-settings#응답-버전-바꾸기)를 실행해야 답변에 반영됩니다.
 
 ## v1: 파일을 올려 학습시키기
 
@@ -37,7 +37,7 @@ AI 답변의 품질은 여기에 넣은 자료가 결정합니다. 챗봇은 학
 >
 > 업로드, 삭제, 재시도가 진행되는 동안에는 "처리가 완료될 때까지 페이지를 새로고침하거나 이동하지 마세요."라는 안내가 뜹니다. 처리 중인 파일은 삭제할 수 없습니다.
 
-파일 목록에 `보강 Q&A · 자동 관리`라고 표시된 파일은 [`통계` > `Q&A 보강`](https://docs.certi.life/guide/studio/screens/chatbot/statistics#질문과-답을-직접-등록하고-시험하기)에서 저장한 보강 답변이 모인 파일입니다. 여기서는 지울 수 없고 통계 화면에서 관리합니다.
+파일 목록에 `보강 Q&A · 자동 관리`라고 표시된 파일은 [`통계` > `Q&A 보강`](https://certi.life/docs/guide/studio/screens/chatbot/statistics#질문과-답을-직접-등록하고-시험하기)에서 저장한 보강 답변이 모인 파일입니다. 여기서는 지울 수 없고 통계 화면에서 관리합니다.
 
 ### 병원 기본 정보로 Q\&A 자동 만들기
 
@@ -49,7 +49,7 @@ AI 답변의 품질은 여기에 넣은 자료가 결정합니다. 챗봇은 학
 
 **위치:** 챗봇 > 설정 > AI 학습자료 설정 > 연결된 학습자료
 
-v2에서는 문서를 챗봇마다 따로 올리지 않습니다. 조직의 문서는 [`백과사전`](https://docs.certi.life/guide/studio/screens/encyclopedia)에 한 번만 등록하고, 챗봇에는 그 문서를 **연결**합니다. 같은 문서를 여러 챗봇이 함께 쓰고, 백과사전에서 고치면 연결된 챗봇에 반영되는 구조입니다. 수가표 같은 새 문서를 v2 챗봇에 넣는 순서는 세 단계입니다. 먼저 [`백과사전`](https://docs.certi.life/guide/studio/screens/encyclopedia)에 문서를 등록하고, 그 문서에 카탈로그 태그를 붙인 뒤, 이 화면에서 그 태그를 챗봇에 연결합니다.
+v2에서는 문서를 챗봇마다 따로 올리지 않습니다. 조직의 문서는 [`백과사전`](https://certi.life/docs/guide/studio/screens/encyclopedia)에 한 번만 등록하고, 챗봇에는 그 문서를 **연결**합니다. 같은 문서를 여러 챗봇이 함께 쓰고, 백과사전에서 고치면 연결된 챗봇에 반영되는 구조입니다. 수가표 같은 새 문서를 v2 챗봇에 넣는 순서는 세 단계입니다. 먼저 [`백과사전`](https://certi.life/docs/guide/studio/screens/encyclopedia)에 문서를 등록하고, 그 문서에 카탈로그 태그를 붙인 뒤, 이 화면에서 그 태그를 챗봇에 연결합니다.
 
 1. `v2`를 고르면 `연결된 학습자료 N개`와 그 아래 백과사전 카탈로그 태그 목록이 보입니다. N은 이 챗봇에 연결된 자료 수입니다.
 2. `카탈로그 태그 검색`으로 찾거나 폴더를 펼쳐, 넣을 태그 옆의 +를 눌러 `추가할 학습자료`에 담습니다.
@@ -67,15 +67,15 @@ v2에서는 문서를 챗봇마다 따로 올리지 않습니다. 조직의 문�
 | `카탈로그 확인 필요`                  | 백과사전에서 태그가 비활성화되었거나 찾을 수 없습니다                   | `백과사전`에서 태그 상태를 확인합니다 |
 | `반영 상태 확인 필요`                 | 연결 정보를 읽지 못했습니다                                 | `새로고침`을 누릅니다          |
 
-v1 자료를 v2로 옮기는 동기화가 실패했다면 이 화면이 아니라 [`AI 설정`의 `응답 버전`](https://docs.certi.life/guide/studio/screens/chatbot/settings/ai-settings#확인-필요)에서 `실패 항목 다시 시도`를 누릅니다.
+v1 자료를 v2로 옮기는 동기화가 실패했다면 이 화면이 아니라 [`AI 설정`의 `응답 버전`](https://certi.life/docs/guide/studio/screens/chatbot/settings/ai-settings#확인-필요)에서 `실패 항목 다시 시도`를 누릅니다.
 
 자료를 빼려면 `연결 해제`를 누릅니다. 이 챗봇에서만 빠질 뿐, 백과사전의 원본 문서와 다른 챗봇의 연결, v1 자료는 그대로 남습니다. 문서 내용을 고치려면 `수정`을 눌러 백과사전으로 이동합니다.
 
 ## 어떤 자료를 넣어야 하나요?
 
-무엇을 넣을지는 화면 조작보다 중요합니다. 고객에게 공개해도 되는 정확한 자료만 넣고, 고객 기록이나 내부 메모는 넣지 않습니다. 환자 이름, 연락처, 차트번호, 시술 전후 사진이 들어 있는 문서는 올리지 않습니다. 같은 내용이 여러 자료에 다르게 적혀 있으면 챗봇 답변도 흔들립니다. 자료 선별과 갱신 기준은 [상담 지식 관리](https://docs.certi.life/guide/studio/knowledge-management)와 [AI 상담 지식 준비](https://docs.certi.life/guide/products/ai-chatbot/knowledge-preparation)에 정리되어 있습니다.
+무엇을 넣을지는 화면 조작보다 중요합니다. 고객에게 공개해도 되는 정확한 자료만 넣고, 고객 기록이나 내부 메모는 넣지 않습니다. 환자 이름, 연락처, 차트번호, 시술 전후 사진이 들어 있는 문서는 올리지 않습니다. 같은 내용이 여러 자료에 다르게 적혀 있으면 챗봇 답변도 흔들립니다. 자료 선별과 갱신 기준은 [상담 지식 관리](https://certi.life/docs/guide/studio/knowledge-management)와 [AI 상담 지식 준비](https://certi.life/docs/guide/products/ai-chatbot/knowledge-preparation)에 정리되어 있습니다.
 
-자료를 넣은 뒤에는 [`AI 설정`의 `학습자료로만 답변하기`](https://docs.certi.life/guide/studio/screens/chatbot/settings/ai-settings#자료에-있는-내용만-답하게-하기)를 켤지 정하고, 운영하면서 [`통계` 탭](https://docs.certi.life/guide/studio/screens/chatbot/statistics)에서 챗봇이 답하지 못한 질문을 찾아 자료를 보완하세요.
+자료를 넣은 뒤에는 [`AI 설정`의 `학습자료로만 답변하기`](https://certi.life/docs/guide/studio/screens/chatbot/settings/ai-settings#자료에-있는-내용만-답하게-하기)를 켤지 정하고, 운영하면서 [`통계` 탭](https://certi.life/docs/guide/studio/screens/chatbot/statistics)에서 챗봇이 답하지 못한 질문을 찾아 자료를 보완하세요.
 
 ## 문제가 생기면
 
@@ -96,7 +96,7 @@ v2 연결 목록이나 백과사전 태그 목록을 읽지 못했다는 뜻입�
 
 `이 챗봇에 연결`을 눌렀는데 일부 태그만 연결되었다는 뜻입니다. 실패한 태그 이름이 문구 뒤에 붙고, `추가할 학습자료` 목록의 태그 옆에 `실패` 또는 `문서 없음`이 표시됩니다.
 
-1. `문서 없음`인 태그는 백과사전에 문서가 없는 태그입니다. [백과사전](https://docs.certi.life/guide/studio/screens/encyclopedia)에서 문서를 먼저 등록합니다.
+1. `문서 없음`인 태그는 백과사전에 문서가 없는 태그입니다. [백과사전](https://certi.life/docs/guide/studio/screens/encyclopedia)에서 문서를 먼저 등록합니다.
 2. `실패`인 태그는 목록에 남겨 둔 채 `이 챗봇에 연결`을 다시 누릅니다.
 
 연결 요청 자체가 실패하면 "태그를 챗봇에 연결하지 못했습니다"가 나옵니다. 이때는 잠시 뒤 `이 챗봇에 연결`을 다시 누릅니다. 그래도 안 되면 태그 이름과 발생 시각을 적어 조직의 CertiLife 담당자에게 알립니다.
@@ -105,7 +105,7 @@ v2 연결 목록이나 백과사전 태그 목록을 읽지 못했다는 뜻입�
 
 | 화면 표시                                        | 뜻                                   | 할 일                                                                                                                               |
 | -------------------------------------------- | ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| `아직 연결된 학습자료가 없습니다. 아래 목록에서 자료를 추가할 수 있습니다.` | 이 챗봇에 연결된 v2 자료가 없습니다               | [v2: 백과사전 문서를 연결하기](https://docs.certi.life/guide/studio/screens/chatbot/settings/training-materials#v2-백과사전-문서를-연결하기) 순서대로 연결합니다 |
+| `아직 연결된 학습자료가 없습니다. 아래 목록에서 자료를 추가할 수 있습니다.` | 이 챗봇에 연결된 v2 자료가 없습니다               | [v2: 백과사전 문서를 연결하기](https://certi.life/docs/guide/studio/screens/chatbot/settings/training-materials#v2-백과사전-문서를-연결하기) 순서대로 연결합니다 |
 | `검색 결과가 없습니다.`                               | `카탈로그 태그 검색`에 맞는 태그가 없습니다           | 검색어를 바꾸거나 지웁니다                                                                                                                    |
 | `추가됨`                                        | 이미 이 챗봇에 연결된 태그입니다                  | 없음                                                                                                                                |
 | `선택됨`                                        | `추가할 학습자료`에 담긴 태그입니다. 아직 연결되지 않았습니다 | `이 챗봇에 연결`을 누릅니다                                                                                                                  |

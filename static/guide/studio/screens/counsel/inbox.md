@@ -2,7 +2,7 @@
 
 > Studio 상담 화면에서 대기·진행중·완료·종료 상태 탭과 기간·채널·챗봇·태그 필터, 활성 유저만·내 상담만·안읽음만 토글, 고객 이름·연락처·상담사·상담내용 검색으로 응대할 상담을 찾고 검색 필터 설정으로 시작 화면을 정하는 방법을 안내합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/studio/screens/counsel/inbox)
+[사람이 읽는 원문](https://certi.life/docs/guide/studio/screens/counsel/inbox)
 
 상담이 많아지면 "지금 누구에게 답해야 하는지" 찾는 것부터가 일입니다. 방법은 세 가지를 조합하는 것입니다. **상태 탭으로 단계를 고르고, 필터로 좁히고, 검색으로 특정 고객을 찾습니다.**
 
@@ -100,5 +100,5 @@
 
 ## 함께 보기
 
-- [상담 시작하고 마무리하기](https://docs.certi.life/guide/studio/screens/counsel/handle)
-- [상담 내역](https://docs.certi.life/guide/studio/screens/conversation-history): 끝난 상담을 더 자세한 조건으로 찾기
+- [상담 시작하고 마무리하기](https://certi.life/docs/guide/studio/screens/counsel/handle)
+- [상담 내역](https://certi.life/docs/guide/studio/screens/conversation-history): 끝난 상담을 더 자세한 조건으로 찾기

@@ -2,7 +2,7 @@
 
 > Studio CRM의 발송 현황에서 오늘 발송, 예약 대기, 발송 완료, 실패 건수를 보고, 상태·기간·출처·채널로 메시지를 찾고, 실패 사유를 확인해 재발송하며, 예약된 메시지를 즉시 발송하거나 예약 취소하고 타임라인으로 시간대별 발송량을 보는 방법을 안내합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/studio/screens/crm/message-status)
+[사람이 읽는 원문](https://certi.life/docs/guide/studio/screens/crm/message-status)
 
 `발송 현황`은 CRM에서 나간 **모든 메시지의 기록**입니다. 캠페인, 시나리오 자동화, 콜백 알림톡이 보낸 메시지가 한곳에 모입니다. 여기에서 할 수 있는 일은 세 가지입니다. 메시지가 잘 갔는지 확인하고, 실패한 메시지를 다시 보내고, 아직 나가지 않은 예약 메시지를 바로 보내거나 취소합니다.
 
@@ -12,11 +12,11 @@
 
 | 하려는 일                 | 가는 곳                                                                                         |
 | --------------------- | -------------------------------------------------------------------------------------------- |
-| 오늘 메시지가 제대로 나갔는지 보기   | [발송 결과 보기](https://docs.certi.life/guide/studio/screens/crm/message-status#발송-결과-보기)         |
-| 특정 고객에게 무엇이 갔는지 찾기    | [메시지 찾기](https://docs.certi.life/guide/studio/screens/crm/message-status#메시지-찾기)             |
-| 실패한 메시지를 다시 보내기       | [실패한 메시지 처리하기](https://docs.certi.life/guide/studio/screens/crm/message-status#실패한-메시지-처리하기) |
-| 예약된 메시지를 지금 보내거나 취소하기 | [예약 메시지 다루기](https://docs.certi.life/guide/studio/screens/crm/message-status#예약-메시지-다루기)     |
-| 어느 시간대에 많이 나가는지 보기    | [타임라인으로 보기](https://docs.certi.life/guide/studio/screens/crm/message-status#타임라인으로-보기)       |
+| 오늘 메시지가 제대로 나갔는지 보기   | [발송 결과 보기](https://certi.life/docs/guide/studio/screens/crm/message-status#발송-결과-보기)         |
+| 특정 고객에게 무엇이 갔는지 찾기    | [메시지 찾기](https://certi.life/docs/guide/studio/screens/crm/message-status#메시지-찾기)             |
+| 실패한 메시지를 다시 보내기       | [실패한 메시지 처리하기](https://certi.life/docs/guide/studio/screens/crm/message-status#실패한-메시지-처리하기) |
+| 예약된 메시지를 지금 보내거나 취소하기 | [예약 메시지 다루기](https://certi.life/docs/guide/studio/screens/crm/message-status#예약-메시지-다루기)     |
+| 어느 시간대에 많이 나가는지 보기    | [타임라인으로 보기](https://certi.life/docs/guide/studio/screens/crm/message-status#타임라인으로-보기)       |
 
 ## 발송 결과 보기
 
@@ -46,9 +46,9 @@
 2. `상태 · 응답` 열에서 실패 사유를 읽습니다.
 3. 원인을 고친 뒤 행의 `재발송`을 누릅니다. 캠페인으로 보낸 메시지의 행에는 `재발송` 대신 `캠페인으로 재사용`이 보입니다. 누르면 같은 템플릿으로 새 캠페인이 열리고, 대상은 비어 있으므로 다시 보낼 고객을 골라 보냅니다.
 
-사유를 확인하지 않고 재발송을 반복하지 마세요. 번호가 틀렸거나 수신이 차단된 고객에게는 다시 보내도 실패합니다. 연락처는 [고객 목록](https://docs.certi.life/guide/studio/screens/crm/customers)에서 고칩니다.
+사유를 확인하지 않고 재발송을 반복하지 마세요. 번호가 틀렸거나 수신이 차단된 고객에게는 다시 보내도 실패합니다. 연락처는 [고객 목록](https://certi.life/docs/guide/studio/screens/crm/customers)에서 고칩니다.
 
-실패한 메시지를 여러 건 한꺼번에 다시 보내는 기능은 없습니다. 실패 건은 이 화면에서 행마다 다시 보냅니다. [캠페인](https://docs.certi.life/guide/studio/screens/crm/campaigns#발송-결과-확인하기) 목록의 `실패 재처리` 카드는 실패 건수만 보여 주고, 그 카드의 `실패 건 일괄 재발송` 창에서 `N개 캠페인 재발송`을 눌러도 메시지는 나가지 않습니다.
+실패한 메시지를 여러 건 한꺼번에 다시 보내는 기능은 없습니다. 실패 건은 이 화면에서 행마다 다시 보냅니다. [캠페인](https://certi.life/docs/guide/studio/screens/crm/campaigns#발송-결과-확인하기) 목록의 `실패 재처리` 카드는 실패 건수만 보여 주고, 그 카드의 `실패 건 일괄 재발송` 창에서 `N개 캠페인 재발송`을 눌러도 메시지는 나가지 않습니다.
 
 이전 방식으로 발송된 기록은 `v1 조회 전용`으로 표시되며 볼 수만 있습니다.
 
@@ -65,7 +65,7 @@
 >
 > 시나리오 자동화가 예약한 메시지를 취소하면 그 고객의 현재 시나리오 편입도 함께 취소됩니다. 그 고객에게는 시나리오의 다음 메시지도 나가지 않습니다.
 
-캠페인 전체의 예약을 취소하려면 [캠페인 상세](https://docs.certi.life/guide/studio/screens/crm/campaigns#캠페인-상세에서-할-수-있는-일)의 `예약 취소`를 씁니다.
+캠페인 전체의 예약을 취소하려면 [캠페인 상세](https://certi.life/docs/guide/studio/screens/crm/campaigns#캠페인-상세에서-할-수-있는-일)의 `예약 취소`를 씁니다.
 
 ## 타임라인으로 보기
 
@@ -80,7 +80,7 @@
 행의 `재발송`을 눌렀는데 다시 보내는 요청이 실패했다는 뜻입니다. 성공하면 "재발송 시작됨"이 나옵니다.
 
 1. `새로고침`을 눌러 그 행의 상태가 바뀌었는지 확인합니다.
-2. `상태 · 응답` 열의 실패 사유를 다시 읽습니다. 번호가 틀렸거나 수신이 차단된 고객은 다시 보내도 실패하므로 [고객 목록](https://docs.certi.life/guide/studio/screens/crm/customers)에서 연락처를 먼저 고칩니다.
+2. `상태 · 응답` 열의 실패 사유를 다시 읽습니다. 번호가 틀렸거나 수신이 차단된 고객은 다시 보내도 실패하므로 [고객 목록](https://certi.life/docs/guide/studio/screens/crm/customers)에서 연락처를 먼저 고칩니다.
 3. 원인을 고친 뒤 `재발송`을 한 번 더 누릅니다.
 
 그래도 안 되면 고객 이름 대신 발송 시각과 화면의 문구를 적어 조직의 CertiLife 담당자에게 알립니다.
@@ -101,11 +101,11 @@
 | ----------------------------------------------------------- | ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `조건에 맞는 발송 기록이 없습니다`                                        | 검색어나 필터에 맞는 기록이 없습니다          | "검색어, 기간, 출처 또는 채널 필터를 조정해 주세요."라는 안내대로 조건을 넓힙니다                                                                                                           |
 | `오늘 발송 기록이 없습니다`, `최근 7일 발송 기록이 없습니다`, `최근 30일 발송 기록이 없습니다` | 고른 기간에 나간 메시지가 없습니다           | "기간을 넓혀 보세요."라는 안내대로 기간을 `최근 30일`이나 `전체`로 넓힙니다                                                                                                             |
-| `발송 기록이 없습니다`                                               | 아직 이 조직에서 CRM 메시지가 나간 적이 없습니다 | [캠페인](https://docs.certi.life/guide/studio/screens/crm/campaigns)이나 [시나리오 자동화](https://docs.certi.life/guide/studio/screens/crm/automation)를 실행하면 기록이 쌓입니다 |
+| `발송 기록이 없습니다`                                               | 아직 이 조직에서 CRM 메시지가 나간 적이 없습니다 | [캠페인](https://certi.life/docs/guide/studio/screens/crm/campaigns)이나 [시나리오 자동화](https://certi.life/docs/guide/studio/screens/crm/automation)를 실행하면 기록이 쌓입니다 |
 | `v1 조회 전용`                                                  | 이전 방식으로 보낸 기록입니다              | 볼 수만 있고 다시 보낼 수 없습니다                                                                                                                                       |
 
 ## 함께 보기
 
-- [캠페인](https://docs.certi.life/guide/studio/screens/crm/campaigns)
-- [시나리오 자동화](https://docs.certi.life/guide/studio/screens/crm/automation)
-- [CRM 메시지 발송 전 체크리스트](https://docs.certi.life/guide/products/crm-messaging/message-checklist)
+- [캠페인](https://certi.life/docs/guide/studio/screens/crm/campaigns)
+- [시나리오 자동화](https://certi.life/docs/guide/studio/screens/crm/automation)
+- [CRM 메시지 발송 전 체크리스트](https://certi.life/docs/guide/products/crm-messaging/message-checklist)

@@ -2,7 +2,7 @@
 
 > 등록 자료 기반 답변을 위해 공개 가능하고 최신인 상담 지식을 정리하는 방법을 안내합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/products/ai-chatbot/knowledge-preparation)
+[사람이 읽는 원문](https://certi.life/docs/guide/products/ai-chatbot/knowledge-preparation)
 
 AI 상담은 조직이 등록한 자료를 바탕으로 답변합니다. 따라서 많은 문서를 한꺼번에 넣는 것보다, 고객에게 공개할 수 있고 현재 운영과 일치하는 정보를 명확하게 정리하는 것이 먼저입니다. 준비 단계에서는 실제 고객 대화에 포함된 개인정보를 제거하고, 서로 다른 문서의 내용이 충돌하지 않는지 확인해야 합니다.
 
@@ -37,12 +37,12 @@ AI 상담은 조직이 등록한 자료를 바탕으로 답변합니다. 따라�
 
 > **주의**
 >
-> 고객 대화 원문, 연락처, 민감한 개인 정보, 내부 전용 지침을 공개 상담 지식에 그대로 등록하지 마세요. AI가 등록 자료만으로 확인할 수 없는 내용은 자연스럽게 들리더라도 추정해서 답하도록 설계하지 않아야 합니다. 정리한 자료를 올리고 챗봇에 연결하는 화면은 Studio의 [AI 학습자료 설정](https://docs.certi.life/guide/studio/screens/chatbot/settings/training-materials)입니다. 자료에 없는 내용을 답하지 않게 하는 설정은 [AI 설정](https://docs.certi.life/guide/studio/screens/chatbot/settings/ai-settings#자료에-있는-내용만-답하게-하기)의 `학습자료로만 답변하기`입니다.
+> 고객 대화 원문, 연락처, 민감한 개인 정보, 내부 전용 지침을 공개 상담 지식에 그대로 등록하지 마세요. AI가 등록 자료만으로 확인할 수 없는 내용은 자연스럽게 들리더라도 추정해서 답하도록 설계하지 않아야 합니다. 정리한 자료를 올리고 챗봇에 연결하는 화면은 Studio의 [AI 학습자료 설정](https://certi.life/docs/guide/studio/screens/chatbot/settings/training-materials)입니다. 자료에 없는 내용을 답하지 않게 하는 설정은 [AI 설정](https://certi.life/docs/guide/studio/screens/chatbot/settings/ai-settings#자료에-있는-내용만-답하게-하기)의 `학습자료로만 답변하기`입니다.
 
 ## 다음 문서
 
-- [AI 학습자료 설정](https://docs.certi.life/guide/studio/screens/chatbot/settings/training-materials)
-- [상담 지식 관리](https://docs.certi.life/guide/studio/knowledge-management)
-- [상담원 연결 정책 세우기](https://docs.certi.life/guide/products/ai-chatbot/handoff-policy)
-- [AI 상담 개요](https://docs.certi.life/guide/products/ai-chatbot)
-- [개인정보 및 보안](https://docs.certi.life/guide/help/privacy-security)
+- [AI 학습자료 설정](https://certi.life/docs/guide/studio/screens/chatbot/settings/training-materials)
+- [상담 지식 관리](https://certi.life/docs/guide/studio/knowledge-management)
+- [상담원 연결 정책 세우기](https://certi.life/docs/guide/products/ai-chatbot/handoff-policy)
+- [AI 상담 개요](https://certi.life/docs/guide/products/ai-chatbot)
+- [개인정보 및 보안](https://certi.life/docs/guide/help/privacy-security)

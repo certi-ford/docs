@@ -2,7 +2,7 @@
 
 > CertiLife 인증서, 가상 데이터, 인증 코드 등 서비스와 개인정보·운영 관련 용어를 설명합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/help/glossary)
+[사람이 읽는 원문](https://certi.life/docs/guide/help/glossary)
 
 화면이나 문서에서 낯선 말을 만나면 여기에서 뜻과 그 말이 쓰이는 화면 문서를 함께 찾을 수 있습니다. 순서는 서비스, 계정과 권한, Hospital 인증서 화면, CRM·메시지, 환자 여정, 개인정보·안전입니다. 정의는 화면별 안내 문서의 문장을 기준으로 적었으며, 실제 이용 범위와 세부 설정은 조직마다 다를 수 있습니다.
 
@@ -10,15 +10,15 @@
 
 ### CertiLife
 
-메디컬 인증서를 기반으로 병원과 고객의 관계를 이어 주는 고객관리 플랫폼입니다. 공개 서비스는 인증서, AI 상담, CRM 메시징, 이벤트 마케팅입니다. 전체 흐름은 [5분 둘러보기](https://docs.certi.life/guide/getting-started/quick-tour)를 참고하세요.
+메디컬 인증서를 기반으로 병원과 고객의 관계를 이어 주는 고객관리 플랫폼입니다. 공개 서비스는 인증서, AI 상담, CRM 메시징, 이벤트 마케팅입니다. 전체 흐름은 [5분 둘러보기](https://certi.life/docs/guide/getting-started/quick-tour)를 참고하세요.
 
 ### 인증서
 
-진단서나 법적 증명서가 아닙니다. 시술 또는 제품 관련 정보를 고객이 확인하기 쉬운 형태로 전달하는 CertiLife의 [인증서 서비스](https://docs.certi.life/guide/products/certificate)를 가리킵니다. 안과에서는 화면과 문서가 "인증서" 대신 "확인서"라는 말을 씁니다.
+진단서나 법적 증명서가 아닙니다. 시술 또는 제품 관련 정보를 고객이 확인하기 쉬운 형태로 전달하는 CertiLife의 [인증서 서비스](https://certi.life/docs/guide/products/certificate)를 가리킵니다. 안과에서는 화면과 문서가 "인증서" 대신 "확인서"라는 말을 씁니다.
 
 ### AI 상담
 
-반복되는 일반적인 채팅 문의 대응을 지원하는 서비스입니다. 의료진의 진단, 의학적 판단 또는 치료 결정을 대신하지 않습니다. 자세한 범위는 [AI 상담 소개](https://docs.certi.life/guide/products/ai-chatbot)를 확인하세요. 요금표에서는 `채팅봇`과 `음성봇`으로 표시됩니다.
+반복되는 일반적인 채팅 문의 대응을 지원하는 서비스입니다. 의료진의 진단, 의학적 판단 또는 치료 결정을 대신하지 않습니다. 자세한 범위는 [AI 상담 소개](https://certi.life/docs/guide/products/ai-chatbot)를 확인하세요. 요금표에서는 `채팅봇`과 `음성봇`으로 표시됩니다.
 
 ### AI 채팅봇 (챗봇)
 
@@ -26,11 +26,11 @@
 
 ### AI 음성봇 (콜봇)
 
-전화 문의를 AI 상담원(에이전트)이 받도록 만드는 서비스입니다. 채팅의 챗봇과 같은 역할을 전화에서 합니다. 문서와 가격 페이지에서는 "음성봇", Studio 왼쪽 메뉴에서는 `콜봇`으로 부릅니다. 콜봇이 넘긴 전화를 상담사가 받는 화면은 `전화상담`입니다. 자세한 내용은 [콜봇 시작하기](https://docs.certi.life/guide/studio/screens/callbot/overview)와 [전화상담](https://docs.certi.life/guide/studio/screens/phone-counsel)을 확인하세요.
+전화 문의를 AI 상담원(에이전트)이 받도록 만드는 서비스입니다. 채팅의 챗봇과 같은 역할을 전화에서 합니다. 문서와 가격 페이지에서는 "음성봇", Studio 왼쪽 메뉴에서는 `콜봇`으로 부릅니다. 콜봇이 넘긴 전화를 상담사가 받는 화면은 `전화상담`입니다. 자세한 내용은 [콜봇 시작하기](https://certi.life/docs/guide/studio/screens/callbot/overview)와 [전화상담](https://certi.life/docs/guide/studio/screens/phone-counsel)을 확인하세요.
 
 ### CRM
 
-Customer Relationship Management의 약자로, 고객과의 관계를 관리하는 활동이나 체계를 뜻합니다. CertiLife 공개 문서에서는 고객에게 필요한 안내와 메시지를 전달하는 [CRM 메시징](https://docs.certi.life/guide/products/crm-messaging)의 맥락에서 주로 사용합니다.
+Customer Relationship Management의 약자로, 고객과의 관계를 관리하는 활동이나 체계를 뜻합니다. CertiLife 공개 문서에서는 고객에게 필요한 안내와 메시지를 전달하는 [CRM 메시징](https://certi.life/docs/guide/products/crm-messaging)의 맥락에서 주로 사용합니다.
 
 ### CRM 메시징
 
@@ -38,19 +38,19 @@ Customer Relationship Management의 약자로, 고객과의 관계를 관리하�
 
 ### 이벤트 마케팅
 
-이벤트를 통해 고객 경험과 병원 브랜드의 접점을 넓히는 서비스입니다. 서비스 개요는 [이벤트 마케팅 소개](https://docs.certi.life/guide/products/event-marketing)에서 확인할 수 있습니다.
+이벤트를 통해 고객 경험과 병원 브랜드의 접점을 넓히는 서비스입니다. 서비스 개요는 [이벤트 마케팅 소개](https://certi.life/docs/guide/products/event-marketing)에서 확인할 수 있습니다.
 
 ### Hospital
 
-병원 관리자가 인증서를 발행하고 환자·계정·결제·알림톡을 관리하는 병원용 화면입니다. 공개 안내는 [Hospital 운영 가이드](https://docs.certi.life/guide/hospital/overview), 공식 접속 주소는 [Hospital 로그인](https://hospital.certi.life/signin)입니다. Hospital에서 보이는 기능은 조직의 이용 범위와 계정 권한에 따라 다를 수 있습니다.
+병원 관리자가 인증서를 발행하고 환자·계정·결제·알림톡을 관리하는 병원용 화면입니다. 공개 안내는 [Hospital 운영 가이드](https://certi.life/docs/guide/hospital/overview), 공식 접속 주소는 [Hospital 로그인](https://hospital.certi.life/signin)입니다. Hospital에서 보이는 기능은 조직의 이용 범위와 계정 권한에 따라 다를 수 있습니다.
 
 ### Manufacturer
 
-제조사 사용자를 위한 CertiLife 서비스 진입점입니다. 공개 안내는 [Manufacturer 안내](https://docs.certi.life/guide/manufacturer/overview), 공식 접속 주소는 [Manufacturer 로그인](https://manufacturer.certi.life/signin)입니다. 로그인 이후 공개되지 않은 메뉴나 권한별 기능은 이 용어 정의만으로 추측하지 않습니다.
+제조사 사용자를 위한 CertiLife 서비스 진입점입니다. 공개 안내는 [Manufacturer 안내](https://certi.life/docs/guide/manufacturer/overview), 공식 접속 주소는 [Manufacturer 로그인](https://manufacturer.certi.life/signin)입니다. 로그인 이후 공개되지 않은 메뉴나 권한별 기능은 이 용어 정의만으로 추측하지 않습니다.
 
 ### Studio
 
-등록한 자료를 기반으로 AI 챗봇 상담을 준비하고 운영하는 서비스입니다. 챗봇, 콜봇, 상담, 전화상담, CRM, 백과사전 메뉴가 여기에 있습니다. Hospital의 `상담/챗봇 관리` 메뉴를 누르면 Studio가 새 탭으로 열립니다. 공개 안내는 [Studio 운영 가이드](https://docs.certi.life/guide/studio/overview), 공식 접속 주소는 [Studio 로그인](https://studio.certi.life)입니다.
+등록한 자료를 기반으로 AI 챗봇 상담을 준비하고 운영하는 서비스입니다. 챗봇, 콜봇, 상담, 전화상담, CRM, 백과사전 메뉴가 여기에 있습니다. Hospital의 `상담/챗봇 관리` 메뉴를 누르면 Studio가 새 탭으로 열립니다. 공개 안내는 [Studio 운영 가이드](https://certi.life/docs/guide/studio/overview), 공식 접속 주소는 [Studio 로그인](https://studio.certi.life)입니다.
 
 ## 계정과 권한 용어
 
@@ -60,7 +60,7 @@ Customer Relationship Management의 약자로, 고객과의 관계를 관리하�
 
 ### 서브계정
 
-Hospital의 `계정 관리`에서 병원 관리자가 직원마다 만들어 주는 계정입니다. 맡은 업무에 필요한 메뉴만 쓸 수 있게 권한을 주며, 서브계정은 받은 권한의 메뉴만 왼쪽에 보입니다. 새 서브계정의 초기 비밀번호는 아이디와 같으므로 처음 로그인한 뒤 바로 바꿔야 합니다. 만드는 방법은 [계정 관리](https://docs.certi.life/guide/hospital/screens/accounts)를 확인하세요.
+Hospital의 `계정 관리`에서 병원 관리자가 직원마다 만들어 주는 계정입니다. 맡은 업무에 필요한 메뉴만 쓸 수 있게 권한을 주며, 서브계정은 받은 권한의 메뉴만 왼쪽에 보입니다. 새 서브계정의 초기 비밀번호는 아이디와 같으므로 처음 로그인한 뒤 바로 바꿔야 합니다. 만드는 방법은 [계정 관리](https://certi.life/docs/guide/hospital/screens/accounts)를 확인하세요.
 
 ### 권한
 
@@ -86,7 +86,7 @@ CertiLife가 공개한 접속 주소를 뜻합니다. 이 가이드에서 안내
 
 ### 지갑
 
-환자가 받은 인증서를 저장해 두는 곳입니다. 발행 내역의 `지갑 저장됨` 상태는 환자가 인증서를 자기 지갑에 저장했다는 뜻이고, 환자 관리의 `지갑 연동 상태`가 `미연동`이면 아직 저장하지 않은 환자입니다. 상태 표는 [발행 내역](https://docs.certi.life/guide/hospital/screens/history#인증서-상태-읽기)에 있습니다.
+환자가 받은 인증서를 저장해 두는 곳입니다. 발행 내역의 `지갑 저장됨` 상태는 환자가 인증서를 자기 지갑에 저장했다는 뜻이고, 환자 관리의 `지갑 연동 상태`가 `미연동`이면 아직 저장하지 않은 환자입니다. 상태 표는 [발행 내역](https://certi.life/docs/guide/hospital/screens/history#인증서-상태-읽기)에 있습니다.
 
 ### 회수
 
@@ -94,7 +94,7 @@ CertiLife가 공개한 접속 주소를 뜻합니다. 이 가이드에서 안내
 
 ### 삭제
 
-인증서를 지우는 것입니다. 같은 제품 코드로는 다시 발행할 수 없고, 취소할 수 없습니다. 다시 발행하려면 삭제가 아니라 회수를 씁니다. 두 방법의 차이는 [발행 내역](https://docs.certi.life/guide/hospital/screens/history#잘못-보낸-인증서-바로잡기)에 있습니다.
+인증서를 지우는 것입니다. 같은 제품 코드로는 다시 발행할 수 없고, 취소할 수 없습니다. 다시 발행하려면 삭제가 아니라 회수를 씁니다. 두 방법의 차이는 [발행 내역](https://certi.life/docs/guide/hospital/screens/history#잘못-보낸-인증서-바로잡기)에 있습니다.
 
 ### 재발송
 
@@ -102,7 +102,7 @@ CertiLife가 공개한 접속 주소를 뜻합니다. 이 가이드에서 안내
 
 ### 알림톡
 
-카카오톡 채널로 보내는 정보성 메시지입니다. 인증서 알림을 병원 이름의 카카오톡 채널로 보내려면 Hospital `알림톡` 메뉴에서 병원 채널을 등록해 인증을 마치고, 보낼 문구를 템플릿으로 등록해 카카오 검수를 통과해야 합니다. 할인, 이벤트 같은 광고 문구는 알림톡에 넣을 수 없습니다. 절차는 [알림톡](https://docs.certi.life/guide/hospital/screens/alimtalk)을 확인하세요.
+카카오톡 채널로 보내는 정보성 메시지입니다. 인증서 알림을 병원 이름의 카카오톡 채널로 보내려면 Hospital `알림톡` 메뉴에서 병원 채널을 등록해 인증을 마치고, 보낼 문구를 템플릿으로 등록해 카카오 검수를 통과해야 합니다. 할인, 이벤트 같은 광고 문구는 알림톡에 넣을 수 없습니다. 절차는 [알림톡](https://certi.life/docs/guide/hospital/screens/alimtalk)을 확인하세요.
 
 ### 발신프로필
 
@@ -110,21 +110,21 @@ CertiLife가 공개한 접속 주소를 뜻합니다. 이 가이드에서 안내
 
 ### 템플릿
 
-알림톡, 브랜드 메시지, WhatsApp처럼 아무 문구나 보낼 수 없는 채널에서 미리 등록해 심사를 통과한 메시지 양식입니다. 승인된 템플릿만 발송과 캠페인·자동화에 연결됩니다. Hospital에서는 `알림톡` > `템플릿 등록`, Studio에서는 [메시지 템플릿](https://docs.certi.life/guide/studio/screens/crm/templates)에서 만듭니다.
+알림톡, 브랜드 메시지, WhatsApp처럼 아무 문구나 보낼 수 없는 채널에서 미리 등록해 심사를 통과한 메시지 양식입니다. 승인된 템플릿만 발송과 캠페인·자동화에 연결됩니다. Hospital에서는 `알림톡` > `템플릿 등록`, Studio에서는 [메시지 템플릿](https://certi.life/docs/guide/studio/screens/crm/templates)에서 만듭니다.
 
 ## CRM·메시지 용어
 
 ### 세그먼트
 
-고객 목록을 조건으로 나누어 저장한 고객 묶음입니다. 조건을 저장한 것이라, 나중에 조건에 맞는 고객이 새로 생기면 그 세그먼트에 자동으로 포함됩니다. 메시지는 세그먼트 단위로 보냅니다. 만드는 방법은 [고객 등록과 관리](https://docs.certi.life/guide/studio/screens/crm/customers)를 확인하세요.
+고객 목록을 조건으로 나누어 저장한 고객 묶음입니다. 조건을 저장한 것이라, 나중에 조건에 맞는 고객이 새로 생기면 그 세그먼트에 자동으로 포함됩니다. 메시지는 세그먼트 단위로 보냅니다. 만드는 방법은 [고객 등록과 관리](https://certi.life/docs/guide/studio/screens/crm/customers)를 확인하세요.
 
 ### 캠페인
 
-한 번만 보낼 메시지를 세그먼트에 발송하는 기능입니다. 고객마다 시점이 다른 반복 안내는 시나리오 자동화가 맡고, 한 번만 보낼 메시지는 [캠페인](https://docs.certi.life/guide/studio/screens/crm/campaigns)이 더 간단합니다.
+한 번만 보낼 메시지를 세그먼트에 발송하는 기능입니다. 고객마다 시점이 다른 반복 안내는 시나리오 자동화가 맡고, 한 번만 보낼 메시지는 [캠페인](https://certi.life/docs/guide/studio/screens/crm/campaigns)이 더 간단합니다.
 
 ### 시나리오 (시나리오 자동화)
 
-"시술 3일 뒤 관리 안내"처럼 고객마다 시점이 다른 안내를 자동으로 보내는 흐름입니다. 조건과 흐름을 한 번 만들어 두면 조건에 맞는 고객이 생길 때마다 메시지가 자동으로 나갑니다. 위치는 Studio `CRM` > `시나리오 자동화`이며, 자세한 내용은 [시나리오 자동화](https://docs.certi.life/guide/studio/screens/crm/automation)를 확인하세요.
+"시술 3일 뒤 관리 안내"처럼 고객마다 시점이 다른 안내를 자동으로 보내는 흐름입니다. 조건과 흐름을 한 번 만들어 두면 조건에 맞는 고객이 생길 때마다 메시지가 자동으로 나갑니다. 위치는 Studio `CRM` > `시나리오 자동화`이며, 자세한 내용은 [시나리오 자동화](https://certi.life/docs/guide/studio/screens/crm/automation)를 확인하세요.
 
 ### 브랜드 메시지
 
@@ -178,7 +178,7 @@ AI 채팅봇과 AI 음성봇은 이미 들어온 채팅과 전화 문의에 응�
 
 ### 개인정보 제거
 
-공유할 문서나 이미지에서 불필요한 식별 정보를 삭제하고 최종 파일에 남아 있지 않은지 확인하는 과정입니다. 단순한 흐림이나 반투명 가리기는 복원 또는 식별 가능성이 있으므로 [개인정보 제거 체크리스트](https://docs.certi.life/guide/help/privacy-security)를 따르세요.
+공유할 문서나 이미지에서 불필요한 식별 정보를 삭제하고 최종 파일에 남아 있지 않은지 확인하는 과정입니다. 단순한 흐림이나 반투명 가리기는 복원 또는 식별 가능성이 있으므로 [개인정보 제거 체크리스트](https://certi.life/docs/guide/help/privacy-security)를 따르세요.
 
 ### 인증 코드
 
@@ -188,4 +188,4 @@ AI 채팅봇과 AI 음성봇은 이미 들어온 채팅과 전화 문의에 응�
 
 건강 상태, 진단, 치료 등 의료진의 전문적 판단이 필요한 결정을 뜻합니다. CertiLife의 AI 상담은 이를 대신하지 않습니다. 관련 질문은 적절한 의료진 확인으로 이어져야 합니다.
 
-용어를 확인한 뒤 읽을 문서가 아직 불분명하다면 [내게 맞는 가이드 찾기](https://docs.certi.life/guide/getting-started/choose-guide)의 역할·목적별 선택표를 이용하세요.
+용어를 확인한 뒤 읽을 문서가 아직 불분명하다면 [내게 맞는 가이드 찾기](https://certi.life/docs/guide/getting-started/choose-guide)의 역할·목적별 선택표를 이용하세요.

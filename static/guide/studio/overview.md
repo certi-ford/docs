@@ -2,7 +2,7 @@
 
 > AI 상담 지식, 시나리오, 상담원 연결과 출시 점검을 준비하는 Studio 공개 운영 가이드입니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/studio/overview)
+[사람이 읽는 원문](https://certi.life/docs/guide/studio/overview)
 
 Studio는 등록한 자료를 기반으로 AI 챗봇 상담을 준비하고 운영하는 서비스입니다. 여러 상담 채널의 메시지를 한곳에서 확인하고, 서로 다른 언어의 상담을 번역하며, 상담 내역의 요약·분류와 전화상담 기록을 관리할 수 있습니다. 운영자는 지식 자료와 답변 경계, 상담원 연결 기준, 상담 기록 구조를 함께 준비해야 합니다. 제품 소개에서 AI 음성봇이라고 부르는 전화 응대 AI는 Studio 왼쪽 메뉴에서 `콜봇`이라는 이름으로 보입니다.
 
@@ -10,15 +10,15 @@ Studio는 등록한 자료를 기반으로 AI 챗봇 상담을 준비하고 운�
 
 ## 권장 시작 순서
 
-1. [Studio 계정 접속](https://docs.certi.life/guide/studio/account-access)에서 공식 로그인 화면과 안전한 접속 원칙을 확인합니다.
-2. [상담 지식 관리](https://docs.certi.life/guide/studio/knowledge-management)에서 공개 가능한 자료를 선별하고 답변 근거를 관리합니다.
-3. [상담 메시지 번역](https://docs.certi.life/guide/products/ai-chatbot/message-translation)에서 언어 감지와 수신·발신 번역, 고유명사 확인 절차를 살펴봅니다.
-4. [상담 시나리오와 사람 연결](https://docs.certi.life/guide/studio/scenario-and-handoff)에서 고객 질문 흐름, 업무시간, 상담원 연결 조건을 정합니다.
-5. [상담 내역 조회와 화면 설정](https://docs.certi.life/guide/studio/conversation-history)에서 요약·분류와 상세 화면 구성을 확인합니다.
-6. [상담 기록 필드 설정](https://docs.certi.life/guide/studio/consultation-records)에서 전화상담 후처리 필드와 AI 자동 선택을 준비합니다.
-7. [출시 체크리스트](https://docs.certi.life/guide/studio/launch-checklist)로 채널별 테스트와 운영 책임자를 확인한 뒤 고객에게 공개합니다.
+1. [Studio 계정 접속](https://certi.life/docs/guide/studio/account-access)에서 공식 로그인 화면과 안전한 접속 원칙을 확인합니다.
+2. [상담 지식 관리](https://certi.life/docs/guide/studio/knowledge-management)에서 공개 가능한 자료를 선별하고 답변 근거를 관리합니다.
+3. [상담 메시지 번역](https://certi.life/docs/guide/products/ai-chatbot/message-translation)에서 언어 감지와 수신·발신 번역, 고유명사 확인 절차를 살펴봅니다.
+4. [상담 시나리오와 사람 연결](https://certi.life/docs/guide/studio/scenario-and-handoff)에서 고객 질문 흐름, 업무시간, 상담원 연결 조건을 정합니다.
+5. [상담 내역 조회와 화면 설정](https://certi.life/docs/guide/studio/conversation-history)에서 요약·분류와 상세 화면 구성을 확인합니다.
+6. [상담 기록 필드 설정](https://certi.life/docs/guide/studio/consultation-records)에서 전화상담 후처리 필드와 AI 자동 선택을 준비합니다.
+7. [출시 체크리스트](https://certi.life/docs/guide/studio/launch-checklist)로 채널별 테스트와 운영 책임자를 확인한 뒤 고객에게 공개합니다.
 
-지금 보고 있는 화면에서 무엇을 어떻게 하는지 궁금하다면 화면별 안내를 확인하세요. [Studio 메뉴 한눈에 보기](https://docs.certi.life/guide/studio/screens/overview)에서 메뉴별 역할을 확인하고, 챗봇은 [챗봇 메뉴 시작하기](https://docs.certi.life/guide/studio/screens/chatbot/overview)에서 만들기부터 채널 연결까지 목적별로 따라갈 수 있습니다.
+지금 보고 있는 화면에서 무엇을 어떻게 하는지 궁금하다면 화면별 안내를 확인하세요. [Studio 메뉴 한눈에 보기](https://certi.life/docs/guide/studio/screens/overview)에서 메뉴별 역할을 확인하고, 챗봇은 [챗봇 메뉴 시작하기](https://certi.life/docs/guide/studio/screens/chatbot/overview)에서 만들기부터 채널 연결까지 목적별로 따라갈 수 있습니다.
 
 ## 운영의 핵심 구조
 
@@ -36,10 +36,10 @@ AI 상담 품질은 등록 자료의 최신성과 범위에 좌우됩니다. 홈
 
 ## 함께 보기
 
-- [AI 상담 소개](https://docs.certi.life/guide/products/ai-chatbot)
-- [상담 메시지 번역](https://docs.certi.life/guide/products/ai-chatbot/message-translation)
-- [상담 내역 조회와 화면 설정](https://docs.certi.life/guide/studio/conversation-history)
-- [상담 기록 필드 설정](https://docs.certi.life/guide/studio/consultation-records)
-- [개인정보 및 보안](https://docs.certi.life/guide/help/privacy-security)
-- [Hospital 운영 가이드](https://docs.certi.life/guide/hospital/overview)
+- [AI 상담 소개](https://certi.life/docs/guide/products/ai-chatbot)
+- [상담 메시지 번역](https://certi.life/docs/guide/products/ai-chatbot/message-translation)
+- [상담 내역 조회와 화면 설정](https://certi.life/docs/guide/studio/conversation-history)
+- [상담 기록 필드 설정](https://certi.life/docs/guide/studio/consultation-records)
+- [개인정보 및 보안](https://certi.life/docs/guide/help/privacy-security)
+- [Hospital 운영 가이드](https://certi.life/docs/guide/hospital/overview)
 - [도입 문의](https://certi.life/contact)

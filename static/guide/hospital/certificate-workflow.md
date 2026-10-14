@@ -2,9 +2,9 @@
 
 > 인증서를 준비해 카카오톡·문자·위챗·이메일로 안전하게 전달하고 사후 확인하는 운영 절차입니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/hospital/certificate-workflow)
+[사람이 읽는 원문](https://certi.life/docs/guide/hospital/certificate-workflow)
 
-Hospital 인증서 운영은 **준비 → 검토 → 전달 → 확인 → 예외 처리** 순서로 진행합니다. 이 문서는 어느 진료과에서나 적용할 수 있는 운영 절차를 다룹니다. 화면에서 누르는 순서는 [인증서 발행](https://docs.certi.life/guide/hospital/screens/issue-certificate)과 [발행 내역과 환자 관리](https://docs.certi.life/guide/hospital/screens/history)를 함께 보세요.
+Hospital 인증서 운영은 **준비 → 검토 → 전달 → 확인 → 예외 처리** 순서로 진행합니다. 이 문서는 어느 진료과에서나 적용할 수 있는 운영 절차를 다룹니다. 화면에서 누르는 순서는 [인증서 발행](https://certi.life/docs/guide/hospital/screens/issue-certificate)과 [발행 내역과 환자 관리](https://certi.life/docs/guide/hospital/screens/history)를 함께 보세요.
 
 ## 1. 발행 전 준비
 
@@ -35,10 +35,10 @@ Hospital 인증서 운영은 **준비 → 검토 → 전달 → 확인 → 예�
 1. 추가 전송을 즉시 멈춥니다.
 2. 잘못된 수신자, 포함된 정보, 전송 채널과 시각을 확인합니다.
 3. 고객에게 직접 임의 대응하기 전에 조직의 개인정보·사고 대응 담당자에게 알립니다.
-4. 조직의 승인된 절차에 따라 필요한 조치를 수행합니다. 화면에서 인증서를 회수하는 방법은 [잘못 보낸 인증서 바로잡기](https://docs.certi.life/guide/hospital/screens/history#잘못-보낸-인증서-바로잡기)에 있습니다.
+4. 조직의 승인된 절차에 따라 필요한 조치를 수행합니다. 화면에서 인증서를 회수하는 방법은 [잘못 보낸 인증서 바로잡기](https://certi.life/docs/guide/hospital/screens/history#잘못-보낸-인증서-바로잡기)에 있습니다.
 5. 재발 방지를 위해 주소 대조, 이중 검토, 담당자 역할 분리 가운데 보완할 항목을 정합니다.
 
-안과의 [확인서 대량 발행](https://docs.certi.life/guide/hospital/screens/issue-certificate#확인서-대량-발행하기)에서 일부 환자만 발송에 실패했다면 엑셀 파일을 다시 올리지 마세요. 같은 확인서가 중복으로 발행됩니다. 발행 내역의 [알림 다시 보내기](https://docs.certi.life/guide/hospital/screens/history#알림-다시-보내기)에서 실패한 건만 다시 보냅니다.
+안과의 [확인서 대량 발행](https://certi.life/docs/guide/hospital/screens/issue-certificate#확인서-대량-발행하기)에서 일부 환자만 발송에 실패했다면 엑셀 파일을 다시 올리지 마세요. 같은 확인서가 중복으로 발행됩니다. 발행 내역의 [알림 다시 보내기](https://certi.life/docs/guide/hospital/screens/history#알림-다시-보내기)에서 실패한 건만 다시 보냅니다.
 
 > **개인정보를 지원 자료에 남기지 마세요**
 >
@@ -46,7 +46,7 @@ Hospital 인증서 운영은 **준비 → 검토 → 전달 → 확인 → 예�
 
 ## 함께 보기
 
-- [Hospital 계정 접속](https://docs.certi.life/guide/hospital/account-access)
-- [Hospital 안전한 운영 가이드](https://docs.certi.life/guide/hospital/safe-operation)
-- [CertiLife 인증서 소개](https://docs.certi.life/guide/products/certificate)
-- [Hospital 운영 가이드](https://docs.certi.life/guide/hospital/overview)
+- [Hospital 계정 접속](https://certi.life/docs/guide/hospital/account-access)
+- [Hospital 안전한 운영 가이드](https://certi.life/docs/guide/hospital/safe-operation)
+- [CertiLife 인증서 소개](https://certi.life/docs/guide/products/certificate)
+- [Hospital 운영 가이드](https://certi.life/docs/guide/hospital/overview)

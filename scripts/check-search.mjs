@@ -1,7 +1,7 @@
 import {existsSync, readFileSync, readdirSync} from 'node:fs';
 import {join, relative} from 'node:path';
 import sax from 'sax';
-import {publicDocUrls} from './generate-ai-discovery.mjs';
+import {publicDocUrls, siteRoot} from './generate-ai-discovery.mjs';
 
 const root = new URL('..', import.meta.url).pathname;
 const buildRoot = join(root, 'build');
@@ -163,7 +163,12 @@ if (indexFiles.length === 1) {
 }
 
 const documents = wrappedIndexes.flatMap((entry) => entry.documents ?? []);
-const normalizeRoute = (route) => route?.split(/[?#]/, 1)[0].replace(/\/$/, '');
+// Index URLs carry the baseUrl (/docs/guide/...); compare routes relative to the site root.
+const sitePath = siteRoot.pathname.replace(/\/$/, '');
+const normalizeRoute = (route) => {
+  const path = route?.split(/[?#]/, 1)[0].replace(/\/$/, '');
+  return path?.startsWith(`${sitePath}/`) ? path.slice(sitePath.length) : path;
+};
 const indexedRoutes = new Set(documents.map((doc) => normalizeRoute(doc.u)).filter(Boolean));
 const indexedTerms = new Set(
   wrappedIndexes.flatMap((entry) => (entry.index?.invertedIndex ?? []).map(([term]) => term)),

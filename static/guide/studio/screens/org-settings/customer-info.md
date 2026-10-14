@@ -2,7 +2,7 @@
 
 > Studio 설정의 헤더 고객 정보에서 채팅방 헤더에 보일 고객 정보를 고르고, 고객 태그 목록을 확인하고, 회원 관리의 전체 회원 목록과 인증회원 목록에서 채널별 회원을 찾는 방법을 안내합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/studio/screens/org-settings/customer-info)
+[사람이 읽는 원문](https://certi.life/docs/guide/studio/screens/org-settings/customer-info)
 
 상담원이 채팅방을 열었을 때 "이 고객이 누구인지"를 얼마나 빨리 알아볼 수 있느냐는 세 가지 설정에 달려 있습니다. 채팅방 헤더에 보일 정보를 고르는 `헤더 고객 정보`, 고객을 분류하는 `고객 태그`, 그리고 채널을 통해 들어온 사람들을 확인하는 `회원 관리`입니다.
 
@@ -25,7 +25,7 @@
 
 **위치:** 설정 > 고객 태그
 
-상담 화면에서 고객에게 붙일 수 있는 태그 목록을 보여 줍니다. **이 화면은 보기 전용입니다.** 태그를 추가하거나 고치려면 [백과사전](https://docs.certi.life/guide/studio/screens/encyclopedia)에서 합니다. 붙인 태그는 [상담](https://docs.certi.life/guide/studio/screens/counsel/inbox) 화면의 `태그 전체` 필터로 같은 유형의 고객을 모아 볼 때 씁니다.
+상담 화면에서 고객에게 붙일 수 있는 태그 목록을 보여 줍니다. **이 화면은 보기 전용입니다.** 태그를 추가하거나 고치려면 [백과사전](https://certi.life/docs/guide/studio/screens/encyclopedia)에서 합니다. 붙인 태그는 [상담](https://certi.life/docs/guide/studio/screens/counsel/inbox) 화면의 `태그 전체` 필터로 같은 유형의 고객을 모아 볼 때 씁니다.
 
 ## 채널로 들어온 회원 찾기
 
@@ -41,19 +41,19 @@
 
 상태는 `활성`, `비활성`, `차단됨`으로 표시되고, 차단된 회원은 `차단 사유`가 함께 보입니다. 인증회원은 `연결된 채널`에서 어떤 채널들로 접속했는지 확인할 수 있습니다.
 
-이 목록은 챗봇 채널의 접속 기록입니다. 마케팅 대상 고객 명단은 [CRM의 `고객 목록`](https://docs.certi.life/guide/studio/screens/crm/customers)에서 따로 관리합니다.
+이 목록은 챗봇 채널의 접속 기록입니다. 마케팅 대상 고객 명단은 [CRM의 `고객 목록`](https://certi.life/docs/guide/studio/screens/crm/customers)에서 따로 관리합니다.
 
 > **직원 계정과 권한은 여기서 관리하지 않습니다**
 >
 > `회원 관리`의 회원은 챗봇과 대화한 고객(채널 사용자)입니다. 상담원이나 직원의 계정은 이 목록에 나오지 않습니다. Studio의 `설정`에는 직원 계정이나 권한을 관리하는 메뉴가 없습니다. 직원 계정을 어디서 관리하는지는 조직의 계정 종류에 따라 다릅니다.
 >
-> - **병원 계정으로 쓰는 조직:** 병원 관리자가 Hospital의 `병원 관리 > 계정 관리`에서 직원 서브계정을 만들고 권한을 줍니다. 직원이 Studio에서 상담과 챗봇 업무를 하려면 `권한 설정`의 `메시지` 그룹에서 `상담/챗봇 관리`를 켭니다. 이 권한이 없는 서브계정은 Hospital 왼쪽 메뉴에 `상담/챗봇 관리`가 보이지 않습니다. Studio 로그인 화면에서는 "접근권한이 없습니다."가, Hospital에서 Studio로 넘어올 때는 "접근 권한이 없습니다. 상담/챗봇 관리 권한이 필요합니다."가 나옵니다. 절차는 [Hospital 계정 관리](https://docs.certi.life/guide/hospital/screens/accounts)를 보세요.
+> - **병원 계정으로 쓰는 조직:** 병원 관리자가 Hospital의 `병원 관리 > 계정 관리`에서 직원 서브계정을 만들고 권한을 줍니다. 직원이 Studio에서 상담과 챗봇 업무를 하려면 `권한 설정`의 `메시지` 그룹에서 `상담/챗봇 관리`를 켭니다. 이 권한이 없는 서브계정은 Hospital 왼쪽 메뉴에 `상담/챗봇 관리`가 보이지 않습니다. Studio 로그인 화면에서는 "접근권한이 없습니다."가, Hospital에서 Studio로 넘어올 때는 "접근 권한이 없습니다. 상담/챗봇 관리 권한이 필요합니다."가 나옵니다. 절차는 [Hospital 계정 관리](https://certi.life/docs/guide/hospital/screens/accounts)를 보세요.
 > - **그 밖의 조직:** 직원 계정 추가와 권한 변경은 조직의 CertiLife 담당자에게 요청합니다.
 
 ## 알아 둘 점
 
-- 회원 목록과 헤더 정보에는 개인정보가 표시됩니다. 화면을 공유하거나 캡처할 때 가려 주세요. 기준은 [개인정보 및 보안](https://docs.certi.life/guide/help/privacy-security)에 있습니다.
-- `헤더 고객 정보`에 값이 보이려면 고객 정보가 수집되어 있어야 합니다. 상담 전에 받으려면 [자동메시지의 `고객 정보 수집`](https://docs.certi.life/guide/studio/screens/org-settings/auto-messages#상담-전에-고객-정보-받기)을 설정합니다.
+- 회원 목록과 헤더 정보에는 개인정보가 표시됩니다. 화면을 공유하거나 캡처할 때 가려 주세요. 기준은 [개인정보 및 보안](https://certi.life/docs/guide/help/privacy-security)에 있습니다.
+- `헤더 고객 정보`에 값이 보이려면 고객 정보가 수집되어 있어야 합니다. 상담 전에 받으려면 [자동메시지의 `고객 정보 수집`](https://certi.life/docs/guide/studio/screens/org-settings/auto-messages#상담-전에-고객-정보-받기)을 설정합니다.
 
 ## 문제가 생기면
 

@@ -2,7 +2,7 @@
 
 > Hospital 대시보드에서 총 발행 인증서 수, 당일 발행 수, 등록 환자 수, 주간 발행 추이, 제품별 발행 수를 확인하고, 상단 안내 배너와 서비스 공지사항, 사용 가이드를 보는 방법을 안내합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/hospital/screens/dashboard)
+[사람이 읽는 원문](https://certi.life/docs/guide/hospital/screens/dashboard)
 
 로그인하면 가장 먼저 보이는 화면이 `대시보드`입니다. 대시보드는 두 가지를 알려 줍니다. **인증서가 얼마나 발행되고 있는지**, 그리고 **지금 처리해야 할 일이 있는지**입니다. 하루를 시작할 때 위쪽 안내 배너부터 확인하세요.
 
@@ -18,9 +18,9 @@
 
 | 배너 문구                                      | 뜻                          | 할 일                                                                                                                         |
 | ------------------------------------------ | -------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| "병원 정보 관리에서 비밀번호를 변경해주세요."                 | 처음 로그인한 계정입니다              | [병원 정보 관리](https://docs.certi.life/guide/hospital/screens/hospital-info#비밀번호-바꾸기)에서 비밀번호를 바꿉니다                              |
-| "'인증서 관리' 메뉴에서 병원 보증사항을 입력해 주세요."          | 인증서에 들어갈 병원 보증 내용이 비어 있습니다 | [인증서 설정](https://docs.certi.life/guide/hospital/screens/certificate-settings)에서 입력합니다. 배너의 '인증서 관리'는 왼쪽 메뉴의 `인증서 설정`을 가리킵니다 |
-| "놓친 예약이 있어요. 환자에게 연락하여 예약 일정을 확정해주세요."     | 확정하지 않은 예약이 있습니다           | [예약 관리](https://docs.certi.life/guide/hospital/screens/reservations-reviews)에서 확정합니다. 확정한 뒤 `알림 발송`을 눌러야 환자에게 알림이 갑니다       |
+| "병원 정보 관리에서 비밀번호를 변경해주세요."                 | 처음 로그인한 계정입니다              | [병원 정보 관리](https://certi.life/docs/guide/hospital/screens/hospital-info#비밀번호-바꾸기)에서 비밀번호를 바꿉니다                              |
+| "'인증서 관리' 메뉴에서 병원 보증사항을 입력해 주세요."          | 인증서에 들어갈 병원 보증 내용이 비어 있습니다 | [인증서 설정](https://certi.life/docs/guide/hospital/screens/certificate-settings)에서 입력합니다. 배너의 '인증서 관리'는 왼쪽 메뉴의 `인증서 설정`을 가리킵니다 |
+| "놓친 예약이 있어요. 환자에게 연락하여 예약 일정을 확정해주세요."     | 확정하지 않은 예약이 있습니다           | [예약 관리](https://certi.life/docs/guide/hospital/screens/reservations-reviews)에서 확정합니다. 확정한 뒤 `알림 발송`을 눌러야 환자에게 알림이 갑니다       |
 | "서티라이프 새로운 버전이 나왔습니다. 새로고침을 눌러 업데이트 해주세요." | 새 버전이 배포되었습니다              | 브라우저를 새로고침합니다                                                                                                               |
 
 ## 발행 현황 보기
@@ -31,7 +31,7 @@
 - **`주간 발행 인증서 수`:** 최근 일주일간 날마다 발행한 수를 차트로 봅니다.
 - **`제품별 발행 인증서 수`:** 어떤 제품의 인증서가 많이 발행되었는지 봅니다. 아직 발행 내역이 없으면 "아직 인증서가 발행된 제품이 없습니다."가 표시됩니다.
 
-`전체 등록 환자 수`에 비해 `인증서 수신 환자 수`가 많이 적다면 인증서를 받지 못한 환자가 많다는 뜻입니다. [발행 내역](https://docs.certi.life/guide/hospital/screens/history)에서 발송 상태를 확인해 보세요.
+`전체 등록 환자 수`에 비해 `인증서 수신 환자 수`가 많이 적다면 인증서를 받지 못한 환자가 많다는 뜻입니다. [발행 내역](https://certi.life/docs/guide/hospital/screens/history)에서 발송 상태를 확인해 보세요.
 
 ## 공지사항 확인하기
 
@@ -45,5 +45,5 @@
 
 ## 함께 보기
 
-- [Hospital 메뉴 한눈에 보기](https://docs.certi.life/guide/hospital/screens/overview)
-- [인증서 발행](https://docs.certi.life/guide/hospital/screens/issue-certificate)
+- [Hospital 메뉴 한눈에 보기](https://certi.life/docs/guide/hospital/screens/overview)
+- [인증서 발행](https://certi.life/docs/guide/hospital/screens/issue-certificate)

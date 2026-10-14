@@ -2,17 +2,17 @@
 
 > 병원 관리자가 계정 접근부터 인증서 전달과 안전한 운영까지 준비하는 공개 가이드입니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/hospital/overview)
+[사람이 읽는 원문](https://certi.life/docs/guide/hospital/overview)
 
-Hospital은 병원 관리자가 CertiLife 서비스를 이용하는 진입점입니다. 이 문서는 처음 접속하는 담당자가 계정을 확인하고, 인증서를 고객에게 전달하며, 일상 운영 중 개인정보를 안전하게 다루는 데 필요한 기준을 안내합니다. 로그인한 뒤의 메뉴와 화면별 사용법은 [Hospital 메뉴 한눈에 보기](https://docs.certi.life/guide/hospital/screens/overview)에서 시작하는 화면별 안내에 정리되어 있습니다.
+Hospital은 병원 관리자가 CertiLife 서비스를 이용하는 진입점입니다. 이 문서는 처음 접속하는 담당자가 계정을 확인하고, 인증서를 고객에게 전달하며, 일상 운영 중 개인정보를 안전하게 다루는 데 필요한 기준을 안내합니다. 로그인한 뒤의 메뉴와 화면별 사용법은 [Hospital 메뉴 한눈에 보기](https://certi.life/docs/guide/hospital/screens/overview)에서 시작하는 화면별 안내에 정리되어 있습니다.
 
 ## 어디서 시작하나요?
 
 처음 사용하는 담당자는 다음 순서로 준비하세요.
 
-1. [Hospital 계정 접속](https://docs.certi.life/guide/hospital/account-access)에서 공식 로그인 주소와 계정 문제 해결 경로를 확인합니다.
-2. [인증서 발행·전달 가이드](https://docs.certi.life/guide/hospital/certificate-workflow)에서 발행 전 확인, 고객 전달, 사후 점검 절차를 정합니다.
-3. [Hospital 안전한 운영 가이드](https://docs.certi.life/guide/hospital/safe-operation)에서 개인정보 최소 수집, 화면 공유, 오류 대응 원칙을 팀과 함께 확인합니다.
+1. [Hospital 계정 접속](https://certi.life/docs/guide/hospital/account-access)에서 공식 로그인 주소와 계정 문제 해결 경로를 확인합니다.
+2. [인증서 발행·전달 가이드](https://certi.life/docs/guide/hospital/certificate-workflow)에서 발행 전 확인, 고객 전달, 사후 점검 절차를 정합니다.
+3. [Hospital 안전한 운영 가이드](https://certi.life/docs/guide/hospital/safe-operation)에서 개인정보 최소 수집, 화면 공유, 오류 대응 원칙을 팀과 함께 확인합니다.
 
 공식 로그인 화면은 [Hospital 로그인](https://hospital.certi.life/signin)(주소 `hospital.certi.life/signin`)입니다. 공개 화면에는 **병원 관리자 로그인**, **아이디**, **비밀번호**, **로그인** 항목과 **제휴 문의**, **회원가입**, **아이디 찾기**, **비밀번호 재설정** 경로가 제공됩니다. 로그인 정보는 조직에서 승인한 담당자만 사용하고, 개인 메신저나 공개 문서로 공유하지 마세요.
 
@@ -34,8 +34,8 @@ Hospital은 병원 관리자가 CertiLife 서비스를 이용하는 진입점입
 
 ## 함께 보기
 
-- [CertiLife 인증서 소개](https://docs.certi.life/guide/products/certificate)
-- [개인정보 및 보안](https://docs.certi.life/guide/help/privacy-security)
-- [Manufacturer 안내](https://docs.certi.life/guide/manufacturer/overview)
-- [Studio 운영 가이드](https://docs.certi.life/guide/studio/overview)
+- [CertiLife 인증서 소개](https://certi.life/docs/guide/products/certificate)
+- [개인정보 및 보안](https://certi.life/docs/guide/help/privacy-security)
+- [Manufacturer 안내](https://certi.life/docs/guide/manufacturer/overview)
+- [Studio 운영 가이드](https://certi.life/docs/guide/studio/overview)
 - [도입 문의](https://certi.life/contact)

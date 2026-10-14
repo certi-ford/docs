@@ -2,7 +2,7 @@
 
 > 제조사 사용자가 CertiLife의 공식 로그인과 공개된 계정·문의 경로를 안전하게 이용하기 위한 안내입니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/manufacturer/overview)
+[사람이 읽는 원문](https://certi.life/docs/guide/manufacturer/overview)
 
 Manufacturer는 제조사 사용자를 위한 CertiLife의 공식 서비스 진입점입니다. CertiLife 공개 홈페이지에는 **제조사용 로그인** 링크가 제공되며, 공식 로그인 화면에서 **제조사 관리자 로그인**, 아이디, 비밀번호, 로그인, 비밀번호 찾기, 가입·제휴 문의 항목을 확인할 수 있습니다.
 
@@ -22,8 +22,8 @@ Manufacturer는 제조사 사용자를 위한 CertiLife의 공식 서비스 진�
 
 ## 어디서 시작하나요?
 
-1. [Manufacturer 계정 접속](https://docs.certi.life/guide/manufacturer/account-access)에서 공식 주소와 공개된 로그인·복구 경로를 확인합니다.
-2. [Manufacturer 안전한 이용](https://docs.certi.life/guide/manufacturer/safe-operation)에서 계정 공유, 화면 캡처와 지원 요청 원칙을 확인합니다.
+1. [Manufacturer 계정 접속](https://certi.life/docs/guide/manufacturer/account-access)에서 공식 주소와 공개된 로그인·복구 경로를 확인합니다.
+2. [Manufacturer 안전한 이용](https://certi.life/docs/guide/manufacturer/safe-operation)에서 계정 공유, 화면 캡처와 지원 요청 원칙을 확인합니다.
 3. 계정이 없거나 이용 범위를 확인해야 한다면 공식 로그인 화면의 **가입·제휴 문의** 또는 [도입 문의](https://certi.life/contact)를 이용합니다.
 
 ## 안전한 이용 원칙
@@ -45,8 +45,8 @@ Manufacturer는 제조사 사용자를 위한 CertiLife의 공식 서비스 진�
 
 | 병원이 묻는 일              | 병원이 보는 화면                    | 안내할 문서                                                                                     |
 | --------------------- | ---------------------------- | ------------------------------------------------------------------------------------------ |
-| 제조사와 맺은 전자계약을 어디서 보나요 | Hospital `구매/주문 관리` > `전자계약` | [구매/주문 관리](https://docs.certi.life/guide/hospital/screens/orders#전자계약-확인하기)                |
-| 제품 코드를 넣었는데 오류가 나요    | Hospital `인증서 발행` > 제품 코드 입력 | [인증서 발행](https://docs.certi.life/guide/hospital/screens/issue-certificate#제품-코드-오류-해결하기)   |
+| 제조사와 맺은 전자계약을 어디서 보나요 | Hospital `구매/주문 관리` > `전자계약` | [구매/주문 관리](https://certi.life/docs/guide/hospital/screens/orders#전자계약-확인하기)                |
+| 제품 코드를 넣었는데 오류가 나요    | Hospital `인증서 발행` > 제품 코드 입력 | [인증서 발행](https://certi.life/docs/guide/hospital/screens/issue-certificate#제품-코드-오류-해결하기)   |
 | "발행 권한이 없습니다"가 나와요    | Hospital `인증서 발행`            | 같은 절에 "해당 제품의 제조사에 발행 권한을 문의해야 합니다"라고 안내되어 있습니다. 병원은 제조사에 문의하므로 제조사 쪽 처리 절차를 조직 안에서 정해 두세요 |
 | "폐기된 제품입니다"가 나와요      | Hospital `인증서 발행`            | 같은 절의 제품 코드 오류 표. 병원은 제품을 공급한 제조사에 확인합니다                                                   |
 
@@ -54,11 +54,11 @@ Manufacturer는 제조사 사용자를 위한 CertiLife의 공식 서비스 진�
 
 ## 함께 보기
 
-- [Manufacturer 계정 접속](https://docs.certi.life/guide/manufacturer/account-access)
-- [Manufacturer 안전한 이용](https://docs.certi.life/guide/manufacturer/safe-operation)
-- [구매/주문 관리](https://docs.certi.life/guide/hospital/screens/orders) (병원이 보는 전자계약·주문·배송)
-- [인증서 발행](https://docs.certi.life/guide/hospital/screens/issue-certificate) (병원의 제품 코드 입력과 오류)
-- [로그인·서비스 바로가기](https://docs.certi.life/guide/getting-started/sign-in-directory)
-- [문제 해결](https://docs.certi.life/guide/help/troubleshooting)
-- [개인정보 및 보안](https://docs.certi.life/guide/help/privacy-security)
+- [Manufacturer 계정 접속](https://certi.life/docs/guide/manufacturer/account-access)
+- [Manufacturer 안전한 이용](https://certi.life/docs/guide/manufacturer/safe-operation)
+- [구매/주문 관리](https://certi.life/docs/guide/hospital/screens/orders) (병원이 보는 전자계약·주문·배송)
+- [인증서 발행](https://certi.life/docs/guide/hospital/screens/issue-certificate) (병원의 제품 코드 입력과 오류)
+- [로그인·서비스 바로가기](https://certi.life/docs/guide/getting-started/sign-in-directory)
+- [문제 해결](https://certi.life/docs/guide/help/troubleshooting)
+- [개인정보 및 보안](https://certi.life/docs/guide/help/privacy-security)
 - [도입 문의](https://certi.life/contact)

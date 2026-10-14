@@ -2,7 +2,7 @@
 
 > Studio 챗봇 목록에서 새 챗봇을 만드는 세 가지 방법(빈 챗봇 만들기, 템플릿으로 시작, 챗봇 가져오기)과 챗봇 카드를 읽는 법, 챗봇 상세 화면으로 들어가는 방법을 안내합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/studio/screens/chatbot/list)
+[사람이 읽는 원문](https://certi.life/docs/guide/studio/screens/chatbot/list)
 
 새 챗봇을 만드는 방법은 세 가지입니다. 처음부터 직접 만드는 `빈 챗봇 만들기`, 준비된 구성을 가져다 쓰는 `템플릿으로 시작`, 이미 있는 챗봇을 복제하는 `챗봇 가져오기`입니다. 모두 챗봇 목록 화면의 `새 챗봇 만들기` 버튼에서 시작합니다.
 
@@ -32,7 +32,7 @@
 
 > **학습자료 생성이 실패해도 챗봇은 만들어집니다**
 >
-> 자동 생성이 실패하거나 시간이 초과되어도 챗봇 자체는 정상적으로 만들어집니다. 학습자료는 나중에 [`AI 학습자료 설정`](https://docs.certi.life/guide/studio/screens/chatbot/settings/training-materials)에서 다시 생성할 수 있습니다.
+> 자동 생성이 실패하거나 시간이 초과되어도 챗봇 자체는 정상적으로 만들어집니다. 학습자료는 나중에 [`AI 학습자료 설정`](https://certi.life/docs/guide/studio/screens/chatbot/settings/training-materials)에서 다시 생성할 수 있습니다.
 
 ## 템플릿으로 빠르게 시작하기
 
@@ -50,7 +50,7 @@
 
 복제는 "원본 챗봇에서 코드 만들기 → 새 챗봇에서 코드 입력하기" 두 단계입니다.
 
-1. 복제할 원본 챗봇의 `설정` > [`기본 정보`](https://docs.certi.life/guide/studio/screens/chatbot/settings/basic-info#챗봇을-다른-계정으로-복사하기)에서 `챗봇 내보내기`를 눌러 내보내기 코드를 만듭니다.
+1. 복제할 원본 챗봇의 `설정` > [`기본 정보`](https://certi.life/docs/guide/studio/screens/chatbot/settings/basic-info#챗봇을-다른-계정으로-복사하기)에서 `챗봇 내보내기`를 눌러 내보내기 코드를 만듭니다.
 2. 챗봇 목록에서 `새 챗봇 만들기` > `챗봇 가져오기`를 고릅니다.
 3. 코드를 입력하고 `가져오기`를 누릅니다. 실패하면 `다시 시도`로 다시 진행할 수 있습니다.
 
@@ -65,11 +65,11 @@
 목록의 카드 한 장이 챗봇 하나입니다. 카드만 봐도 그 챗봇이 지금 어떤 상태인지 알 수 있습니다.
 
 - **상태:** `운영중` 또는 `대기중`
-- **응답 버전:** `v1 설정` 또는 `v2 설정`. 누르면 그 챗봇의 [`AI 설정`](https://docs.certi.life/guide/studio/screens/chatbot/settings/ai-settings)으로 바로 이동합니다.
+- **응답 버전:** `v1 설정` 또는 `v2 설정`. 누르면 그 챗봇의 [`AI 설정`](https://certi.life/docs/guide/studio/screens/chatbot/settings/ai-settings)으로 바로 이동합니다.
 - **연결된 채널:** `웹챗`, `카카오`, `Instagram`, `LINE`, `WhatsApp` 중 연결된 채널이 표시됩니다.
 - **구성 요약:** `플로우:` 개수, `학습자료:` 파일 개수, `페르소나:`, 마지막 수정일
 
-챗봇이 많으면 오른쪽 위의 정렬을 `최신순`, `오래된순`, `이름 (가나다순)`, `이름 (역순)`으로 바꿔 찾습니다. 카드의 `상세보기`를 누르면 챗봇 상세 화면이 열리고, 거기서 [`시나리오`](https://docs.certi.life/guide/studio/screens/chatbot/scenarios), [`플로우`](https://docs.certi.life/guide/studio/screens/chatbot/flows), [`통계`](https://docs.certi.life/guide/studio/screens/chatbot/statistics), [`설정`](https://docs.certi.life/guide/studio/screens/chatbot/settings/menu) 탭으로 작업합니다. 챗봇이 하나도 없을 때는 "아직 챗봇이 없습니다" 안내와 함께 `첫 챗봇 만들기` 버튼이 보입니다.
+챗봇이 많으면 오른쪽 위의 정렬을 `최신순`, `오래된순`, `이름 (가나다순)`, `이름 (역순)`으로 바꿔 찾습니다. 카드의 `상세보기`를 누르면 챗봇 상세 화면이 열리고, 거기서 [`시나리오`](https://certi.life/docs/guide/studio/screens/chatbot/scenarios), [`플로우`](https://certi.life/docs/guide/studio/screens/chatbot/flows), [`통계`](https://certi.life/docs/guide/studio/screens/chatbot/statistics), [`설정`](https://certi.life/docs/guide/studio/screens/chatbot/settings/menu) 탭으로 작업합니다. 챗봇이 하나도 없을 때는 "아직 챗봇이 없습니다" 안내와 함께 `첫 챗봇 만들기` 버튼이 보입니다.
 
 ## 도구와 매뉴얼 탭
 
@@ -77,8 +77,8 @@
 
 목록 위쪽의 `도구`와 `매뉴얼` 탭은 챗봇 하나가 아니라 조직의 모든 챗봇이 함께 쓰는 공용 목록입니다. 둘 다 `v2 beta`로 표시되는 챗봇 v2용 베타 기능이라 동작과 문구가 바뀔 수 있습니다.
 
-- `도구`: 챗봇이 답변 중에 호출할 API 도구를 정의합니다. 자세한 내용은 [도구](https://docs.certi.life/guide/studio/screens/chatbot/settings/tools#조직-공용-api-도구-만들기)를 보세요.
-- `매뉴얼`: 특정 상황에서 챗봇이 따를 절차를 작성합니다. 자세한 내용은 [매뉴얼](https://docs.certi.life/guide/studio/screens/chatbot/settings/manuals#매뉴얼-작성하기)을 보세요.
+- `도구`: 챗봇이 답변 중에 호출할 API 도구를 정의합니다. 자세한 내용은 [도구](https://certi.life/docs/guide/studio/screens/chatbot/settings/tools#조직-공용-api-도구-만들기)를 보세요.
+- `매뉴얼`: 특정 상황에서 챗봇이 따를 절차를 작성합니다. 자세한 내용은 [매뉴얼](https://certi.life/docs/guide/studio/screens/chatbot/settings/manuals#매뉴얼-작성하기)을 보세요.
 
 여기서 만든 도구와 매뉴얼을 실제로 쓸지는 챗봇마다 `설정`에서 따로 정합니다.
 
@@ -88,7 +88,7 @@
 
 조직이 만들 수 있는 챗봇 수를 모두 채웠다는 뜻입니다. `새 챗봇 만들기`를 누르면 이 안내와 함께 `무제한 챗봇 플랜` 창이 열리고, "기본 플랜은 최대 N개까지 챗봇을 생성할 수 있습니다."라고 표시됩니다.
 
-1. 쓰지 않는 챗봇이 있으면 그 챗봇의 [`챗봇 삭제`](https://docs.certi.life/guide/studio/screens/chatbot/settings/delete-chatbot)로 지운 뒤 다시 만듭니다.
+1. 쓰지 않는 챗봇이 있으면 그 챗봇의 [`챗봇 삭제`](https://certi.life/docs/guide/studio/screens/chatbot/settings/delete-chatbot)로 지운 뒤 다시 만듭니다.
 2. 챗봇이 더 필요하면 창의 `업그레이드 문의 방법`에 적힌 이메일로 문의합니다.
 
 Studio에는 요금이나 플랜을 바꾸는 메뉴가 없습니다. 플랜 변경은 조직의 CertiLife 담당자에게도 요청할 수 있습니다.
@@ -103,14 +103,14 @@ Studio에는 요금이나 플랜을 바꾸는 메뉴가 없습니다. 플랜 변
 
 ### `학습자료 생성에 실패했습니다. AI 설정에서 다시 생성할 수 있습니다.`
 
-챗봇은 만들어졌지만 `병원 정보 기반 학습자료 자동 생성`만 실패했다는 뜻입니다. 시간이 초과되면 "학습자료 생성 시간이 초과되었습니다. AI 설정에서 다시 생성할 수 있습니다."가 나옵니다. 두 경우 모두 챗봇의 [`AI 학습자료 설정`](https://docs.certi.life/guide/studio/screens/chatbot/settings/training-materials#병원-기본-정보로-qa-자동-만들기)에서 `학습자료 생성`을 누르면 다시 만들 수 있습니다.
+챗봇은 만들어졌지만 `병원 정보 기반 학습자료 자동 생성`만 실패했다는 뜻입니다. 시간이 초과되면 "학습자료 생성 시간이 초과되었습니다. AI 설정에서 다시 생성할 수 있습니다."가 나옵니다. 두 경우 모두 챗봇의 [`AI 학습자료 설정`](https://certi.life/docs/guide/studio/screens/chatbot/settings/training-materials#병원-기본-정보로-qa-자동-만들기)에서 `학습자료 생성`을 누르면 다시 만들 수 있습니다.
 
 ### `가져오기 실패`
 
 `챗봇 가져오기`가 중간에 멈췄다는 뜻입니다. 문구 뒤에 사유가 붙어 나옵니다.
 
 1. 창의 `다시 시도`를 누르면 코드 입력 화면으로 돌아갑니다.
-2. 원본 챗봇의 [`기본 정보`](https://docs.certi.life/guide/studio/screens/chatbot/settings/basic-info#챗봇을-다른-계정으로-복사하기)에서 코드를 확인합니다. 코드는 60분 동안 한 번만 쓸 수 있으므로, 시간이 지났거나 이미 썼다면 새 코드를 만듭니다.
+2. 원본 챗봇의 [`기본 정보`](https://certi.life/docs/guide/studio/screens/chatbot/settings/basic-info#챗봇을-다른-계정으로-복사하기)에서 코드를 확인합니다. 코드는 60분 동안 한 번만 쓸 수 있으므로, 시간이 지났거나 이미 썼다면 새 코드를 만듭니다.
 3. 코드를 넣고 `가져오기`를 누릅니다.
 
 `가져오기` 버튼이 눌리지 않으면 코드 형식이 맞지 않는 것입니다. 코드는 `ABC-1234-XYZ`처럼 영문 대문자 3자, 숫자 4자, 영문 대문자 3자를 하이픈으로 이은 형식입니다. 그래도 안 되면 사유 문구와 발생 시각을 적어 조직의 CertiLife 담당자에게 알립니다.

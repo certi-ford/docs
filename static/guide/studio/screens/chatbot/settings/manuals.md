@@ -2,7 +2,7 @@
 
 > Studio 챗봇 메뉴의 매뉴얼 목록에서 트리거와 본문으로 매뉴얼을 작성하고, 챗봇 설정의 매뉴얼에서 챗봇에 연결·해제하는 방법과 잘 동작하는 트리거를 쓰는 요령을 안내합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/studio/screens/chatbot/settings/manuals)
+[사람이 읽는 원문](https://certi.life/docs/guide/studio/screens/chatbot/settings/manuals)
 
 신입 상담원에게 "수술 후 통증을 호소하는 고객에게는 이렇게 응대하세요"라고 매뉴얼을 주듯, 챗봇에게도 상황별 절차를 줄 수 있습니다. 매뉴얼은 **두 단계**로 씁니다. 먼저 조직 공용으로 매뉴얼을 작성하고, 그다음 쓰려는 챗봇에 연결합니다. 연결된 매뉴얼은 해당 상황이 오면 챗봇이 본문을 불러와 대화가 끝날 때까지 따릅니다.
 
@@ -10,7 +10,7 @@
 
 > **v2 beta 기능입니다**
 >
-> `매뉴얼`은 메뉴에 `v2 beta`로 표시되며 응답 버전이 v2인 챗봇에서 동작합니다. 버전은 [`AI 설정`](https://docs.certi.life/guide/studio/screens/chatbot/settings/ai-settings#응답-버전-바꾸기)에서 바꿉니다. 베타 기능이라 동작과 문구가 바뀔 수 있습니다.
+> `매뉴얼`은 메뉴에 `v2 beta`로 표시되며 응답 버전이 v2인 챗봇에서 동작합니다. 버전은 [`AI 설정`](https://certi.life/docs/guide/studio/screens/chatbot/settings/ai-settings#응답-버전-바꾸기)에서 바꿉니다. 베타 기능이라 동작과 문구가 바뀔 수 있습니다.
 
 ## 이럴 때 사용하세요
 
@@ -20,24 +20,24 @@
 | 시스템 프롬프트가 너무 길어졌습니다               | 자주 쓰지 않는 상황별 지침을 매뉴얼로 떼어 냅니다           |
 | 특정 상황에서만 API 도구를 쓰게 하고 싶습니다       | 매뉴얼에 도구를 등록하면 그 매뉴얼이 동작하는 동안만 쓸 수 있습니다 |
 
-항상 지켜야 하는 말투와 원칙은 매뉴얼이 아니라 [`AI 설정`의 시스템 프롬프트](https://docs.certi.life/guide/studio/screens/chatbot/settings/ai-settings#프롬프트를-직접-써서-챗봇-성격-정하기)에 적습니다.
+항상 지켜야 하는 말투와 원칙은 매뉴얼이 아니라 [`AI 설정`의 시스템 프롬프트](https://certi.life/docs/guide/studio/screens/chatbot/settings/ai-settings#프롬프트를-직접-써서-챗봇-성격-정하기)에 적습니다.
 
 ## 매뉴얼 작성하기
 
 **위치:** 챗봇 > 매뉴얼 (화면 제목 `매뉴얼 목록`)
 
-1. [챗봇 목록](https://docs.certi.life/guide/studio/screens/chatbot/list) 위쪽의 `매뉴얼` 탭(`v2 beta`)을 열고 `새 매뉴얼`을 누릅니다.
+1. [챗봇 목록](https://certi.life/docs/guide/studio/screens/chatbot/list) 위쪽의 `매뉴얼` 탭(`v2 beta`)을 열고 `새 매뉴얼`을 누릅니다.
 2. `이름`을 적습니다. 예: "수술 후 통증 문의"
 3. `트리거`에 이 매뉴얼을 불러올 상황을 적습니다. 예: "고객이 수술 후 통증·출혈을 호소할 때"
 4. `본문`에 그 상황에서 챗봇이 따를 절차를 적습니다.
 5. 필요하면 `사용 도구`에서 이 매뉴얼이 쓸 API 도구를 고르고, 본문에 언제 어떤 도구를 쓸지 함께 적습니다.
 6. 편집 영역 위쪽 오른쪽의 `저장`을 누릅니다. 왼쪽 아래가 아니라 매뉴얼 이름 옆 줄에 `취소`, `삭제`와 함께 있습니다.
 
-`이름`, `트리거`, `본문`은 모두 필수입니다. 새 매뉴얼을 저장하면 "매뉴얼이 생성되었습니다. 각 챗봇 설정 > 매뉴얼에서 연결하세요."가 나옵니다. 만들기만 해서는 챗봇이 쓰지 않으므로 아래 [챗봇에 매뉴얼 연결하기](https://docs.certi.life/guide/studio/screens/chatbot/settings/manuals#챗봇에-매뉴얼-연결하기)를 이어서 합니다.
+`이름`, `트리거`, `본문`은 모두 필수입니다. 새 매뉴얼을 저장하면 "매뉴얼이 생성되었습니다. 각 챗봇 설정 > 매뉴얼에서 연결하세요."가 나옵니다. 만들기만 해서는 챗봇이 쓰지 않으므로 아래 [챗봇에 매뉴얼 연결하기](https://certi.life/docs/guide/studio/screens/chatbot/settings/manuals#챗봇에-매뉴얼-연결하기)를 이어서 합니다.
 
 > **파일을 붙일 칸은 없습니다**
 >
-> 매뉴얼 편집기에는 파일 첨부 칸이 없습니다. 참고 문서의 내용이 필요하면 절차에 필요한 부분만 `본문`에 글로 옮겨 적습니다. 긴 자료는 [백과사전](https://docs.certi.life/guide/studio/screens/encyclopedia)에 등록하고 [AI 학습자료 설정](https://docs.certi.life/guide/studio/screens/chatbot/settings/training-materials)으로 챗봇에 연결합니다.
+> 매뉴얼 편집기에는 파일 첨부 칸이 없습니다. 참고 문서의 내용이 필요하면 절차에 필요한 부분만 `본문`에 글로 옮겨 적습니다. 긴 자료는 [백과사전](https://certi.life/docs/guide/studio/screens/encyclopedia)에 등록하고 [AI 학습자료 설정](https://certi.life/docs/guide/studio/screens/chatbot/settings/training-materials)으로 챗봇에 연결합니다.
 
 > **트리거는 구체적으로**
 >
@@ -61,8 +61,8 @@
 
 - 매뉴얼 하나에는 상황 하나만 담습니다. 여러 상황을 한 매뉴얼에 넣으면 트리거가 모호해집니다.
 - 본문은 "1. 먼저 ○○를 확인한다 2. ○○이면 상담원 연결을 안내한다"처럼 순서가 보이게 씁니다.
-- 의료진의 판단이 필요한 상황의 매뉴얼은 챗봇이 판단하지 않고 사람에게 넘기는 절차로 작성합니다. 기준은 [상담원 연결 정책](https://docs.certi.life/guide/products/ai-chatbot/handoff-policy)을 참고하세요.
-- 작성 후에는 [`채널 설정`의 `웹채팅 URL`](https://docs.certi.life/guide/studio/screens/chatbot/settings/channel-settings#홈페이지에-채팅-버튼-달기)로 접속해 트리거 상황을 직접 말해 보며 확인합니다.
+- 의료진의 판단이 필요한 상황의 매뉴얼은 챗봇이 판단하지 않고 사람에게 넘기는 절차로 작성합니다. 기준은 [상담원 연결 정책](https://certi.life/docs/guide/products/ai-chatbot/handoff-policy)을 참고하세요.
+- 작성 후에는 [`채널 설정`의 `웹채팅 URL`](https://certi.life/docs/guide/studio/screens/chatbot/settings/channel-settings#홈페이지에-채팅-버튼-달기)로 접속해 트리거 상황을 직접 말해 보며 확인합니다.
 
 ## 문제가 생기면
 
@@ -93,5 +93,5 @@
 
 ## 함께 보기
 
-- [도구](https://docs.certi.life/guide/studio/screens/chatbot/settings/tools): 매뉴얼에서 쓸 API 도구 만들기
-- [상담 시나리오와 사람 연결](https://docs.certi.life/guide/studio/scenario-and-handoff)
+- [도구](https://certi.life/docs/guide/studio/screens/chatbot/settings/tools): 매뉴얼에서 쓸 API 도구 만들기
+- [상담 시나리오와 사람 연결](https://certi.life/docs/guide/studio/scenario-and-handoff)

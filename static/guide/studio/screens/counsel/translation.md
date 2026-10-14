@@ -2,7 +2,7 @@
 
 > Studio 상담 화면에서 언어 바로 고객 언어와 상담사 언어를 정하고, 고객 메시지의 번역을 읽고, 답변을 번역해 원문과 실제 발송 문구를 확인한 뒤 보내는 방법, 바로 전송, 언어 변경 제안, 번역이 안 될 때의 대처를 안내합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/studio/screens/counsel/translation)
+[사람이 읽는 원문](https://certi.life/docs/guide/studio/screens/counsel/translation)
 
 번역을 켜 둔 조직에서는 외국어로 들어온 메시지가 **자동으로 상담사 언어로 번역되어 보이고**, 상담사가 한국어로 쓴 답변은 **고객 언어로 번역해 보낼 수 있습니다.** 상담사가 할 일은 두 가지입니다. 언어가 맞게 잡혔는지 확인하는 것, 그리고 보내기 전에 번역된 문구를 한 번 읽는 것입니다.
 
@@ -12,7 +12,7 @@
 
 > **번역 버튼이 안 보인다면**
 >
-> 조직 설정에서 번역이 꺼져 있는 것입니다. 꺼져 있으면 언어 바, 입력창의 번역 버튼, 메시지의 번역 버튼이 모두 나타나지 않습니다. 관리자에게 [번역 설정](https://docs.certi.life/guide/studio/screens/org-settings/translation)에서 `번역 사용`을 켜 달라고 요청하세요.
+> 조직 설정에서 번역이 꺼져 있는 것입니다. 꺼져 있으면 언어 바, 입력창의 번역 버튼, 메시지의 번역 버튼이 모두 나타나지 않습니다. 관리자에게 [번역 설정](https://certi.life/docs/guide/studio/screens/org-settings/translation)에서 `번역 사용`을 켜 달라고 요청하세요.
 
 ## 언어가 맞게 잡혔는지 확인하기
 
@@ -55,7 +55,7 @@
 
 > **번역문은 꼭 읽고 보내세요**
 >
-> 번역은 기계 번역입니다. 숫자, 날짜, 금액, 고유명사는 특히 확인이 필요합니다. 의료 판단이 필요한 내용은 번역해서 답하기보다 의료진이나 담당자에게 연결하세요. 확인 절차는 [상담 메시지 번역](https://docs.certi.life/guide/products/ai-chatbot/message-translation)에 자세히 있습니다.
+> 번역은 기계 번역입니다. 숫자, 날짜, 금액, 고유명사는 특히 확인이 필요합니다. 의료 판단이 필요한 내용은 번역해서 답하기보다 의료진이나 담당자에게 연결하세요. 확인 절차는 [상담 메시지 번역](https://certi.life/docs/guide/products/ai-chatbot/message-translation)에 자세히 있습니다.
 
 ### 번역하지 않고 보내려면
 
@@ -64,7 +64,7 @@
 - **번역 버튼이 따로 있는 조직:** 번역을 누르지 않고 `전송`을 누릅니다. 조직 설정에 따라 입력창 아래에 "아직 번역을 하지 않으셨습니다. 번역을 하지 않고 바로 보내시겠습니까?"가 뜨며, `전송`을 한 번 더 누르면 그대로 나갑니다.
 - **전송 버튼이 `번역`으로 바뀌어 있는 조직:** 버튼 오른쪽 화살표를 눌러 `바로 전송`을 고릅니다. 이 방식에서는 버튼을 한 번 누르면 번역, 한 번 더 누르면 발송입니다. Ctrl+Enter도 같은 순서로 동작합니다.
 
-어느 방식인지는 관리자가 [번역 설정의 `동작`](https://docs.certi.life/guide/studio/screens/org-settings/translation#상담원의-전송-방식-정하기)에서 정합니다. 고객 언어와 상담사 언어가 같은 상담방에서는 번역 단계 없이 평소처럼 `전송`입니다.
+어느 방식인지는 관리자가 [번역 설정의 `동작`](https://certi.life/docs/guide/studio/screens/org-settings/translation#상담원의-전송-방식-정하기)에서 정합니다. 고객 언어와 상담사 언어가 같은 상담방에서는 번역 단계 없이 평소처럼 `전송`입니다.
 
 ## 보낸 메시지를 내 언어로 다시 보기
 
@@ -83,6 +83,6 @@
 
 ## 함께 보기
 
-- [번역 설정](https://docs.certi.life/guide/studio/screens/org-settings/translation): 관리자가 번역을 켜고 동작을 정하는 곳
-- [상담 메시지 번역](https://docs.certi.life/guide/products/ai-chatbot/message-translation): 기능 소개와 고유명사 확인 절차
-- [AI 설정의 다국어 응대 방식](https://docs.certi.life/guide/studio/screens/chatbot/settings/ai-settings#외국어로-문의한-고객-응대하기): 챗봇이 외국어 고객에게 답하는 방식
+- [번역 설정](https://certi.life/docs/guide/studio/screens/org-settings/translation): 관리자가 번역을 켜고 동작을 정하는 곳
+- [상담 메시지 번역](https://certi.life/docs/guide/products/ai-chatbot/message-translation): 기능 소개와 고유명사 확인 절차
+- [AI 설정의 다국어 응대 방식](https://certi.life/docs/guide/studio/screens/chatbot/settings/ai-settings#외국어로-문의한-고객-응대하기): 챗봇이 외국어 고객에게 답하는 방식

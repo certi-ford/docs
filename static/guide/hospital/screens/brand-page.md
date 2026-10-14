@@ -2,7 +2,7 @@
 
 > Hospital 브랜드관의 병원 설정(병원 소개 페이지 설정)에서 병원 연락처, 공식 채널, 진료시간과 휴진일, 진료 정보와 가격, 병원소개 글과 이미지, 검색 태그, 웹챗봇을 설정하고 링크를 복사해 공유하는 방법을 안내합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/hospital/screens/brand-page)
+[사람이 읽는 원문](https://certi.life/docs/guide/hospital/screens/brand-page)
 
 `브랜드관`의 `병원 설정`은 **고객이 보는 병원 소개 페이지**를 만드는 곳입니다. 연락처, 진료시간, 진료 정보, 병원 사진을 넣어 두면 고객이 링크 하나로 병원 정보를 확인할 수 있습니다. 왼쪽 메뉴 이름은 `병원 설정`이고, 열린 화면의 제목은 `병원 소개 페이지 설정`입니다.
 
@@ -49,10 +49,10 @@
 
 **위치:** 브랜드관 > 병원 설정 > 웹챗봇 설정
 
-Studio에서 만든 챗봇이 있다면 `웹챗봇 설정`에서 메인 챗봇을 골라 소개 페이지에서 바로 상담을 받을 수 있습니다. 챗봇을 만드는 방법은 [챗봇 메뉴 시작하기](https://docs.certi.life/guide/studio/screens/chatbot/overview)를 참고하세요.
+Studio에서 만든 챗봇이 있다면 `웹챗봇 설정`에서 메인 챗봇을 골라 소개 페이지에서 바로 상담을 받을 수 있습니다. 챗봇을 만드는 방법은 [챗봇 메뉴 시작하기](https://certi.life/docs/guide/studio/screens/chatbot/overview)를 참고하세요.
 
 ## 알아 둘 점
 
-- 이 화면의 진료시간은 소개 페이지에 보이는 값입니다. 병원의 기준 운영시간은 [병원 정보 관리](https://docs.certi.life/guide/hospital/screens/hospital-info#진료시간과-휴진일-관리하기)에 있으니 서로 다르지 않게 맞춰 주세요.
+- 이 화면의 진료시간은 소개 페이지에 보이는 값입니다. 병원의 기준 운영시간은 [병원 정보 관리](https://certi.life/docs/guide/hospital/screens/hospital-info#진료시간과-휴진일-관리하기)에 있으니 서로 다르지 않게 맞춰 주세요.
 - 병원 이미지에 환자 얼굴이나 차트, 모니터 화면이 찍혀 있지 않은지 올리기 전에 확인하세요.
-- 직원용 서브계정은 [계정 관리](https://docs.certi.life/guide/hospital/screens/accounts)의 `권한 설정`에서 `병원 설정` 메뉴의 권한을 받아야 이 메뉴가 보입니다. 이 권한이 다섯 그룹 중 어디에 있는지는 화면에서 확인되지 않았습니다.
+- 직원용 서브계정은 [계정 관리](https://certi.life/docs/guide/hospital/screens/accounts)의 `권한 설정`에서 `병원 설정` 메뉴의 권한을 받아야 이 메뉴가 보입니다. 이 권한이 다섯 그룹 중 어디에 있는지는 화면에서 확인되지 않았습니다.

@@ -2,7 +2,7 @@
 
 > Studio 챗봇 설정의 도구에서 대화 정보 추출, 병원 진료시간 활용, 컴플레인 대응, 알림톡 보내기, 브랜드메시지 보내기를 추가하는 방법과 챗봇 메뉴의 도구 목록에서 API 도구를 만드는 방법을 목적별로 안내합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/studio/screens/chatbot/settings/tools)
+[사람이 읽는 원문](https://certi.life/docs/guide/studio/screens/chatbot/settings/tools)
 
 기본 챗봇은 질문에 답만 합니다. `도구`를 추가하면 챗봇이 **답변 이상의 일**을 합니다. 대화에서 고객 이름과 연락 희망 시간을 챙기고, 화가 난 고객을 감지해 상담사에게 알리고, 담당자에게 알림톡을 보내는 식입니다. 도구를 쓰는 방법은 두 가지입니다. 바로 쓸 수 있는 `기본 제공` 도구를 추가하거나, 우리 조직의 시스템과 연결하는 API 도구를 직접 만듭니다.
 
@@ -10,7 +10,7 @@
 
 > **v2 beta 기능입니다**
 >
-> `도구`는 메뉴에 `v2 beta`로 표시되며 응답 버전이 v2인 챗봇에서만 동작합니다. v1 챗봇에서는 "v2에서 사용할 수 있습니다. AI 설정 상단에서 응답 버전을 변경해주세요."라는 안내가 보입니다. 버전은 [`AI 설정`](https://docs.certi.life/guide/studio/screens/chatbot/settings/ai-settings#응답-버전-바꾸기)에서 바꿉니다. 베타 기능이라 동작과 문구가 바뀔 수 있습니다.
+> `도구`는 메뉴에 `v2 beta`로 표시되며 응답 버전이 v2인 챗봇에서만 동작합니다. v1 챗봇에서는 "v2에서 사용할 수 있습니다. AI 설정 상단에서 응답 버전을 변경해주세요."라는 안내가 보입니다. 버전은 [`AI 설정`](https://certi.life/docs/guide/studio/screens/chatbot/settings/ai-settings#응답-버전-바꾸기)에서 바꿉니다. 베타 기능이라 동작과 문구가 바뀔 수 있습니다.
 
 ## 어떤 도구가 있나요?
 
@@ -49,7 +49,7 @@
 
 > **꼭 필요한 정보만 받으세요**
 >
-> 수집 항목이 많을수록 고객은 부담을 느끼고, 조직이 관리해야 할 개인정보도 늘어납니다. 상담에 실제로 쓰는 항목만 등록하세요. 기준은 [개인정보 및 보안](https://docs.certi.life/guide/help/privacy-security)을 참고하세요.
+> 수집 항목이 많을수록 고객은 부담을 느끼고, 조직이 관리해야 할 개인정보도 늘어납니다. 상담에 실제로 쓰는 항목만 등록하세요. 기준은 [개인정보 및 보안](https://certi.life/docs/guide/help/privacy-security)을 참고하세요.
 
 ## 진료시간을 항상 최신으로 안내하기
 
@@ -57,7 +57,7 @@
 
 학습자료에 적어 둔 진료시간은 바뀔 때마다 자료를 고쳐야 합니다. `병원 진료시간 활용`을 추가하면 챗봇이 `설정` > `운영 설정` > `병원 진료시간`에 등록된 요일별 진료시간, 임시 휴진일, 정기 휴무 예외일로 답합니다. 학습자료의 진료시간과 운영 설정 값이 다르면 **운영 설정 값을 우선** 안내합니다. 도구를 제거하면 학습자료의 진료시간만 사용합니다.
 
-진료시간 등록 화면은 [설정(조직 설정)](https://docs.certi.life/guide/studio/screens/org-settings/overview)을 참고하세요.
+진료시간 등록 화면은 [설정(조직 설정)](https://certi.life/docs/guide/studio/screens/org-settings/overview)을 참고하세요.
 
 ## 화난 고객을 상담사에게 바로 알리기
 
@@ -70,7 +70,7 @@
 - 챗봇은 **알림만** 띄웁니다. 상담 대기열에 넣거나 상담원을 배정하지는 않으므로, 상담사가 알림을 보고 직접 방을 열어야 합니다.
 - 제3자나 과거 경험에 대한 불만, 단순한 실망은 해당하지 않습니다.
 
-판단 결과는 [상담 내역](https://docs.certi.life/guide/studio/screens/conversation-history)의 챗봇 답변 위에 "고객 감정" 태그로 남습니다.
+판단 결과는 [상담 내역](https://certi.life/docs/guide/studio/screens/conversation-history)의 챗봇 답변 위에 "고객 감정" 태그로 남습니다.
 
 ## 상황에 맞춰 알림톡 보내기
 
@@ -87,9 +87,9 @@
 
 > **실행 전 고객에게 동의 받기는 언제 켜나요?**
 >
-> 이 도구는 `담당자 수신 번호`에 적은 병원 담당자 번호로만 보내고, 고객에게는 보내지 않습니다. 켜면 챗봇이 보내기 전에 고객에게 확인을 받습니다. 고객 이름이나 연락처를 담당자에게 넘기는 발송이라면 켜고, 고객 정보가 들어가지 않는 내부 알림이라면 꺼도 됩니다. 슬롯은 챗봇당 10개까지 만들 수 있고, 같은 대화에서는 슬롯당 한 번만 발송됩니다. 고객 여러 명에게 이벤트 안내를 보내는 일은 이 도구가 아니라 [CRM 캠페인](https://docs.certi.life/guide/studio/screens/crm/overview)에서 합니다.
+> 이 도구는 `담당자 수신 번호`에 적은 병원 담당자 번호로만 보내고, 고객에게는 보내지 않습니다. 켜면 챗봇이 보내기 전에 고객에게 확인을 받습니다. 고객 이름이나 연락처를 담당자에게 넘기는 발송이라면 켜고, 고객 정보가 들어가지 않는 내부 알림이라면 꺼도 됩니다. 슬롯은 챗봇당 10개까지 만들 수 있고, 같은 대화에서는 슬롯당 한 번만 발송됩니다. 고객 여러 명에게 이벤트 안내를 보내는 일은 이 도구가 아니라 [CRM 캠페인](https://certi.life/docs/guide/studio/screens/crm/overview)에서 합니다.
 
-발송 전 점검 항목은 [CRM 메시지 발송 전 체크리스트](https://docs.certi.life/guide/products/crm-messaging/message-checklist)를 참고하세요.
+발송 전 점검 항목은 [CRM 메시지 발송 전 체크리스트](https://certi.life/docs/guide/products/crm-messaging/message-checklist)를 참고하세요.
 
 ## 조직 공용 API 도구 만들기
 
@@ -97,7 +97,7 @@
 
 예약 조회처럼 우리 시스템의 API를 챗봇이 호출하게 하려면 API 도구를 만듭니다. API 도구는 챗봇 하나가 아니라 **조직 공용**으로 만들고, 어느 챗봇이 쓸지는 각 챗봇의 `설정` > `도구`에서 `추가`로 정합니다. 개발 담당자와 함께 진행하는 것을 권장합니다.
 
-1. [챗봇 목록](https://docs.certi.life/guide/studio/screens/chatbot/list) 위쪽의 `도구` 탭(`v2 beta`)을 열고 `새 API 도구`를 누릅니다.
+1. [챗봇 목록](https://certi.life/docs/guide/studio/screens/chatbot/list) 위쪽의 `도구` 탭(`v2 beta`)을 열고 `새 API 도구`를 누릅니다.
 2. `기본 정보`에 `도구 이름`(영숫자, 하이픈, 언더스코어만 가능)과 `도구 설명`을 적습니다. AI는 이 설명을 보고 도구를 언제 쓸지 판단하므로, "고객이 말한 값만 인자로 쓴다" 같은 조건까지 적어 두면 좋습니다.
 3. `엔드포인트`에 HTTP 메서드와 주소, 타임아웃을 정합니다. 내부망이나 사설 IP 주소는 허용되지 않습니다.
 4. `파라미터`에 AI가 넘길 인자를 JSON Schema로 정의합니다. `예시 넣기`로 시작하면 편합니다.
@@ -115,5 +115,5 @@
 
 ## 함께 보기
 
-- [매뉴얼](https://docs.certi.life/guide/studio/screens/chatbot/settings/manuals): 도구를 "언제, 어떤 순서로" 쓸지 챗봇에게 알려 주기
-- [상담원 연결 정책](https://docs.certi.life/guide/products/ai-chatbot/handoff-policy)
+- [매뉴얼](https://certi.life/docs/guide/studio/screens/chatbot/settings/manuals): 도구를 "언제, 어떤 순서로" 쓸지 챗봇에게 알려 주기
+- [상담원 연결 정책](https://certi.life/docs/guide/products/ai-chatbot/handoff-policy)

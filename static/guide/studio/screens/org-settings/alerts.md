@@ -2,7 +2,7 @@
 
 > Studio 설정의 운영 설정에서 관리자 알림(상담 인입 알림톡 발송 정책)과 상담사 알림(상담사 알림 정책, 챗봇 진행 중 알림)으로 상담 인입을 관리자와 상담사에게 알리는 기준을 정하는 방법을 안내합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/studio/screens/org-settings/alerts)
+[사람이 읽는 원문](https://certi.life/docs/guide/studio/screens/org-settings/alerts)
 
 상담이 들어왔는데 아무도 모르면 고객은 기다리다 떠납니다. 알림 설정은 **언제, 누구에게** 알릴지를 정합니다. 대상은 둘입니다. 관리자에게는 알림톡으로, 상담사에게는 Studio 안의 알림으로 알립니다. 두 화면 모두 고르는 즉시 적용되며(5초 이내) 저장 버튼이 없습니다.
 
@@ -25,7 +25,7 @@
 
 지금 적용된 쪽에 `적용 중`이 표시됩니다. 문의량이 많은 조직에서 `챗봇 상담 시작시 발송`을 고르면 알림이 지나치게 많아질 수 있으니, 먼저 `상담원 연결 요청시 발송`으로 시작해 보세요.
 
-[자동메시지](https://docs.certi.life/guide/studio/screens/org-settings/auto-messages#상담-전에-고객-정보-받기)에서 `정보 수집 완료 알림`을 켜 두었다면, 고객이 정보를 입력한 뒤에 상담 인입 알림이 갑니다.
+[자동메시지](https://certi.life/docs/guide/studio/screens/org-settings/auto-messages#상담-전에-고객-정보-받기)에서 `정보 수집 완료 알림`을 켜 두었다면, 고객이 정보를 입력한 뒤에 상담 인입 알림이 갑니다.
 
 ## 상담사에게 알리기
 
@@ -42,7 +42,7 @@
 
 ## 알림을 놓치지 않으려면
 
-- 알림만으로는 부족합니다. 상담 가능 시간에는 [상담](https://docs.certi.life/guide/studio/screens/counsel/inbox) 화면의 `대기` 탭을 주기적으로 확인하는 담당자를 정해 두세요.
-- 상담 시간 외에 들어온 문의는 [자동메시지](https://docs.certi.life/guide/studio/screens/org-settings/auto-messages)의 `운영 시간 외` 문구로 언제 답을 받을 수 있는지 안내합니다.
-- 화가 난 고객을 챗봇이 감지해 알리게 하려면 챗봇에 [`컴플레인 대응` 도구](https://docs.certi.life/guide/studio/screens/chatbot/settings/tools#화난-고객을-상담사에게-바로-알리기)를 추가합니다.
-- 어떤 문의를 사람에게 넘길지는 [상담원 연결 정책](https://docs.certi.life/guide/products/ai-chatbot/handoff-policy)에서 기준을 세우세요.
+- 알림만으로는 부족합니다. 상담 가능 시간에는 [상담](https://certi.life/docs/guide/studio/screens/counsel/inbox) 화면의 `대기` 탭을 주기적으로 확인하는 담당자를 정해 두세요.
+- 상담 시간 외에 들어온 문의는 [자동메시지](https://certi.life/docs/guide/studio/screens/org-settings/auto-messages)의 `운영 시간 외` 문구로 언제 답을 받을 수 있는지 안내합니다.
+- 화가 난 고객을 챗봇이 감지해 알리게 하려면 챗봇에 [`컴플레인 대응` 도구](https://certi.life/docs/guide/studio/screens/chatbot/settings/tools#화난-고객을-상담사에게-바로-알리기)를 추가합니다.
+- 어떤 문의를 사람에게 넘길지는 [상담원 연결 정책](https://certi.life/docs/guide/products/ai-chatbot/handoff-policy)에서 기준을 세우세요.

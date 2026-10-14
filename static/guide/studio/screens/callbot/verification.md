@@ -2,7 +2,7 @@
 
 > Studio 콜봇의 조직 인증 화면에서 인증 유형과 신청자 구분을 고르고 사업자등록증·재직증명서를 제출해 인증을 신청하는 방법, 심사 상태를 읽는 법, 반려됐을 때 다시 신청하는 방법을 안내합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/studio/screens/callbot/verification)
+[사람이 읽는 원문](https://certi.life/docs/guide/studio/screens/callbot/verification)
 
 전화번호를 구매하려면 먼저 조직 인증을 받아야 합니다. 실제 사업자가 전화번호를 쓰는지 확인하는 절차입니다. **승인 전에는 번호 구매가 막혀 있고 심사에는 시간이 걸릴 수 있으므로, 에이전트를 만들기 시작할 때 미리 신청해 두는 것이 좋습니다.**
 
@@ -27,7 +27,7 @@
 | `미신청`     | 아직 인증을 신청하지 않았습니다             | 서류를 제출해 신청합니다                                                                           |
 | `자동 확인 중` | 제출한 서류를 자동으로 확인하고 있습니다        | 기다립니다                                                                                   |
 | `심사 중`    | 수동 심사가 진행 중입니다. 시간이 걸릴 수 있습니다 | 기다립니다. 끝나면 이 화면에 자동으로 반영됩니다                                                             |
-| `승인됨`     | 인증이 승인되었습니다                   | [번호 관리](https://docs.certi.life/guide/studio/screens/callbot/phone-numbers)에서 번호를 구매합니다 |
+| `승인됨`     | 인증이 승인되었습니다                   | [번호 관리](https://certi.life/docs/guide/studio/screens/callbot/phone-numbers)에서 번호를 구매합니다 |
 | `반려됨`     | 인증이 반려되었습니다                   | `반려 사유`를 확인하고 `인증 재신청`을 합니다                                                             |
 | `철회됨`     | 인증이 철회되었습니다                   | 필요하면 다시 신청합니다                                                                           |
 
@@ -36,11 +36,11 @@
 ## 알아 둘 점
 
 - 인증 등급에 따라 보유할 수 있는 번호 수가 다릅니다. 화면에는 개인 1개, 개인사업자 3개, 법인 5개로 안내됩니다.
-- [발신표기번호](https://docs.certi.life/guide/studio/screens/callbot/phone-numbers#고객-화면에-보일-번호-등록하기)를 등록할 때 제출하는 통신가입증명원의 명의는 조직 인증 명의와 같아야 합니다.
+- [발신표기번호](https://certi.life/docs/guide/studio/screens/callbot/phone-numbers#고객-화면에-보일-번호-등록하기)를 등록할 때 제출하는 통신가입증명원의 명의는 조직 인증 명의와 같아야 합니다.
 - 반려되었다면 다시 신청하기 전에 상태 카드의 `반려 사유`를 먼저 읽고, 그 사유에 맞게 서류나 신청자 구분을 고쳐 제출하세요.
 - 서류에는 사업자 정보가 들어 있습니다. 조직에서 서류 제출 권한이 있는 담당자가 진행하세요.
 
 ## 함께 보기
 
-- [콜봇 시작하기](https://docs.certi.life/guide/studio/screens/callbot/overview)
-- [번호 관리](https://docs.certi.life/guide/studio/screens/callbot/phone-numbers)
+- [콜봇 시작하기](https://certi.life/docs/guide/studio/screens/callbot/overview)
+- [번호 관리](https://certi.life/docs/guide/studio/screens/callbot/phone-numbers)

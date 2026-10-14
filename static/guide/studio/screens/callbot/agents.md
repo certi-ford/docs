@@ -2,7 +2,7 @@
 
 > Studio 콜봇의 에이전트 화면에서 새 에이전트를 만드는 방법(통화 방향, 프롬프트·플로우 타입, 맞춤형·템플릿·스마트 ARS·빈 에이전트 생성 방식)과 에이전트 목록에서 상태를 확인하는 방법을 목적별로 안내합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/studio/screens/callbot/agents)
+[사람이 읽는 원문](https://certi.life/docs/guide/studio/screens/callbot/agents)
 
 에이전트는 전화 통화를 맡는 AI 상담원 한 명입니다. 새 에이전트를 만들 때는 세 가지를 차례로 정합니다. 어떤 통화를 맡길지(**통화 방향**), 어떤 방식으로 대화할지(**에이전트 타입**), 어떻게 만들지(**생성 방식**)입니다. 처음이라면 `인바운드` → `프롬프트` → `맞춤형`으로 시작하면 AI가 응대 내용 초안까지 써 줍니다.
 
@@ -18,14 +18,14 @@
 | ------- | ----------------------------------------------------------------------------------------------------- |
 | `인바운드`  | 고객이 걸어온 전화를 응대합니다. 가장 일반적인 경우입니다                                                                      |
 | `아웃바운드` | 전화를 걸어 상담사에게 연결합니다. 이름만 정하면 전환 플로우로 자동 생성됩니다                                                          |
-| `캠페인`   | 여러 고객에게 한꺼번에 전화를 거는 [캠페인](https://docs.certi.life/guide/studio/screens/callbot/campaign)에서 쓰는 에이전트입니다 |
+| `캠페인`   | 여러 고객에게 한꺼번에 전화를 거는 [캠페인](https://certi.life/docs/guide/studio/screens/callbot/campaign)에서 쓰는 에이전트입니다 |
 
 **2단계 - `에이전트 타입`: 어떤 방식으로 대화하나요?**
 
 | 선택지    | 이럴 때                                                                                                                |
 | ------ | ------------------------------------------------------------------------------------------------------------------- |
 | `프롬프트` | 짧은 통화와 간단한 작업. 역할과 규칙을 글로 적어 주면 AI가 알아서 대화합니다                                                                       |
-| `플로우`  | 긴 통화와 안정성이 필요한 복잡한 작업. 대화 순서를 [플로우 편집기](https://docs.certi.life/guide/studio/screens/callbot/flow-editor)에서 직접 그립니다 |
+| `플로우`  | 긴 통화와 안정성이 필요한 복잡한 작업. 대화 순서를 [플로우 편집기](https://certi.life/docs/guide/studio/screens/callbot/flow-editor)에서 직접 그립니다 |
 
 `가져오기`(내보낸 에이전트 파일 가져오기)는 화면에 `준비 중`으로 표시됩니다.
 
@@ -52,7 +52,7 @@
 
 > **AI가 쓴 내용은 초안입니다**
 >
-> 영업시간, 가격, 위치처럼 사실이 걸린 문장은 AI가 그럴듯하게 지어냈을 수 있습니다. 만든 직후 [에이전트 설정](https://docs.certi.life/guide/studio/screens/callbot/agent-settings)에서 프롬프트를 읽어 보고 반드시 확인해 고치세요.
+> 영업시간, 가격, 위치처럼 사실이 걸린 문장은 AI가 그럴듯하게 지어냈을 수 있습니다. 만든 직후 [에이전트 설정](https://certi.life/docs/guide/studio/screens/callbot/agent-settings)에서 프롬프트를 읽어 보고 반드시 확인해 고치세요.
 
 ## 버튼 메뉴가 있는 ARS로 만들기
 
@@ -65,13 +65,13 @@
 - **`버튼 메뉴 안내 시점`:** `인사말 직후 바로 안내`(전형적인 ARS 흐름) 또는 `AI가 용건을 먼저 확인`(대화로 용건을 물은 뒤 필요할 때 안내).
 - **`버튼 입력 후 응대 방식`:** `AI가 상황에 맞게 설명` 또는 `작성한 멘트 그대로 재생`.
 - **`상담사 연결 사용`:** 켜면 고객이 상담원 연결을 요청하거나 선택했을 때 지정한 `상담사 번호` 또는 `번호 그룹`으로 전화가 연결됩니다.
-- **`통화 종료 시 추출 사용`**, **`지식 베이스 사용`:** 통화 내용에서 항목을 기록하게 하거나, [지식 베이스](https://docs.certi.life/guide/studio/screens/callbot/knowledge)의 문서를 답변에 활용하게 합니다.
+- **`통화 종료 시 추출 사용`**, **`지식 베이스 사용`:** 통화 내용에서 항목을 기록하게 하거나, [지식 베이스](https://certi.life/docs/guide/studio/screens/callbot/knowledge)의 문서를 답변에 활용하게 합니다.
 
 ## 상담사에게 연결해 주는 발신용 에이전트 만들기
 
 **위치:** 콜봇 > 에이전트 > 새 에이전트 > 아웃바운드
 
-`아웃바운드`를 고르면 `에이전트 이름`만 입력하면 됩니다. "시작 → 통화 전환 → 종료" 플로우로 자동 생성되고, 전환할 상담사는 [전화상담](https://docs.certi.life/guide/studio/screens/phone-counsel#고객에게-전화-걸기)의 발신 화면에서 통화마다 고릅니다. 아웃바운드 에이전트는 조직에 하나만 만들 수 있으므로, 이미 있다면 그것을 사용하세요.
+`아웃바운드`를 고르면 `에이전트 이름`만 입력하면 됩니다. "시작 → 통화 전환 → 종료" 플로우로 자동 생성되고, 전환할 상담사는 [전화상담](https://certi.life/docs/guide/studio/screens/phone-counsel#고객에게-전화-걸기)의 발신 화면에서 통화마다 고릅니다. 아웃바운드 에이전트는 조직에 하나만 만들 수 있으므로, 이미 있다면 그것을 사용하세요.
 
 ## 에이전트 목록 읽는 법
 
@@ -86,10 +86,10 @@
 | `플로우 에이전트` / `단일 프롬프트 에이전트` | 에이전트 타입               |
 | `수정` 날짜, `배포` 버전            | 마지막 수정일과 게시된 버전       |
 
-위쪽에서 `전체`, `사용대기`, `배포됨`으로 거르고 `수정일자순`, `생성일자순`으로 정렬합니다. 에이전트를 누르면 [에이전트 설정](https://docs.certi.life/guide/studio/screens/callbot/agent-settings) 화면이 열리고, 오른쪽 테스트 패널에서 바로 시험해 볼 수 있습니다. 삭제는 목록이 아니라 설정 화면 위쪽의 `삭제`에서 합니다.
+위쪽에서 `전체`, `사용대기`, `배포됨`으로 거르고 `수정일자순`, `생성일자순`으로 정렬합니다. 에이전트를 누르면 [에이전트 설정](https://certi.life/docs/guide/studio/screens/callbot/agent-settings) 화면이 열리고, 오른쪽 테스트 패널에서 바로 시험해 볼 수 있습니다. 삭제는 목록이 아니라 설정 화면 위쪽의 `삭제`에서 합니다.
 
 ## 함께 보기
 
-- [에이전트 설정](https://docs.certi.life/guide/studio/screens/callbot/agent-settings): 음성, 프롬프트, 도구, 통화 설정을 다듬고 배포하기
-- [번호 관리](https://docs.certi.life/guide/studio/screens/callbot/phone-numbers): 만든 에이전트가 실제 전화를 받게 연결하기
-- [콜봇 시작하기](https://docs.certi.life/guide/studio/screens/callbot/overview)
+- [에이전트 설정](https://certi.life/docs/guide/studio/screens/callbot/agent-settings): 음성, 프롬프트, 도구, 통화 설정을 다듬고 배포하기
+- [번호 관리](https://certi.life/docs/guide/studio/screens/callbot/phone-numbers): 만든 에이전트가 실제 전화를 받게 연결하기
+- [콜봇 시작하기](https://certi.life/docs/guide/studio/screens/callbot/overview)

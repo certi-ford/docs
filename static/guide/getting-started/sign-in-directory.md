@@ -2,7 +2,7 @@
 
 > Hospital, 제조사 관리자, Studio와 공식 다운로드 페이지 중 내 역할에 맞는 접속 경로를 찾습니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/getting-started/sign-in-directory)
+[사람이 읽는 원문](https://certi.life/docs/guide/getting-started/sign-in-directory)
 
 CertiLife는 사용자 역할과 서비스에 따라 접속 화면이 다릅니다. 검색 결과나 전달받은 비공식 링크 대신 아래 공식 주소를 사용하세요.
 
@@ -26,7 +26,7 @@ Hospital, Manufacturer, Studio는 웹 브라우저에서 위 주소로 접속합
 4. 아이디를 잊었다면 **아이디 찾기**, 비밀번호를 잊었다면 **비밀번호 재설정**을 선택합니다.
 5. 계정 생성이나 제휴 관련 문의는 화면의 **제휴 문의**를 이용합니다.
 
-자세한 내용은 [Hospital 계정 접속](https://docs.certi.life/guide/hospital/account-access)을 확인하세요.
+자세한 내용은 [Hospital 계정 접속](https://certi.life/docs/guide/hospital/account-access)을 확인하세요.
 
 ## 제조사 관리자 화면에 접속할 때
 
@@ -35,7 +35,7 @@ Hospital, Manufacturer, Studio는 웹 브라우저에서 위 주소로 접속합
 3. 비밀번호를 잊었다면 **비밀번호 찾기**를 선택합니다.
 4. 계정 또는 제휴 안내가 필요하면 화면의 **가입·제휴 문의**를 이용합니다.
 
-제조사 계정을 병원 계정이나 Studio 계정과 혼동하지 마세요. 동일한 담당자라도 역할에 따라 별도 계정이 필요할 수 있으므로, 확인되지 않은 계정 정보를 반복 입력하기보다 조직 담당자에게 먼저 문의하세요. 자세한 내용은 [Manufacturer 계정 접속](https://docs.certi.life/guide/manufacturer/account-access)을 확인하세요.
+제조사 계정을 병원 계정이나 Studio 계정과 혼동하지 마세요. 동일한 담당자라도 역할에 따라 별도 계정이 필요할 수 있으므로, 확인되지 않은 계정 정보를 반복 입력하기보다 조직 담당자에게 먼저 문의하세요. 자세한 내용은 [Manufacturer 계정 접속](https://certi.life/docs/guide/manufacturer/account-access)을 확인하세요.
 
 ## Studio에 접속할 때
 
@@ -43,7 +43,7 @@ Hospital, Manufacturer, Studio는 웹 브라우저에서 위 주소로 접속합
 2. 발급받은 Username과 Password를 입력합니다.
 3. 로그인 정보가 없거나 작동하지 않으면 비밀번호를 공유받지 말고 조직의 CertiLife 담당자에게 계정 상태를 확인합니다.
 
-Studio는 등록한 자료를 기반으로 AI 챗봇 상담을 준비하고 운영하는 서비스입니다. 챗봇·상담·CRM·콜봇을 맡은 담당자가 씁니다. 계정 안내는 [Studio 계정 접속](https://docs.certi.life/guide/studio/account-access), 운영 준비는 [상담 지식 관리](https://docs.certi.life/guide/studio/knowledge-management)를 확인하세요.
+Studio는 등록한 자료를 기반으로 AI 챗봇 상담을 준비하고 운영하는 서비스입니다. 챗봇·상담·CRM·콜봇을 맡은 담당자가 씁니다. 계정 안내는 [Studio 계정 접속](https://certi.life/docs/guide/studio/account-access), 운영 준비는 [상담 지식 관리](https://certi.life/docs/guide/studio/knowledge-management)를 확인하세요.
 
 > **계정 정보를 보호하세요**
 >
@@ -56,10 +56,10 @@ Studio는 등록한 자료를 기반으로 AI 챗봇 상담을 준비하고 운�
 - 계정 종류가 접속하려는 서비스와 일치하는지 확인합니다.
 - 비밀번호를 여러 차례 추측해 입력하지 말고 공개된 복구 기능이나 조직 담당자를 이용합니다.
 - 브라우저를 새로 열거나 네트워크 연결을 확인합니다.
-- 해결되지 않으면 [문제 해결](https://docs.certi.life/guide/help/troubleshooting)의 점검 항목을 따라 정보를 정리합니다.
+- 해결되지 않으면 [문제 해결](https://certi.life/docs/guide/help/troubleshooting)의 점검 항목을 따라 정보를 정리합니다.
 
 ## 다음 문서
 
-- [내게 맞는 가이드 찾기](https://docs.certi.life/guide/getting-started/choose-guide)
-- [CertiLife 다운로드](https://docs.certi.life/guide/getting-started/downloads)
-- [개인정보 및 보안](https://docs.certi.life/guide/help/privacy-security)
+- [내게 맞는 가이드 찾기](https://certi.life/docs/guide/getting-started/choose-guide)
+- [CertiLife 다운로드](https://certi.life/docs/guide/getting-started/downloads)
+- [개인정보 및 보안](https://certi.life/docs/guide/help/privacy-security)

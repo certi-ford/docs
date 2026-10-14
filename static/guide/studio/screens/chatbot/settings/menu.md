@@ -2,7 +2,7 @@
 
 > Studio 챗봇 상세의 설정 탭과 설정 메뉴(기본 정보, AI 설정, 도구, 매뉴얼, 작동시간, AI 학습자료 설정, 채널 설정, 채팅창 설정, 챗봇 삭제)에서 각각 무엇을 바꾸는지, 저장은 어떻게 되는지 안내합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/studio/screens/chatbot/settings/menu)
+[사람이 읽는 원문](https://certi.life/docs/guide/studio/screens/chatbot/settings/menu)
 
 챗봇 하나에 대한 모든 설정은 `설정` 탭에 모여 있습니다. 왼쪽 `설정 메뉴`에서 항목을 고르면 오른쪽에 그 설정이 열립니다. 항목이 아홉 개라 처음에는 어디로 가야 할지 헷갈릴 수 있는데, 아래 표에서 바꾸려는 내용을 찾으면 됩니다.
 
@@ -12,15 +12,15 @@
 
 | 이런 걸 바꾸고 싶어요                                | 설정 메뉴                                                                                            |
 | ------------------------------------------- | ------------------------------------------------------------------------------------------------ |
-| 챗봇 이름, 프로필 이미지, 설명 / 챗봇을 다른 계정으로 복사         | [`기본 정보`](https://docs.certi.life/guide/studio/screens/chatbot/settings/basic-info)              |
-| 말투와 역할(페르소나), 직접 쓴 프롬프트, 답변 범위, 응답 버전, 언어   | [`AI 설정`](https://docs.certi.life/guide/studio/screens/chatbot/settings/ai-settings)             |
-| 대화 중 고객 정보 챙기기, 진료시간 안내, 컴플레인 감지, 담당자 알림톡   | [`도구`](https://docs.certi.life/guide/studio/screens/chatbot/settings/tools) (`v2 beta`)          |
-| 특정 상황에서 정해진 절차대로 응대                         | [`매뉴얼`](https://docs.certi.life/guide/studio/screens/chatbot/settings/manuals) (`v2 beta`)       |
-| 챗봇이 쉬는 시간과 공휴일                              | [`작동시간`](https://docs.certi.life/guide/studio/screens/chatbot/settings/operating-hours)          |
-| 챗봇이 답변 근거로 쓰는 자료                            | [`AI 학습자료 설정`](https://docs.certi.life/guide/studio/screens/chatbot/settings/training-materials) |
-| 웹사이트·카카오톡·네이버 톡톡·Instagram·LINE·WhatsApp 연결 | [`채널 설정`](https://docs.certi.life/guide/studio/screens/chatbot/settings/channel-settings)        |
-| 웹채팅 창과 채팅 버튼의 색, 크기, 문구                     | [`채팅창 설정`](https://docs.certi.life/guide/studio/screens/chatbot/settings/chat-window-settings)   |
-| 챗봇 삭제                                       | [`챗봇 삭제`](https://docs.certi.life/guide/studio/screens/chatbot/settings/delete-chatbot)          |
+| 챗봇 이름, 프로필 이미지, 설명 / 챗봇을 다른 계정으로 복사         | [`기본 정보`](https://certi.life/docs/guide/studio/screens/chatbot/settings/basic-info)              |
+| 말투와 역할(페르소나), 직접 쓴 프롬프트, 답변 범위, 응답 버전, 언어   | [`AI 설정`](https://certi.life/docs/guide/studio/screens/chatbot/settings/ai-settings)             |
+| 대화 중 고객 정보 챙기기, 진료시간 안내, 컴플레인 감지, 담당자 알림톡   | [`도구`](https://certi.life/docs/guide/studio/screens/chatbot/settings/tools) (`v2 beta`)          |
+| 특정 상황에서 정해진 절차대로 응대                         | [`매뉴얼`](https://certi.life/docs/guide/studio/screens/chatbot/settings/manuals) (`v2 beta`)       |
+| 챗봇이 쉬는 시간과 공휴일                              | [`작동시간`](https://certi.life/docs/guide/studio/screens/chatbot/settings/operating-hours)          |
+| 챗봇이 답변 근거로 쓰는 자료                            | [`AI 학습자료 설정`](https://certi.life/docs/guide/studio/screens/chatbot/settings/training-materials) |
+| 웹사이트·카카오톡·네이버 톡톡·Instagram·LINE·WhatsApp 연결 | [`채널 설정`](https://certi.life/docs/guide/studio/screens/chatbot/settings/channel-settings)        |
+| 웹채팅 창과 채팅 버튼의 색, 크기, 문구                     | [`채팅창 설정`](https://certi.life/docs/guide/studio/screens/chatbot/settings/chat-window-settings)   |
+| 챗봇 삭제                                       | [`챗봇 삭제`](https://certi.life/docs/guide/studio/screens/chatbot/settings/delete-chatbot)          |
 
 ## 저장은 이렇게 됩니다
 
@@ -33,7 +33,7 @@
 
 `AI 설정` 안에서도 `응답 버전`은 예외로, 선택하는 즉시 적용됩니다.
 
-저장하지 않은 채 다른 항목이나 다른 탭으로 이동하려 하면 `저장하지 않은 변경사항이 있습니다` 창이 뜹니다. 버튼은 `취소`와 `이동`입니다. `이동`을 누르면 바꾼 내용이 사라지니, 남기려면 `취소`를 누르고 먼저 저장하세요. 챗봇 상세 화면을 아예 떠나려 할 때는 버튼이 `취소`와 `나가기`인 창이 뜹니다. 창마다 다른 문구는 아래 [문제가 생기면](https://docs.certi.life/guide/studio/screens/chatbot/settings/menu#문제가-생기면)에 정리했습니다.
+저장하지 않은 채 다른 항목이나 다른 탭으로 이동하려 하면 `저장하지 않은 변경사항이 있습니다` 창이 뜹니다. 버튼은 `취소`와 `이동`입니다. `이동`을 누르면 바꾼 내용이 사라지니, 남기려면 `취소`를 누르고 먼저 저장하세요. 챗봇 상세 화면을 아예 떠나려 할 때는 버튼이 `취소`와 `나가기`인 창이 뜹니다. 창마다 다른 문구는 아래 [문제가 생기면](https://certi.life/docs/guide/studio/screens/chatbot/settings/menu#문제가-생기면)에 정리했습니다.
 
 > **v2 beta 표시**
 >

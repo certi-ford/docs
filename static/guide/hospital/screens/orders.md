@@ -2,7 +2,7 @@
 
 > Hospital 구매/주문 관리의 결제 내역 관리에서 정기 결제와 렌탈 내역, 결제 카드를 확인하고, 주문 관리에서 충전금 잔액과 충전금 이력, 배송 현황을 보고 구매확정하며, 전자계약에서 제조사와 맺은 계약서의 서명 진행 상황을 확인하는 방법을 안내합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/hospital/screens/orders)
+[사람이 읽는 원문](https://certi.life/docs/guide/hospital/screens/orders)
 
 `구매/주문 관리`는 병원이 **구매한 것과 계약한 것을 확인하는 곳**입니다. 메뉴는 세 개입니다. `결제 내역 관리`는 정기 결제와 렌탈, `주문 관리`는 충전금과 배송, `전자계약`은 제조사와 맺은 계약서를 다룹니다. 세 화면 모두 조회가 중심이며 여기에서 새 주문이나 새 계약을 만들지는 않습니다.
 
@@ -14,11 +14,11 @@
 
 | 하려는 일                | 가는 곳                                                                                   |
 | -------------------- | -------------------------------------------------------------------------------------- |
-| 이번 달에 무엇이 결제되는지 확인하기 | [결제 내역 확인하기](https://docs.certi.life/guide/hospital/screens/orders#결제-내역-확인하기)         |
-| 결제 카드를 바꾸기           | [결제 카드 바꾸기](https://docs.certi.life/guide/hospital/screens/orders#결제-카드-바꾸기)           |
-| 충전금이 얼마나 남았는지 보기     | [충전금과 주문 보기](https://docs.certi.life/guide/hospital/screens/orders#충전금과-주문-보기)         |
-| 받은 물건을 구매확정하기        | [배송 확인하고 구매확정하기](https://docs.certi.life/guide/hospital/screens/orders#배송-확인하고-구매확정하기) |
-| 계약서 서명이 끝났는지 확인하기    | [전자계약 확인하기](https://docs.certi.life/guide/hospital/screens/orders#전자계약-확인하기)           |
+| 이번 달에 무엇이 결제되는지 확인하기 | [결제 내역 확인하기](https://certi.life/docs/guide/hospital/screens/orders#결제-내역-확인하기)         |
+| 결제 카드를 바꾸기           | [결제 카드 바꾸기](https://certi.life/docs/guide/hospital/screens/orders#결제-카드-바꾸기)           |
+| 충전금이 얼마나 남았는지 보기     | [충전금과 주문 보기](https://certi.life/docs/guide/hospital/screens/orders#충전금과-주문-보기)         |
+| 받은 물건을 구매확정하기        | [배송 확인하고 구매확정하기](https://certi.life/docs/guide/hospital/screens/orders#배송-확인하고-구매확정하기) |
+| 계약서 서명이 끝났는지 확인하기    | [전자계약 확인하기](https://certi.life/docs/guide/hospital/screens/orders#전자계약-확인하기)           |
 
 ## 결제 내역 확인하기
 
@@ -72,9 +72,9 @@ CertiLife에서 구매한 상품과 렌탈 내역을 봅니다.
 - **진행상황:** `서명 진행중`, `첫번째 서명 진행중`, `두번째 서명 진행중`, `모든 서명 완료`, `서명 중단됨`. 첫 번째와 두 번째 서명자가 병원인지 제조사인지는 화면에서 확인되지 않았으므로 `계약서 보기`에서 서명 순서를 확인하세요. `서명 중단됨`이면 거래 제조사 담당자에게 연락합니다.
 - **`계약서 보기`:** 계약서를 엽니다.
 
-이 화면은 조회 전용입니다. 계약서를 만들고 서명을 요청하는 절차는 이 가이드에 없으므로 거래 제조사 담당자에게 확인하세요. 진행된 계약이 없으면 "진행된 계약이 없습니다."가 표시됩니다. 직원과 맺는 근로계약서, 환자에게 받는 시술동의서는 [시술동의서와 근로계약서](https://docs.certi.life/guide/hospital/screens/contracts)에서 다룹니다.
+이 화면은 조회 전용입니다. 계약서를 만들고 서명을 요청하는 절차는 이 가이드에 없으므로 거래 제조사 담당자에게 확인하세요. 진행된 계약이 없으면 "진행된 계약이 없습니다."가 표시됩니다. 직원과 맺는 근로계약서, 환자에게 받는 시술동의서는 [시술동의서와 근로계약서](https://certi.life/docs/guide/hospital/screens/contracts)에서 다룹니다.
 
 ## 함께 보기
 
-- [Hospital 메뉴 한눈에 보기](https://docs.certi.life/guide/hospital/screens/overview)
-- [계정 관리](https://docs.certi.life/guide/hospital/screens/accounts)
+- [Hospital 메뉴 한눈에 보기](https://certi.life/docs/guide/hospital/screens/overview)
+- [계정 관리](https://certi.life/docs/guide/hospital/screens/accounts)

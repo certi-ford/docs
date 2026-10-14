@@ -2,7 +2,7 @@
 
 > Studio 설정의 상담 파일 관리에서 상담 메시지 첨부파일의 사용량과 파일 수, 용량 초과로 차단된 파일을 확인하고 파일을 삭제해 용량을 확보하는 방법을 안내합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/studio/screens/org-settings/file-storage)
+[사람이 읽는 원문](https://certi.life/docs/guide/studio/screens/org-settings/file-storage)
 
 채팅 상담에서 주고받은 이미지와 파일은 조직의 저장 용량을 차지합니다. 용량이 가득 차면 오래된 파일이 `용량 초과` 상태가 되어 열 수 없게 됩니다. `상담 파일 관리`에서는 지금 얼마나 쓰고 있는지 확인하고, 필요 없는 파일을 지워 용량을 확보합니다.
 
@@ -36,4 +36,4 @@
 
 ## 용량이 부족할 때
 
-정리해도 부족하다면 화면의 안내대로 고객 센터에 저장 용량 증설을 문의하세요. 평소에는 상담원이 큰 파일 대신 링크로 안내하도록 하면 용량을 아낄 수 있습니다. 상담원이 파일을 첨부하는 방법은 [상담의 답변 도구](https://docs.certi.life/guide/studio/screens/counsel/reply-tools#파일과-이미지-보내기)를 참고하세요.
+정리해도 부족하다면 화면의 안내대로 고객 센터에 저장 용량 증설을 문의하세요. 평소에는 상담원이 큰 파일 대신 링크로 안내하도록 하면 용량을 아낄 수 있습니다. 상담원이 파일을 첨부하는 방법은 [상담의 답변 도구](https://certi.life/docs/guide/studio/screens/counsel/reply-tools#파일과-이미지-보내기)를 참고하세요.

@@ -2,7 +2,7 @@
 
 > Studio 콜봇의 사용자 관리에서 통화를 넘겨받을 상담사 번호를 등록하고(내선, 착신전환, 링그룹), Studio 계정에 번호를 연결하며, 번호 그룹과 배정 전략(순차 배정, 최소 상담시간, 최대 대기시간, 랜덤 배정)을 정하는 방법을 안내합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/studio/screens/callbot/users)
+[사람이 읽는 원문](https://certi.life/docs/guide/studio/screens/callbot/users)
 
 콜봇이 통화를 사람에게 넘기려면 **넘겨받을 전화번호**가 있어야 합니다. `사용자 관리`에서는 세 가지를 합니다. 상담사 번호를 등록하고, 그 번호를 Studio 계정에 연결하고, 여러 번호를 그룹으로 묶습니다. 계정 자체는 여기에서 만들지 않으며 Studio 계정을 그대로 씁니다.
 
@@ -14,9 +14,9 @@
 
 | 하려는 일                                 | 가는 곳                                                                                  |
 | ------------------------------------- | ------------------------------------------------------------------------------------- |
-| 콜봇이 넘겨줄 상담사 전화번호 등록하기                 | [상담사 번호 등록하기](https://docs.certi.life/guide/studio/screens/callbot/users#상담사-번호-등록하기) |
-| 전화상담에서 "내 계정에 연결된 상담사 번호가 없습니다"가 나올 때 | [계정에 번호 연결하기](https://docs.certi.life/guide/studio/screens/callbot/users#계정에-번호-연결하기) |
-| 여러 상담사에게 골고루 연결하기                     | [번호 그룹 만들기](https://docs.certi.life/guide/studio/screens/callbot/users#번호-그룹-만들기)     |
+| 콜봇이 넘겨줄 상담사 전화번호 등록하기                 | [상담사 번호 등록하기](https://certi.life/docs/guide/studio/screens/callbot/users#상담사-번호-등록하기) |
+| 전화상담에서 "내 계정에 연결된 상담사 번호가 없습니다"가 나올 때 | [계정에 번호 연결하기](https://certi.life/docs/guide/studio/screens/callbot/users#계정에-번호-연결하기) |
+| 여러 상담사에게 골고루 연결하기                     | [번호 그룹 만들기](https://certi.life/docs/guide/studio/screens/callbot/users#번호-그룹-만들기)     |
 
 ## 상담사 번호 등록하기
 
@@ -46,7 +46,7 @@
 
 **위치:** 콜봇 > 사용자 관리 > 계정 연결
 
-[전화상담](https://docs.certi.life/guide/studio/screens/phone-counsel)에서 전화를 받거나 걸려면 내 Studio 계정에 상담사 번호가 연결되어 있어야 합니다. 이 작업은 `콜봇` 메뉴와 `사용자 관리`가 보이는 계정에서 합니다. 상담사 본인 계정에 이 메뉴가 없거나 "사용자 관리 저장 기능이 아직 준비되지 않았습니다."가 표시되면, 조직 관리자에게 내 Studio 계정 이름과 상담사 번호를 알려 연결을 요청하세요. 어느 권한이 이 메뉴를 보는지는 확인되지 않았습니다.
+[전화상담](https://certi.life/docs/guide/studio/screens/phone-counsel)에서 전화를 받거나 걸려면 내 Studio 계정에 상담사 번호가 연결되어 있어야 합니다. 이 작업은 `콜봇` 메뉴와 `사용자 관리`가 보이는 계정에서 합니다. 상담사 본인 계정에 이 메뉴가 없거나 "사용자 관리 저장 기능이 아직 준비되지 않았습니다."가 표시되면, 조직 관리자에게 내 Studio 계정 이름과 상담사 번호를 알려 연결을 요청하세요. 어느 권한이 이 메뉴를 보는지는 확인되지 않았습니다.
 
 1. `계정 연결` 탭을 엽니다.
 2. 계정 행에서 `번호 연결`을 누릅니다.
@@ -75,11 +75,11 @@
 
 ## 등록한 번호를 쓰는 곳
 
-- 에이전트의 [통화 전환 도구](https://docs.certi.life/guide/studio/screens/callbot/tools#상담사에게-전화를-넘기게-하기)에서 넘길 대상으로 고릅니다.
-- [DTMF 메뉴](https://docs.certi.life/guide/studio/screens/callbot/dtmf-menus#키마다-할-일-정하기)의 `상담원 전환`에서 `전환 대상`으로 고릅니다.
-- [전화상담](https://docs.certi.life/guide/studio/screens/phone-counsel)에서 상담사가 전화를 받고 겁니다.
+- 에이전트의 [통화 전환 도구](https://certi.life/docs/guide/studio/screens/callbot/tools#상담사에게-전화를-넘기게-하기)에서 넘길 대상으로 고릅니다.
+- [DTMF 메뉴](https://certi.life/docs/guide/studio/screens/callbot/dtmf-menus#키마다-할-일-정하기)의 `상담원 전환`에서 `전환 대상`으로 고릅니다.
+- [전화상담](https://certi.life/docs/guide/studio/screens/phone-counsel)에서 상담사가 전화를 받고 겁니다.
 
 ## 함께 보기
 
-- [콜봇 메뉴 시작하기](https://docs.certi.life/guide/studio/screens/callbot/overview)
-- [번호 관리](https://docs.certi.life/guide/studio/screens/callbot/phone-numbers)
+- [콜봇 메뉴 시작하기](https://certi.life/docs/guide/studio/screens/callbot/overview)
+- [번호 관리](https://certi.life/docs/guide/studio/screens/callbot/phone-numbers)

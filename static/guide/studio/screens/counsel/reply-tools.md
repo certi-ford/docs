@@ -2,7 +2,7 @@
 
 > Studio 상담 화면에서 상담 백과사전의 인용문을 채팅 입력창에 넣고, 서티 AI에게 질문하거나 답변 초안을 받고, 자주 쓰는 답변을 슬래시로 불러오고, 파일과 이미지를 첨부하고, 메시지를 복사·삭제하는 방법을 안내합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/studio/screens/counsel/reply-tools)
+[사람이 읽는 원문](https://certi.life/docs/guide/studio/screens/counsel/reply-tools)
 
 같은 질문에 상담원마다 다르게 답하면 고객은 혼란스럽고, 매번 새로 타이핑하면 느립니다. 상담 화면에는 **정해진 안내를 빠르게 가져다 쓰는 도구**가 네 가지 있습니다. 조직의 문서를 찾아 넣는 `상담 백과사전`, 물어보면 찾아 주는 `서티 AI`, 단축 입력인 `자주 쓰는 답변`, 그리고 파일 첨부입니다.
 
@@ -12,16 +12,16 @@
 
 | 상황                             | 도구                                                                                                  |
 | ------------------------------ | --------------------------------------------------------------------------------------------------- |
-| 주차, 진료시간처럼 정해진 안내를 그대로 보내고 싶어요 | [상담 백과사전에서 찾아 넣기](https://docs.certi.life/guide/studio/screens/counsel/reply-tools#상담-백과사전에서-찾아-넣기) |
-| 어디에 있는 내용인지 모르겠어요              | [서티 AI에게 물어보기](https://docs.certi.life/guide/studio/screens/counsel/reply-tools#서티-ai에게-물어보기)       |
-| 인사말, 마무리 멘트를 매번 치기 귀찮아요        | [자주 쓰는 답변 빠르게 넣기](https://docs.certi.life/guide/studio/screens/counsel/reply-tools#자주-쓰는-답변-빠르게-넣기) |
-| 약도나 안내 이미지를 보내고 싶어요            | [파일과 이미지 보내기](https://docs.certi.life/guide/studio/screens/counsel/reply-tools#파일과-이미지-보내기)         |
+| 주차, 진료시간처럼 정해진 안내를 그대로 보내고 싶어요 | [상담 백과사전에서 찾아 넣기](https://certi.life/docs/guide/studio/screens/counsel/reply-tools#상담-백과사전에서-찾아-넣기) |
+| 어디에 있는 내용인지 모르겠어요              | [서티 AI에게 물어보기](https://certi.life/docs/guide/studio/screens/counsel/reply-tools#서티-ai에게-물어보기)       |
+| 인사말, 마무리 멘트를 매번 치기 귀찮아요        | [자주 쓰는 답변 빠르게 넣기](https://certi.life/docs/guide/studio/screens/counsel/reply-tools#자주-쓰는-답변-빠르게-넣기) |
+| 약도나 안내 이미지를 보내고 싶어요            | [파일과 이미지 보내기](https://certi.life/docs/guide/studio/screens/counsel/reply-tools#파일과-이미지-보내기)         |
 
 ## 상담 백과사전에서 찾아 넣기
 
 **위치:** 상담 > 상담 백과사전
 
-화면 가운데의 `상담 백과사전`은 조직의 [백과사전](https://docs.certi.life/guide/studio/screens/encyclopedia) 문서를 상담 중에 바로 찾아보는 패널입니다.
+화면 가운데의 `상담 백과사전`은 조직의 [백과사전](https://certi.life/docs/guide/studio/screens/encyclopedia) 문서를 상담 중에 바로 찾아보는 패널입니다.
 
 1. `태그·키워드 검색`에 찾을 말을 입력하거나 폴더를 펼쳐 태그를 누릅니다. 자주 쓰는 것은 `즐겨찾기` 탭에 모아 둘 수 있습니다.
 2. 아래 미리보기에 문서가 열립니다. 태그에 문서가 여러 개면 `문서 선택`에서 고릅니다.
@@ -45,7 +45,7 @@
 
 입력창 위쪽의 서티 AI 영역에서는 고객 답변 초안을 받을 수도 있습니다. 초안이 마음에 들면 `적용`을 눌러 입력창에 넣습니다. 입력창에 쓰던 내용이 있으면 "기존 메시지를 지우고 서티 AI 초안을 넣을까요?"라고 먼저 묻습니다.
 
-"등록된 지식 자료가 없습니다"가 표시되면 백과사전에 문서가 없는 것입니다. 서티 AI는 백과사전에 등록된 문서를 참고하므로 [백과사전](https://docs.certi.life/guide/studio/screens/encyclopedia)에 태그와 문서를 먼저 등록해야 합니다.
+"등록된 지식 자료가 없습니다"가 표시되면 백과사전에 문서가 없는 것입니다. 서티 AI는 백과사전에 등록된 문서를 참고하므로 [백과사전](https://certi.life/docs/guide/studio/screens/encyclopedia)에 태그와 문서를 먼저 등록해야 합니다.
 
 > **초안은 확인하고 보내세요**
 >
@@ -61,7 +61,7 @@
 
 쓴 내용을 한 번에 지우려면 `모두 지우기`를 누릅니다.
 
-목록에 나오는 답변은 설정의 [`운영 설정` > `자주 사용하는 답변`](https://docs.certi.life/guide/studio/screens/org-settings/overview#상담-채팅에서-쓸-답변-미리-만들기)에서 만들고 지웁니다. 메뉴 이름은 `자주 사용하는 답변`이고, 상담 화면의 패널 이름은 `자주 쓰는 답변`입니다. 같은 목록입니다.
+목록에 나오는 답변은 설정의 [`운영 설정` > `자주 사용하는 답변`](https://certi.life/docs/guide/studio/screens/org-settings/overview#상담-채팅에서-쓸-답변-미리-만들기)에서 만들고 지웁니다. 메뉴 이름은 `자주 사용하는 답변`이고, 상담 화면의 패널 이름은 `자주 쓰는 답변`입니다. 같은 목록입니다.
 
 ## 파일과 이미지 보내기
 
@@ -71,7 +71,7 @@
 2. 파일을 고르고, 필요하면 함께 보낼 메시지를 적습니다.
 3. `전송`을 누릅니다.
 
-한 번에 최대 20개까지, 파일 하나는 100MB까지 첨부할 수 있습니다. 5MB가 넘는 이미지는 압축해서 보내며, `압축된 이미지 확인` 창에서 화질을 확인한 뒤 첨부합니다. 첨부한 파일은 조직의 저장 용량을 차지합니다. 용량은 관리자가 [상담 파일 관리](https://docs.certi.life/guide/studio/screens/org-settings/file-storage)에서 확인합니다.
+한 번에 최대 20개까지, 파일 하나는 100MB까지 첨부할 수 있습니다. 5MB가 넘는 이미지는 압축해서 보내며, `압축된 이미지 확인` 창에서 화질을 확인한 뒤 첨부합니다. 첨부한 파일은 조직의 저장 용량을 차지합니다. 용량은 관리자가 [상담 파일 관리](https://certi.life/docs/guide/studio/screens/org-settings/file-storage)에서 확인합니다.
 
 > **첨부 전에 확인하세요**
 >
@@ -90,5 +90,5 @@
 
 ## 함께 보기
 
-- [백과사전](https://docs.certi.life/guide/studio/screens/encyclopedia): 상담 백과사전에 보일 문서 관리하기
-- [외국어 고객과 대화하기](https://docs.certi.life/guide/studio/screens/counsel/translation)
+- [백과사전](https://certi.life/docs/guide/studio/screens/encyclopedia): 상담 백과사전에 보일 문서 관리하기
+- [외국어 고객과 대화하기](https://certi.life/docs/guide/studio/screens/counsel/translation)

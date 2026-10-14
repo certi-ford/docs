@@ -4,12 +4,18 @@ import {fileURLToPath} from 'node:url';
 import {requiredDocIds} from './docs-manifest.mjs';
 import {parse} from 'parse5';
 import {verifyProduction} from './verify-production.mjs';
+import {siteRoot} from './generate-ai-discovery.mjs';
 
 const projectRoot = join(dirname(fileURLToPath(import.meta.url)), '..');
 const buildRoot = join(projectRoot, 'build');
 
 function buildFixtureFetch(url) {
-  const {pathname} = new URL(url);
+  // Production URLs carry the baseUrl (/docs/...); build/ holds the site root.
+  const fullPath = new URL(url).pathname;
+  if (!fullPath.startsWith(siteRoot.pathname)) {
+    return Promise.resolve(new Response('not found', {status: 404, headers: {'content-type': 'text/plain'}}));
+  }
+  const pathname = `/${fullPath.slice(siteRoot.pathname.length)}`;
   let relativePath;
   let contentType;
   if (pathname === '/robots.txt' || pathname === '/llms.txt') {
@@ -45,6 +51,7 @@ function buildFixtureFetch(url) {
 
 await verifyProduction({projectRoot, fetchImpl: buildFixtureFetch, retries: 1, delayMs: 0});
 const homeDocument = parse(readFileSync(join(buildRoot, 'index.html'), 'utf8'));
+const logoSrc = `${siteRoot.pathname}img/certilife-logo-172.png`;
 const navbarLogoImages = [];
 const optimizedLogoImages = [];
 const attrsOf = (node) => Object.fromEntries((node.attrs ?? []).map(({name, value}) => [name, value]));
@@ -52,13 +59,13 @@ const hasClass = (attrs, name) => (attrs.class ?? '').split(/\s+/).includes(name
 function collectImages(node, ancestors = []) {
   const attrs = attrsOf(node);
   if (node.nodeName === 'img') {
-    if (attrs.src === '/img/certilife-logo-172.png') optimizedLogoImages.push({attrs, ancestors});
+    if (attrs.src === logoSrc) optimizedLogoImages.push({attrs, ancestors});
     const [navbar, inner, items, brand, logo] = ancestors.slice(-5);
     if (
       navbar?.nodeName === 'nav' && hasClass(navbar.attrs, 'navbar') &&
       inner?.nodeName === 'div' && hasClass(inner.attrs, 'navbar__inner') &&
       items?.nodeName === 'div' && hasClass(items.attrs, 'navbar__items') &&
-      brand?.nodeName === 'a' && hasClass(brand.attrs, 'navbar__brand') && brand.attrs.href === '/' &&
+      brand?.nodeName === 'a' && hasClass(brand.attrs, 'navbar__brand') && brand.attrs.href === siteRoot.pathname &&
       logo?.nodeName === 'div' && hasClass(logo.attrs, 'navbar__logo')
     ) navbarLogoImages.push(attrs);
   }
@@ -84,7 +91,7 @@ if (
   themeVariantCounts.get('dark') !== 1 ||
   navbarLogoImages.some((image) =>
     image.alt !== 'CertiLife' ||
-    image.src !== '/img/certilife-logo-172.png' ||
+    image.src !== logoSrc ||
     image.width !== '86' ||
     image.height !== '30'
   )

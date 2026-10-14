@@ -2,7 +2,7 @@
 
 > Hospital 예약 관리에서 환자가 신청한 예약을 예약 대기에서 예약 확정, 진료 완료, 예약 취소로 바꾸고 알림을 보내며 예약 담당자를 관리하는 방법과, 후기 관리에서 고객 후기를 검수요청, 노출, 비노출로 관리하고 엑셀로 내려받는 방법을 안내합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/hospital/screens/reservations-reviews)
+[사람이 읽는 원문](https://certi.life/docs/guide/hospital/screens/reservations-reviews)
 
 `예약 관리` 그룹에는 메뉴가 두 개 있습니다. **`예약 관리`는 환자가 신청한 예약을 확정하거나 취소하는 곳**이고, **`후기 관리`는 환자가 남긴 후기를 확인하고 노출 여부를 정하는 곳**입니다. 이 그룹은 병원의 이용 범위와 계정 권한에 따라 보이지 않을 수 있습니다.
 
@@ -12,10 +12,10 @@
 
 | 하려는 일                | 가는 곳                                                                                           |
 | -------------------- | ---------------------------------------------------------------------------------------------- |
-| 새로 들어온 예약을 확정하기      | [예약 확정하기](https://docs.certi.life/guide/hospital/screens/reservations-reviews#예약-확정하거나-취소하기)   |
-| 확정된 예약을 환자에게 알리기     | [알림 보내기](https://docs.certi.life/guide/hospital/screens/reservations-reviews#환자에게-알림-보내기)      |
-| 예약 알림을 받을 직원 바꾸기     | [예약 담당자 관리하기](https://docs.certi.life/guide/hospital/screens/reservations-reviews#예약-담당자-관리하기) |
-| 후기를 홈페이지나 소개 페이지에 쓰기 | [후기 노출 정하기](https://docs.certi.life/guide/hospital/screens/reservations-reviews#후기-노출-정하기)     |
+| 새로 들어온 예약을 확정하기      | [예약 확정하기](https://certi.life/docs/guide/hospital/screens/reservations-reviews#예약-확정하거나-취소하기)   |
+| 확정된 예약을 환자에게 알리기     | [알림 보내기](https://certi.life/docs/guide/hospital/screens/reservations-reviews#환자에게-알림-보내기)      |
+| 예약 알림을 받을 직원 바꾸기     | [예약 담당자 관리하기](https://certi.life/docs/guide/hospital/screens/reservations-reviews#예약-담당자-관리하기) |
+| 후기를 홈페이지나 소개 페이지에 쓰기 | [후기 노출 정하기](https://certi.life/docs/guide/hospital/screens/reservations-reviews#후기-노출-정하기)     |
 
 ## 예약 확정하거나 취소하기
 
@@ -32,7 +32,7 @@
 
 > **tip**
 >
-> 확정하지 않은 예약이 있으면 [대시보드](https://docs.certi.life/guide/hospital/screens/dashboard#먼저-처리할-일-확인하기)에 "놓친 예약이 있어요. 환자에게 연락하여 예약 일정을 확정해주세요."라는 배너가 뜹니다.
+> 확정하지 않은 예약이 있으면 [대시보드](https://certi.life/docs/guide/hospital/screens/dashboard#먼저-처리할-일-확인하기)에 "놓친 예약이 있어요. 환자에게 연락하여 예약 일정을 확정해주세요."라는 배너가 뜹니다.
 
 ## 환자에게 알림 보내기
 
@@ -79,9 +79,9 @@
 3. 출처를 남깁니다.
 4. 서티라이프 앱 QR과 함께 게재합니다.
 
-가이드는 `가이드 보기`로 언제든 다시 볼 수 있습니다. 내려받은 파일에는 고객 정보가 들어 있으므로 [Hospital 안전한 운영 가이드](https://docs.certi.life/guide/hospital/safe-operation)의 기준에 따라 보관하세요.
+가이드는 `가이드 보기`로 언제든 다시 볼 수 있습니다. 내려받은 파일에는 고객 정보가 들어 있으므로 [Hospital 안전한 운영 가이드](https://certi.life/docs/guide/hospital/safe-operation)의 기준에 따라 보관하세요.
 
 ## 함께 보기
 
-- [Hospital 메뉴 한눈에 보기](https://docs.certi.life/guide/hospital/screens/overview)
-- [병원 소개 페이지](https://docs.certi.life/guide/hospital/screens/brand-page)
+- [Hospital 메뉴 한눈에 보기](https://certi.life/docs/guide/hospital/screens/overview)
+- [병원 소개 페이지](https://certi.life/docs/guide/hospital/screens/brand-page)

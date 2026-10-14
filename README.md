@@ -9,9 +9,9 @@ npm install
 npm start
 ```
 
-기본 주소는 `http://localhost:3000/`입니다. 현재 공개 배포 주소는 [https://docs.certi.life](https://docs.certi.life)입니다.
+기본 주소는 `http://localhost:3000/docs/`입니다. 현재 공개 배포 주소는 [https://certi.life/docs/](https://certi.life/docs/)입니다.
 
-GitHub Actions가 `main` 브랜치의 빌드 결과를 GitHub Pages에 배포하며, 커스텀 도메인은 저장소 Pages 설정에서 관리합니다. Docusaurus는 사이트 루트 배포를 위해 `url: 'https://docs.certi.life'`, `baseUrl: '/'`을 사용하고, Pages는 HTTP 요청을 HTTPS로 전환합니다.
+GitHub Actions가 `main` 브랜치의 빌드 결과를 GitHub Pages에 배포합니다. Pages는 저장소 프로젝트 경로 `/docs/`로 사이트를 제공하고, certi.life 서버의 nginx가 `certi.life/docs/*` 요청을 이 경로로 프록시합니다. 그래서 Docusaurus는 `url: 'https://certi.life'`, `baseUrl: '/docs/'`을 사용합니다. 이전 주소 `docs.certi.life`는 `certi.life/docs/`로 301 리다이렉트합니다.
 
 ## 검증
 

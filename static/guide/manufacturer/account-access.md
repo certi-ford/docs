@@ -2,7 +2,7 @@
 
 > 제조사 관리자 공식 로그인 화면에서 안전하게 접속하고 비밀번호·가입 문의를 해결하는 방법입니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/manufacturer/account-access)
+[사람이 읽는 원문](https://certi.life/docs/guide/manufacturer/account-access)
 
 Manufacturer를 이용할 때는 [Manufacturer 공식 로그인 화면](https://manufacturer.certi.life/signin)으로 이동하세요. 공개 로그인 화면의 제목은 **제조사 관리자 로그인**이며, 아이디(ID)와 비밀번호 입력란, **로그인**, **비밀번호 찾기**, **가입·제휴 문의**가 제공됩니다.
 
@@ -48,6 +48,6 @@ Manufacturer를 이용할 때는 [Manufacturer 공식 로그인 화면](https://
 
 ## 다음 단계
 
-- [Manufacturer 안내](https://docs.certi.life/guide/manufacturer/overview)
-- [Manufacturer 안전한 이용](https://docs.certi.life/guide/manufacturer/safe-operation)
-- [문제 해결](https://docs.certi.life/guide/help/troubleshooting)
+- [Manufacturer 안내](https://certi.life/docs/guide/manufacturer/overview)
+- [Manufacturer 안전한 이용](https://certi.life/docs/guide/manufacturer/safe-operation)
+- [문제 해결](https://certi.life/docs/guide/help/troubleshooting)

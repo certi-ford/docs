@@ -2,8 +2,8 @@ import {readFileSync, existsSync, readdirSync, statSync} from 'node:fs';
 import {join, relative} from 'node:path';
 import {inflateSync} from 'node:zlib';
 import {requiredDocIds, requiredDocs} from './docs-manifest.mjs';
-import {cleanMarkdownUrls, expectedAiDiscoveryFiles} from './generate-ai-discovery.mjs';
-import {verifyCleanMarkdownArtifacts, verifyCombinedMarkdown} from './clean-markdown.mjs';
+import {cleanMarkdownUrls, expectedAiDiscoveryFiles, siteRoot} from './generate-ai-discovery.mjs';
+import {SITE_ORIGIN, SITE_PATH, verifyCleanMarkdownArtifacts, verifyCombinedMarkdown} from './clean-markdown.mjs';
 import {projectCleanMarkdownArtifacts, projectCombinedMarkdown} from './generate-clean-markdown.mjs';
 import {readDocusaurusPublicConfig} from './read-docusaurus-config.mjs';
 
@@ -45,11 +45,14 @@ for (const id of requiredDocIds) {
 }
 
 const publicConfig = readDocusaurusPublicConfig(root);
-if (publicConfig.url !== 'https://docs.certi.life') {
-  failures.push('site URL must be https://docs.certi.life for the custom-domain deployment');
+if (publicConfig.url !== 'https://certi.life') {
+  failures.push('site URL must be https://certi.life (served at certi.life/docs/ through the nginx proxy)');
 }
-if (publicConfig.baseUrl !== '/') {
-  failures.push("baseUrl must be '/' when the custom domain serves the site root");
+if (publicConfig.baseUrl !== '/docs/') {
+  failures.push("baseUrl must be '/docs/' to match certi.life/docs/ and the GitHub Pages project path");
+}
+if (`${SITE_ORIGIN}${SITE_PATH}` !== siteRoot.href) {
+  failures.push(`clean-markdown SITE_ORIGIN/SITE_PATH must match the config site root ${siteRoot.href}`);
 }
 if (publicConfig.trailingSlash !== false) {
   failures.push('trailingSlash must remain false so generated canonical URLs match Docusaurus');
@@ -61,8 +64,7 @@ if (!publicConfig.sitemapEnabled) {
   failures.push('classic preset sitemap configuration must remain enabled');
 }
 if (
-  publicConfig.source.includes('https://certi-life.github.io') ||
-  publicConfig.source.includes("baseUrl: '/docs/'")
+  publicConfig.source.includes('https://certi-life.github.io')
 ) {
   failures.push('legacy GitHub project-page deployment remains in config');
 }
@@ -224,7 +226,7 @@ if (existsSync(robotsPath)) {
   if (!/^User-agent: \*$/m.test(robots) || !/^Allow: \/$/m.test(robots)) {
     failures.push('robots.txt must explicitly allow public documentation crawling');
   }
-  if (!/^Sitemap: https:\/\/docs\.certi\.life\/sitemap\.xml$/m.test(robots)) {
+  if (!robots.split('\n').includes(`Sitemap: ${new URL('sitemap.xml', siteRoot).href}`)) {
     failures.push('robots.txt must name the production sitemap');
   }
 }
@@ -235,9 +237,10 @@ if (existsSync(llmsPath)) {
   if (!/^# CertiLife Docs$/m.test(llms) || !/^> .+$/m.test(llms)) {
     failures.push('llms.txt must include the standard H1 and blockquote summary');
   }
-  const listedDocUrls = [...llms.matchAll(/^- \[[^\]]+\]\((https:\/\/docs\.certi\.life\/[^)]+)\):/gm)]
+  const listedDocUrls = [...llms.matchAll(/^- \[[^\]]+\]\((https:\/\/[^)]+)\):/gm)]
     .map((match) => match[1])
-    .filter((url) => url !== 'https://docs.certi.life/' && !url.endsWith('/sitemap.xml') && !url.endsWith('/llms-full.md'));
+    .filter((url) => url.startsWith(siteRoot.href))
+    .filter((url) => url !== siteRoot.href && !url.endsWith('/sitemap.xml') && !url.endsWith('/llms-full.md'));
   const expectedUrls = cleanMarkdownUrls();
   const expectedUrlSet = new Set(expectedUrls);
   const actualUrlSet = new Set(listedDocUrls);
@@ -253,11 +256,8 @@ if (existsSync(llmsPath)) {
 }
 
 const readme = readFileSync(join(root, 'README.md'), 'utf8');
-if (!readme.includes('https://docs.certi.life')) {
-  failures.push('README must name the current https://docs.certi.life deployment');
-}
-if (readme.includes('https://certi-life.github.io/docs/') || readme.includes('http://localhost:3000/docs/')) {
-  failures.push('README still describes the legacy /docs/ deployment path');
+if (!readme.includes(siteRoot.href)) {
+  failures.push(`README must name the current ${siteRoot.href} deployment`);
 }
 if (readme.includes('커스텀 도메인은 아직 연결하지 않았습니다')) {
   failures.push('README still says the active custom domain is not connected');

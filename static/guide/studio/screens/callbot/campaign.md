@@ -2,7 +2,7 @@
 
 > Studio 콜봇의 캠페인 화면에서 대상 목록을 만들고(붙여넣기·CSV·열 지정), 에이전트와 발신번호, 통화 허용 시간대를 정해 캠페인을 시작하고, 일시정지·재개·취소와 실패분 재발신을 하는 방법과 비용 주의사항을 안내합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/studio/screens/callbot/campaign)
+[사람이 읽는 원문](https://certi.life/docs/guide/studio/screens/callbot/campaign)
 
 캠페인은 콜봇이 **대상 목록의 번호로 전화를 걸어** 정기검진 안내, 예약 확인 같은 용건을 전하는 기능입니다. 통화가 연결되면 지정한 에이전트가 응대합니다. 준비물은 세 가지입니다. 걸 대상이 담긴 **대상 목록**, 응대할 **에이전트**, 그리고 **발신번호**입니다.
 
@@ -16,10 +16,10 @@
 
 | 준비물       | 어디서                                                                                                         |
 | --------- | ----------------------------------------------------------------------------------------------------------- |
-| 캠페인용 에이전트 | [에이전트 만들기](https://docs.certi.life/guide/studio/screens/callbot/agents)에서 통화 방향을 `캠페인`으로 만듭니다               |
-| 발신번호      | [번호 관리](https://docs.certi.life/guide/studio/screens/callbot/phone-numbers)의 보유 번호                          |
-| 표기번호 (선택) | 번호 관리에서 승인받은 [발신표기번호](https://docs.certi.life/guide/studio/screens/callbot/phone-numbers#고객-화면에-보일-번호-등록하기) |
-| 대상 목록     | 아래 [대상 목록 만들기](https://docs.certi.life/guide/studio/screens/callbot/campaign#대상-목록-만들기)                     |
+| 캠페인용 에이전트 | [에이전트 만들기](https://certi.life/docs/guide/studio/screens/callbot/agents)에서 통화 방향을 `캠페인`으로 만듭니다               |
+| 발신번호      | [번호 관리](https://certi.life/docs/guide/studio/screens/callbot/phone-numbers)의 보유 번호                          |
+| 표기번호 (선택) | 번호 관리에서 승인받은 [발신표기번호](https://certi.life/docs/guide/studio/screens/callbot/phone-numbers#고객-화면에-보일-번호-등록하기) |
+| 대상 목록     | 아래 [대상 목록 만들기](https://certi.life/docs/guide/studio/screens/callbot/campaign#대상-목록-만들기)                     |
 
 상담사 전환(아웃바운드) 방향으로 만든 에이전트는 캠페인 통화에서 상담사 전환이 동작하지 않는다는 경고가 나옵니다. 캠페인에는 `캠페인` 방향으로 만든 에이전트를 쓰세요.
 
@@ -76,7 +76,7 @@
 
 - 처음에는 내 번호와 동료 번호 몇 개로 만든 목록으로 시험 캠페인을 돌려 멘트와 흐름을 확인합니다.
 - 첫 인사에서 어디서 왜 전화했는지, AI 상담원이라는 점을 밝히게 하세요.
-- 통화 결과는 [전화상담](https://docs.certi.life/guide/studio/screens/phone-counsel)과 [통계](https://docs.certi.life/guide/studio/screens/stats)에서 확인하고, 연결률이 낮으면 시간대를 바꿔 실패분으로 다시 겁니다.
+- 통화 결과는 [전화상담](https://certi.life/docs/guide/studio/screens/phone-counsel)과 [통계](https://certi.life/docs/guide/studio/screens/stats)에서 확인하고, 연결률이 낮으면 시간대를 바꿔 실패분으로 다시 겁니다.
 
 ## 문제가 생기면
 
@@ -84,13 +84,13 @@
 
 `캠페인 만들기`의 `발신번호`에서 고를 번호가 없다는 뜻입니다.
 
-1. [번호 관리](https://docs.certi.life/guide/studio/screens/callbot/phone-numbers)에서 번호를 구매하거나 연동합니다. 번호 구매가 막혀 있으면 먼저 [조직 인증](https://docs.certi.life/guide/studio/screens/callbot/verification)을 받습니다.
+1. [번호 관리](https://certi.life/docs/guide/studio/screens/callbot/phone-numbers)에서 번호를 구매하거나 연동합니다. 번호 구매가 막혀 있으면 먼저 [조직 인증](https://certi.life/docs/guide/studio/screens/callbot/verification)을 받습니다.
 2. `캠페인 만들기`를 다시 열어 `발신번호`를 고릅니다.
 
 ### `승인된 표기번호가 없습니다. 번호 관리 › 발신표기번호에서 등록·승인을 받으면 여기서 고를 수 있습니다.`
 
-고객 화면에 보일 `표기번호`로 승인된 번호가 없다는 뜻입니다. `표기번호`는 선택 항목이라 비워 두고 캠페인을 만들 수 있습니다. 다른 번호를 보이게 하려면 [번호 관리의 발신표기번호](https://docs.certi.life/guide/studio/screens/callbot/phone-numbers#고객-화면에-보일-번호-등록하기)에서 등록과 승인을 먼저 받습니다.
+고객 화면에 보일 `표기번호`로 승인된 번호가 없다는 뜻입니다. `표기번호`는 선택 항목이라 비워 두고 캠페인을 만들 수 있습니다. 다른 번호를 보이게 하려면 [번호 관리의 발신표기번호](https://certi.life/docs/guide/studio/screens/callbot/phone-numbers#고객-화면에-보일-번호-등록하기)에서 등록과 승인을 먼저 받습니다.
 
 ### `서버에 연결하지 못했습니다. 네트워크 상태를 확인하고 잠시 후 다시 시도해주세요.`
 
-캠페인 화면이 콜봇 서버에 연결하지 못했다는 뜻입니다. 번호 목록 옆에 이 문구가 보이면 옆의 `다시 시도`를 누릅니다. 연결 문구별 뜻과 할 일은 [콜봇 시작하기의 문제 해결](https://docs.certi.life/guide/studio/screens/callbot/overview#문제가-생기면)에 있습니다.
+캠페인 화면이 콜봇 서버에 연결하지 못했다는 뜻입니다. 번호 목록 옆에 이 문구가 보이면 옆의 `다시 시도`를 누릅니다. 연결 문구별 뜻과 할 일은 [콜봇 시작하기의 문제 해결](https://certi.life/docs/guide/studio/screens/callbot/overview#문제가-생기면)에 있습니다.

@@ -2,9 +2,9 @@
 
 > Studio 통계 메뉴의 실시간 통계, 마케팅 통계, 직원 통계에서 오늘 통화와 콜봇 처리 현황, 채널별 유입과 문의 키워드, 직원별 응대 지표를 확인하고 내려받는 방법을 안내합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/studio/screens/stats)
+[사람이 읽는 원문](https://certi.life/docs/guide/studio/screens/stats)
 
-왼쪽 메뉴의 `통계`는 **전화 응대**에 대한 통계입니다. 오늘 전화가 얼마나 왔고 콜봇이 얼마나 처리했는지, 고객이 어떤 경로로 전화했는지, 직원별 응대가 어땠는지를 봅니다. 챗봇이 답하지 못한 질문을 보는 통계는 여기가 아니라 [챗봇 상세의 `통계` 탭](https://docs.certi.life/guide/studio/screens/chatbot/statistics)에 있으니 헷갈리지 마세요.
+왼쪽 메뉴의 `통계`는 **전화 응대**에 대한 통계입니다. 오늘 전화가 얼마나 왔고 콜봇이 얼마나 처리했는지, 고객이 어떤 경로로 전화했는지, 직원별 응대가 어땠는지를 봅니다. 챗봇이 답하지 못한 질문을 보는 통계는 여기가 아니라 [챗봇 상세의 `통계` 탭](https://certi.life/docs/guide/studio/screens/chatbot/statistics)에 있으니 헷갈리지 마세요.
 
 **위치:** 통계
 
@@ -32,7 +32,7 @@
 - **`콜 유입 현황`:** 오늘 시간대별 `전체 인입`, `콜봇 처리`, `상담사 이관`. 범례를 누르면 그 항목을 차트에서 숨기거나 다시 표시합니다
 - **`연결 결과`:** `연결 성공률`, `연결 성공`, `연결 실패`, `총 상담시간`, `평균 상담시간`
 
-`부재중`이 많거나 `연결 실패`가 늘었다면 [전화상담](https://docs.certi.life/guide/studio/screens/phone-counsel#내-상태-바꾸기)의 `상담사 상태`와 상담 가능 시간을 점검해 보세요.
+`부재중`이 많거나 `연결 실패`가 늘었다면 [전화상담](https://certi.life/docs/guide/studio/screens/phone-counsel#내-상태-바꾸기)의 `상담사 상태`와 상담 가능 시간을 점검해 보세요.
 
 ## 어떤 경로로 전화가 왔는지 보기
 
@@ -44,7 +44,7 @@
 2. 위쪽에서 `전화 문의`, `부재중·미연결`, `신규 고객` 건수를 확인합니다.
 3. `채널별 유입 분석`, `문의 키워드 TOP 5`, `월별 유입 추이`, `시간대별 인입 분포`를 봅니다.
 
-`문의 키워드 TOP 5`에 자주 나오는 주제는 [콜봇 지식 베이스](https://docs.certi.life/guide/studio/screens/callbot/overview)와 [백과사전](https://docs.certi.life/guide/studio/screens/encyclopedia)에 내용이 충분한지 확인하는 단서가 됩니다. 유입 경로가 확인되지 않은 통화는 채널별 분석에서 제외되고 그 건수가 함께 표시됩니다. 기록은 `CTI 다운로드` 버튼으로 CSV 파일로 내려받습니다.
+`문의 키워드 TOP 5`에 자주 나오는 주제는 [콜봇 지식 베이스](https://certi.life/docs/guide/studio/screens/callbot/overview)와 [백과사전](https://certi.life/docs/guide/studio/screens/encyclopedia)에 내용이 충분한지 확인하는 단서가 됩니다. 유입 경로가 확인되지 않은 통화는 채널별 분석에서 제외되고 그 건수가 함께 표시됩니다. 기록은 `CTI 다운로드` 버튼으로 CSV 파일로 내려받습니다.
 
 ## 직원별 응대 현황 보기
 
@@ -70,7 +70,7 @@
 2. 문구 옆의 `다시 시도`를 누릅니다.
 3. 그래도 같으면 브라우저를 새로고침합니다.
 
-그래도 안 되면 화면 이름과 발생 시각을 적어 조직의 CertiLife 담당자에게 알립니다. 같은 자리에 나오는 다른 연결 문구(`요청 시간이 초과됐습니다.`로 시작하는 문구 등)의 뜻은 [콜봇 시작하기의 문제 해결](https://docs.certi.life/guide/studio/screens/callbot/overview#문제가-생기면)에 정리되어 있습니다.
+그래도 안 되면 화면 이름과 발생 시각을 적어 조직의 CertiLife 담당자에게 알립니다. 같은 자리에 나오는 다른 연결 문구(`요청 시간이 초과됐습니다.`로 시작하는 문구 등)의 뜻은 [콜봇 시작하기의 문제 해결](https://certi.life/docs/guide/studio/screens/callbot/overview#문제가-생기면)에 정리되어 있습니다.
 
 ### `CSV를 내려받지 못했습니다. 기간을 좁혀 다시 시도해 주세요.`
 
@@ -86,6 +86,6 @@
 
 ## 함께 보기
 
-- [전화상담](https://docs.certi.life/guide/studio/screens/phone-counsel): 통화에 응대하고 기록 남기기
-- [챗봇 통계 탭](https://docs.certi.life/guide/studio/screens/chatbot/statistics): 챗봇이 답하지 못한 질문 보강하기
-- [상담 내역](https://docs.certi.life/guide/studio/screens/conversation-history): 개별 상담 기록 찾아보기
+- [전화상담](https://certi.life/docs/guide/studio/screens/phone-counsel): 통화에 응대하고 기록 남기기
+- [챗봇 통계 탭](https://certi.life/docs/guide/studio/screens/chatbot/statistics): 챗봇이 답하지 못한 질문 보강하기
+- [상담 내역](https://certi.life/docs/guide/studio/screens/conversation-history): 개별 상담 기록 찾아보기

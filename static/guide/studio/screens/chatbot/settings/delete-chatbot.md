@@ -2,7 +2,7 @@
 
 > Studio 챗봇 설정의 챗봇 삭제에서 삭제될 데이터를 확인하고 챗봇 이름과 계정 비밀번호를 입력해 챗봇을 영구 삭제하는 절차, 삭제 전에 점검할 사항과 삭제 대신 쓸 수 있는 방법을 안내합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/studio/screens/chatbot/settings/delete-chatbot)
+[사람이 읽는 원문](https://certi.life/docs/guide/studio/screens/chatbot/settings/delete-chatbot)
 
 챗봇 삭제는 **되돌릴 수 없습니다.** 삭제하면 챗봇 설정과 AI 학습 자료, 모든 플로우와 시나리오, 학습 파일이 영구적으로 사라집니다. 실수를 막기 위해 챗봇 이름 입력과 계정 비밀번호 확인, 두 번의 확인을 거칩니다. 삭제하기 전에 아래 점검 사항부터 확인하세요.
 
@@ -10,8 +10,8 @@
 
 ## 삭제하기 전에 확인하세요
 
-- **정말 삭제가 필요한가요?** 잠시 쓰지 않을 뿐이라면 삭제하지 않고 [`채널 설정`](https://docs.certi.life/guide/studio/screens/chatbot/settings/channel-settings)에서 채널 연결만 끊어 두는 방법이 있습니다.
-- **같은 구성이 다시 필요할 수 있나요?** 그렇다면 삭제 전에 [`기본 정보`의 `챗봇 내보내기`](https://docs.certi.life/guide/studio/screens/chatbot/settings/basic-info#챗봇을-다른-계정으로-복사하기)로 다른 챗봇에 복사해 두세요. 채팅 기록과 통계는 복사되지 않습니다.
+- **정말 삭제가 필요한가요?** 잠시 쓰지 않을 뿐이라면 삭제하지 않고 [`채널 설정`](https://certi.life/docs/guide/studio/screens/chatbot/settings/channel-settings)에서 채널 연결만 끊어 두는 방법이 있습니다.
+- **같은 구성이 다시 필요할 수 있나요?** 그렇다면 삭제 전에 [`기본 정보`의 `챗봇 내보내기`](https://certi.life/docs/guide/studio/screens/chatbot/settings/basic-info#챗봇을-다른-계정으로-복사하기)로 다른 챗봇에 복사해 두세요. 채팅 기록과 통계는 복사되지 않습니다.
 - **운영 중인 채널에 연결되어 있나요?** 연결된 채널이 있다면 고객 문의가 갈 곳을 먼저 정하고(다른 챗봇 연결 또는 상담원 응대) 삭제하세요.
 
 ## 챗봇 삭제하기
@@ -32,5 +32,5 @@
 
 ## 함께 보기
 
-- [챗봇 만들기와 챗봇 목록](https://docs.certi.life/guide/studio/screens/chatbot/list)
-- [개인정보 및 보안](https://docs.certi.life/guide/help/privacy-security)
+- [챗봇 만들기와 챗봇 목록](https://certi.life/docs/guide/studio/screens/chatbot/list)
+- [개인정보 및 보안](https://certi.life/docs/guide/help/privacy-security)

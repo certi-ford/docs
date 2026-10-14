@@ -2,9 +2,9 @@
 
 > AI 챗봇·상담원 연결·AI 음성봇을 고객에게 공개하기 전과 공개 직후 확인할 운영 체크리스트입니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/studio/launch-checklist)
+[사람이 읽는 원문](https://certi.life/docs/guide/studio/launch-checklist)
 
-Studio에서 준비한 AI 상담은 아래 항목을 모두 확인한 뒤 공개를 승인하세요. 카카오톡, 네이버톡톡, 웹챗봇 또는 AI 음성봇 공개 전 공통으로 사용하는 체크리스트입니다. 각 항목을 설정하는 화면의 메뉴와 버튼은 [챗봇 설정 탭](https://docs.certi.life/guide/studio/screens/chatbot/settings/menu)에서 확인하세요.
+Studio에서 준비한 AI 상담은 아래 항목을 모두 확인한 뒤 공개를 승인하세요. 카카오톡, 네이버톡톡, 웹챗봇 또는 AI 음성봇 공개 전 공통으로 사용하는 체크리스트입니다. 각 항목을 설정하는 화면의 메뉴와 버튼은 [챗봇 설정 탭](https://certi.life/docs/guide/studio/screens/chatbot/settings/menu)에서 확인하세요.
 
 ## 1. 책임과 범위
 
@@ -25,7 +25,7 @@ Studio에서 준비한 AI 상담은 아래 항목을 모두 확인한 뒤 공개
 - [ ] 자료별 책임자와 다음 검토일을 기록했습니다.
 - [ ] 의료적 판단을 유도하는 표현을 제거하고 사람 연결 기준을 연결했습니다.
 
-자세한 기준은 [상담 지식 관리](https://docs.certi.life/guide/studio/knowledge-management)를 참고하세요.
+자세한 기준은 [상담 지식 관리](https://certi.life/docs/guide/studio/knowledge-management)를 참고하세요.
 
 ## 3. 시나리오와 상담원 연결
 
@@ -36,7 +36,7 @@ Studio에서 준비한 AI 상담은 아래 항목을 모두 확인한 뒤 공개
 - [ ] 연결할 수 없을 때 고객이 다음 행동과 예상 시점을 알 수 있습니다.
 - [ ] 의료 판단, 불만, 개인정보, 긴급 표현을 가상 질문으로 시험했습니다.
 
-연결 정책을 정할 때는 [상담 시나리오와 사람 연결](https://docs.certi.life/guide/studio/scenario-and-handoff)을 사용하세요.
+연결 정책을 정할 때는 [상담 시나리오와 사람 연결](https://certi.life/docs/guide/studio/scenario-and-handoff)을 사용하세요.
 
 ## 4. 채널별 시험
 
@@ -64,10 +64,10 @@ AI 음성봇은 조용한 환경뿐 아니라 일반적인 주변 소음에서�
 
 ## 함께 보기
 
-- [Studio 운영 가이드](https://docs.certi.life/guide/studio/overview)
-- [Studio 계정 접속](https://docs.certi.life/guide/studio/account-access)
-- [상담 지식 관리](https://docs.certi.life/guide/studio/knowledge-management)
-- [상담 메시지 번역](https://docs.certi.life/guide/products/ai-chatbot/message-translation)
-- [상담 내역 조회와 화면 설정](https://docs.certi.life/guide/studio/conversation-history)
-- [상담 기록 필드 설정](https://docs.certi.life/guide/studio/consultation-records)
-- [개인정보 및 보안](https://docs.certi.life/guide/help/privacy-security)
+- [Studio 운영 가이드](https://certi.life/docs/guide/studio/overview)
+- [Studio 계정 접속](https://certi.life/docs/guide/studio/account-access)
+- [상담 지식 관리](https://certi.life/docs/guide/studio/knowledge-management)
+- [상담 메시지 번역](https://certi.life/docs/guide/products/ai-chatbot/message-translation)
+- [상담 내역 조회와 화면 설정](https://certi.life/docs/guide/studio/conversation-history)
+- [상담 기록 필드 설정](https://certi.life/docs/guide/studio/consultation-records)
+- [개인정보 및 보안](https://certi.life/docs/guide/help/privacy-security)

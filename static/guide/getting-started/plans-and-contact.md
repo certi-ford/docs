@@ -2,9 +2,9 @@
 
 > CertiLife 공개 가격 페이지를 바탕으로 필요한 서비스 조합을 고르고 도입 상담을 준비하는 방법입니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/getting-started/plans-and-contact)
+[사람이 읽는 원문](https://certi.life/docs/guide/getting-started/plans-and-contact)
 
-공식 가격 페이지의 플랜은 다섯 가지입니다. `인증서`, `음성봇`, `채팅봇`, `CRM 메시지`, 그리고 셋을 묶은 `음성봇+채팅봇+CRM`입니다. 요금과 할인 조건은 변경될 수 있으므로 이 문서는 금액을 적지 않습니다. 2026년 9월 기준 금액은 [병원 도입 구매 FAQ](https://docs.certi.life/guide/getting-started/buyer-faq#가격은-얼마인가요)에 정리했고, 최신 금액은 [공식 가격 안내](https://certi.life/pricing)에서 확인하세요.
+공식 가격 페이지의 플랜은 다섯 가지입니다. `인증서`, `음성봇`, `채팅봇`, `CRM 메시지`, 그리고 셋을 묶은 `음성봇+채팅봇+CRM`입니다. 요금과 할인 조건은 변경될 수 있으므로 이 문서는 금액을 적지 않습니다. 2026년 9월 기준 금액은 [병원 도입 구매 FAQ](https://certi.life/docs/guide/getting-started/buyer-faq#가격은-얼마인가요)에 정리했고, 최신 금액은 [공식 가격 안내](https://certi.life/pricing)에서 확인하세요.
 
 ## 먼저 필요한 서비스를 고르세요
 
@@ -47,9 +47,9 @@
 
 ## 다음 문서
 
-- [병원 도입 구매 FAQ](https://docs.certi.life/guide/getting-started/buyer-faq)
-- [내게 맞는 가이드 찾기](https://docs.certi.life/guide/getting-started/choose-guide)
-- [CertiLife 다운로드](https://docs.certi.life/guide/getting-started/downloads)
-- [인증서](https://docs.certi.life/guide/products/certificate)
-- [AI 상담](https://docs.certi.life/guide/products/ai-chatbot)
-- [CRM 메시징](https://docs.certi.life/guide/products/crm-messaging)
+- [병원 도입 구매 FAQ](https://certi.life/docs/guide/getting-started/buyer-faq)
+- [내게 맞는 가이드 찾기](https://certi.life/docs/guide/getting-started/choose-guide)
+- [CertiLife 다운로드](https://certi.life/docs/guide/getting-started/downloads)
+- [인증서](https://certi.life/docs/guide/products/certificate)
+- [AI 상담](https://certi.life/docs/guide/products/ai-chatbot)
+- [CRM 메시징](https://certi.life/docs/guide/products/crm-messaging)

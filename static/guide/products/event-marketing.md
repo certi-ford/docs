@@ -2,13 +2,13 @@
 
 > 퀴즈, 후기, 공유, 정품인증 이벤트를 기획하고 참여와 전환 성과를 검토하는 방법을 소개합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/products/event-marketing)
+[사람이 읽는 원문](https://certi.life/docs/guide/products/event-marketing)
 
 CertiLife 이벤트 마케팅은 퀴즈, 후기, 공유, 정품인증과 같은 참여 방식을 통해 고객과 병원·브랜드의 접점을 넓히는 활동입니다. 카카오 공유로 참여 경험을 이어가고, 정해진 조건에 따라 리워드를 제공할 수 있습니다. 이벤트를 시작하기 전에 참여 목적과 조건을 명확히 하고, 종료 후에는 참여율·공유 수·전환률·신규 고객 수를 함께 살펴보는 것이 중요합니다.
 
 > **이벤트를 만드는 화면은 공개 문서에 없습니다**
 >
-> 현재 공개 문서에는 이벤트를 만들고 참여자를 관리하는 화면 안내가 없습니다. Hospital과 Studio 어느 쪽에서 만드는지, 제조사가 켜 주는 기능인지도 이 문서에서 확인하지 못했습니다. 이벤트를 열려면 [도입 문의](https://certi.life/contact)나 조직의 CertiLife 담당자에게 문의하세요. 이벤트 안내 메시지를 고객 여러 명에게 보내는 일은 Studio [캠페인](https://docs.certi.life/guide/studio/screens/crm/campaigns)에서 합니다.
+> 현재 공개 문서에는 이벤트를 만들고 참여자를 관리하는 화면 안내가 없습니다. Hospital과 Studio 어느 쪽에서 만드는지, 제조사가 켜 주는 기능인지도 이 문서에서 확인하지 못했습니다. 이벤트를 열려면 [도입 문의](https://certi.life/contact)나 조직의 CertiLife 담당자에게 문의하세요. 이벤트 안내 메시지를 고객 여러 명에게 보내는 일은 Studio [캠페인](https://certi.life/docs/guide/studio/screens/crm/campaigns)에서 합니다.
 
 ## 목적
 
@@ -58,14 +58,14 @@ CertiLife 이벤트 마케팅은 퀴즈, 후기, 공유, 정품인증과 같은 
 
 ## 다음 문서
 
-- [이벤트 캠페인 계획](https://docs.certi.life/guide/products/event-marketing/campaign-planning)
-- [이벤트 성과 검토](https://docs.certi.life/guide/products/event-marketing/performance-review)
-- [CRM 메시징](https://docs.certi.life/guide/products/crm-messaging)
+- [이벤트 캠페인 계획](https://certi.life/docs/guide/products/event-marketing/campaign-planning)
+- [이벤트 성과 검토](https://certi.life/docs/guide/products/event-marketing/performance-review)
+- [CRM 메시징](https://certi.life/docs/guide/products/crm-messaging)
 - [도입 문의](https://certi.life/contact)
 
 ## 함께 보기
 
 이벤트 화면 문서는 아직 없습니다. 이벤트 안내 메시지 발송과 대상 고객 관리는 아래 Studio 문서를 참고하세요.
 
-- [캠페인](https://docs.certi.life/guide/studio/screens/crm/campaigns): 이벤트 안내를 고객 여러 명에게 한 번 보내기
-- [고객 등록과 관리](https://docs.certi.life/guide/studio/screens/crm/customers): 안내를 받을 고객 묶음(세그먼트) 만들기
+- [캠페인](https://certi.life/docs/guide/studio/screens/crm/campaigns): 이벤트 안내를 고객 여러 명에게 한 번 보내기
+- [고객 등록과 관리](https://certi.life/docs/guide/studio/screens/crm/customers): 안내를 받을 고객 묶음(세그먼트) 만들기

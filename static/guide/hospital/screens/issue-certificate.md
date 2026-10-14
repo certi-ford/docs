@@ -2,28 +2,28 @@
 
 > Hospital 인증서 발행 화면에서 환자 정보 입력과 개인정보 동의(병원 담당자 직접 동의, 환자 QR 동의), 수술/시술 선택과 상세 정보 입력, 치료 후 주의사항과 병원 보증사항 입력, 발행하기까지의 순서와 치과 제품 코드 오류, 치과·안과가 아닌 진료과의 발행 방법, 위챗 발송, 안과 확인서 대량 발행 방법을 안내합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/hospital/screens/issue-certificate)
+[사람이 읽는 원문](https://certi.life/docs/guide/hospital/screens/issue-certificate)
 
 인증서 발행은 세 가지를 차례로 입력하는 일입니다. 누구에게 보낼지(**환자 정보**), 무엇을 시술했는지(**시술·제품**), 병원이 무엇을 안내하고 보증하는지(**병원 추가사항**)를 넣습니다. 마지막에 `발행하기`를 누르면 환자에게 알림 메시지가 전송됩니다. 발행 화면에는 미리보기가 없으므로 마지막 단계의 `환자 정보 확인`에서 한 번 더 확인하세요.
 
 **위치:** 진료과 이름 > 인증서 발행
 
-왼쪽 메뉴에서는 `치과 인증서 발행`, `병원 인증서 발행`처럼 진료과 이름이 앞에 붙습니다. 안과는 "인증서" 대신 "확인서"라는 말을 쓰고, 메뉴도 `안과 확인서 발행`과 [`확인서 대량 발행`](https://docs.certi.life/guide/hospital/screens/issue-certificate#확인서-대량-발행하기)으로 나뉩니다.
+왼쪽 메뉴에서는 `치과 인증서 발행`, `병원 인증서 발행`처럼 진료과 이름이 앞에 붙습니다. 안과는 "인증서" 대신 "확인서"라는 말을 쓰고, 메뉴도 `안과 확인서 발행`과 [`확인서 대량 발행`](https://certi.life/docs/guide/hospital/screens/issue-certificate#확인서-대량-발행하기)으로 나뉩니다.
 
-치과와 안과가 아닌 진료과(성형외과, 피부과, 내과, 정형외과, `병원` 그룹을 쓰는 한의원 등)는 제품 코드와 치아번호 대신 [인증서 설정](https://docs.certi.life/guide/hospital/screens/certificate-settings)에 만들어 둔 인증서를 고릅니다. 이 차이는 [치과와 안과가 아닌 진료과에서 발행하기](https://docs.certi.life/guide/hospital/screens/issue-certificate#치과와-안과가-아닌-진료과에서-발행하기)에 모아 두었으니, 치과 전용 설명(제품 코드, GTIN)은 건너뛰어도 됩니다.
+치과와 안과가 아닌 진료과(성형외과, 피부과, 내과, 정형외과, `병원` 그룹을 쓰는 한의원 등)는 제품 코드와 치아번호 대신 [인증서 설정](https://certi.life/docs/guide/hospital/screens/certificate-settings)에 만들어 둔 인증서를 고릅니다. 이 차이는 [치과와 안과가 아닌 진료과에서 발행하기](https://certi.life/docs/guide/hospital/screens/issue-certificate#치과와-안과가-아닌-진료과에서-발행하기)에 모아 두었으니, 치과 전용 설명(제품 코드, GTIN)은 건너뛰어도 됩니다.
 
 ## 이럴 때 사용하세요
 
 | 하려는 일                             | 가는 곳                                                                                                            |
 | --------------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| 환자 한 명에게 인증서 보내기                  | [발행 순서](https://docs.certi.life/guide/hospital/screens/issue-certificate#발행-순서)                                 |
-| 환자가 "인증서 안 왔어요", "카톡이 안 와요"라고 할 때 | [알림 다시 보내기](https://docs.certi.life/guide/hospital/screens/history#알림-다시-보내기)                                   |
-| 안과 확인서를 엑셀로 여러 명에게 한 번에 보내기       | [확인서 대량 발행하기](https://docs.certi.life/guide/hospital/screens/issue-certificate#확인서-대량-발행하기)                     |
-| 잘못 보낸 인증서를 바로잡기                   | [잘못 보낸 인증서 바로잡기](https://docs.certi.life/guide/hospital/screens/history#잘못-보낸-인증서-바로잡기)                         |
-| 성형외과·피부과·내과·정형외과·한의원에서 발행하기       | [치과와 안과가 아닌 진료과에서 발행하기](https://docs.certi.life/guide/hospital/screens/issue-certificate#치과와-안과가-아닌-진료과에서-발행하기) |
-| 환자가 직접 개인정보 동의를 하게 하기             | [환자 동의 받기](https://docs.certi.life/guide/hospital/screens/issue-certificate#환자-동의-받기)                           |
-| 치과에서 제품 코드가 오류라고 나올 때             | [제품 코드 오류 해결하기](https://docs.certi.life/guide/hospital/screens/issue-certificate#제품-코드-오류-해결하기)                 |
-| 위챗을 쓰는 환자에게 보내기                   | [위챗으로 보내기](https://docs.certi.life/guide/hospital/screens/issue-certificate#위챗으로-보내기)                           |
+| 환자 한 명에게 인증서 보내기                  | [발행 순서](https://certi.life/docs/guide/hospital/screens/issue-certificate#발행-순서)                                 |
+| 환자가 "인증서 안 왔어요", "카톡이 안 와요"라고 할 때 | [알림 다시 보내기](https://certi.life/docs/guide/hospital/screens/history#알림-다시-보내기)                                   |
+| 안과 확인서를 엑셀로 여러 명에게 한 번에 보내기       | [확인서 대량 발행하기](https://certi.life/docs/guide/hospital/screens/issue-certificate#확인서-대량-발행하기)                     |
+| 잘못 보낸 인증서를 바로잡기                   | [잘못 보낸 인증서 바로잡기](https://certi.life/docs/guide/hospital/screens/history#잘못-보낸-인증서-바로잡기)                         |
+| 성형외과·피부과·내과·정형외과·한의원에서 발행하기       | [치과와 안과가 아닌 진료과에서 발행하기](https://certi.life/docs/guide/hospital/screens/issue-certificate#치과와-안과가-아닌-진료과에서-발행하기) |
+| 환자가 직접 개인정보 동의를 하게 하기             | [환자 동의 받기](https://certi.life/docs/guide/hospital/screens/issue-certificate#환자-동의-받기)                           |
+| 치과에서 제품 코드가 오류라고 나올 때             | [제품 코드 오류 해결하기](https://certi.life/docs/guide/hospital/screens/issue-certificate#제품-코드-오류-해결하기)                 |
+| 위챗을 쓰는 환자에게 보내기                   | [위챗으로 보내기](https://certi.life/docs/guide/hospital/screens/issue-certificate#위챗으로-보내기)                           |
 
 ## 발행 순서
 
@@ -42,14 +42,14 @@
 1. 필요하면 `언어 선택`에서 `한국어`, `중국어`, `영어` 중 하나를 고릅니다. `중국어`가 간체인지 번체인지는 화면에서 확인되지 않았습니다.
 2. `전송 방식 선택`이 보이면 `카카오톡`, `위챗`, `이메일` 중 하나를 고릅니다. 어떤 병원에 이 선택이 보이는지, 문자로 보내는 방법은 어디에서 고르는지는 화면에서 확인되지 않았습니다.
 3. `연락처`, `이름`, `성별`, `생년월일`, `시술일자`, `수술 의사`를 입력합니다. 이메일로 보낼 때는 `이메일`도 입력합니다.
-4. 개인정보 동의를 받습니다. 방법은 [환자 동의 받기](https://docs.certi.life/guide/hospital/screens/issue-certificate#환자-동의-받기)를 참고하세요.
+4. 개인정보 동의를 받습니다. 방법은 [환자 동의 받기](https://certi.life/docs/guide/hospital/screens/issue-certificate#환자-동의-받기)를 참고하세요.
 5. `다음 단계로`를 누릅니다.
 
 연락처를 입력하면 같은 번호로 등록된 고객 정보를 불러옵니다. 치과에서 EMR(전자 진료기록 프로그램)을 연결한 병원은 `접수 목록`에서 접수한 환자를 골라 올 수 있습니다. 화면 머리글 옆에 `CertiLife Connector 연결 안됨`이 보이면 EMR과 연결되지 않은 상태입니다. 연결 방법은 이 문서에서 다루지 않으므로 병원의 CertiLife 담당자에게 문의하세요.
 
 ### 수술/시술 선택
 
-치과와 안과에는 없는 단계입니다. `인증서 선택`에서 [인증서 설정](https://docs.certi.life/guide/hospital/screens/certificate-settings)에 만들어 둔 인증서를 고릅니다. 이름으로 검색할 수 있고(초성 검색 가능), 한 번에 최대 10개까지 고를 수 있습니다. 목록이 비어 있으면 아직 인증서를 만들지 않은 것입니다. 먼저 진료과 이름 > `인증서 설정` > `인증서 추가`에서 인증서를 만든 뒤 돌아오세요. 자세한 차이는 [치과와 안과가 아닌 진료과에서 발행하기](https://docs.certi.life/guide/hospital/screens/issue-certificate#치과와-안과가-아닌-진료과에서-발행하기)에 있습니다.
+치과와 안과에는 없는 단계입니다. `인증서 선택`에서 [인증서 설정](https://certi.life/docs/guide/hospital/screens/certificate-settings)에 만들어 둔 인증서를 고릅니다. 이름으로 검색할 수 있고(초성 검색 가능), 한 번에 최대 10개까지 고를 수 있습니다. 목록이 비어 있으면 아직 인증서를 만들지 않은 것입니다. 먼저 진료과 이름 > `인증서 설정` > `인증서 추가`에서 인증서를 만든 뒤 돌아오세요. 자세한 차이는 [치과와 안과가 아닌 진료과에서 발행하기](https://certi.life/docs/guide/hospital/screens/issue-certificate#치과와-안과가-아닌-진료과에서-발행하기)에 있습니다.
 
 ### 상세 정보 입력
 
@@ -57,7 +57,7 @@
   1. 시술 구분(`임플란트`, `임플란트 보철`, `투명교정`, `지르코니아`)을 고릅니다.
   2. `치아번호` 그림에서 수술 치아를 선택합니다.
   3. `제품 코드`를 입력합니다. 제품명이 자동으로 채워집니다. 코드 없이 발행하려면 `코드 스캔 없이 제품 선택으로 발행하기`로 `제조사`, `제품명`, `제품 사양`을 고릅니다.
-  4. 다음 단계로 넘어갑니다. 코드에 오류 문구가 뜨면 [제품 코드 오류 해결하기](https://docs.certi.life/guide/hospital/screens/issue-certificate#제품-코드-오류-해결하기)를 보세요.
+  4. 다음 단계로 넘어갑니다. 코드에 오류 문구가 뜨면 [제품 코드 오류 해결하기](https://certi.life/docs/guide/hospital/screens/issue-certificate#제품-코드-오류-해결하기)를 보세요.
 - **안과:** `시술 부위 선택`(`좌안`, `우안`)과 `수술 방법 선택`을 고릅니다. `시술 부위 선택`은 대량 발행 양식의 `수술 부위` 열과 같은 항목입니다. 단건 발행에서 `양안`을 고를 수 있는지는 화면에서 확인되지 않았습니다.
 - **그 밖의 진료과:** 이 단계에서 입력하는 항목은 화면에서 확인되지 않았습니다. 화면에 보이는 항목을 채우고 다음 단계로 넘어갑니다.
 
@@ -65,7 +65,7 @@
 
 ### 병원 추가사항 입력과 발행
 
-1. `치료 후 주의사항`을 입력합니다. [인증서 설정](https://docs.certi.life/guide/hospital/screens/certificate-settings)에 만들어 둔 템플릿을 고르거나 직접 입력합니다.
+1. `치료 후 주의사항`을 입력합니다. [인증서 설정](https://certi.life/docs/guide/hospital/screens/certificate-settings)에 만들어 둔 템플릿을 고르거나 직접 입력합니다.
 2. `병원 보증사항`에 보증기간과 보증범위 같은 보증 내용을 입력합니다.
 3. `환자 정보 확인`에서 이름, 연락처, 성별, 생년월일, 시술일자를 마지막으로 확인합니다. 여기에서 고칠 수 있습니다.
 4. `발행하기`를 누릅니다. "인증서를 발행하시겠습니까?" 창에서 `알림 메시지 전송`을 누르면 입력한 환자 번호로 알림 메시지가 갑니다.
@@ -77,8 +77,8 @@
 - 연락처와 이름이 환자 본인의 것인지 확인합니다. 잘못된 번호로 가면 다른 사람이 시술 정보를 보게 됩니다.
 - 시술일자가 생년월일보다 앞설 수 없습니다. 날짜 오류가 나면 두 값을 다시 확인하세요.
 - 치과는 같은 제품 코드로 한 번만 발행할 수 있습니다.
-- 알림이 안 갔다고 해서 같은 인증서를 다시 발행하지 마세요. 인증서는 이미 발급된 상태이므로 [알림 다시 보내기](https://docs.certi.life/guide/hospital/screens/history#알림-다시-보내기)를 씁니다.
-- 더 자세한 점검 항목은 [인증서 전달 전 체크리스트](https://docs.certi.life/guide/products/certificate/delivery-checklist)를 참고하세요.
+- 알림이 안 갔다고 해서 같은 인증서를 다시 발행하지 마세요. 인증서는 이미 발급된 상태이므로 [알림 다시 보내기](https://certi.life/docs/guide/hospital/screens/history#알림-다시-보내기)를 씁니다.
+- 더 자세한 점검 항목은 [인증서 전달 전 체크리스트](https://certi.life/docs/guide/products/certificate/delivery-checklist)를 참고하세요.
 
 ## 환자 동의 받기
 
@@ -105,11 +105,11 @@ QR 동의를 적용하면 `동의 완료`로 표시되고, 이름·연락처·�
 
 치과와 다른 점은 세 가지입니다.
 
-- **제품 코드와 치아번호가 없습니다.** 시술 이름, 주의사항, 보증사항을 [인증서 설정](https://docs.certi.life/guide/hospital/screens/certificate-settings#병원-인증서-만들기)에 미리 만들어 두고, 발행할 때는 `수술/시술 선택` 단계의 `인증서 선택`에서 고르기만 합니다. [제품 코드 오류 해결하기](https://docs.certi.life/guide/hospital/screens/issue-certificate#제품-코드-오류-해결하기)는 이 진료과와 관계없습니다.
+- **제품 코드와 치아번호가 없습니다.** 시술 이름, 주의사항, 보증사항을 [인증서 설정](https://certi.life/docs/guide/hospital/screens/certificate-settings#병원-인증서-만들기)에 미리 만들어 두고, 발행할 때는 `수술/시술 선택` 단계의 `인증서 선택`에서 고르기만 합니다. [제품 코드 오류 해결하기](https://certi.life/docs/guide/hospital/screens/issue-certificate#제품-코드-오류-해결하기)는 이 진료과와 관계없습니다.
 - **인증서 목록이 비어 있으면 먼저 인증서를 만듭니다.** `인증서 선택`에 아무것도 없으면 진료과 이름 > `인증서 설정` > `인증서 추가`에서 `수술명`을 넣어 인증서를 만듭니다. 그다음 `인증서 발행`으로 돌아옵니다.
 - **한 번에 여러 인증서를 고를 수 있습니다.** 최대 10개까지 고르고, `병원 추가사항 입력`에서 `전체 인증서에 적용`으로 주의사항과 보증사항을 한 번에 넣습니다.
 
-제품 코드 없이 발행한 인증서는 [발행 내역](https://docs.certi.life/guide/hospital/screens/history#발행한-인증서-찾기)에서 `고유번호`가 "간편발행"으로 표시됩니다. 잘못 보냈을 때 회수와 삭제를 고르는 기준은 치과와 같습니다. [잘못 보낸 인증서 바로잡기](https://docs.certi.life/guide/hospital/screens/history#잘못-보낸-인증서-바로잡기)를 보세요.
+제품 코드 없이 발행한 인증서는 [발행 내역](https://certi.life/docs/guide/hospital/screens/history#발행한-인증서-찾기)에서 `고유번호`가 "간편발행"으로 표시됩니다. 잘못 보냈을 때 회수와 삭제를 고르는 기준은 치과와 같습니다. [잘못 보낸 인증서 바로잡기](https://certi.life/docs/guide/hospital/screens/history#잘못-보낸-인증서-바로잡기)를 보세요.
 
 ## 제품 코드 오류 해결하기
 
@@ -120,22 +120,22 @@ QR 동의를 적용하면 `동의 완료`로 표시되고, 이름·연락처·�
 | 표시되는 문구                       | 뜻과 할 일                                                                                                                                                                                                                                                                                                                                                    |
 | ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | "존재하지 않는 제품 코드입니다."           | 코드를 잘못 입력했습니다. 라벨의 코드를 다시 확인해 입력합니다.                                                                                                                                                                                                                                                                                                                      |
-| "이미 인증서가 발행된 제품 코드입니다."       | 같은 코드로 이미 발행했습니다. [발행 내역](https://docs.certi.life/guide/hospital/screens/history#발행한-인증서-찾기)에서 어느 환자에게 발행했는지 확인합니다. 같은 환자이면 다시 발행하지 말고 [알림 다시 보내기](https://docs.certi.life/guide/hospital/screens/history#알림-다시-보내기)를 씁니다. 다른 환자이면 라벨을 다시 확인하고, 잘못 발행된 것이면 [잘못 보낸 인증서 바로잡기](https://docs.certi.life/guide/hospital/screens/history#잘못-보낸-인증서-바로잡기)를 따릅니다. |
+| "이미 인증서가 발행된 제품 코드입니다."       | 같은 코드로 이미 발행했습니다. [발행 내역](https://certi.life/docs/guide/hospital/screens/history#발행한-인증서-찾기)에서 어느 환자에게 발행했는지 확인합니다. 같은 환자이면 다시 발행하지 말고 [알림 다시 보내기](https://certi.life/docs/guide/hospital/screens/history#알림-다시-보내기)를 씁니다. 다른 환자이면 라벨을 다시 확인하고, 잘못 발행된 것이면 [잘못 보낸 인증서 바로잡기](https://certi.life/docs/guide/hospital/screens/history#잘못-보낸-인증서-바로잡기)를 따릅니다. |
 | "폐기된 제품입니다."                  | 쓸 수 없는 제품입니다. 제품을 공급한 제조사에 확인합니다.                                                                                                                                                                                                                                                                                                                         |
 | "중복되는 제품코드가 있습니다. 다시 확인해주세요." | 한 인증서 안에 같은 코드를 두 번 넣었습니다. 하나를 지웁니다.                                                                                                                                                                                                                                                                                                                      |
 | "발행 권한이 없습니다"                 | 해당 제품의 제조사에 발행 권한을 문의합니다.                                                                                                                                                                                                                                                                                                                                 |
 
-`제품 코드 한 번에 스캔하기`는 병원용 앱이 필요하고, 일부 제조사의 제품만 지원합니다. 앱은 [CertiLife 다운로드](https://docs.certi.life/guide/getting-started/downloads)에서 받습니다. 지원하지 않는 제조사의 제품은 코드를 직접 입력합니다. 임플란트 보철은 `바코드 스캔` 또는 `직접 입력`으로 GTIN 코드 14자리, 제조일자, LOT 번호(제조 묶음 번호)를 넣습니다. GTIN은 제품 라벨의 (01) 뒤 14자리 숫자입니다.
+`제품 코드 한 번에 스캔하기`는 병원용 앱이 필요하고, 일부 제조사의 제품만 지원합니다. 앱은 [CertiLife 다운로드](https://certi.life/docs/guide/getting-started/downloads)에서 받습니다. 지원하지 않는 제조사의 제품은 코드를 직접 입력합니다. 임플란트 보철은 `바코드 스캔` 또는 `직접 입력`으로 GTIN 코드 14자리, 제조일자, LOT 번호(제조 묶음 번호)를 넣습니다. GTIN은 제품 라벨의 (01) 뒤 14자리 숫자입니다.
 
 ## 위챗으로 보내기
 
 **위치:** 진료과 이름 > 인증서 발행 > 전송 방식 선택 > 위챗
 
-위챗을 쓰는 환자(주로 중국어권 환자)에게 보낼 때 고릅니다. 위챗으로 받으려면 환자가 먼저 서티라이프 위챗 공중계정을 팔로우하고 미니앱에 가입해야 합니다. 발행 화면의 QR을 환자에게 보여 주고 가입을 마친 뒤에 발행하세요. 이 QR은 [환자 동의 받기](https://docs.certi.life/guide/hospital/screens/issue-certificate#환자-동의-받기)의 동의용 QR과 다른 것입니다. 위챗 가입 QR이 화면 어디에 어떤 이름으로 보이는지는 확인되지 않았습니다.
+위챗을 쓰는 환자(주로 중국어권 환자)에게 보낼 때 고릅니다. 위챗으로 받으려면 환자가 먼저 서티라이프 위챗 공중계정을 팔로우하고 미니앱에 가입해야 합니다. 발행 화면의 QR을 환자에게 보여 주고 가입을 마친 뒤에 발행하세요. 이 QR은 [환자 동의 받기](https://certi.life/docs/guide/hospital/screens/issue-certificate#환자-동의-받기)의 동의용 QR과 다른 것입니다. 위챗 가입 QR이 화면 어디에 어떤 이름으로 보이는지는 확인되지 않았습니다.
 
 > **알림만 실패했다면 재발행하지 마세요**
 >
-> "인증서는 정상 발급되었으나 위챗 알림 발송에 실패했습니다."라는 문구가 나오면 인증서는 이미 발급된 상태입니다. 환자는 위챗 미니앱에서 인증서를 볼 수 있습니다. 다시 발행하지 말고 [알림 다시 보내기](https://docs.certi.life/guide/hospital/screens/history#알림-다시-보내기)에서 알림만 다시 보내세요. 카카오톡 알림이 안 갔을 때도 같습니다.
+> "인증서는 정상 발급되었으나 위챗 알림 발송에 실패했습니다."라는 문구가 나오면 인증서는 이미 발급된 상태입니다. 환자는 위챗 미니앱에서 인증서를 볼 수 있습니다. 다시 발행하지 말고 [알림 다시 보내기](https://certi.life/docs/guide/hospital/screens/history#알림-다시-보내기)에서 알림만 다시 보내세요. 카카오톡 알림이 안 갔을 때도 같습니다.
 
 ## 확인서 대량 발행하기
 
@@ -155,10 +155,10 @@ QR 동의를 적용하면 `동의 완료`로 표시되고, 이름·연락처·�
 5. 이미 같은 확인서를 받은 환자가 있으면 확인 창이 뜹니다. 그대로 발행할 환자만 체크해 `체크한 확인서 발행하기`를 누르거나 `제외하고 발행하기`를 누릅니다.
 6. 발행이 끝나면 `발행 내역 보기`로 결과를 확인합니다.
 
-채운 엑셀 파일에는 환자 정보가 들어 있습니다. 발행을 마치면 병원 기준에 따라 지우거나 안전하게 보관하고, 다운로드 폴더나 메신저에 남기지 마세요. 일부 환자만 발송에 실패했다면 파일을 다시 올리지 말고 [알림 다시 보내기](https://docs.certi.life/guide/hospital/screens/history#알림-다시-보내기)에서 실패한 건만 다시 보냅니다.
+채운 엑셀 파일에는 환자 정보가 들어 있습니다. 발행을 마치면 병원 기준에 따라 지우거나 안전하게 보관하고, 다운로드 폴더나 메신저에 남기지 마세요. 일부 환자만 발송에 실패했다면 파일을 다시 올리지 말고 [알림 다시 보내기](https://certi.life/docs/guide/hospital/screens/history#알림-다시-보내기)에서 실패한 건만 다시 보냅니다.
 
 ## 함께 보기
 
-- [인증서 설정](https://docs.certi.life/guide/hospital/screens/certificate-settings)
-- [발행 내역과 환자 관리](https://docs.certi.life/guide/hospital/screens/history)
-- [인증서 발행·전달 가이드](https://docs.certi.life/guide/hospital/certificate-workflow)
+- [인증서 설정](https://certi.life/docs/guide/hospital/screens/certificate-settings)
+- [발행 내역과 환자 관리](https://certi.life/docs/guide/hospital/screens/history)
+- [인증서 발행·전달 가이드](https://certi.life/docs/guide/hospital/certificate-workflow)

@@ -5,7 +5,7 @@ import {readFileSync} from 'node:fs';
 import matter from '@11ty/gray-matter';
 import sax from 'sax';
 import {requiredDocIds} from './docs-manifest.mjs';
-import {publicDocUrl} from './generate-ai-discovery.mjs';
+import {publicDocUrl, siteRoot} from './generate-ai-discovery.mjs';
 import {loadDocArticleExpected, loadDocNavigationTitle, loadDocTitle} from './verify-production.mjs';
 import {jsonLdHasType, normalizeJsonLd, validateBreadcrumbList, validateFaqPage, validateTechArticle} from './structured-data-validation.mjs';
 
@@ -77,7 +77,7 @@ export function verifyBuiltStructuredData(projectRoot) {
   validateFreshnessRecords(records, expected);
   for (const id of requiredDocIds) {
     const canonical = publicDocUrl(id);
-    const htmlPath = join(projectRoot, 'build', canonical.replace('https://docs.certi.life/', ''), 'index.html');
+    const htmlPath = join(projectRoot, 'build', canonical.slice(siteRoot.href.length), 'index.html');
     const fallbackPath = htmlPath.replace(/\/index\.html$/, '.html');
     let html;
     try { html = readFileSync(htmlPath, 'utf8'); } catch { html = readFileSync(fallbackPath, 'utf8'); }

@@ -17,8 +17,8 @@ import {cleanMarkdownUrl, renderLlmsTxt} from './generate-ai-discovery.mjs';
 import {assertNoEvaluationRegression} from './evaluate-clean-markdown.mjs';
 
 const routes = new Map([
-  ['getting-started/intro', {url: 'https://docs.certi.life/guide/getting-started/intro', fragments: new Set(['시작'])}],
-  ['help/faq', {url: 'https://docs.certi.life/guide/help/faq', fragments: new Set(['자주-묻는-질문'])}],
+  ['getting-started/intro', {url: 'https://certi.life/docs/guide/getting-started/intro', fragments: new Set(['시작'])}],
+  ['help/faq', {url: 'https://certi.life/docs/guide/help/faq', fragments: new Set(['자주-묻는-질문'])}],
 ]);
 
 test('renderCleanMarkdown는 frontmatter·ESM·주석·JSX를 제거하고 의미와 링크·코드를 보존한다', () => {
@@ -54,8 +54,8 @@ console.log('safe');
   assert.match(output, /^# 시작 안내$/m);
   assert.equal((output.match(/^# /gm) ?? []).length, 1);
   assert.match(output, /^> 첫 단계 공개 안내입니다\.$/m);
-  assert.match(output, /\[사람이 읽는 원문\]\(https:\/\/docs\.certi\.life\/guide\/getting-started\/intro\)/);
-  assert.match(output, /\[FAQ\]\(https:\/\/docs\.certi\.life\/guide\/help\/faq#자주-묻는-질문\)/);
+  assert.match(output, /\[사람이 읽는 원문\]\(https:\/\/certi\.life\/docs\/guide\/getting-started\/intro\)/);
+  assert.match(output, /\[FAQ\]\(https:\/\/certi\.life\/docs\/guide\/help\/faq#자주-묻는-질문\)/);
   assert.match(output, /^> \*\*주의\*\*$/m);
   assert.match(output, /```js title="example"\nconsole\.log\('safe'\);\n```/);
   assert.doesNotMatch(output, /frontmatter|sidebar_position|import Card|<Card>|\{\/\*|:::/);
@@ -174,8 +174,8 @@ test('artifact writer는 case·Unicode normalization 충돌을 쓰기 전에 fai
 test('clean Markdown artifacts는 canonical route와 1:1로 생성되고 stale·orphan·build drift를 거부한다', () => {
   const source = (title) => `---\ntitle: ${title}\ndescription: 공개 설명입니다.\n---\n# ${title}\n\n## 절\n\n본문입니다.\n`;
   const artifacts = createCleanMarkdownArtifacts([
-    {id: 'intro', canonicalUrl: 'https://docs.certi.life/guide/intro', source: source('소개')},
-    {id: 'help/faq', canonicalUrl: 'https://docs.certi.life/guide/help/faq', source: source('FAQ')},
+    {id: 'intro', canonicalUrl: 'https://certi.life/docs/guide/intro', source: source('소개')},
+    {id: 'help/faq', canonicalUrl: 'https://certi.life/docs/guide/help/faq', source: source('FAQ')},
   ]);
   assert.deepEqual(artifacts.map(({path}) => path), ['guide/help/faq.md', 'guide/intro.md']);
   const root = mkdtempSync(join(tmpdir(), 'clean-markdown-test-'));
@@ -200,10 +200,10 @@ test('clean Markdown artifacts는 canonical route와 1:1로 생성되고 stale·
 });
 
 test('llms.txt는 human canonical 대신 각 clean Markdown endpoint를 상세 문서 링크로 사용한다', () => {
-  assert.equal(cleanMarkdownUrl('intro'), 'https://docs.certi.life/guide/intro.md');
+  assert.equal(cleanMarkdownUrl('intro'), 'https://certi.life/docs/guide/intro.md');
   const llms = renderLlmsTxt();
-  assert.match(llms, /\(https:\/\/docs\.certi\.life\/guide\/intro\.md\)/);
-  assert.doesNotMatch(llms, /\(https:\/\/docs\.certi\.life\/guide\/intro\):/);
+  assert.match(llms, /\(https:\/\/certi\.life\/docs\/guide\/intro\.md\)/);
+  assert.doesNotMatch(llms, /\(https:\/\/certi\.life\/docs\/guide\/intro\):/);
 });
 
 test('clean Markdown retrieval 평가는 기준선 회귀를 fail-closed로 거부한다', () => {
@@ -216,7 +216,7 @@ test('clean Markdown retrieval 평가는 기준선 회귀를 fail-closed로 거�
 test('credential scanner는 대표 secret을 차단하고 안전한 설명·placeholder는 허용한다', () => {
   const document = (body) => [{
     id: 'security',
-    canonicalUrl: 'https://docs.certi.life/guide/security',
+    canonicalUrl: 'https://certi.life/docs/guide/security',
     source: `---\ntitle: 보안 안내\ndescription: 공개 설명입니다.\n---\n${body}\n`,
   }];
   const leaked = [
@@ -321,7 +321,7 @@ test('credential scanner는 대표 secret을 차단하고 안전한 설명·plac
 test('credential scanner는 공개 Markdown의 UUID·전화번호·내부 주소를 차단한다', () => {
   const document = (body) => [{
     id: 'security',
-    canonicalUrl: 'https://docs.certi.life/guide/security',
+    canonicalUrl: 'https://certi.life/docs/guide/security',
     source: `---\ntitle: 보안 안내\ndescription: 공개 설명입니다.\n---\n${body}\n`,
   }];
   for (const body of [
@@ -339,19 +339,19 @@ test('credential scanner는 공개 Markdown의 UUID·전화번호·내부 주소
 test('clean Markdown artifacts는 duplicate route와 identical output을 fail-closed로 거부한다', () => {
   const source = `---\ntitle: 동일\ndescription: 공개 설명입니다.\n---\n# 동일\n`;
   assert.throws(() => createCleanMarkdownArtifacts([
-    {id: 'a', canonicalUrl: 'https://docs.certi.life/guide/a', source},
-    {id: 'b', canonicalUrl: 'https://docs.certi.life/guide/a', source},
+    {id: 'a', canonicalUrl: 'https://certi.life/docs/guide/a', source},
+    {id: 'b', canonicalUrl: 'https://certi.life/docs/guide/a', source},
   ]), /duplicate clean Markdown endpoint/);
   assert.throws(() => createCleanMarkdownArtifacts([
-    {id: 'a', canonicalUrl: 'https://docs.certi.life/guide/a', source},
-    {id: 'b', canonicalUrl: 'https://docs.certi.life/guide/b', source},
+    {id: 'a', canonicalUrl: 'https://certi.life/docs/guide/a', source},
+    {id: 'b', canonicalUrl: 'https://certi.life/docs/guide/b', source},
   ]), /identical clean Markdown output/);
 });
 
 function combinedFixture() {
   const page = (id, title, body) => ({
     id,
-    canonicalUrl: `https://docs.certi.life/guide/${id}`,
+    canonicalUrl: `https://certi.life/docs/guide/${id}`,
     source: `---\ntitle: ${title}\ndescription: ${title} 공개 설명입니다.\n---\n# ${title}\n\n${body}\n`,
   });
   const artifacts = createCleanMarkdownArtifacts([
@@ -396,7 +396,7 @@ test('단일 파일은 헤딩을 섹션 > 페이지 > 패널로 재배치하고 
 
 test('단일 파일은 페이지 제목과 모든 ## 바로 아래에 실제 앵커와 일치하는 출처 줄을 둔다', () => {
   const {artifacts, content} = combinedFixture();
-  const base = 'https://docs.certi.life/guide/studio/screens';
+  const base = 'https://certi.life/docs/guide/studio/screens';
   assert.deepEqual(combinedSourceUrls(content), [
     `${base}/ai-settings`,
     `${base}/ai-settings#커스텀-페르소나-설정`,
@@ -407,13 +407,13 @@ test('단일 파일은 페이지 제목과 모든 ## 바로 아래에 실제 앵
   ]);
   const lines = content.split('\n');
   for (const [index, line] of lines.entries()) {
-    if (/^#{3,4} /.test(line)) assert.match(lines[index + 2], /^출처: https:\/\/docs\.certi\.life\/guide\//, `source line must follow: ${line}`);
+    if (/^#{3,4} /.test(line)) assert.match(lines[index + 2], /^출처: https:\/\/certi\.life\/docs\/guide\//, `source line must follow: ${line}`);
   }
   for (const url of combinedSourceUrls(content).filter((value) => value.includes('#'))) {
     const [pageUrl, fragment] = url.split('#');
     assert.ok(artifacts.find((artifact) => artifact.canonicalUrl === pageUrl).fragments.has(fragment), `unknown anchor: ${url}`);
   }
-  assert.match(content, /\[도구\]\(https:\/\/docs\.certi\.life\/guide\/studio\/screens\/tools#도구\)/);
+  assert.match(content, /\[도구\]\(https:\/\/certi\.life\/docs\/guide\/studio\/screens\/tools#도구\)/);
 });
 
 test('단일 파일은 페이지마다 구분선으로 나뉘고 manifest에 없는 문서는 거부한다', () => {
