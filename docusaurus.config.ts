@@ -7,8 +7,9 @@ const config: Config = {
   tagline: '인증서부터 AI 상담, CRM 마케팅까지',
   favicon: 'favicon.ico',
   future: {v4: true},
-  url: 'https://docs.certi.life',
-  baseUrl: '/',
+  // Served at https://certi.life/docs/ through the certi.life nginx proxy (GitHub Pages project path /docs/).
+  url: 'https://certi.life',
+  baseUrl: '/docs/',
   organizationName: 'certi-life',
   projectName: 'docs',
   trailingSlash: false,

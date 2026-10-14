@@ -2,9 +2,9 @@
 
 > Hospital 인증서 설정에서 병원 인증서를 추가하고 수술명, 인증서 이미지, 상세 정보 속성, 치료 후 주의사항, 병원 보증사항을 미리 입력하며, 치과 시술 구분 탭별 템플릿(새로운 템플릿 추가하기, 기본 템플릿으로 설정하기, 모두 번역), 병원 채널 알림톡 발송 설정, 병원 기본 이미지를 관리하는 방법을 안내합니다. 한의원 등 진료과 목록에 없는 병원의 공통 그룹도 다룹니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/hospital/screens/certificate-settings)
+[사람이 읽는 원문](https://certi.life/docs/guide/hospital/screens/certificate-settings)
 
-`인증서 설정`은 **발행할 때마다 반복해서 입력하는 내용을 미리 만들어 두는 곳**입니다. 수술별 인증서 양식, 치료 후 주의사항, 병원 보증사항을 여기에 넣어 두면 [인증서 발행](https://docs.certi.life/guide/hospital/screens/issue-certificate)에서는 고르기만 하면 됩니다. 설정을 바꿔도 이미 발행한 인증서는 바뀌지 않습니다. 치과는 화면 구조가 다르므로 [치과 템플릿 관리하기](https://docs.certi.life/guide/hospital/screens/certificate-settings#치과-템플릿-관리하기)를 보세요.
+`인증서 설정`은 **발행할 때마다 반복해서 입력하는 내용을 미리 만들어 두는 곳**입니다. 수술별 인증서 양식, 치료 후 주의사항, 병원 보증사항을 여기에 넣어 두면 [인증서 발행](https://certi.life/docs/guide/hospital/screens/issue-certificate)에서는 고르기만 하면 됩니다. 설정을 바꿔도 이미 발행한 인증서는 바뀌지 않습니다. 치과는 화면 구조가 다르므로 [치과 템플릿 관리하기](https://certi.life/docs/guide/hospital/screens/certificate-settings#치과-템플릿-관리하기)를 보세요.
 
 **위치:** 진료과 이름 > 인증서 설정
 
@@ -12,18 +12,18 @@
 
 | 하려는 일                          | 가는 곳                                                                                               |
 | ------------------------------ | -------------------------------------------------------------------------------------------------- |
-| 우리 병원 수술·시술에 맞는 인증서 만들기(치과 제외) | [병원 인증서 만들기](https://docs.certi.life/guide/hospital/screens/certificate-settings#병원-인증서-만들기)       |
-| 치과 주의사항 템플릿 관리하기               | [치과 템플릿 관리하기](https://docs.certi.life/guide/hospital/screens/certificate-settings#치과-템플릿-관리하기)     |
-| 우리 병원이 진료과 목록에 없을 때(한의원 등)     | [병원 인증서 만들기](https://docs.certi.life/guide/hospital/screens/certificate-settings#병원-인증서-만들기)       |
-| 대시보드에 "병원 보증사항을 입력해 주세요"가 뜰 때  | [주의사항과 보증사항 넣기](https://docs.certi.life/guide/hospital/screens/certificate-settings#주의사항과-보증사항-넣기) |
-| 인증서 알림톡을 병원 채널로 보내기            | [병원 채널로 발송하기](https://docs.certi.life/guide/hospital/screens/certificate-settings#병원-채널로-발송하기)     |
-| 인증서에 들어가는 그림 바꾸기               | [인증서 이미지 바꾸기](https://docs.certi.life/guide/hospital/screens/certificate-settings#인증서-이미지-바꾸기)     |
+| 우리 병원 수술·시술에 맞는 인증서 만들기(치과 제외) | [병원 인증서 만들기](https://certi.life/docs/guide/hospital/screens/certificate-settings#병원-인증서-만들기)       |
+| 치과 주의사항 템플릿 관리하기               | [치과 템플릿 관리하기](https://certi.life/docs/guide/hospital/screens/certificate-settings#치과-템플릿-관리하기)     |
+| 우리 병원이 진료과 목록에 없을 때(한의원 등)     | [병원 인증서 만들기](https://certi.life/docs/guide/hospital/screens/certificate-settings#병원-인증서-만들기)       |
+| 대시보드에 "병원 보증사항을 입력해 주세요"가 뜰 때  | [주의사항과 보증사항 넣기](https://certi.life/docs/guide/hospital/screens/certificate-settings#주의사항과-보증사항-넣기) |
+| 인증서 알림톡을 병원 채널로 보내기            | [병원 채널로 발송하기](https://certi.life/docs/guide/hospital/screens/certificate-settings#병원-채널로-발송하기)     |
+| 인증서에 들어가는 그림 바꾸기               | [인증서 이미지 바꾸기](https://certi.life/docs/guide/hospital/screens/certificate-settings#인증서-이미지-바꾸기)     |
 
 ## 병원 인증서 만들기
 
 **위치:** 진료과 이름 > 인증서 설정 > 인증서 추가
 
-성형외과, 피부과, 내과, 정형외과, 수의과, `병원` 공통 인증서는 같은 구조의 `병원 인증서 설정` 화면을 씁니다. 한의원처럼 진료과 목록에 없는 병원은 `병원` 공통 그룹을 씁니다. 한의원 계정에서 실제로 어떤 그룹이 보이는지는 화면에서 확인되지 않았습니다. 치과는 이 6단계를 쓰지 않고 시술 구분별 템플릿을 관리하며, 안과는 `스마일 확인서 설정`을 씁니다. 두 진료과는 [치과 템플릿 관리하기](https://docs.certi.life/guide/hospital/screens/certificate-settings#치과-템플릿-관리하기)를 보세요.
+성형외과, 피부과, 내과, 정형외과, 수의과, `병원` 공통 인증서는 같은 구조의 `병원 인증서 설정` 화면을 씁니다. 한의원처럼 진료과 목록에 없는 병원은 `병원` 공통 그룹을 씁니다. 한의원 계정에서 실제로 어떤 그룹이 보이는지는 화면에서 확인되지 않았습니다. 치과는 이 6단계를 쓰지 않고 시술 구분별 템플릿을 관리하며, 안과는 `스마일 확인서 설정`을 씁니다. 두 진료과는 [치과 템플릿 관리하기](https://certi.life/docs/guide/hospital/screens/certificate-settings#치과-템플릿-관리하기)를 보세요.
 
 1. `인증서 추가`를 누릅니다.
 2. `인증서 기본 설정`에서 `수술명`을 입력합니다. 필수 항목입니다. 인증서에 표시할 시술 이름을 넣는 칸이므로, 수술이 아닌 시술(예: 피부 레이저, 추나 치료)도 이 칸에 적습니다.
@@ -70,7 +70,7 @@
 
 기본으로는 서티라이프 채널로 인증서 알림톡이 나갑니다. 병원 카카오톡 채널로 보내려면 다음과 같이 합니다.
 
-1. [알림톡](https://docs.certi.life/guide/hospital/screens/alimtalk)에서 병원 채널을 등록하고 템플릿 검수 승인을 받습니다.
+1. [알림톡](https://certi.life/docs/guide/hospital/screens/alimtalk)에서 병원 채널을 등록하고 템플릿 검수 승인을 받습니다.
 2. `알림톡 발송 설정`에서 `병원 채널로 인증서 발송`을 켭니다.
 3. `발송 템플릿`에서 승인된 템플릿을 고릅니다. `템플릿 미리보기`로 모습을 확인합니다. 실제 발송 화면과는 차이가 있을 수 있습니다.
 
@@ -86,5 +86,5 @@
 
 ## 함께 보기
 
-- [인증서 발행](https://docs.certi.life/guide/hospital/screens/issue-certificate)
-- [알림톡](https://docs.certi.life/guide/hospital/screens/alimtalk)
+- [인증서 발행](https://certi.life/docs/guide/hospital/screens/issue-certificate)
+- [알림톡](https://certi.life/docs/guide/hospital/screens/alimtalk)

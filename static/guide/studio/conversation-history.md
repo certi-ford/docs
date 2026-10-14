@@ -2,7 +2,7 @@
 
 > 채널별 상담 내역을 검색하고 요약·분류·대화 내용을 확인하며 목록과 상세 화면을 구성하는 방법입니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/studio/conversation-history)
+[사람이 읽는 원문](https://certi.life/docs/guide/studio/conversation-history)
 
 `상담 내역`에서는 AI 채팅, 페르소나, Vox 전화, 카카오 일대일 채팅의 상담 기록을 한곳에서 조회할 수 있습니다. 기간·상태·채널·검색어로 필요한 상담을 찾고, 목록의 요약과 분류를 확인한 뒤 상세 화면에서 상담 정보와 전체 대화를 검토할 수 있습니다.
 
@@ -83,7 +83,7 @@
 
 ## 함께 보기
 
-- [상담 기록 필드 설정](https://docs.certi.life/guide/studio/consultation-records)
-- [상담 메시지 번역](https://docs.certi.life/guide/products/ai-chatbot/message-translation)
-- [상담 시나리오와 사람 연결](https://docs.certi.life/guide/studio/scenario-and-handoff)
-- [개인정보 및 보안](https://docs.certi.life/guide/help/privacy-security)
+- [상담 기록 필드 설정](https://certi.life/docs/guide/studio/consultation-records)
+- [상담 메시지 번역](https://certi.life/docs/guide/products/ai-chatbot/message-translation)
+- [상담 시나리오와 사람 연결](https://certi.life/docs/guide/studio/scenario-and-handoff)
+- [개인정보 및 보안](https://certi.life/docs/guide/help/privacy-security)

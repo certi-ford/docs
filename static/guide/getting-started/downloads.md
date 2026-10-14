@@ -2,7 +2,7 @@
 
 > 기업용 데스크톱 서비스와 환자용 모바일 앱 중 목적과 운영체제에 맞는 다운로드를 선택하는 방법입니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/getting-started/downloads)
+[사람이 읽는 원문](https://certi.life/docs/guide/getting-started/downloads)
 
 [공식 다운로드 페이지](https://certi.life/download)에서는 병원·기업 사용자를 위한 데스크톱 서비스와 고객·환자를 위한 모바일 앱을 구분해 제공합니다. 설치 파일은 메신저나 비공식 공유 링크가 아니라 공식 페이지에서 받으세요.
 
@@ -38,11 +38,11 @@ Hospital 웹 서비스에 접속하려는 경우에는 별도 설치 없이 [Hos
 - 저장 공간과 네트워크 연결을 확인합니다.
 - 회사·병원의 보안 정책이 설치를 차단하는지 담당자에게 문의합니다.
 - 출처를 알 수 없는 설치 파일 대신 공식 페이지에서 다시 내려받습니다.
-- 문제가 계속되면 [문제 해결](https://docs.certi.life/guide/help/troubleshooting)의 확인 항목을 정리해 문의합니다.
+- 문제가 계속되면 [문제 해결](https://certi.life/docs/guide/help/troubleshooting)의 확인 항목을 정리해 문의합니다.
 
 ## 다음 문서
 
-- [Hospital 계정 접속](https://docs.certi.life/guide/hospital/account-access)
-- [Studio 계정 접속](https://docs.certi.life/guide/studio/account-access)
-- [요금제와 도입 문의](https://docs.certi.life/guide/getting-started/plans-and-contact)
-- [개인정보 및 보안](https://docs.certi.life/guide/help/privacy-security)
+- [Hospital 계정 접속](https://certi.life/docs/guide/hospital/account-access)
+- [Studio 계정 접속](https://certi.life/docs/guide/studio/account-access)
+- [요금제와 도입 문의](https://certi.life/docs/guide/getting-started/plans-and-contact)
+- [개인정보 및 보안](https://certi.life/docs/guide/help/privacy-security)

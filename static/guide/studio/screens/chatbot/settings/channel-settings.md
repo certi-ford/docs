@@ -2,7 +2,7 @@
 
 > Studio 챗봇 설정의 채널 설정에서 웹채팅 SDK 스크립트로 홈페이지에 채팅 버튼을 달고, 카카오톡(오픈빌더·상담톡 봇), 네이버 톡톡, Instagram, LINE, WhatsApp에 챗봇을 연결하고, 상담원 바로 연결을 설정하는 방법을 안내합니다. 아임웹·워드프레스·카페24·Google 태그 관리자에 설치 스크립트를 붙이는 곳과 채팅 버튼이 보이지 않을 때의 해결 방법도 다룹니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/studio/screens/chatbot/settings/channel-settings)
+[사람이 읽는 원문](https://certi.life/docs/guide/studio/screens/chatbot/settings/channel-settings)
 
 챗봇을 다 만들었다면 고객이 말을 걸 수 있는 곳에 연결해야 합니다. 연결 방법은 채널마다 다릅니다. **웹사이트는 `SDK 스크립트`(설치 스크립트, 설치 코드, 스니펫이라고도 부릅니다)를 복사해 붙이고, 메신저 채널은 조직에 먼저 연동한 계정을 이 화면에서 고릅니다.** 하나의 챗봇을 여러 채널에 동시에 연결할 수 있습니다.
 
@@ -17,7 +17,7 @@
 | `네이버 톡톡`                        | 조직에 등록된 채널을 골라 `연결하기`          | 조직의 채널 설정에 네이버 톡톡 등록         |
 | `Instagram`, `LINE`, `WhatsApp` | `연동 채널`에서 계정을 고릅니다             | 조직의 채널 설정에 해당 계정 연동          |
 
-`WeChat`은 화면에 `준비중`으로 표시됩니다. 메신저 계정을 조직에 새로 연동하는 작업은 이 화면이 아니라 설정(조직 설정)의 `채널 설정`에서 합니다. 절차는 [채널 연동](https://docs.certi.life/guide/studio/screens/org-settings/channels)을 보세요. 이 화면의 목록에는 이미 연동된 계정만 나타납니다.
+`WeChat`은 화면에 `준비중`으로 표시됩니다. 메신저 계정을 조직에 새로 연동하는 작업은 이 화면이 아니라 설정(조직 설정)의 `채널 설정`에서 합니다. 절차는 [채널 연동](https://certi.life/docs/guide/studio/screens/org-settings/channels)을 보세요. 이 화면의 목록에는 이미 연동된 계정만 나타납니다.
 
 채널을 바꾼 뒤에는 왼쪽 아래 `저장`을 누릅니다.
 
@@ -34,7 +34,7 @@
 
 카드의 안내 문구는 "아래 스크립트를 복사하여 적용할 사이트의 `</head>` 혹은 `</body>` 태그 안에 삽입해주세요."입니다. 닫는 태그 바로 앞에 넣으라는 뜻입니다. `</head>` 바로 앞에 넣어도 버튼은 똑같이 나타납니다.
 
-붙이기 전에 먼저 시험해 보고 싶다면 같은 `웹채팅` 카드의 `웹채팅 URL`을 `복사`해 브라우저에서 열어 보세요. 웹사이트 없이도 챗봇과 바로 대화할 수 있어, 출시 전 테스트에 유용합니다. 채팅 버튼과 창의 색, 문구는 [`채팅창 설정`](https://docs.certi.life/guide/studio/screens/chatbot/settings/chat-window-settings)에서 바꿉니다.
+붙이기 전에 먼저 시험해 보고 싶다면 같은 `웹채팅` 카드의 `웹채팅 URL`을 `복사`해 브라우저에서 열어 보세요. 웹사이트 없이도 챗봇과 바로 대화할 수 있어, 출시 전 테스트에 유용합니다. 채팅 버튼과 창의 색, 문구는 [`채팅창 설정`](https://certi.life/docs/guide/studio/screens/chatbot/settings/chat-window-settings)에서 바꿉니다.
 
 ### 붙여 넣는 스크립트 살펴보기
 
@@ -99,7 +99,7 @@ var wc = null;
 
 ### 상담원 연결만 잠시 막기
 
-`상담 진행 여부`는 웹채팅에서 상담원 연결을 받을지 정하는 스위치입니다. 스위치 아래 설명은 "비활성화 시 웹채팅에서 상담을 진행하지 않습니다."입니다. 꺼도 채팅 버튼은 그대로 보이고 챗봇도 계속 답합니다. 고객이 상담원 연결을 요청하면 연결하지 않으며, 조직의 [자동메시지](https://docs.certi.life/guide/studio/screens/org-settings/auto-messages)에서 `상담원 비활성화 메시지`가 켜져 있으면 그 문구를 보냅니다. 채팅 버튼 자체를 감추려면 웹사이트에서 스크립트를 지워야 합니다.
+`상담 진행 여부`는 웹채팅에서 상담원 연결을 받을지 정하는 스위치입니다. 스위치 아래 설명은 "비활성화 시 웹채팅에서 상담을 진행하지 않습니다."입니다. 꺼도 채팅 버튼은 그대로 보이고 챗봇도 계속 답합니다. 고객이 상담원 연결을 요청하면 연결하지 않으며, 조직의 [자동메시지](https://certi.life/docs/guide/studio/screens/org-settings/auto-messages)에서 `상담원 비활성화 메시지`가 켜져 있으면 그 문구를 보냅니다. 채팅 버튼 자체를 감추려면 웹사이트에서 스크립트를 지워야 합니다.
 
 ## 카카오톡 연결하기
 
@@ -124,7 +124,7 @@ var wc = null;
 
 `채널 옵션`의 `채널 추가시에만 챗봇 사용 가능`을 켜면 카카오톡 채널을 추가(친구추가)한 사용자만 챗봇을 이용할 수 있습니다. 이 옵션을 켜면 두 가지를 더 설정할 수 있습니다.
 
-- `친구추가 시나리오로 이동`: 고객이 채널을 추가했을 때 보낼 메시지를 [`시나리오` 탭](https://docs.certi.life/guide/studio/screens/chatbot/scenarios)에서 편집합니다.
+- `친구추가 시나리오로 이동`: 고객이 채널을 추가했을 때 보낼 메시지를 [`시나리오` 탭](https://certi.life/docs/guide/studio/screens/chatbot/scenarios)에서 편집합니다.
 - `상담원 연결 유도 이벤트`: 발송 채널과 `오픈빌더 이벤트 이름`을 등록하고, `메시지 편집하기`로 유도 메시지 내용을 편집합니다. 발송 채널에 REST API 키가 등록되어 있어야 하며, 등록 방법은 화면의 `사전 설정 가이드`를 참고하세요.
 
 `AI 응답 안내 문구`에는 AI가 답변을 만드는 동안 고객에게 보일 메시지(예: "잠시만 기다려주세요. AI가 답변을 준비중입니다.")를 적습니다.
@@ -150,11 +150,11 @@ var wc = null;
 | `카카오톡`   | 카카오 스킬 요청이 오면 상담원 연결 안내를 응답합니다            |
 | `네이버 톡톡` | 고객이 톡톡을 시작하거나 메시지를 보내면 챗봇 없이 상담 대기로 시작합니다 |
 
-상담원이 응대할 수 없는 시간에도 상담 대기로 들어오므로, 켜기 전에 상담 가능 시간과 [상담원 연결 정책](https://docs.certi.life/guide/products/ai-chatbot/handoff-policy)을 먼저 정해 두세요. 챗봇이 답하다가 고객이 원할 때만 사람에게 넘기려면 이 설정 대신 카드 블럭의 버튼에 [`상담사 연결` 동작](https://docs.certi.life/guide/studio/screens/chatbot/blocks#버튼-동작-정하기)을 넣습니다.
+상담원이 응대할 수 없는 시간에도 상담 대기로 들어오므로, 켜기 전에 상담 가능 시간과 [상담원 연결 정책](https://certi.life/docs/guide/products/ai-chatbot/handoff-policy)을 먼저 정해 두세요. 챗봇이 답하다가 고객이 원할 때만 사람에게 넘기려면 이 설정 대신 카드 블럭의 버튼에 [`상담사 연결` 동작](https://certi.life/docs/guide/studio/screens/chatbot/blocks#버튼-동작-정하기)을 넣습니다.
 
 ## 연결한 뒤에는
 
-채널을 연결했다고 끝이 아닙니다. 고객에게 공개하기 전에 채널마다 가상 질문으로 정상 답변, 답변 거절, 상담원 연결, 업무시간 외 안내를 확인하세요. 점검 항목은 [출시 체크리스트](https://docs.certi.life/guide/studio/launch-checklist)에 있습니다. 연결 상태는 [챗봇 목록](https://docs.certi.life/guide/studio/screens/chatbot/list#챗봇-카드-읽는-법)의 카드에서도 한눈에 볼 수 있습니다.
+채널을 연결했다고 끝이 아닙니다. 고객에게 공개하기 전에 채널마다 가상 질문으로 정상 답변, 답변 거절, 상담원 연결, 업무시간 외 안내를 확인하세요. 점검 항목은 [출시 체크리스트](https://certi.life/docs/guide/studio/launch-checklist)에 있습니다. 연결 상태는 [챗봇 목록](https://certi.life/docs/guide/studio/screens/chatbot/list#챗봇-카드-읽는-법)의 카드에서도 한눈에 볼 수 있습니다.
 
 ## 문제가 생기면
 
@@ -175,7 +175,7 @@ var wc = null;
 1. 버튼이 안 보이는 페이지에서 브라우저의 페이지 소스 보기를 열고 `webchatSDK`를 찾습니다. 없으면 스크립트가 그 페이지에 들어가지 않은 것입니다. 모든 페이지가 함께 쓰는 공통 영역에 넣었는지 확인합니다. Google 태그 관리자로 넣었다면 페이지 소스에는 나오지 않으므로 3번으로 확인합니다.
 2. 스크립트가 화면에 글자로 보이면 HTML을 입력하는 칸이 아닌 곳에 붙인 것입니다. 코드를 입력하는 칸으로 옮깁니다. 스크립트의 처음 `<script>`와 끝 `</script>`가 잘리지 않았는지도 확인합니다.
 3. 브라우저 개발자 도구의 콘솔에 `typeof WebChat`을 입력합니다. `'function'`이 나오면 스크립트가 실행된 것이고, `'undefined'`가 나오면 실행되지 않은 것입니다.
-4. 콘솔에 Content Security Policy 차단 메시지가 있으면 [보안 정책(CSP)을 쓰는 사이트라면](https://docs.certi.life/guide/studio/screens/chatbot/settings/channel-settings#보안-정책csp을-쓰는-사이트라면)의 항목을 허용합니다.
+4. 콘솔에 Content Security Policy 차단 메시지가 있으면 [보안 정책(CSP)을 쓰는 사이트라면](https://certi.life/docs/guide/studio/screens/chatbot/settings/channel-settings#보안-정책csp을-쓰는-사이트라면)의 항목을 허용합니다.
 5. 홈페이지에 캐시 기능이 있으면 캐시를 비우고 새로 고칩니다.
 
 그래도 안 되면 페이지 주소와 콘솔의 메시지를 적어 조직의 CertiLife 담당자에게 알립니다.
@@ -192,7 +192,7 @@ var wc = null;
 
 ### 채팅 버튼이 사이트의 다른 버튼과 겹칠 때
 
-"맨 위로" 버튼이나 다른 채팅 버튼과 자리가 겹치면 `채팅창 설정`의 `플로팅 버튼`에서 `버튼 위치`와 `아래 여백`을 바꿉니다. 방법은 [채팅 버튼 모양과 위치 바꾸기](https://docs.certi.life/guide/studio/screens/chatbot/settings/chat-window-settings#채팅-버튼-모양과-위치-바꾸기)에 있습니다. 스크립트는 다시 붙이지 않아도 됩니다.
+"맨 위로" 버튼이나 다른 채팅 버튼과 자리가 겹치면 `채팅창 설정`의 `플로팅 버튼`에서 `버튼 위치`와 `아래 여백`을 바꿉니다. 방법은 [채팅 버튼 모양과 위치 바꾸기](https://certi.life/docs/guide/studio/screens/chatbot/settings/chat-window-settings#채팅-버튼-모양과-위치-바꾸기)에 있습니다. 스크립트는 다시 붙이지 않아도 됩니다.
 
 ### `상담 진행 여부가 꺼져 있어 상담원 바로 연결을 위해 함께 활성화됩니다. 저장을 눌러 적용해주세요.`
 
@@ -202,7 +202,7 @@ var wc = null;
 
 `상담원 연결 유도 이벤트`의 발송 채널로 고른 카카오 채널에 REST API 키가 없다는 뜻입니다. 키가 없으면 유도 메시지를 보낼 수 없습니다.
 
-1. 설정(조직 설정)의 [`채널 설정`](https://docs.certi.life/guide/studio/screens/org-settings/channels)에서 그 카카오 채널에 REST API 키를 등록합니다.
+1. 설정(조직 설정)의 [`채널 설정`](https://certi.life/docs/guide/studio/screens/org-settings/channels)에서 그 카카오 채널에 REST API 키를 등록합니다.
 2. 이 화면으로 돌아와 발송 채널을 다시 고르고 `저장`을 누릅니다.
 
 등록 방법은 화면의 `사전 설정 가이드`를 참고합니다. 그래도 같은 경고가 나오면 채널 이름과 화면의 문구를 적어 조직의 CertiLife 담당자에게 알립니다.

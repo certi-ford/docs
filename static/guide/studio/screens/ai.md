@@ -2,7 +2,7 @@
 
 > Studio AI 메뉴에서 AI와 대화하며 문서 질문·요약, 글 작성·편집을 하고, 웹 검색·문서 검색·상담 검색 도구를 고르고, AI의 편집 제안을 적용·제외·되돌리기 하며, 문서함에서 문서 작성·버전 비교·복원, 카탈로그 태그 할당, 챗봇에 반영, 용어 통일 검토를 하는 방법을 안내합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/studio/screens/ai)
+[사람이 읽는 원문](https://certi.life/docs/guide/studio/screens/ai)
 
 `AI` 메뉴는 AI와 대화하면서 **문서 일을 같이 하는 작업 공간**입니다. 문서에 대해 질문하고, 요약을 받고, 안내문 초안을 쓰게 하고, 고친 문서를 챗봇 학습자료로 반영하는 데까지 한 화면에서 이어집니다. 처음 들어오면 가운데에 "무엇을 도와드릴까요?"가 보이고, 아래 입력창(`AI에게 메시지 보내기`)에 하고 싶은 일을 적으면 됩니다.
 
@@ -23,12 +23,12 @@
 | 하고 싶은 일                   | 방법                                                                                 |
 | ------------------------- | ---------------------------------------------------------------------------------- |
 | 안내문 초안을 AI에게 쓰게 하고 싶어요    | 대화창에 요청하고, 결과를 `문서함`에서 다듬습니다                                                       |
-| AI가 어디에서 찾아 답할지 정하고 싶어요   | [AI가 찾아볼 곳 고르기](https://docs.certi.life/guide/studio/screens/ai#ai가-찾아볼-곳-고르기)     |
-| AI가 제안한 수정을 골라서 받아들이고 싶어요 | [AI의 편집 제안 적용하기](https://docs.certi.life/guide/studio/screens/ai#ai의-편집-제안-적용하기)   |
-| 가지고 있는 파일을 문서로 등록하고 싶어요   | [문서 만들고 올리기](https://docs.certi.life/guide/studio/screens/ai#문서-만들고-올리기)           |
-| 고친 문서를 챗봇이 쓰게 하고 싶어요      | [고친 문서를 챗봇에 반영하기](https://docs.certi.life/guide/studio/screens/ai#고친-문서를-챗봇에-반영하기) |
-| 예전 내용으로 되돌리고 싶어요          | [버전 비교하고 되돌리기](https://docs.certi.life/guide/studio/screens/ai#버전-비교하고-되돌리기)       |
-| 여러 문서에서 제각각인 표기를 맞추고 싶어요  | [여러 문서의 용어 통일하기](https://docs.certi.life/guide/studio/screens/ai#여러-문서의-용어-통일하기)   |
+| AI가 어디에서 찾아 답할지 정하고 싶어요   | [AI가 찾아볼 곳 고르기](https://certi.life/docs/guide/studio/screens/ai#ai가-찾아볼-곳-고르기)     |
+| AI가 제안한 수정을 골라서 받아들이고 싶어요 | [AI의 편집 제안 적용하기](https://certi.life/docs/guide/studio/screens/ai#ai의-편집-제안-적용하기)   |
+| 가지고 있는 파일을 문서로 등록하고 싶어요   | [문서 만들고 올리기](https://certi.life/docs/guide/studio/screens/ai#문서-만들고-올리기)           |
+| 고친 문서를 챗봇이 쓰게 하고 싶어요      | [고친 문서를 챗봇에 반영하기](https://certi.life/docs/guide/studio/screens/ai#고친-문서를-챗봇에-반영하기) |
+| 예전 내용으로 되돌리고 싶어요          | [버전 비교하고 되돌리기](https://certi.life/docs/guide/studio/screens/ai#버전-비교하고-되돌리기)       |
+| 여러 문서에서 제각각인 표기를 맞추고 싶어요  | [여러 문서의 용어 통일하기](https://certi.life/docs/guide/studio/screens/ai#여러-문서의-용어-통일하기)   |
 
 ## AI가 찾아볼 곳 고르기
 
@@ -65,7 +65,7 @@
 | "표/목록/제목 구조가 손상될 수 있어 적용할 수 없습니다."                | 표나 목록이 깨질 수 있는 수정입니다. 해당 부분은 직접 고칩니다              |
 | "예상보다 큰 삭제가 감지되어 적용할 수 없습니다."                     | 제안이 내용을 너무 많이 지웁니다. 범위를 좁혀 다시 요청합니다               |
 
-챗봇의 커스텀 프롬프트에 대한 제안은 여기에서 적용되지 않습니다. 내용을 참고해 챗봇의 [AI 설정](https://docs.certi.life/guide/studio/screens/chatbot/settings/ai-settings)에서 직접 고칩니다.
+챗봇의 커스텀 프롬프트에 대한 제안은 여기에서 적용되지 않습니다. 내용을 참고해 챗봇의 [AI 설정](https://certi.life/docs/guide/studio/screens/chatbot/settings/ai-settings)에서 직접 고칩니다.
 
 ## 문서 만들고 올리기
 
@@ -77,7 +77,7 @@
 
 열어 둔 문서를 저장하지 않은 채 다른 문서나 폴더를 열거나, 새 문서를 만들거나, 버전을 복원하려 하면 `저장되지 않은 변경` 창("현재 문서의 변경사항이 저장되지 않았습니다. 저장하지 않고 이동하면 변경사항이 사라집니다.")이 뜹니다. `계속 편집`을 누르면 편집이 남고, `저장하지 않고 나가기`를 누르면 고친 내용이 사라집니다.
 
-문서를 정리하려면 `폴더 이동`으로 폴더를 옮깁니다. 문서가 [백과사전](https://docs.certi.life/guide/studio/screens/encyclopedia)의 어느 주제에 속하는지는 `카탈로그 태그 할당`으로 정합니다. 문서를 선택한 뒤 `카탈로그 태그 할당` 창에서 태그를 찾아 고르고 `변경 적용`을 누르세요. 문서 하나의 태그는 `상세정보`(`문서 상세정보` 창)의 `카탈로그 태그`에서도 바꿀 수 있고, 여기서는 선택하거나 해제하면 바로 저장됩니다.
+문서를 정리하려면 `폴더 이동`으로 폴더를 옮깁니다. 문서가 [백과사전](https://certi.life/docs/guide/studio/screens/encyclopedia)의 어느 주제에 속하는지는 `카탈로그 태그 할당`으로 정합니다. 문서를 선택한 뒤 `카탈로그 태그 할당` 창에서 태그를 찾아 고르고 `변경 적용`을 누르세요. 문서 하나의 태그는 `상세정보`(`문서 상세정보` 창)의 `카탈로그 태그`에서도 바꿀 수 있고, 여기서는 선택하거나 해제하면 바로 저장됩니다.
 
 ## 고친 문서를 챗봇에 반영하기
 
@@ -131,6 +131,6 @@
 
 ## 함께 보기
 
-- [백과사전](https://docs.certi.life/guide/studio/screens/encyclopedia): 태그와 폴더로 조직 지식 정리하기
-- [AI 학습자료 설정](https://docs.certi.life/guide/studio/screens/chatbot/settings/training-materials): 챗봇에 연결된 자료 확인하기
-- [상담 지식 관리](https://docs.certi.life/guide/studio/knowledge-management): 어떤 자료를 넣을지에 대한 운영 기준
+- [백과사전](https://certi.life/docs/guide/studio/screens/encyclopedia): 태그와 폴더로 조직 지식 정리하기
+- [AI 학습자료 설정](https://certi.life/docs/guide/studio/screens/chatbot/settings/training-materials): 챗봇에 연결된 자료 확인하기
+- [상담 지식 관리](https://certi.life/docs/guide/studio/knowledge-management): 어떤 자료를 넣을지에 대한 운영 기준

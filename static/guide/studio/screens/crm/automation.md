@@ -2,13 +2,13 @@
 
 > Studio CRM의 시나리오 자동화에서 트리거·대기·분기·A/B 분할·알림톡·브랜드 메시지·종료 블록으로 자동 발송 흐름을 만들고, 활성화하고, 고객을 편입하고, 진행 현황을 확인하고, 일시 정지 후 수정하는 방법을 안내합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/studio/screens/crm/automation)
+[사람이 읽는 원문](https://certi.life/docs/guide/studio/screens/crm/automation)
 
-"시술 3일 뒤 관리 안내", "마지막 방문 6개월 뒤 재방문 안내"처럼 **고객마다 시점이 다른 안내**는 사람이 챙기기 어렵습니다. `시나리오 자동화`는 조건과 흐름을 한 번 만들어 두면, 조건에 맞는 고객이 생길 때마다 메시지가 자동으로 나가게 합니다. 한 번만 보낼 메시지라면 [캠페인](https://docs.certi.life/guide/studio/screens/crm/campaigns)이 더 간단합니다.
+"시술 3일 뒤 관리 안내", "마지막 방문 6개월 뒤 재방문 안내"처럼 **고객마다 시점이 다른 안내**는 사람이 챙기기 어렵습니다. `시나리오 자동화`는 조건과 흐름을 한 번 만들어 두면, 조건에 맞는 고객이 생길 때마다 메시지가 자동으로 나가게 합니다. 한 번만 보낼 메시지라면 [캠페인](https://certi.life/docs/guide/studio/screens/crm/campaigns)이 더 간단합니다.
 
 **위치:** CRM > 시나리오 자동화
 
-이 화면은 세그먼트와 고객 속성 조건을 기반으로 한 자동화만 관리합니다. 챗봇의 [`시나리오` 탭](https://docs.certi.life/guide/studio/screens/chatbot/scenarios)과는 이름만 같고 다른 기능입니다.
+이 화면은 세그먼트와 고객 속성 조건을 기반으로 한 자동화만 관리합니다. 챗봇의 [`시나리오` 탭](https://certi.life/docs/guide/studio/screens/chatbot/scenarios)과는 이름만 같고 다른 기능입니다.
 
 ## 시나리오는 블록으로 만듭니다
 
@@ -31,7 +31,7 @@
 1. `새 시나리오`를 누르고 위쪽에 이름을 적습니다.
 2. `트리거` 블록을 놓고 시작 조건을 정합니다. 예: 특정 시술 세그먼트에 들어온 고객
 3. `대기` 블록으로 기다릴 시간을 정합니다. 예: 3일
-4. `알림톡` 또는 `브랜드 메시지` 블록을 놓고 채널, 템플릿, 변수를 정합니다. 템플릿은 [승인된 것](https://docs.certi.life/guide/studio/screens/crm/templates)만 쓸 수 있습니다.
+4. `알림톡` 또는 `브랜드 메시지` 블록을 놓고 채널, 템플릿, 변수를 정합니다. 템플릿은 [승인된 것](https://certi.life/docs/guide/studio/screens/crm/templates)만 쓸 수 있습니다.
 5. 마지막에 `종료` 블록을 연결합니다.
 6. `저장`을 누른 뒤 `활성화`를 누릅니다.
 
@@ -66,7 +66,7 @@
 
 **위치:** CRM > 시나리오 자동화 > (시나리오 선택) > 고객 편입
 
-트리거 조건을 기다리지 않고 특정 고객을 바로 흐름에 넣으려면 `고객 편입`을 누르고 고객을 고릅니다. 상담 중인 고객은 [상담 화면의 `시나리오 편입`](https://docs.certi.life/guide/studio/screens/counsel/customer#다음-행동으로-이어가기)으로, 고객 한 명은 [고객 편집의 `시나리오` 탭](https://docs.certi.life/guide/studio/screens/crm/customers#고객-편집-화면의-나머지-탭)에서도 넣을 수 있습니다. 이미 진행 중인 고객을 다시 편입하면 같은 메시지가 중복으로 나갈 수 있습니다.
+트리거 조건을 기다리지 않고 특정 고객을 바로 흐름에 넣으려면 `고객 편입`을 누르고 고객을 고릅니다. 상담 중인 고객은 [상담 화면의 `시나리오 편입`](https://certi.life/docs/guide/studio/screens/counsel/customer#다음-행동으로-이어가기)으로, 고객 한 명은 [고객 편집의 `시나리오` 탭](https://certi.life/docs/guide/studio/screens/crm/customers#고객-편집-화면의-나머지-탭)에서도 넣을 수 있습니다. 이미 진행 중인 고객을 다시 편입하면 같은 메시지가 중복으로 나갈 수 있습니다.
 
 ## 진행 상황 보고 멈추기
 
@@ -90,4 +90,4 @@
 - 처음에는 `트리거` → `대기` → `알림톡` → `종료`의 단순한 흐름 하나로 시작합니다.
 - 활성화하기 전에 내 번호를 고객으로 등록해 `고객 편입`으로 직접 받아 보세요.
 - 메시지가 너무 잦으면 고객이 수신을 거부합니다. 한 고객이 여러 시나리오에 동시에 들어가지 않는지 확인하세요.
-- 수신 거부를 요청한 고객은 [수신 동의 관리](https://docs.certi.life/guide/studio/screens/crm/customers#수신-동의-관리하기)에서 처리하면 광고성 시나리오에서 자동으로 빠집니다.
+- 수신 거부를 요청한 고객은 [수신 동의 관리](https://certi.life/docs/guide/studio/screens/crm/customers#수신-동의-관리하기)에서 처리하면 광고성 시나리오에서 자동으로 빠집니다.

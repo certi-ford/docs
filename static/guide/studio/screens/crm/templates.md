@@ -2,7 +2,7 @@
 
 > Studio CRM의 메시지 템플릿에서 알림톡 템플릿을 등록해 카카오 검수를 받고, 브랜드 메시지와 WhatsApp 템플릿을 만들고, 변수와 버튼을 넣고, 검수 상태를 확인하고 반려된 템플릿을 고쳐 재검수하는 방법을 안내합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/studio/screens/crm/templates)
+[사람이 읽는 원문](https://certi.life/docs/guide/studio/screens/crm/templates)
 
 알림톡과 WhatsApp 메시지는 아무 문구나 보낼 수 없습니다. **미리 템플릿을 등록해 심사를 통과해야** 하고, 승인된 템플릿만 캠페인과 자동화에 연결됩니다. 심사에는 시간이 걸리므로 메시지를 보내려는 날보다 여유 있게 준비하세요.
 
@@ -18,7 +18,7 @@
 
 탭에 `준비 중`이 표시된 유형은 아직 쓸 수 없습니다. 아래의 검수 상태 표는 `알림톡` 탭 기준입니다.
 
-템플릿 코드는 이 화면의 `알림톡` 탭에서 새 템플릿을 만들 때 직접 입력하는 값입니다. Hospital의 [알림톡](https://docs.certi.life/guide/hospital/screens/alimtalk) 화면에서는 템플릿 코드가 채널 설정에서 정해진 값이라 입력하지 않습니다. 두 화면의 템플릿이 서로 공유되는지는 이 문서에서 확인하지 못했습니다.
+템플릿 코드는 이 화면의 `알림톡` 탭에서 새 템플릿을 만들 때 직접 입력하는 값입니다. Hospital의 [알림톡](https://certi.life/docs/guide/hospital/screens/alimtalk) 화면에서는 템플릿 코드가 채널 설정에서 정해진 값이라 입력하지 않습니다. 두 화면의 템플릿이 서로 공유되는지는 이 문서에서 확인하지 못했습니다.
 
 ## 알림톡 템플릿 만들기
 
@@ -97,7 +97,7 @@
 1. 문구가 붙은 칸을 채웁니다.
 2. `등록`을 다시 누릅니다.
 
-`카카오 채널` 목록이 비어 있고 "카카오 채널 목록을 불러오지 못했습니다."가 나왔다면 화면을 새로고침합니다. 연결된 채널이 아예 없으면 [채널 연동](https://docs.certi.life/guide/studio/screens/org-settings/channels)에서 카카오 채널을 먼저 연결합니다. 그래도 안 되면 화면의 문구와 발생 시각을 적어 조직의 CertiLife 담당자에게 알립니다.
+`카카오 채널` 목록이 비어 있고 "카카오 채널 목록을 불러오지 못했습니다."가 나왔다면 화면을 새로고침합니다. 연결된 채널이 아예 없으면 [채널 연동](https://certi.life/docs/guide/studio/screens/org-settings/channels)에서 카카오 채널을 먼저 연결합니다. 그래도 안 되면 화면의 문구와 발생 시각을 적어 조직의 CertiLife 담당자에게 알립니다.
 
 ### `승인 또는 검수중 템플릿은 삭제할 수 없습니다.`
 
@@ -110,7 +110,7 @@
 
 ## 함께 보기
 
-- [캠페인](https://docs.certi.life/guide/studio/screens/crm/campaigns): 승인된 템플릿으로 메시지 보내기
-- [채널 연동](https://docs.certi.life/guide/studio/screens/org-settings/channels): 알림톡 채널과 WhatsApp 계정 연동하기
-- [알림톡](https://docs.certi.life/guide/hospital/screens/alimtalk): Hospital에서 인증서 알림톡 템플릿 다루기
-- [CRM 메시지 발송 전 체크리스트](https://docs.certi.life/guide/products/crm-messaging/message-checklist)
+- [캠페인](https://certi.life/docs/guide/studio/screens/crm/campaigns): 승인된 템플릿으로 메시지 보내기
+- [채널 연동](https://certi.life/docs/guide/studio/screens/org-settings/channels): 알림톡 채널과 WhatsApp 계정 연동하기
+- [알림톡](https://certi.life/docs/guide/hospital/screens/alimtalk): Hospital에서 인증서 알림톡 템플릿 다루기
+- [CRM 메시지 발송 전 체크리스트](https://certi.life/docs/guide/products/crm-messaging/message-checklist)

@@ -2,11 +2,11 @@
 
 > 카카오톡, 문자, 위챗, 이메일의 특성을 비교해 인증서 전달 채널을 계획합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/products/certificate/channels)
+[사람이 읽는 원문](https://certi.life/docs/guide/products/certificate/channels)
 
 인증서는 카카오톡, 문자, 위챗, 이메일 네 채널로 전달할 수 있습니다. 환자에게는 대개 "카톡으로 보내 드릴게요"라고 안내하게 되며, 고객은 별도 앱을 설치하지 않고 전달받은 안내를 통해 인증서를 확인하고 모바일에 영구 보관할 수 있습니다. 채널 선택의 핵심은 기능의 많고 적음이 아니라 고객이 평소 확인하는 접점과 조직이 관리할 수 있는 발신 방식이 서로 맞는지에 있습니다.
 
-실제 발행 화면의 `전송 방식 선택`에는 `카카오톡`, `위챗`, `이메일`이 보이고, 문자는 발행 내역의 `문자 전송됨` 상태로 확인됩니다. 어느 전송 방식이 우리 병원 화면에 보이는지는 [인증서 발행](https://docs.certi.life/guide/hospital/screens/issue-certificate)에서 확인하세요. 국내 환자만 보는 병원은 이 문서의 위챗 항목을 건너뛰어도 됩니다.
+실제 발행 화면의 `전송 방식 선택`에는 `카카오톡`, `위챗`, `이메일`이 보이고, 문자는 발행 내역의 `문자 전송됨` 상태로 확인됩니다. 어느 전송 방식이 우리 병원 화면에 보이는지는 [인증서 발행](https://certi.life/docs/guide/hospital/screens/issue-certificate)에서 확인하세요. 국내 환자만 보는 병원은 이 문서의 위챗 항목을 건너뛰어도 됩니다.
 
 ## 목적
 
@@ -17,7 +17,7 @@
 ## 서티라이프 채널과 자체 비즈니스 채널
 
 - **서티라이프 채널**은 서티라이프가 제공하는 발송 채널이며 무료로 쓸 수 있습니다. 위챗은 환자가 서티라이프 위챗 공중계정을 팔로우해 받으므로 서티라이프 채널에 해당합니다. 환자 휴대폰에 표시되는 발신자 이름은 공개 문서에서 확인되지 않았으므로 발행 화면에서 확인하세요.
-- **자체 비즈니스 채널**은 병원 이름의 카카오톡 채널로 알림톡을 보내는 방식입니다. Hospital `알림톡` 메뉴에서 병원 채널을 등록해 인증을 마치고 템플릿 검수를 통과해야 하며, 비용이 발생할 수 있습니다. 절차는 [알림톡](https://docs.certi.life/guide/hospital/screens/alimtalk)에 있습니다.
+- **자체 비즈니스 채널**은 병원 이름의 카카오톡 채널로 알림톡을 보내는 방식입니다. Hospital `알림톡` 메뉴에서 병원 채널을 등록해 인증을 마치고 템플릿 검수를 통과해야 하며, 비용이 발생할 수 있습니다. 절차는 [알림톡](https://certi.life/docs/guide/hospital/screens/alimtalk)에 있습니다.
 - 문자와 이메일의 발신 주체와 비용 조건은 공개 문서에서 확인되지 않았습니다. 조직의 CertiLife 담당자에게 확인하세요.
 
 ## 준비할 내용
@@ -32,9 +32,9 @@
 
 | 채널   | 적합한 상황                                                 | 발신 주체                                  | 환자와 병원이 먼저 갖출 것                                                                                                                                                                                    |
 | ---- | ------------------------------------------------------ | -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 카카오톡 | 국내 환자 대부분에게 보낼 때. 카카오톡으로 보내려면 환자의 개인정보 수집·제공 동의가 필요합니다 | 서티라이프 채널 또는 병원 이름의 카카오톡 채널(자체 비즈니스 채널) | 병원 채널로 보내려면 [알림톡](https://docs.certi.life/guide/hospital/screens/alimtalk)에서 채널 등록·발신프로필 인증·템플릿 검수를 마칩니다. 발송 후 상태는 [발행 내역](https://docs.certi.life/guide/hospital/screens/history#인증서-상태-읽기)에서 봅니다 |
+| 카카오톡 | 국내 환자 대부분에게 보낼 때. 카카오톡으로 보내려면 환자의 개인정보 수집·제공 동의가 필요합니다 | 서티라이프 채널 또는 병원 이름의 카카오톡 채널(자체 비즈니스 채널) | 병원 채널로 보내려면 [알림톡](https://certi.life/docs/guide/hospital/screens/alimtalk)에서 채널 등록·발신프로필 인증·템플릿 검수를 마칩니다. 발송 후 상태는 [발행 내역](https://certi.life/docs/guide/hospital/screens/history#인증서-상태-읽기)에서 봅니다 |
 | 문자   | 휴대전화 번호만 있는 환자에게 간결하게 안내할 때                            | 확인되지 않음                                | 발신 번호와 링크를 신뢰할 수 있도록 발신 주체를 명확히 씁니다. 상태는 발행 내역의 `문자 전송됨`으로 확인합니다                                                                                                                                   |
-| 위챗   | 위챗을 주로 쓰는 중국어권 환자에게 보낼 때                               | 서티라이프 채널(서티라이프 위챗 공중계정)                | 환자가 먼저 서티라이프 위챗 공중계정을 팔로우하고 미니앱에 가입해야 합니다. 발행 화면의 QR을 환자에게 보여 주고 가입을 마친 뒤 발행합니다. 절차는 [위챗으로 보내기](https://docs.certi.life/guide/hospital/screens/issue-certificate#위챗으로-보내기)에 있습니다                   |
+| 위챗   | 위챗을 주로 쓰는 중국어권 환자에게 보낼 때                               | 서티라이프 채널(서티라이프 위챗 공중계정)                | 환자가 먼저 서티라이프 위챗 공중계정을 팔로우하고 미니앱에 가입해야 합니다. 발행 화면의 QR을 환자에게 보여 주고 가입을 마친 뒤 발행합니다. 절차는 [위챗으로 보내기](https://certi.life/docs/guide/hospital/screens/issue-certificate#위챗으로-보내기)에 있습니다                   |
 | 이메일  | 이메일로 기록을 찾는 고객 또는 긴 안내가 필요한 경우                         | 확인되지 않음                                | 제목, 발신자명, 스팸함 확인 안내를 검토합니다                                                                                                                                                                         |
 
 ## 선택 절차
@@ -44,7 +44,7 @@
 3. 무료로 사용할 수 있는 서티라이프 채널과 비용이 발생할 수 있는 자체 비즈니스 채널 중 운영 방식을 검토합니다.
 4. 채널에 맞게 발신자, 인증서 확인 안내, 문의 방법을 작성합니다.
 5. 가상 수신 정보로 링크와 문구 표시를 확인합니다.
-6. 실패 또는 미확인 상황에서 재안내할 기준을 내부 정책으로 정합니다. 실제로 다시 보내는 절차는 [발행 내역](https://docs.certi.life/guide/hospital/screens/history#알림-다시-보내기)의 알림 다시 보내기에 있습니다. 연락처가 틀렸다면 재발송이 아니라 회수 후 재발행입니다.
+6. 실패 또는 미확인 상황에서 재안내할 기준을 내부 정책으로 정합니다. 실제로 다시 보내는 절차는 [발행 내역](https://certi.life/docs/guide/hospital/screens/history#알림-다시-보내기)의 알림 다시 보내기에 있습니다. 연락처가 틀렸다면 재발송이 아니라 회수 후 재발행입니다.
 
 > **주의**
 >
@@ -52,8 +52,8 @@
 
 ## 다음 문서
 
-- [인증서 발행](https://docs.certi.life/guide/hospital/screens/issue-certificate) (Hospital 화면의 실제 발행 순서와 전송 방식 선택)
-- [발행 내역](https://docs.certi.life/guide/hospital/screens/history) (상태 확인과 알림 다시 보내기)
-- [인증서 전달 전 체크리스트](https://docs.certi.life/guide/products/certificate/delivery-checklist)
-- [인증서](https://docs.certi.life/guide/products/certificate)
-- [CRM 메시징](https://docs.certi.life/guide/products/crm-messaging)
+- [인증서 발행](https://certi.life/docs/guide/hospital/screens/issue-certificate) (Hospital 화면의 실제 발행 순서와 전송 방식 선택)
+- [발행 내역](https://certi.life/docs/guide/hospital/screens/history) (상태 확인과 알림 다시 보내기)
+- [인증서 전달 전 체크리스트](https://certi.life/docs/guide/products/certificate/delivery-checklist)
+- [인증서](https://certi.life/docs/guide/products/certificate)
+- [CRM 메시징](https://certi.life/docs/guide/products/crm-messaging)

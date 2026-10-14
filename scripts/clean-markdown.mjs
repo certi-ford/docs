@@ -19,6 +19,9 @@ const stringifier = unified().use(remarkParse).use(remarkGfm).use(remarkStringif
   listItemIndent: 'one',
 });
 const KNOWN_DIRECTIVES = new Set(['note', 'tip', 'info', 'caution', 'warning', 'danger']);
+// Public site root (docusaurus.config.ts url + baseUrl). Artifact paths are relative to it.
+export const SITE_ORIGIN = 'https://certi.life';
+export const SITE_PATH = '/docs/';
 const PORTABLE_TYPES = new Set([
   'root', 'paragraph', 'text', 'heading', 'blockquote', 'strong', 'emphasis', 'delete',
   'link', 'image', 'list', 'listItem', 'table', 'tableRow', 'tableCell', 'thematicBreak',
@@ -81,7 +84,7 @@ function resolveLink(url, {id, canonicalUrl, routeMap}) {
   let targetId;
   if (rawPath.startsWith('/')) {
     const pathOnly = rawPath.replace(/^\/guide\/?/, '').replace(/\.(?:md|mdx)$/, '').replace(/\/$/, '');
-    targetId = [...routeMap.entries()].find(([, entry]) => new URL(entry.url).pathname.replace(/^\/guide\/?/, '') === pathOnly)?.[0];
+    targetId = [...routeMap.entries()].find(([, entry]) => new URL(entry.url).pathname.slice(SITE_PATH.length).replace(/^guide\/?/, '') === pathOnly)?.[0];
   } else {
     targetId = posix.normalize(posix.join(posix.dirname(id), rawPath.replace(/\.(?:md|mdx)$/, ''))).replace(/^\.\//, '');
   }
@@ -368,13 +371,13 @@ function fragmentsFromSource(source) {
 
 function endpointPath(canonicalUrl) {
   const url = new URL(canonicalUrl);
-  if (url.protocol !== 'https:' || url.hostname !== 'docs.certi.life') {
-    throw new Error(`clean Markdown canonical URL must use https://docs.certi.life: ${canonicalUrl}`);
+  if (url.origin !== SITE_ORIGIN) {
+    throw new Error(`clean Markdown canonical URL must use ${SITE_ORIGIN}${SITE_PATH}: ${canonicalUrl}`);
   }
-  if (!url.pathname.startsWith('/guide/') || url.pathname.endsWith('/')) {
+  if (!url.pathname.startsWith(`${SITE_PATH}guide/`) || url.pathname.endsWith('/')) {
     throw new Error(`unsupported canonical route for clean Markdown endpoint: ${canonicalUrl}`);
   }
-  return `${url.pathname.slice(1)}.md`;
+  return `${url.pathname.slice(SITE_PATH.length)}.md`;
 }
 
 export function createCleanMarkdownArtifacts(documents) {
@@ -399,7 +402,7 @@ export function createCleanMarkdownArtifacts(documents) {
       routeMap,
     });
     assertNoLeaks(content, path, {allowGeneratedMarkdownEscapes: true});
-    const semantic = content.replace(document.canonicalUrl, 'https://docs.certi.life/guide/__CANONICAL__');
+    const semantic = content.replace(document.canonicalUrl, `${SITE_ORIGIN}${SITE_PATH}guide/__CANONICAL__`);
     const hash = createHash('sha256').update(semantic).digest('hex');
     const previous = seenSemanticHashes.get(hash);
     if (previous) throw new Error(`identical clean Markdown output: ${previous} and ${path}`);
@@ -477,7 +480,8 @@ export function verifyCombinedMarkdown(projectRoot, content, {buildRoot} = {}) {
   for (const sourceUrl of combinedSourceUrls(content)) {
     const url = new URL(sourceUrl);
     if (!url.hash) continue;
-    const htmlPath = [join(buildRoot, `${url.pathname.slice(1)}.html`), join(buildRoot, url.pathname.slice(1), 'index.html')].find(existsSync);
+    const route = url.pathname.slice(SITE_PATH.length);
+    const htmlPath = [join(buildRoot, `${route}.html`), join(buildRoot, route, 'index.html')].find(existsSync);
     if (!htmlPath) throw new Error(`combined Markdown source has no built page: ${sourceUrl}`);
     if (!htmlCache.has(htmlPath)) htmlCache.set(htmlPath, readFileSync(htmlPath, 'utf8'));
     const fragment = decodeURIComponent(url.hash.slice(1));

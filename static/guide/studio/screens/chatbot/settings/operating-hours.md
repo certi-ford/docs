@@ -2,9 +2,9 @@
 
 > Studio 챗봇 설정의 작동시간에서 챗봇 24시간 작동을 끄고 요일별 미작동 시간, 특수일 작동 설정, 공휴일 자동 설정으로 챗봇이 응답하지 않을 시간을 정하는 방법을 목적별로 안내합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/studio/screens/chatbot/settings/operating-hours)
+[사람이 읽는 원문](https://certi.life/docs/guide/studio/screens/chatbot/settings/operating-hours)
 
-챗봇은 기본적으로 24시간 응답합니다. 하지만 "상담원이 있는 낮에는 사람이 받고, 챗봇은 밤에만" 또는 "밤에 온 카톡은 챗봇이 답하지 말고 아침에 사람이 받게"처럼 운영하고 싶을 수 있습니다. `작동시간`에서는 챗봇이 **응답하지 않을 시간**을 정합니다. 그 시간에 들어온 문의에는 챗봇이 답하지 않고 상담원 연결 안내(`미작동 시나리오`)가 나갑니다. 업무 외 시간의 채팅 문의는 이 `미작동 시나리오`로 안내하고, 담당자가 다음 업무시간에 [상담](https://docs.certi.life/guide/studio/screens/counsel/overview) 화면에서 확인하는 것이 기본 흐름입니다.
+챗봇은 기본적으로 24시간 응답합니다. 하지만 "상담원이 있는 낮에는 사람이 받고, 챗봇은 밤에만" 또는 "밤에 온 카톡은 챗봇이 답하지 말고 아침에 사람이 받게"처럼 운영하고 싶을 수 있습니다. `작동시간`에서는 챗봇이 **응답하지 않을 시간**을 정합니다. 그 시간에 들어온 문의에는 챗봇이 답하지 않고 상담원 연결 안내(`미작동 시나리오`)가 나갑니다. 업무 외 시간의 채팅 문의는 이 `미작동 시나리오`로 안내하고, 담당자가 다음 업무시간에 [상담](https://certi.life/docs/guide/studio/screens/counsel/overview) 화면에서 확인하는 것이 기본 흐름입니다.
 
 **위치:** 챗봇 > (챗봇 선택) > 설정 > 작동시간
 
@@ -16,8 +16,8 @@
 | --------------------- | -------------------------------------------------------------------------------------------------------------- |
 | 챗봇을 항상 켜 두고 싶어요       | `챗봇 24시간 작동`을 켜 둡니다 (기본값)                                                                                      |
 | 평일 낮에는 상담원이 직접 받고 싶어요 | `챗봇 24시간 작동`을 끄고 `평일 업무시간 (09:00~18:00)`을 누릅니다                                                                 |
-| 요일마다 다르게 하고 싶어요       | [요일별로 쉬는 시간 정하기](https://docs.certi.life/guide/studio/screens/chatbot/settings/operating-hours#요일별로-쉬는-시간-정하기) |
-| 공휴일이나 휴진일은 따로 정하고 싶어요 | [특정 날짜만 다르게 하기](https://docs.certi.life/guide/studio/screens/chatbot/settings/operating-hours#특정-날짜만-다르게-하기)   |
+| 요일마다 다르게 하고 싶어요       | [요일별로 쉬는 시간 정하기](https://certi.life/docs/guide/studio/screens/chatbot/settings/operating-hours#요일별로-쉬는-시간-정하기) |
+| 공휴일이나 휴진일은 따로 정하고 싶어요 | [특정 날짜만 다르게 하기](https://certi.life/docs/guide/studio/screens/chatbot/settings/operating-hours#특정-날짜만-다르게-하기)   |
 
 ## 요일별로 쉬는 시간 정하기
 
@@ -34,7 +34,7 @@
 
 **위치:** 챗봇 > 설정 > 작동시간 > 미작동 시나리오 설정
 
-`챗봇 24시간 작동`을 끄면 `미작동 시나리오 설정` 카드가 나타납니다. `미작동 시나리오로 이동`을 누르면 [`시나리오` 탭](https://docs.certi.life/guide/studio/screens/chatbot/scenarios)의 `미작동 시나리오` 편집 화면이 열립니다. 여기에 "지금은 상담원이 직접 응대하는 시간입니다" 또는 "상담 가능 시간은 평일 9시\~18시입니다"처럼, 고객이 언제 어떻게 답을 받을 수 있는지 적어 두세요.
+`챗봇 24시간 작동`을 끄면 `미작동 시나리오 설정` 카드가 나타납니다. `미작동 시나리오로 이동`을 누르면 [`시나리오` 탭](https://certi.life/docs/guide/studio/screens/chatbot/scenarios)의 `미작동 시나리오` 편집 화면이 열립니다. 여기에 "지금은 상담원이 직접 응대하는 시간입니다" 또는 "상담 가능 시간은 평일 9시\~18시입니다"처럼, 고객이 언제 어떻게 답을 받을 수 있는지 적어 두세요.
 
 `챗봇 24시간 작동`이 켜져 있는 동안에는 `미작동 시나리오`가 잠겨 있어 편집할 수 없습니다.
 
@@ -60,6 +60,6 @@
 ## 권장 운영법
 
 - 챗봇이 쉬는 시간과 상담원이 실제로 응대할 수 있는 시간이 맞는지 확인하세요. 둘 다 비는 시간이 있으면 고객 문의가 방치됩니다.
-- 상담 가능 시간과 연결 기준은 [상담원 연결 정책](https://docs.certi.life/guide/products/ai-chatbot/handoff-policy)과 [상담 시나리오와 사람 연결](https://docs.certi.life/guide/studio/scenario-and-handoff)을 참고해 정하세요.
-- 고객이 대화 중에 직접 사람을 부르는 버튼은 [블럭과 버튼](https://docs.certi.life/guide/studio/screens/chatbot/blocks#버튼-동작-정하기)의 `상담사 연결` 동작으로 답니다. 특정 채널을 챗봇 없이 처음부터 사람이 받게 하려면 [채널 설정](https://docs.certi.life/guide/studio/screens/chatbot/settings/channel-settings#챗봇-없이-바로-상담원에게-연결하기)의 `상담원 바로 연결`을 켭니다.
+- 상담 가능 시간과 연결 기준은 [상담원 연결 정책](https://certi.life/docs/guide/products/ai-chatbot/handoff-policy)과 [상담 시나리오와 사람 연결](https://certi.life/docs/guide/studio/scenario-and-handoff)을 참고해 정하세요.
+- 고객이 대화 중에 직접 사람을 부르는 버튼은 [블럭과 버튼](https://certi.life/docs/guide/studio/screens/chatbot/blocks#버튼-동작-정하기)의 `상담사 연결` 동작으로 답니다. 특정 채널을 챗봇 없이 처음부터 사람이 받게 하려면 [채널 설정](https://certi.life/docs/guide/studio/screens/chatbot/settings/channel-settings#챗봇-없이-바로-상담원에게-연결하기)의 `상담원 바로 연결`을 켭니다.
 - 연말에는 다음 해 공휴일을 `공휴일 자동 설정`으로 미리 등록해 둡니다.

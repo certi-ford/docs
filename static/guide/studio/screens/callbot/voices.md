@@ -2,9 +2,9 @@
 
 > Studio 콜봇의 보이스 화면에서 언어와 프로바이더로 목소리를 찾고 샘플을 미리 들은 뒤, 에이전트 설정의 음성에서 그 목소리를 적용하는 방법을 안내합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/studio/screens/callbot/voices)
+[사람이 읽는 원문](https://certi.life/docs/guide/studio/screens/callbot/voices)
 
-`보이스`는 콜봇이 쓸 수 있는 목소리를 **찾아서 미리 들어 보는 곳**입니다. 이 화면에서 목소리를 적용하지는 않습니다. 마음에 드는 목소리를 찾았다면 이름을 기억해 두었다가 [에이전트 설정](https://docs.certi.life/guide/studio/screens/callbot/agent-settings#목소리와-말투-정하기)의 `음성`에서 고릅니다.
+`보이스`는 콜봇이 쓸 수 있는 목소리를 **찾아서 미리 들어 보는 곳**입니다. 이 화면에서 목소리를 적용하지는 않습니다. 마음에 드는 목소리를 찾았다면 이름을 기억해 두었다가 [에이전트 설정](https://certi.life/docs/guide/studio/screens/callbot/agent-settings#목소리와-말투-정하기)의 `음성`에서 고릅니다.
 
 **위치:** 콜봇 > 보이스
 

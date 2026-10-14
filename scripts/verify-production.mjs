@@ -5,14 +5,14 @@ import {fileURLToPath} from 'node:url';
 import {parse} from 'parse5';
 import matter from '@11ty/gray-matter';
 import {requiredDocIds} from './docs-manifest.mjs';
-import {cleanMarkdownUrl, publicDocUrl} from './generate-ai-discovery.mjs';
+import {cleanMarkdownUrl, publicDocUrl, siteRoot} from './generate-ai-discovery.mjs';
 import {projectCleanMarkdownArtifacts} from './generate-clean-markdown.mjs';
 import {gitLastModifiedIso, jsonLdHasType, normalizeJsonLd, validateBreadcrumbList, validateFaqPage, validateTechArticle} from './structured-data-validation.mjs';
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 const sha256 = (value) => createHash('sha256').update(value).digest('hex');
 const diagnostic = (url, expected, actual) => `URL=${url} expected=${expected} actual=${actual}`;
-const socialImageUrl = 'https://docs.certi.life/img/certilife-docs-og.png';
+const socialImageUrl = new URL('img/certilife-docs-og.png', siteRoot).href;
 
 export async function fetchWithRetry(url, {fetchImpl = fetch, retries = 3, delayMs = 500} = {}) {
   let lastError;
@@ -234,7 +234,7 @@ async function runInBatches(tasks, size = 8) {
 
 export async function verifyProduction({
   projectRoot,
-  baseUrl = 'https://docs.certi.life',
+  baseUrl = siteRoot.href,
   fetchImpl = fetch,
   retries = 3,
   delayMs = 500,
@@ -244,7 +244,7 @@ export async function verifyProduction({
   const artifacts = projectCleanMarkdownArtifacts(projectRoot);
   const artifactById = new Map(artifacts.map((artifact) => [artifact.id, artifact]));
   const sitemapBody = readFileSync(join(projectRoot, 'build', 'sitemap.xml'));
-  if (sitemapBody.toString('utf8').includes('<loc>https://docs.certi.life/search</loc>')) {
+  if (sitemapBody.toString('utf8').includes(`<loc>${new URL('search', siteRoot).href}</loc>`)) {
     throw new Error(diagnostic(new URL('sitemap.xml', root).href, 'no /search URL', '/search is present'));
   }
   const checks = [
@@ -270,8 +270,8 @@ export async function verifyProduction({
     await verifyResponse(searchUrl, response, {status: 200, contentType: 'text/html', check: searchHtmlCheck(searchUrl)});
   });
   for (const id of requiredDocIds) {
-    const canonical = publicDocUrl(id).replace('https://docs.certi.life', root.replace(/\/$/, ''));
-    const markdown = cleanMarkdownUrl(id).replace('https://docs.certi.life', root.replace(/\/$/, ''));
+    const canonical = publicDocUrl(id).replace(siteRoot.href, root);
+    const markdown = cleanMarkdownUrl(id).replace(siteRoot.href, root);
     const title = loadDocTitle(projectRoot, id);
     const navigationTitle = loadDocNavigationTitle(projectRoot, id);
     const articleExpected = loadDocArticleExpected(projectRoot, id);

@@ -2,9 +2,9 @@
 
 > 알림톡·브랜드 메시지의 템플릿 코드와 대상, 문구, 링크, 수신 기준을 발송 전에 점검합니다. Studio 캠페인의 안전 검증 항목(마케팅 수신 동의, 발송 시간대, 템플릿 심사 상태)과 같은 이름으로 확인합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/products/crm-messaging/message-checklist)
+[사람이 읽는 원문](https://certi.life/docs/guide/products/crm-messaging/message-checklist)
 
-CRM 메시지는 짧아도 대상 선정, 표현, 링크, 기간, 문의 대응이 함께 맞아야 합니다. 특히 인증서 고객에게 맞춤 메시지를 보낼 때에는 인증서와 관련 없는 내용을 연결하거나 고객이 동의하지 않은 연락을 보내지 않도록 주의해야 합니다. 아래 체크리스트는 내용과 운영 기준을 검수하기 위한 것입니다. Studio 캠페인 화면의 `안전 검증`이 자동으로 막아 주는 항목은 [발송 전 안전 검증 체크리스트](https://docs.certi.life/guide/products/crm-messaging/message-checklist#발송-전-안전-검증-체크리스트)에 화면과 같은 이름으로 모았습니다.
+CRM 메시지는 짧아도 대상 선정, 표현, 링크, 기간, 문의 대응이 함께 맞아야 합니다. 특히 인증서 고객에게 맞춤 메시지를 보낼 때에는 인증서와 관련 없는 내용을 연결하거나 고객이 동의하지 않은 연락을 보내지 않도록 주의해야 합니다. 아래 체크리스트는 내용과 운영 기준을 검수하기 위한 것입니다. Studio 캠페인 화면의 `안전 검증`이 자동으로 막아 주는 항목은 [발송 전 안전 검증 체크리스트](https://certi.life/docs/guide/products/crm-messaging/message-checklist#발송-전-안전-검증-체크리스트)에 화면과 같은 이름으로 모았습니다.
 
 ## 목적
 
@@ -26,13 +26,13 @@ CRM 메시지는 짧아도 대상 선정, 표현, 링크, 기간, 문의 대응�
 - [ ] 메시지 목적이 한 문장으로 정리되어 있습니다.
 - [ ] 연령, 성별, 시술 이력, 방문일 중 목적에 필요한 기준만 사용했습니다.
 - [ ] 인증서 고객에게 보내는 내용이 해당 인증서 경험과 관련 있습니다.
-- [ ] 수신 동의가 확인되지 않거나 제외해야 할 고객을 분리했습니다. 수신 동의는 Studio [고객 등록과 관리](https://docs.certi.life/guide/studio/screens/crm/customers#수신-동의-관리하기)에서 확인하고 고칩니다.
+- [ ] 수신 동의가 확인되지 않거나 제외해야 할 고객을 분리했습니다. 수신 동의는 Studio [고객 등록과 관리](https://certi.life/docs/guide/studio/screens/crm/customers#수신-동의-관리하기)에서 확인하고 고칩니다.
 - [ ] 예상 발송 수가 계획과 크게 다르지 않습니다.
 - [ ] 마지막 방문일이 딱 기준일인 고객처럼 조건의 기준선에 걸리는 가상 고객이 의도대로 들어가거나 빠집니다.
 
 ## 발송 전 안전 검증 체크리스트
 
-Studio `CRM > 캠페인`의 3단계 `예약`에서 `안전 검증`이 아래 항목을 자동으로 점검하고, `차단`이 하나라도 있으면 다음 단계로 넘어갈 수 없습니다. 발송 직전에 막히지 않도록 같은 항목을 미리 확인하세요. 항목 이름은 [안전 검증 통과하기](https://docs.certi.life/guide/studio/screens/crm/campaigns#안전-검증-통과하기)와 같습니다.
+Studio `CRM > 캠페인`의 3단계 `예약`에서 `안전 검증`이 아래 항목을 자동으로 점검하고, `차단`이 하나라도 있으면 다음 단계로 넘어갈 수 없습니다. 발송 직전에 막히지 않도록 같은 항목을 미리 확인하세요. 항목 이름은 [안전 검증 통과하기](https://certi.life/docs/guide/studio/screens/crm/campaigns#안전-검증-통과하기)와 같습니다.
 
 - [ ] `마케팅 수신 동의`: 광고성 메시지의 대상에 수신 동의가 없는 고객이 없습니다.
 - [ ] `발송 시간대 점검`: 광고성 메시지의 예약 시각이 밤 9시부터 아침 8시 사이가 아닙니다.
@@ -57,7 +57,7 @@ Studio `CRM > 캠페인`의 3단계 `예약`에서 `안전 검증`이 아래 항
 ## 운영·측정 체크리스트
 
 - [ ] 고객 응답을 확인할 담당자와 확인 시점을 정했습니다.
-- [ ] 발송량, 도달률, 전환률 중 우선 지표를 정했습니다. 지표의 확인 위치는 [CRM 메시징](https://docs.certi.life/guide/products/crm-messaging#성과-지표와-확인-위치)에 있습니다.
+- [ ] 발송량, 도달률, 전환률 중 우선 지표를 정했습니다. 지표의 확인 위치는 [CRM 메시징](https://certi.life/docs/guide/products/crm-messaging#성과-지표와-확인-위치)에 있습니다.
 - [ ] 지표의 집계 기간과 비교 기준을 기록했습니다.
 - [ ] 발송 후 잘못된 정보가 발견될 때 대응할 책임자를 정했습니다.
 - [ ] 다음 발송에서 바꿔 볼 점을 적어 둘 곳을 정했습니다.
@@ -74,16 +74,16 @@ Studio `CRM > 캠페인`의 3단계 `예약`에서 `안전 검증`이 아래 항
 - 권장 기호: 밑줄 `_` 또는 하이픈 `-`
 - 사용할 수 없는 기호: 슬래시 `/`
 
-템플릿 코드는 메시지 본문과 다른 식별값입니다. 고객에게 보이는 문구를 검수할 때와 별도로, 등록 신청 전에 코드에 허용되지 않은 기호가 없는지 확인하세요. Hospital의 [알림톡](https://docs.certi.life/guide/hospital/screens/alimtalk) 화면에서는 템플릿 코드가 채널 설정에서 정해진 값이라 입력하지 않으므로 이 기준이 필요 없습니다. Studio의 브랜드 메시지 템플릿에는 템플릿 코드 입력 칸이 확인되지 않았습니다.
+템플릿 코드는 메시지 본문과 다른 식별값입니다. 고객에게 보이는 문구를 검수할 때와 별도로, 등록 신청 전에 코드에 허용되지 않은 기호가 없는지 확인하세요. Hospital의 [알림톡](https://certi.life/docs/guide/hospital/screens/alimtalk) 화면에서는 템플릿 코드가 채널 설정에서 정해진 값이라 입력하지 않으므로 이 기준이 필요 없습니다. Studio의 브랜드 메시지 템플릿에는 템플릿 코드 입력 칸이 확인되지 않았습니다.
 
 ## 다음 문서
 
-- [CRM 세그먼트 계획](https://docs.certi.life/guide/products/crm-messaging/segment-planning)
-- [CRM 메시징](https://docs.certi.life/guide/products/crm-messaging)
-- [이벤트 마케팅](https://docs.certi.life/guide/products/event-marketing)
+- [CRM 세그먼트 계획](https://certi.life/docs/guide/products/crm-messaging/segment-planning)
+- [CRM 메시징](https://certi.life/docs/guide/products/crm-messaging)
+- [이벤트 마케팅](https://certi.life/docs/guide/products/event-marketing)
 
 ## 함께 보기
 
-- [캠페인](https://docs.certi.life/guide/studio/screens/crm/campaigns#안전-검증-통과하기): Studio 화면의 `안전 검증` 항목과 걸리는 이유
-- [메시지 템플릿](https://docs.certi.life/guide/studio/screens/crm/templates): 템플릿 코드 입력과 검수 상태 확인
-- [알림톡](https://docs.certi.life/guide/hospital/screens/alimtalk): Hospital에서 인증서 알림톡 템플릿을 다루는 병원용 안내
+- [캠페인](https://certi.life/docs/guide/studio/screens/crm/campaigns#안전-검증-통과하기): Studio 화면의 `안전 검증` 항목과 걸리는 이유
+- [메시지 템플릿](https://certi.life/docs/guide/studio/screens/crm/templates): 템플릿 코드 입력과 검수 상태 확인
+- [알림톡](https://certi.life/docs/guide/hospital/screens/alimtalk): Hospital에서 인증서 알림톡 템플릿을 다루는 병원용 안내

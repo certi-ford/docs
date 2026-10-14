@@ -18,7 +18,7 @@ if (
 ) {
   throw new Error('url, baseUrl, docs routeBasePath, and trailingSlash must be static literals');
 }
-const siteRoot = new URL(publicConfig.baseUrl, `${publicConfig.url}/`);
+export const siteRoot = new URL(publicConfig.baseUrl, `${publicConfig.url}/`);
 const sitemapUrl = new URL('sitemap.xml', siteRoot).href;
 
 function parseFrontmatter(id) {

@@ -2,11 +2,11 @@
 
 > 연령, 성별, 시술 이력, 방문일을 활용해 메시지 목적에 맞는 고객군을 계획합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/products/crm-messaging/segment-planning)
+[사람이 읽는 원문](https://certi.life/docs/guide/products/crm-messaging/segment-planning)
 
 세그먼트는 고객을 단순히 많이 나누는 작업이 아니라, 특정 메시지가 필요한 고객을 설명하는 기준입니다. CertiLife CRM 메시징에서는 연령, 성별, 시술 이력, 방문일을 기준으로 고객군을 계획할 수 있고, 인증서를 받은 고객에게 맞춤 메시지를 구성할 수 있습니다. 기준은 메시지 목적과 직접 관련되어야 하며, 불필요한 추정이나 차별적인 표현으로 이어지지 않도록 검토해야 합니다.
 
-세그먼트는 Studio `CRM > 고객 목록`에서 필터 조건을 저장해 만듭니다. 저장 순서는 [조건으로 고객 나누기](https://docs.certi.life/guide/studio/screens/crm/customers#조건으로-고객-나누기)에 있습니다.
+세그먼트는 Studio `CRM > 고객 목록`에서 필터 조건을 저장해 만듭니다. 저장 순서는 [조건으로 고객 나누기](https://certi.life/docs/guide/studio/screens/crm/customers#조건으로-고객-나누기)에 있습니다.
 
 ## 목적
 
@@ -21,7 +21,7 @@
 2. 사용할 수 있는 연령·성별·시술 이력·방문일 정보의 상태
 3. 인증서 수신 고객과 메시지 내용의 연관성
 4. 수신 동의, 제외 대상, 연락 제한에 관한 조직 기준
-5. 성과를 판단할 발송량·도달률·전환률 기준. 지표의 확인 위치는 [CRM 메시징](https://docs.certi.life/guide/products/crm-messaging#성과-지표와-확인-위치)에 있습니다
+5. 성과를 판단할 발송량·도달률·전환률 기준. 지표의 확인 위치는 [CRM 메시징](https://certi.life/docs/guide/products/crm-messaging#성과-지표와-확인-위치)에 있습니다
 
 ## 조건 예시
 
@@ -29,7 +29,7 @@
 
 | 목표          | 조건 예시                               | 어디에서 오는 정보인가                                                                                                            |
 | ----------- | ----------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| 시술 후 재방문 안내 | 마지막 방문일이 6개월 이전 **그리고** 시술명이 "필러"   | 방문일은 [EMR 연동](https://docs.certi.life/guide/studio/screens/crm/connectors)의 `최근 예약일`, 시술명은 고객 편집의 `NFT 인증서` 탭이나 `고객 속성` |
+| 시술 후 재방문 안내 | 마지막 방문일이 6개월 이전 **그리고** 시술명이 "필러"   | 방문일은 [EMR 연동](https://certi.life/docs/guide/studio/screens/crm/connectors)의 `최근 예약일`, 시술명은 고객 편집의 `NFT 인증서` 탭이나 `고객 속성` |
 | 계절 시술 안내    | 지난해 여름에 "레이저 제모"를 받았고 올해는 방문 기록이 없음 | 위와 같음                                                                                                                   |
 | 인증서 보관 안내   | 최근 30일 안에 인증서를 받음                   | `NFT 인증서` 탭                                                                                                             |
 
@@ -39,7 +39,7 @@
 
 본원과 분원처럼 지점별로 고객을 나누는 조건은 이 문서에서 확인하지 못했습니다. 여러 지점을 운영한다면 조직의 CertiLife 담당자에게 고객 데이터를 어떻게 나누어 관리하는지 먼저 확인하세요.
 
-"시술 3개월 뒤"처럼 고객마다 시점이 다른 안내는 세그먼트를 저장해 한 번에 보내는 것보다 [시나리오 자동화](https://docs.certi.life/guide/studio/screens/crm/automation)가 맞습니다. 세그먼트는 조건에 맞는 고객이 새로 생기면 자동으로 포함되지만, 발송 시점은 캠페인이나 시나리오가 정합니다.
+"시술 3개월 뒤"처럼 고객마다 시점이 다른 안내는 세그먼트를 저장해 한 번에 보내는 것보다 [시나리오 자동화](https://certi.life/docs/guide/studio/screens/crm/automation)가 맞습니다. 세그먼트는 조건에 맞는 고객이 새로 생기면 자동으로 포함되지만, 발송 시점은 캠페인이나 시나리오가 정합니다.
 
 ## 계획 절차
 
@@ -57,14 +57,14 @@
 
 > **주의**
 >
-> 연령과 성별을 근거로 고객의 관심사, 상태, 경제 상황을 추정하지 마세요. 이유는 두 가지입니다. 첫째, 목적에 필요하지 않은 조건은 조직 안에서 설명할 수 없습니다. 둘째, 세그먼트 기준은 수신 동의와 개인정보 보호 법령, 조직의 개인정보 처리 정책을 충족해야 합니다. 기준은 [개인정보 및 보안](https://docs.certi.life/guide/help/privacy-security)을 참고하고, 필요한 목적이 끝나면 계속 사용해야 하는지 재검토하세요.
+> 연령과 성별을 근거로 고객의 관심사, 상태, 경제 상황을 추정하지 마세요. 이유는 두 가지입니다. 첫째, 목적에 필요하지 않은 조건은 조직 안에서 설명할 수 없습니다. 둘째, 세그먼트 기준은 수신 동의와 개인정보 보호 법령, 조직의 개인정보 처리 정책을 충족해야 합니다. 기준은 [개인정보 및 보안](https://certi.life/docs/guide/help/privacy-security)을 참고하고, 필요한 목적이 끝나면 계속 사용해야 하는지 재검토하세요.
 
 ## 다음 문서
 
-- [CRM 메시지 발송 전 체크리스트](https://docs.certi.life/guide/products/crm-messaging/message-checklist)
-- [CRM 메시징](https://docs.certi.life/guide/products/crm-messaging)
-- [개인정보 및 보안](https://docs.certi.life/guide/help/privacy-security)
+- [CRM 메시지 발송 전 체크리스트](https://certi.life/docs/guide/products/crm-messaging/message-checklist)
+- [CRM 메시징](https://certi.life/docs/guide/products/crm-messaging)
+- [개인정보 및 보안](https://certi.life/docs/guide/help/privacy-security)
 
 ## 함께 보기
 
-- [고객 등록과 관리](https://docs.certi.life/guide/studio/screens/crm/customers#조건으로-고객-나누기): Studio 화면에서 필터 조건을 세그먼트로 저장하는 순서
+- [고객 등록과 관리](https://certi.life/docs/guide/studio/screens/crm/customers#조건으로-고객-나누기): Studio 화면에서 필터 조건을 세그먼트로 저장하는 순서

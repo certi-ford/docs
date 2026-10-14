@@ -2,9 +2,9 @@
 
 > Studio 상담 내역 메뉴에서 AI 채팅 상담 내역을 상담 유형·조회기간·상태·채널로 찾고, 상담 상세와 AI 요약·AI 초안을 확인하고, 내보내기와 리포트 다운로드를 하고, Vox 전화 상담 내역·페르소나 상담 내역·카카오 1:1 채팅 내역을 보는 방법을 안내합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/studio/screens/conversation-history)
+[사람이 읽는 원문](https://certi.life/docs/guide/studio/screens/conversation-history)
 
-`상담 내역`은 끝났거나 진행 중인 모든 상담의 기록을 찾아보는 곳입니다. [`상담`](https://docs.certi.life/guide/studio/screens/counsel/overview) 메뉴가 "지금 응대하는 곳"이라면 여기는 "돌아보는 곳"입니다. 이 화면은 **보기 전용**입니다. 메모와 상담 결과를 고치는 일은 상담 화면에서 하고, 여기서는 찾고, 읽고, 내려받습니다.
+`상담 내역`은 끝났거나 진행 중인 모든 상담의 기록을 찾아보는 곳입니다. [`상담`](https://certi.life/docs/guide/studio/screens/counsel/overview) 메뉴가 "지금 응대하는 곳"이라면 여기는 "돌아보는 곳"입니다. 이 화면은 **보기 전용**입니다. 메모와 상담 결과를 고치는 일은 상담 화면에서 하고, 여기서는 찾고, 읽고, 내려받습니다.
 
 **위치:** 상담 내역 > AI 채팅 상담 내역
 
@@ -24,9 +24,9 @@
 | 특정 고객의 지난 상담을 찾고 싶어요         | `검색어`에 고객명이나 내용을 넣고 `조회`                                                                           |
 | 챗봇이 혼자 처리한 상담만 보고 싶어요        | `상담 유형`을 `챗봇 상담`으로                                                                                 |
 | 아직 상담원이 배정되지 않은 상담을 확인하고 싶어요 | 요약 카드의 `상담원 미배정` 또는 `상태`를 `상담 대기`로                                                                 |
-| 긴 상담을 빨리 파악하고 싶어요            | [상담 내용과 요약 확인하기](https://docs.certi.life/guide/studio/screens/conversation-history#상담-내용과-요약-확인하기) |
-| 지난달 상담 기록을 파일로 받고 싶어요        | [상담 기록 내려받기](https://docs.certi.life/guide/studio/screens/conversation-history#상담-기록-내려받기)         |
-| 지난 통화의 녹음과 대화록을 확인하고 싶어요     | [전화 통화 기록 보기](https://docs.certi.life/guide/studio/screens/conversation-history#전화-통화-기록-보기)       |
+| 긴 상담을 빨리 파악하고 싶어요            | [상담 내용과 요약 확인하기](https://certi.life/docs/guide/studio/screens/conversation-history#상담-내용과-요약-확인하기) |
+| 지난달 상담 기록을 파일로 받고 싶어요        | [상담 기록 내려받기](https://certi.life/docs/guide/studio/screens/conversation-history#상담-기록-내려받기)         |
+| 지난 통화의 녹음과 대화록을 확인하고 싶어요     | [전화 통화 기록 보기](https://certi.life/docs/guide/studio/screens/conversation-history#전화-통화-기록-보기)       |
 
 ## 조건으로 상담 찾기
 
@@ -59,7 +59,7 @@
 >
 > 화면에도 "AI 가 만든 참고용 초안입니다. 상담사가 확정한 정리 기록과는 다릅니다."라고 표시됩니다. 상담사가 직접 정리한 내용은 `상담 결과`에 있습니다. 보고나 분쟁 확인에는 `상담 결과`와 `대화 내용` 원문을 기준으로 하세요.
 
-요약과 분류를 어떻게 읽는지는 [상담 내역 조회와 화면 설정](https://docs.certi.life/guide/studio/conversation-history)에 자세히 있습니다.
+요약과 분류를 어떻게 읽는지는 [상담 내역 조회와 화면 설정](https://certi.life/docs/guide/studio/conversation-history)에 자세히 있습니다.
 
 ## 상담 기록 내려받기
 
@@ -78,7 +78,7 @@
 
 > **내려받은 파일은 개인정보입니다**
 >
-> 내려받은 파일에는 고객 이름과 상담 내용이 들어 있습니다. 필요한 기간만 받고, 공용 폴더나 메신저로 공유하지 마세요. 건수가 많으면 처리에 시간이 걸리고, 형식별 최대 건수를 넘으면 필터로 범위를 줄여야 합니다. 기준은 [개인정보 및 보안](https://docs.certi.life/guide/help/privacy-security)을 참고하세요.
+> 내려받은 파일에는 고객 이름과 상담 내용이 들어 있습니다. 필요한 기간만 받고, 공용 폴더나 메신저로 공유하지 마세요. 건수가 많으면 처리에 시간이 걸리고, 형식별 최대 건수를 넘으면 필터로 범위를 줄여야 합니다. 기준은 [개인정보 및 보안](https://certi.life/docs/guide/help/privacy-security)을 참고하세요.
 
 ## 목록과 상세 화면 구성 바꾸기
 
@@ -95,7 +95,7 @@
 
 **위치:** 상담 내역 > Vox 전화 상담 내역
 
-[전화상담](https://docs.certi.life/guide/studio/screens/phone-counsel) 화면이 오늘의 통화를 실시간으로 응대하는 곳이라면, 여기는 지난 통화를 조건으로 찾아보는 곳입니다.
+[전화상담](https://certi.life/docs/guide/studio/screens/phone-counsel) 화면이 오늘의 통화를 실시간으로 응대하는 곳이라면, 여기는 지난 통화를 조건으로 찾아보는 곳입니다.
 
 1. `조회기간`과 `구분`(`전체`, `수신`, `부재중`)을 고릅니다. `필터`를 열면 `통화 유형`, `응대`(콜봇·상담사), `유저 감정`, `콜백`, `유입`, `연결 종료 사유`로 더 좁힐 수 있습니다.
 2. 고객 이름이나 전화번호로 검색합니다.
@@ -123,7 +123,7 @@
 2. 문구 아래의 `다시 시도`를 누릅니다.
 3. 그래도 같으면 브라우저를 새로고침합니다.
 
-목록 아래의 기록을 더 불러오다 실패하면 "추가 기록을 불러오지 못했습니다."가 잠깐 나오고, 이미 보던 목록은 그대로 남습니다. 그래도 안 되면 발생 시각을 적어 조직의 CertiLife 담당자에게 알립니다. 같은 자리에 나오는 다른 연결 문구의 뜻은 [콜봇 시작하기의 문제 해결](https://docs.certi.life/guide/studio/screens/callbot/overview#문제가-생기면)에 정리되어 있습니다.
+목록 아래의 기록을 더 불러오다 실패하면 "추가 기록을 불러오지 못했습니다."가 잠깐 나오고, 이미 보던 목록은 그대로 남습니다. 그래도 안 되면 발생 시각을 적어 조직의 CertiLife 담당자에게 알립니다. 같은 자리에 나오는 다른 연결 문구의 뜻은 [콜봇 시작하기의 문제 해결](https://certi.life/docs/guide/studio/screens/callbot/overview#문제가-생기면)에 정리되어 있습니다.
 
 ### `콜백을 완료 처리하지 못했습니다.`
 
@@ -138,6 +138,6 @@
 
 ## 함께 보기
 
-- [상담 내역 조회와 화면 설정](https://docs.certi.life/guide/studio/conversation-history): 요약·분류 읽는 법과 운영 기준
-- [상담 기록 필드 설정](https://docs.certi.life/guide/studio/consultation-records): 전화상담 후처리 필드 정의
-- [상담](https://docs.certi.life/guide/studio/screens/counsel/overview): 진행 중인 상담에 응대하기
+- [상담 내역 조회와 화면 설정](https://certi.life/docs/guide/studio/conversation-history): 요약·분류 읽는 법과 운영 기준
+- [상담 기록 필드 설정](https://certi.life/docs/guide/studio/consultation-records): 전화상담 후처리 필드 정의
+- [상담](https://certi.life/docs/guide/studio/screens/counsel/overview): 진행 중인 상담에 응대하기

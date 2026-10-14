@@ -2,9 +2,9 @@
 
 > Studio 설정의 운영 설정 > 번역(채팅 번역)에서 번역 사용, 번역 방향(고객이 쓰는 언어·상담사가 읽을 언어), 자동 메시지 번역, 번역·전송 버튼 합치기, 번역 없이 발송할 때 확인을 정하는 방법과 각 옵션이 상담 화면을 어떻게 바꾸는지 안내합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/studio/screens/org-settings/translation)
+[사람이 읽는 원문](https://certi.life/docs/guide/studio/screens/org-settings/translation)
 
-외국인 고객과 채팅으로 상담하려면 먼저 여기서 `번역 사용`을 켜야 합니다. 켜면 [상담](https://docs.certi.life/guide/studio/screens/counsel/translation) 화면에 언어 바와 번역 버튼이 나타나고, 고객의 메시지는 상담사 언어로, 상담사의 답변은 고객 언어로 번역됩니다. 끄면 상담 화면에서 번역과 관련된 것이 모두 사라집니다.
+외국인 고객과 채팅으로 상담하려면 먼저 여기서 `번역 사용`을 켜야 합니다. 켜면 [상담](https://certi.life/docs/guide/studio/screens/counsel/translation) 화면에 언어 바와 번역 버튼이 나타나고, 고객의 메시지는 상담사 언어로, 상담사의 답변은 고객 언어로 번역됩니다. 끄면 상담 화면에서 번역과 관련된 것이 모두 사라집니다.
 
 **위치:** 설정 > 운영 설정 > 번역
 
@@ -41,15 +41,15 @@
 
 **위치:** 설정 > 운영 설정 > 번역 > 자동 메시지 번역
 
-`자동 메시지 번역`을 켜면 상담 시작 안내 같은 [자동메시지](https://docs.certi.life/guide/studio/screens/org-settings/auto-messages)도 고객 언어로 나갑니다. 단, 상담방 언어가 정해진 뒤부터 적용됩니다. `자동 감지`를 쓰는 경우 언어가 정해지기 전에 나가는 첫 자동 메시지는 한국어로 나갑니다.
+`자동 메시지 번역`을 켜면 상담 시작 안내 같은 [자동메시지](https://certi.life/docs/guide/studio/screens/org-settings/auto-messages)도 고객 언어로 나갑니다. 단, 상담방 언어가 정해진 뒤부터 적용됩니다. `자동 감지`를 쓰는 경우 언어가 정해지기 전에 나가는 첫 자동 메시지는 한국어로 나갑니다.
 
 ## 알아 둘 점
 
-- 번역은 기계 번역입니다. 시술명, 제품명, 지점명 같은 고유명사는 상담원이 발송 전에 `실제 발송` 문구를 확인하는 것이 안전합니다. 확인 절차는 [상담 메시지 번역](https://docs.certi.life/guide/products/ai-chatbot/message-translation)을 참고하세요.
+- 번역은 기계 번역입니다. 시술명, 제품명, 지점명 같은 고유명사는 상담원이 발송 전에 `실제 발송` 문구를 확인하는 것이 안전합니다. 확인 절차는 [상담 메시지 번역](https://certi.life/docs/guide/products/ai-chatbot/message-translation)을 참고하세요.
 - 의료 판단이 필요한 내용은 번역 여부와 관계없이 의료진이나 담당자에게 연결합니다.
-- 챗봇이 외국어 고객에게 직접 답하는 방식은 여기가 아니라 챗봇의 [`AI 설정` > `다국어 응대 방식`](https://docs.certi.life/guide/studio/screens/chatbot/settings/ai-settings#외국어로-문의한-고객-응대하기)에서 정합니다.
+- 챗봇이 외국어 고객에게 직접 답하는 방식은 여기가 아니라 챗봇의 [`AI 설정` > `다국어 응대 방식`](https://certi.life/docs/guide/studio/screens/chatbot/settings/ai-settings#외국어로-문의한-고객-응대하기)에서 정합니다.
 
 ## 함께 보기
 
-- [외국어 고객과 대화하기](https://docs.certi.life/guide/studio/screens/counsel/translation): 상담원이 번역을 실제로 쓰는 방법
-- [상담 메시지 번역](https://docs.certi.life/guide/products/ai-chatbot/message-translation): 번역 기능 소개와 확인 절차
+- [외국어 고객과 대화하기](https://certi.life/docs/guide/studio/screens/counsel/translation): 상담원이 번역을 실제로 쓰는 방법
+- [상담 메시지 번역](https://certi.life/docs/guide/products/ai-chatbot/message-translation): 번역 기능 소개와 확인 절차

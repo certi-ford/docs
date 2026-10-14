@@ -2,7 +2,7 @@
 
 > 전화상담 후처리에 사용할 단일·복수 선택 필드와 상담 메모 양식을 만들고 AI 자동 선택을 안전하게 운영하는 방법입니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/studio/consultation-records)
+[사람이 읽는 원문](https://certi.life/docs/guide/studio/consultation-records)
 
 `상담 기록 설정`에서는 전화상담 워크스페이스, 후처리 화면과 통화 기록 상세에 사용할 기록 필드를 조직에 맞게 구성할 수 있습니다. 단일 선택 또는 복수 선택 필드와 상담 메모 양식을 만들고, 통화 종료 후 AI 분류 결과를 자동으로 저장할지 선택할 수 있습니다.
 
@@ -63,7 +63,7 @@ AI 자동 선택은 통화가 끝난 뒤 AI 분류 결과를 상담 기록 필�
 
 ## 함께 보기
 
-- [상담 내역 조회와 화면 설정](https://docs.certi.life/guide/studio/conversation-history)
-- [상담 시나리오와 사람 연결](https://docs.certi.life/guide/studio/scenario-and-handoff)
-- [Studio 출시 체크리스트](https://docs.certi.life/guide/studio/launch-checklist)
-- [개인정보 및 보안](https://docs.certi.life/guide/help/privacy-security)
+- [상담 내역 조회와 화면 설정](https://certi.life/docs/guide/studio/conversation-history)
+- [상담 시나리오와 사람 연결](https://certi.life/docs/guide/studio/scenario-and-handoff)
+- [Studio 출시 체크리스트](https://certi.life/docs/guide/studio/launch-checklist)
+- [개인정보 및 보안](https://certi.life/docs/guide/help/privacy-security)

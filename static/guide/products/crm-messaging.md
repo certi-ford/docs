@@ -2,11 +2,11 @@
 
 > 고객 세그먼트에 맞춘 메시지를 계획하고 Studio CRM 운영 홈의 발송량·전환률·도달률로 성과를 살펴보는 방법을 소개합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/products/crm-messaging)
+[사람이 읽는 원문](https://certi.life/docs/guide/products/crm-messaging)
 
 CertiLife CRM 메시징은 고객의 연령, 성별, 시술 이력, 방문일 등 확인 가능한 기준으로 대상을 나누고 필요한 메시지를 전달하는 서비스입니다. 인증서를 받은 고객에게 관련 안내를 이어갈 수 있어, 모든 고객에게 같은 내용을 반복 발송하기보다 목적과 상황에 맞는 커뮤니케이션을 설계하는 데 활용할 수 있습니다. 이 문서에서 "세그먼트"는 조건으로 나눈 고객 묶음을 뜻합니다.
 
-이 기능은 Studio의 `CRM` 메뉴에 있습니다. 실제 화면 순서는 [CRM - 고객 데이터를 모아 메시지 운영하기](https://docs.certi.life/guide/studio/screens/crm/overview)에서 확인하세요.
+이 기능은 Studio의 `CRM` 메뉴에 있습니다. 실제 화면 순서는 [CRM - 고객 데이터를 모아 메시지 운영하기](https://certi.life/docs/guide/studio/screens/crm/overview)에서 확인하세요.
 
 ## 목적
 
@@ -17,7 +17,7 @@ CertiLife CRM 메시징은 고객의 연령, 성별, 시술 이력, 방문일 �
 
 ## 두 가지 보내는 방법
 
-메시지를 보내는 방법은 두 가지입니다. "이번 주 휴진 공지"처럼 정한 사람들에게 한 번 보내는 것은 [캠페인](https://docs.certi.life/guide/studio/screens/crm/campaigns)이고, "시술 3일 뒤 관리 안내"처럼 조건에 맞는 고객이 생길 때마다 자동으로 나가는 것은 [시나리오 자동화](https://docs.certi.life/guide/studio/screens/crm/automation)입니다. 두 방법 모두 미리 등록해 승인받은 [메시지 템플릿](https://docs.certi.life/guide/studio/screens/crm/templates)을 씁니다.
+메시지를 보내는 방법은 두 가지입니다. "이번 주 휴진 공지"처럼 정한 사람들에게 한 번 보내는 것은 [캠페인](https://certi.life/docs/guide/studio/screens/crm/campaigns)이고, "시술 3일 뒤 관리 안내"처럼 조건에 맞는 고객이 생길 때마다 자동으로 나가는 것은 [시나리오 자동화](https://certi.life/docs/guide/studio/screens/crm/automation)입니다. 두 방법 모두 미리 등록해 승인받은 [메시지 템플릿](https://certi.life/docs/guide/studio/screens/crm/templates)을 씁니다.
 
 ## 준비할 내용
 
@@ -37,7 +37,7 @@ CertiLife CRM 메시징은 고객의 연령, 성별, 시술 이력, 방문일 �
 | `성공률`, `실패`, `예약`, `도달률`                         | Studio `CRM > 운영 홈`의 `운영 모니터링` | 화면의 설명을 따릅니다                               |
 | `완료 캠페인`, `총 발송 건수`, `평균 전달률`, `실패 재처리`, `발송 퍼널` | Studio `CRM > 캠페인`의 `캠페인 성과`   | `평균 전달률`은 전달 성공 ÷ 대상입니다. 나머지는 화면의 설명을 따릅니다 |
 
-화면 라벨은 `전환률`입니다. 표준 표기는 "전환율"이지만, 이 사이트의 CRM 문서는 화면과 같은 이름으로 찾을 수 있도록 `전환률`로 씁니다. 화면 위치와 카드 이름은 [운영 홈에서 보는 것](https://docs.certi.life/guide/studio/screens/crm/overview#운영-홈에서-보는-것)과 [발송 결과 확인하기](https://docs.certi.life/guide/studio/screens/crm/campaigns#발송-결과-확인하기)를 참고하세요.
+화면 라벨은 `전환률`입니다. 표준 표기는 "전환율"이지만, 이 사이트의 CRM 문서는 화면과 같은 이름으로 찾을 수 있도록 `전환률`로 씁니다. 화면 위치와 카드 이름은 [운영 홈에서 보는 것](https://certi.life/docs/guide/studio/screens/crm/overview#운영-홈에서-보는-것)과 [발송 결과 확인하기](https://certi.life/docs/guide/studio/screens/crm/campaigns#발송-결과-확인하기)를 참고하세요.
 
 ## 기본 절차
 
@@ -58,15 +58,15 @@ CertiLife CRM 메시징은 고객의 연령, 성별, 시술 이력, 방문일 �
 
 ## 다음 문서
 
-- [CRM 세그먼트 계획](https://docs.certi.life/guide/products/crm-messaging/segment-planning)
-- [CRM 메시지 발송 전 체크리스트](https://docs.certi.life/guide/products/crm-messaging/message-checklist)
-- [이벤트 마케팅](https://docs.certi.life/guide/products/event-marketing)
-- [개인정보 및 보안](https://docs.certi.life/guide/help/privacy-security)
+- [CRM 세그먼트 계획](https://certi.life/docs/guide/products/crm-messaging/segment-planning)
+- [CRM 메시지 발송 전 체크리스트](https://certi.life/docs/guide/products/crm-messaging/message-checklist)
+- [이벤트 마케팅](https://certi.life/docs/guide/products/event-marketing)
+- [개인정보 및 보안](https://certi.life/docs/guide/help/privacy-security)
 
 ## 함께 보기
 
 Studio 화면의 순서와 버튼 이름은 아래 문서에 있습니다.
 
-- [CRM - 고객 데이터를 모아 메시지 운영하기](https://docs.certi.life/guide/studio/screens/crm/overview): 메뉴 구성과 처음 메시지를 보내기까지의 순서
-- [고객 등록과 관리](https://docs.certi.life/guide/studio/screens/crm/customers): 고객 넣기, 세그먼트 저장, 수신 동의 처리
-- [캠페인](https://docs.certi.life/guide/studio/screens/crm/campaigns): 대상 선택부터 발송, 안전 검증, 캠페인 성과까지
+- [CRM - 고객 데이터를 모아 메시지 운영하기](https://certi.life/docs/guide/studio/screens/crm/overview): 메뉴 구성과 처음 메시지를 보내기까지의 순서
+- [고객 등록과 관리](https://certi.life/docs/guide/studio/screens/crm/customers): 고객 넣기, 세그먼트 저장, 수신 동의 처리
+- [캠페인](https://certi.life/docs/guide/studio/screens/crm/campaigns): 대상 선택부터 발송, 안전 검증, 캠페인 성과까지

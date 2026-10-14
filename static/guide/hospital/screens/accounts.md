@@ -2,7 +2,7 @@
 
 > Hospital 병원 관리의 계정 관리에서 직원용 서브계정을 추가하고(아이디 중복 확인, 초기 비밀번호), 권한 템플릿과 권한 그룹으로 사용할 수 있는 메뉴를 정하고, 계정을 수정하는 방법을 안내합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/hospital/screens/accounts)
+[사람이 읽는 원문](https://certi.life/docs/guide/hospital/screens/accounts)
 
 병원 계정 하나를 여러 직원이 함께 쓰면 누가 무엇을 했는지 알 수 없고, 퇴사한 직원도 계속 접속할 수 있습니다. `계정 관리`에서 **직원마다 서브계정을 만들고, 맡은 업무에 필요한 메뉴만 쓸 수 있게 권한을 줍니다.**
 
@@ -20,7 +20,7 @@
 
 > **초기 비밀번호는 아이디와 같습니다**
 >
-> 새 서브계정의 초기 비밀번호는 아이디와 같습니다. 계정을 전달하면서 **처음 로그인한 뒤 바로 비밀번호를 바꾸도록** 안내하세요. 처음 로그인하면 대시보드에도 비밀번호 변경 안내가 표시됩니다. 비밀번호를 바꾸기 전에도 로그인이 계속 되는지, 서브계정이 스스로 비밀번호를 바꾸는 경로가 어디인지는 화면에서 확인되지 않았습니다. 안내가 가리키는 [병원 정보 관리](https://docs.certi.life/guide/hospital/screens/hospital-info#비밀번호-바꾸기)는 그 메뉴 권한이 있는 계정에만 보입니다.
+> 새 서브계정의 초기 비밀번호는 아이디와 같습니다. 계정을 전달하면서 **처음 로그인한 뒤 바로 비밀번호를 바꾸도록** 안내하세요. 처음 로그인하면 대시보드에도 비밀번호 변경 안내가 표시됩니다. 비밀번호를 바꾸기 전에도 로그인이 계속 되는지, 서브계정이 스스로 비밀번호를 바꾸는 경로가 어디인지는 화면에서 확인되지 않았습니다. 안내가 가리키는 [병원 정보 관리](https://certi.life/docs/guide/hospital/screens/hospital-info#비밀번호-바꾸기)는 그 메뉴 권한이 있는 계정에만 보입니다.
 
 ## 권한을 고르는 기준
 
@@ -53,6 +53,6 @@
 
 ## 함께 보기
 
-- [Hospital 계정 접속](https://docs.certi.life/guide/hospital/account-access)
-- [Hospital 안전한 운영 가이드](https://docs.certi.life/guide/hospital/safe-operation)
-- [병원 정보 관리](https://docs.certi.life/guide/hospital/screens/hospital-info)
+- [Hospital 계정 접속](https://certi.life/docs/guide/hospital/account-access)
+- [Hospital 안전한 운영 가이드](https://certi.life/docs/guide/hospital/safe-operation)
+- [병원 정보 관리](https://certi.life/docs/guide/hospital/screens/hospital-info)

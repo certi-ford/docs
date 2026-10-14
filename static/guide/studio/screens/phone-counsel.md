@@ -2,15 +2,15 @@
 
 > Studio 전화상담 화면에서 콜봇·대기·응대·콜백·전체콜 목록을 보고, 당겨받기로 대기 콜을 받고, 상담사 전환과 전달하기로 통화를 넘기고, 대화록·녹음·AI 분석을 확인하고, 콜백 예약과 상담 기록, 알림톡 발송, 상담사 상태 변경을 하는 방법을 안내합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/studio/screens/phone-counsel)
+[사람이 읽는 원문](https://certi.life/docs/guide/studio/screens/phone-counsel)
 
-`전화상담`은 전화 응대를 위한 작업 화면입니다. [콜봇](https://docs.certi.life/guide/studio/screens/callbot/overview)이 받고 있는 전화, 상담사 연결을 기다리는 전화, 내가 통화 중인 전화가 실시간으로 보입니다. 상담사의 일은 세 가지입니다. **기다리는 콜을 받고, 통화 내용을 확인하고, 끝나면 기록을 남깁니다.** 메뉴 이름은 화면에 `전화상담`으로 붙여 표시됩니다. 이 문서는 전화를 받는 사람을 화면 표기대로 상담사라고 부릅니다.
+`전화상담`은 전화 응대를 위한 작업 화면입니다. [콜봇](https://certi.life/docs/guide/studio/screens/callbot/overview)이 받고 있는 전화, 상담사 연결을 기다리는 전화, 내가 통화 중인 전화가 실시간으로 보입니다. 상담사의 일은 세 가지입니다. **기다리는 콜을 받고, 통화 내용을 확인하고, 끝나면 기록을 남깁니다.** 메뉴 이름은 화면에 `전화상담`으로 붙여 표시됩니다. 이 문서는 전화를 받는 사람을 화면 표기대로 상담사라고 부릅니다.
 
 **위치:** 전화상담 (메뉴를 누르면 바로 상담 화면이 열립니다)
 
 > **조직의 이용 범위에 따라 다르게 보입니다**
 >
-> `전화상담` 메뉴는 콜봇을 이용하는 조직에 표시됩니다. 이용 범위에 따라 이 메뉴가 상담 화면 대신 [상담 내역](https://docs.certi.life/guide/studio/screens/conversation-history#전화-통화-기록-보기)의 전화 상담 내역으로 연결될 수 있습니다. 또 일부 기능은 화면에 "아직 준비되지 않았습니다"로 표시될 수 있으며, 그 경우 해당 기능은 아직 쓸 수 없습니다.
+> `전화상담` 메뉴는 콜봇을 이용하는 조직에 표시됩니다. 이용 범위에 따라 이 메뉴가 상담 화면 대신 [상담 내역](https://certi.life/docs/guide/studio/screens/conversation-history#전화-통화-기록-보기)의 전화 상담 내역으로 연결될 수 있습니다. 또 일부 기능은 화면에 "아직 준비되지 않았습니다"로 표시될 수 있으며, 그 경우 해당 기능은 아직 쓸 수 없습니다.
 
 ## 화면 구성
 
@@ -32,12 +32,12 @@
 
 | 하고 싶은 일                   | 섹션                                                                                                |
 | ------------------------- | ------------------------------------------------------------------------------------------------- |
-| 연결을 기다리는 고객의 전화를 받고 싶어요   | [기다리는 콜 받기](https://docs.certi.life/guide/studio/screens/phone-counsel#기다리는-콜-받기)                 |
-| 콜봇이 응대 중인 통화를 내가 넘겨받고 싶어요 | [통화 넘기고 끝내기](https://docs.certi.life/guide/studio/screens/phone-counsel#통화-넘기고-끝내기)               |
-| 통화 내용을 확인하고 기록을 남기고 싶어요   | [통화 내용 확인하고 기록 남기기](https://docs.certi.life/guide/studio/screens/phone-counsel#통화-내용-확인하고-기록-남기기) |
-| 나중에 다시 전화하기로 했어요          | [콜백 예약하기](https://docs.certi.life/guide/studio/screens/phone-counsel#콜백-예약하기)                     |
-| 고객에게 전화를 걸고 싶어요           | [고객에게 전화 걸기](https://docs.certi.life/guide/studio/screens/phone-counsel#고객에게-전화-걸기)               |
-| 자리를 비워 전화를 받을 수 없어요       | [내 상태 바꾸기](https://docs.certi.life/guide/studio/screens/phone-counsel#내-상태-바꾸기)                   |
+| 연결을 기다리는 고객의 전화를 받고 싶어요   | [기다리는 콜 받기](https://certi.life/docs/guide/studio/screens/phone-counsel#기다리는-콜-받기)                 |
+| 콜봇이 응대 중인 통화를 내가 넘겨받고 싶어요 | [통화 넘기고 끝내기](https://certi.life/docs/guide/studio/screens/phone-counsel#통화-넘기고-끝내기)               |
+| 통화 내용을 확인하고 기록을 남기고 싶어요   | [통화 내용 확인하고 기록 남기기](https://certi.life/docs/guide/studio/screens/phone-counsel#통화-내용-확인하고-기록-남기기) |
+| 나중에 다시 전화하기로 했어요          | [콜백 예약하기](https://certi.life/docs/guide/studio/screens/phone-counsel#콜백-예약하기)                     |
+| 고객에게 전화를 걸고 싶어요           | [고객에게 전화 걸기](https://certi.life/docs/guide/studio/screens/phone-counsel#고객에게-전화-걸기)               |
+| 자리를 비워 전화를 받을 수 없어요       | [내 상태 바꾸기](https://certi.life/docs/guide/studio/screens/phone-counsel#내-상태-바꾸기)                   |
 
 ## 기다리는 콜 받기
 
@@ -74,7 +74,7 @@
 4. 아래쪽 `상담 기록`에서 분류 항목을 고르고 `메모`를 적은 뒤 `저장`합니다. 메모는 조직이 정한 양식으로 미리 채워져 있습니다.
 5. 후속 처리까지 끝났다면 `후처리 완료`를 누릅니다. 기록이 저장되고 내 상태가 통화대기로 돌아가 다음 전화를 받을 수 있게 됩니다.
 
-녹음은 `콜봇 구간`과 `상담사 구간`으로 나뉘며, 재생 속도를 바꾸거나 파일로 내려받을 수 있습니다. 상담 기록의 항목은 관리자가 [상담 기록 설정](https://docs.certi.life/guide/studio/screens/org-settings/counsel-record)에서 정합니다. `AI 통화 결과`에 `자동 적용됨`이 표시되면 조직 설정에 따라 AI가 기록을 자동으로 채운 것이니 내용이 맞는지 확인하세요. `참고용`이면 자동으로 채워지지 않으므로 직접 고릅니다.
+녹음은 `콜봇 구간`과 `상담사 구간`으로 나뉘며, 재생 속도를 바꾸거나 파일로 내려받을 수 있습니다. 상담 기록의 항목은 관리자가 [상담 기록 설정](https://certi.life/docs/guide/studio/screens/org-settings/counsel-record)에서 정합니다. `AI 통화 결과`에 `자동 적용됨`이 표시되면 조직 설정에 따라 AI가 기록을 자동으로 채운 것이니 내용이 맞는지 확인하세요. `참고용`이면 자동으로 채워지지 않으므로 직접 고릅니다.
 
 > **대화록은 참고용입니다**
 >
@@ -99,13 +99,13 @@
 3. 콜봇이 먼저 안내하게 하려면 `아웃콜 멘트 사용`을 켜고 `에이전트`를 고릅니다.
 4. `통화 걸기`를 누릅니다.
 
-발신에는 통화 요금이 발생합니다. 상담사 번호가 없으면 콜봇의 `사용자 관리`에서, 발신할 번호가 없으면 [번호 관리](https://docs.certi.life/guide/studio/screens/callbot/phone-numbers)에서 먼저 준비해야 합니다.
+발신에는 통화 요금이 발생합니다. 상담사 번호가 없으면 콜봇의 `사용자 관리`에서, 발신할 번호가 없으면 [번호 관리](https://certi.life/docs/guide/studio/screens/callbot/phone-numbers)에서 먼저 준비해야 합니다.
 
 ## 통화 뒤 알림톡 보내기
 
 **위치:** 전화상담 > (통화 선택) > 알림톡
 
-통화에서 안내한 내용을 글로 남겨 주려면 위쪽의 `알림톡`을 누릅니다. `알림톡 보내기` 창에서 `발송 채널`과 `알림톡 템플릿`을 고르고 `보내기`를 누르면 이 통화의 고객 번호로 발송됩니다. 승인된 템플릿이 없으면 CRM에서 [템플릿](https://docs.certi.life/guide/studio/screens/crm/templates)을 먼저 준비해야 합니다. 자주 보내는 안내는 관리자가 [상황별 콜백](https://docs.certi.life/guide/studio/screens/org-settings/callback-situations)으로 묶어 둘 수 있습니다.
+통화에서 안내한 내용을 글로 남겨 주려면 위쪽의 `알림톡`을 누릅니다. `알림톡 보내기` 창에서 `발송 채널`과 `알림톡 템플릿`을 고르고 `보내기`를 누르면 이 통화의 고객 번호로 발송됩니다. 승인된 템플릿이 없으면 CRM에서 [템플릿](https://certi.life/docs/guide/studio/screens/crm/templates)을 먼저 준비해야 합니다. 자주 보내는 안내는 관리자가 [상황별 콜백](https://certi.life/docs/guide/studio/screens/org-settings/callback-situations)으로 묶어 둘 수 있습니다.
 
 ## 내 상태 바꾸기
 
@@ -131,6 +131,6 @@
 
 ## 함께 보기
 
-- [콜봇 시작하기](https://docs.certi.life/guide/studio/screens/callbot/overview): 전화를 받는 AI 상담원 만들기
-- [통계](https://docs.certi.life/guide/studio/screens/stats): 전화 응대 현황 보기
-- [상담 내역의 전화 통화 기록](https://docs.certi.life/guide/studio/screens/conversation-history#전화-통화-기록-보기): 지난 통화 찾아보기
+- [콜봇 시작하기](https://certi.life/docs/guide/studio/screens/callbot/overview): 전화를 받는 AI 상담원 만들기
+- [통계](https://certi.life/docs/guide/studio/screens/stats): 전화 응대 현황 보기
+- [상담 내역의 전화 통화 기록](https://certi.life/docs/guide/studio/screens/conversation-history#전화-통화-기록-보기): 지난 통화 찾아보기

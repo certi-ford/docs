@@ -2,7 +2,7 @@
 
 > 퀴즈, 후기, 공유, 정품인증 이벤트의 목표와 참여 조건, 리워드를 단계별로 계획합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/products/event-marketing/campaign-planning)
+[사람이 읽는 원문](https://certi.life/docs/guide/products/event-marketing/campaign-planning)
 
 좋은 이벤트는 참여 방식보다 목적이 먼저 분명합니다. 퀴즈, 후기, 공유, 정품인증은 각각 다른 행동을 요청하므로, 참여자가 해야 할 일을 최소화하면서 목표와 직접 연결되는 유형을 선택해야 합니다. 카카오 공유와 리워드를 사용할 때도 공유 자체를 목표로 삼기보다 어떤 고객 경험과 전환을 만들지 정의하세요.
 
@@ -47,10 +47,10 @@
 
 ## 다음 문서
 
-- [이벤트 성과 검토](https://docs.certi.life/guide/products/event-marketing/performance-review)
-- [이벤트 마케팅](https://docs.certi.life/guide/products/event-marketing)
-- [CRM 메시징](https://docs.certi.life/guide/products/crm-messaging)
+- [이벤트 성과 검토](https://certi.life/docs/guide/products/event-marketing/performance-review)
+- [이벤트 마케팅](https://certi.life/docs/guide/products/event-marketing)
+- [CRM 메시징](https://certi.life/docs/guide/products/crm-messaging)
 
 ## 함께 보기
 
-- [캠페인](https://docs.certi.life/guide/studio/screens/crm/campaigns): 이벤트 안내 메시지를 Studio에서 고객 여러 명에게 보내기
+- [캠페인](https://certi.life/docs/guide/studio/screens/crm/campaigns): 이벤트 안내 메시지를 Studio에서 고객 여러 명에게 보내기

@@ -2,9 +2,9 @@
 
 > Studio 설정의 채널 설정에서 카카오 알림톡 채널, 상담톡 채널, 네이버 톡톡, Instagram, LINE, WhatsApp, AI 콜봇을 조직에 연동하는 절차와 채널별로 필요한 정보, 연동 후 웹훅 등록 등 빠뜨리기 쉬운 단계를 안내합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/studio/screens/org-settings/channels)
+[사람이 읽는 원문](https://certi.life/docs/guide/studio/screens/org-settings/channels)
 
-카카오톡, 네이버 톡톡, Instagram 같은 메신저로 상담하려면 **조직에 계정을 먼저 연동**해야 합니다. 연동 방식은 채널마다 다릅니다. 로그인 한 번으로 끝나는 채널도 있고, 키를 복사해 넣고 상대 서비스에 웹훅 주소를 등록해야 하는 채널도 있습니다. 연동이 끝나면 [챗봇의 `채널 설정`](https://docs.certi.life/guide/studio/screens/chatbot/settings/channel-settings)에서 어느 챗봇이 그 채널에 응답할지 고릅니다.
+카카오톡, 네이버 톡톡, Instagram 같은 메신저로 상담하려면 **조직에 계정을 먼저 연동**해야 합니다. 연동 방식은 채널마다 다릅니다. 로그인 한 번으로 끝나는 채널도 있고, 키를 복사해 넣고 상대 서비스에 웹훅 주소를 등록해야 하는 채널도 있습니다. 연동이 끝나면 [챗봇의 `채널 설정`](https://certi.life/docs/guide/studio/screens/chatbot/settings/channel-settings)에서 어느 챗봇이 그 채널에 응답할지 고릅니다.
 
 **위치:** 설정 > 채널 설정
 
@@ -20,7 +20,7 @@
 | `WhatsApp`  | Meta 로그인 또는 직접 입력                         | WhatsApp 비즈니스 계정                       |
 | `AI 콜봇`     | 직접 연동하지 않습니다                              | 담당자를 통해 연동                             |
 
-`위챗 (준비중)`은 상담 채널로는 아직 쓸 수 없습니다. 위챗으로 인증서를 보내는 일은 Hospital의 [인증서 발행](https://docs.certi.life/guide/hospital/screens/issue-certificate#위챗으로-보내기)에서 합니다.
+`위챗 (준비중)`은 상담 채널로는 아직 쓸 수 없습니다. 위챗으로 인증서를 보내는 일은 Hospital의 [인증서 발행](https://certi.life/docs/guide/hospital/screens/issue-certificate#위챗으로-보내기)에서 합니다.
 
 "카톡 채널 연결이 안 돼요"라는 문의를 받으면 아래 채널별 절차에서 빠뜨린 단계가 없는지 먼저 확인하세요.
 
@@ -28,7 +28,7 @@
 
 **위치:** 설정 > 채널 설정 > 알림톡 채널
 
-알림톡은 예약 안내처럼 정보성 메시지를 보내는 채널입니다. [CRM](https://docs.certi.life/guide/studio/screens/crm/overview) 캠페인, [상황별 콜백](https://docs.certi.life/guide/studio/screens/org-settings/callback-situations), 챗봇의 알림톡 도구가 모두 이 채널로 발송합니다.
+알림톡은 예약 안내처럼 정보성 메시지를 보내는 채널입니다. [CRM](https://certi.life/docs/guide/studio/screens/crm/overview) 캠페인, [상황별 콜백](https://certi.life/docs/guide/studio/screens/org-settings/callback-situations), 챗봇의 알림톡 도구가 모두 이 채널로 발송합니다.
 
 1. `채널 목록`의 더하기(+) 또는 `알림톡 채널 연동`을 누릅니다. `카카오 알림톡 채널 연동` 창이 열립니다.
 2. **`채널 확인`:** `채널 아이디`와 `채널 표시 이름`을 입력합니다. 표시 이름을 비우면 회사명이 사용됩니다.
@@ -60,7 +60,7 @@
 
 **위치:** 설정 > 채널 설정 > 상담톡 채널 > 카카오 상담톡 유료 메시지
 
-이 옵션이 꺼져 있으면 카카오 채널에서는 무료 자동메시지가 발송됩니다. 이때 상담 시작과 운영 시간 외 문구가 카카오의 기본 문구로 대체되고, 상담원 배정과 고객 정보 수집 메시지는 발송되지 않습니다. 켜면 상담원 응대와 같은 유료 메시지로 발송되어 [자동메시지](https://docs.certi.life/guide/studio/screens/org-settings/auto-messages)에 적은 문구가 그대로 나갑니다.
+이 옵션이 꺼져 있으면 카카오 채널에서는 무료 자동메시지가 발송됩니다. 이때 상담 시작과 운영 시간 외 문구가 카카오의 기본 문구로 대체되고, 상담원 배정과 고객 정보 수집 메시지는 발송되지 않습니다. 켜면 상담원 응대와 같은 유료 메시지로 발송되어 [자동메시지](https://certi.life/docs/guide/studio/screens/org-settings/auto-messages)에 적은 문구가 그대로 나갑니다.
 
 ## 네이버 톡톡 연동하기
 
@@ -108,8 +108,8 @@
 
 ## 연동한 다음에는
 
-1. [챗봇의 `채널 설정`](https://docs.certi.life/guide/studio/screens/chatbot/settings/channel-settings)에서 채널에 응답할 챗봇을 지정합니다.
+1. [챗봇의 `채널 설정`](https://certi.life/docs/guide/studio/screens/chatbot/settings/channel-settings)에서 채널에 응답할 챗봇을 지정합니다.
 2. 직접 메시지를 보내 도착하는지, 답이 나가는지 확인합니다.
-3. 채널마다 [출시 체크리스트](https://docs.certi.life/guide/studio/launch-checklist)의 항목을 점검한 뒤 고객에게 공개합니다.
+3. 채널마다 [출시 체크리스트](https://certi.life/docs/guide/studio/launch-checklist)의 항목을 점검한 뒤 고객에게 공개합니다.
 
 연동에 쓰는 토큰과 시크릿은 비밀번호와 같습니다. 메신저나 이메일 본문으로 주고받지 말고, 담당자가 직접 입력하세요.

@@ -2,7 +2,7 @@
 
 > 제조사 계정과 로그인 정보를 보호하고 화면 공유·지원 요청·담당자 변경에 안전하게 대응하는 원칙입니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/manufacturer/safe-operation)
+[사람이 읽는 원문](https://certi.life/docs/guide/manufacturer/safe-operation)
 
 Manufacturer를 이용할 때는 공식 주소와 본인 계정을 확인하고 로그인 정보가 노출되지 않도록 주의해야 합니다. 이 문서는 로그인 이후의 기능이나 권한 구조를 전제로 하지 않고, 공개 로그인과 일반적인 지원 과정에서 적용할 수 있는 안전 원칙만 안내합니다. 조직의 보안 규정이 더 엄격하다면 해당 기준을 우선하세요.
 
@@ -54,7 +54,7 @@ Manufacturer를 이용할 때는 공식 주소와 본인 계정을 확인하고 
 
 ## 함께 보기
 
-- [Manufacturer 안내](https://docs.certi.life/guide/manufacturer/overview)
-- [Manufacturer 계정 접속](https://docs.certi.life/guide/manufacturer/account-access)
-- [문제 해결](https://docs.certi.life/guide/help/troubleshooting)
-- [개인정보 및 보안](https://docs.certi.life/guide/help/privacy-security)
+- [Manufacturer 안내](https://certi.life/docs/guide/manufacturer/overview)
+- [Manufacturer 계정 접속](https://certi.life/docs/guide/manufacturer/account-access)
+- [문제 해결](https://certi.life/docs/guide/help/troubleshooting)
+- [개인정보 및 보안](https://certi.life/docs/guide/help/privacy-security)

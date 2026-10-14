@@ -2,7 +2,7 @@
 
 > Studio 콜봇의 DTMF 메뉴 설정에서 메뉴 세트를 만들고, 전화 키패드 키마다 라벨과 안내 멘트, 입력 후 동작(AI 응대 계속, 통화 종료, 상담원 전환, 알림톡 발송, 브랜드메시지 발송, 콜백 예약)과 하위 메뉴를 구성해 에이전트에 연결하는 방법을 안내합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/studio/screens/callbot/dtmf-menus)
+[사람이 읽는 원문](https://certi.life/docs/guide/studio/screens/callbot/dtmf-menus)
 
 DTMF 메뉴는 고객이 **전화 키패드를 눌러 원하는 업무를 고르는 ARS 메뉴**입니다. 키마다 할 일을 정합니다. 어떤 키는 AI가 이어서 응대하고, 어떤 키는 상담원에게 넘기고, 어떤 키는 알림톡을 보내게 할 수 있습니다. 만드는 순서는 **메뉴 세트 만들기 → 키 구성하기 → 에이전트에 연결하기**입니다.
 
@@ -14,11 +14,11 @@ DTMF 메뉴는 고객이 **전화 키패드를 눌러 원하는 업무를 고르
 
 | 하려는 일                  | 가는 곳                                                                                         |
 | ---------------------- | -------------------------------------------------------------------------------------------- |
-| 대표번호에 ARS 메뉴 붙이기       | [메뉴 세트 만들기](https://docs.certi.life/guide/studio/screens/callbot/dtmf-menus#메뉴-세트-만들기)       |
-| 키를 누르면 상담원에게 넘기기       | [키마다 할 일 정하기](https://docs.certi.life/guide/studio/screens/callbot/dtmf-menus#키마다-할-일-정하기)   |
-| 키를 누르면 위치 안내 알림톡 보내기   | [키마다 할 일 정하기](https://docs.certi.life/guide/studio/screens/callbot/dtmf-menus#키마다-할-일-정하기)   |
-| "예약 > 신규, 변경"처럼 단계 나누기 | [하위 메뉴 만들기](https://docs.certi.life/guide/studio/screens/callbot/dtmf-menus#하위-메뉴-만들기)       |
-| 쓰고 있는 메뉴를 고치기          | [사용 중인 메뉴 고치기](https://docs.certi.life/guide/studio/screens/callbot/dtmf-menus#사용-중인-메뉴-고치기) |
+| 대표번호에 ARS 메뉴 붙이기       | [메뉴 세트 만들기](https://certi.life/docs/guide/studio/screens/callbot/dtmf-menus#메뉴-세트-만들기)       |
+| 키를 누르면 상담원에게 넘기기       | [키마다 할 일 정하기](https://certi.life/docs/guide/studio/screens/callbot/dtmf-menus#키마다-할-일-정하기)   |
+| 키를 누르면 위치 안내 알림톡 보내기   | [키마다 할 일 정하기](https://certi.life/docs/guide/studio/screens/callbot/dtmf-menus#키마다-할-일-정하기)   |
+| "예약 > 신규, 변경"처럼 단계 나누기 | [하위 메뉴 만들기](https://certi.life/docs/guide/studio/screens/callbot/dtmf-menus#하위-메뉴-만들기)       |
+| 쓰고 있는 메뉴를 고치기          | [사용 중인 메뉴 고치기](https://certi.life/docs/guide/studio/screens/callbot/dtmf-menus#사용-중인-메뉴-고치기) |
 
 ## 메뉴 세트 만들기
 
@@ -47,10 +47,10 @@ DTMF 메뉴는 고객이 **전화 키패드를 눌러 원하는 업무를 고르
 | `브랜드메시지 발송` | 고객에게 브랜드메시지를 보냅니다      | `발송 후 동작`                           |
 | `콜백 예약`     | 발신 고객 번호로 콜백 예약을 접수합니다 | `예약 후 동작`                           |
 
-- **상담원 전환:** `전환 대상`은 `에이전트 설정 따름`, `상담사 번호`, `번호 그룹` 중에서 고릅니다. 번호와 그룹은 [사용자 관리](https://docs.certi.life/guide/studio/screens/callbot/users)에서 먼저 만들어 둡니다. `즉시 전환 (cold)`은 바로 연결하고 `안내 후 전환 (warm)`은 고객에게 안내한 뒤 연결합니다.
-- **알림톡 발송:** 승인된 템플릿이 없으면 고를 수 없습니다. [CRM 메시지 템플릿](https://docs.certi.life/guide/studio/screens/crm/templates)에서 먼저 준비하세요. `트리 저장`을 누를 때 이 키의 알림톡 발송 도구가 함께 만들어지며, 도구를 만들지 못하면 저장도 실패합니다.
+- **상담원 전환:** `전환 대상`은 `에이전트 설정 따름`, `상담사 번호`, `번호 그룹` 중에서 고릅니다. 번호와 그룹은 [사용자 관리](https://certi.life/docs/guide/studio/screens/callbot/users)에서 먼저 만들어 둡니다. `즉시 전환 (cold)`은 바로 연결하고 `안내 후 전환 (warm)`은 고객에게 안내한 뒤 연결합니다.
+- **알림톡 발송:** 승인된 템플릿이 없으면 고를 수 없습니다. [CRM 메시지 템플릿](https://certi.life/docs/guide/studio/screens/crm/templates)에서 먼저 준비하세요. `트리 저장`을 누를 때 이 키의 알림톡 발송 도구가 함께 만들어지며, 도구를 만들지 못하면 저장도 실패합니다.
 - **브랜드메시지 발송:** 마케팅 수신 동의 고객에게만, 아침 8시부터 저녁 8시 50분 전까지만 발송됩니다.
-- **콜백 예약:** 접수된 예약은 [전화상담](https://docs.certi.life/guide/studio/screens/phone-counsel)의 콜백 목록에서 확인하고 처리합니다.
+- **콜백 예약:** 접수된 예약은 [전화상담](https://certi.life/docs/guide/studio/screens/phone-counsel)의 콜백 목록에서 확인하고 처리합니다.
 
 ## 하위 메뉴 만들기
 
@@ -64,7 +64,7 @@ DTMF 메뉴는 고객이 **전화 키패드를 눌러 원하는 업무를 고르
 
 **위치:** 콜봇 > 에이전트 > 새 에이전트 > 스마트 ARS
 
-메뉴는 에이전트에 연결해야 통화에서 동작합니다. [에이전트](https://docs.certi.life/guide/studio/screens/callbot/agents)에서 `스마트 ARS` 유형으로 만들 때 `DTMF 메뉴 연결 (선택)`에서 이 메뉴를 고릅니다.
+메뉴는 에이전트에 연결해야 통화에서 동작합니다. [에이전트](https://certi.life/docs/guide/studio/screens/callbot/agents)에서 `스마트 ARS` 유형으로 만들 때 `DTMF 메뉴 연결 (선택)`에서 이 메뉴를 고릅니다.
 
 ## 사용 중인 메뉴 고치기
 
@@ -83,11 +83,11 @@ DTMF 메뉴는 고객이 **전화 키패드를 눌러 원하는 업무를 고르
 ## 권장 운영법
 
 - 첫 단계의 선택지는 네 개 안팎으로 줄이세요. 선택지가 많으면 고객이 끝까지 듣지 않습니다.
-- 상담원 전환 키는 상담 시간 밖에 어떻게 동작할지 먼저 확인하세요. [사용자 관리](https://docs.certi.life/guide/studio/screens/callbot/users#번호-유형-고르기)의 번호 유형에 따라 운영시간 확인 여부가 달라집니다.
+- 상담원 전환 키는 상담 시간 밖에 어떻게 동작할지 먼저 확인하세요. [사용자 관리](https://certi.life/docs/guide/studio/screens/callbot/users#번호-유형-고르기)의 번호 유형에 따라 운영시간 확인 여부가 달라집니다.
 - 공개하기 전에 실제 전화로 모든 키를 한 번씩 눌러 보세요.
 
 ## 함께 보기
 
-- [에이전트](https://docs.certi.life/guide/studio/screens/callbot/agents)
-- [도구](https://docs.certi.life/guide/studio/screens/callbot/tools)
-- [사용자 관리](https://docs.certi.life/guide/studio/screens/callbot/users)
+- [에이전트](https://certi.life/docs/guide/studio/screens/callbot/agents)
+- [도구](https://certi.life/docs/guide/studio/screens/callbot/tools)
+- [사용자 관리](https://certi.life/docs/guide/studio/screens/callbot/users)

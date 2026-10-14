@@ -2,9 +2,9 @@
 
 > 인증서를 보내기 전에 대상(환자 정보), 내용(시술·제품), 전송 방식과 링크, 환자 안내를 빠짐없이 점검하고, 여러 명에게 한 번에 보낼 때 추가로 확인할 항목을 정리합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/products/certificate/delivery-checklist)
+[사람이 읽는 원문](https://certi.life/docs/guide/products/certificate/delivery-checklist)
 
-인증서를 보내기 전에는 환자 정보, 시술·제품 정보, 전송 방식, 환자에게 말해 줄 것 네 가지를 눈으로 확인합니다. 진료를 마친 환자 한 명에게 데스크나 병동에서 발행해 보내기 직전에 보는 목록이며, 잘못된 환자에게 보내거나 틀린 시술·제품 정보를 담아 보내는 실수를 막습니다. 발행 화면의 실제 순서는 [인증서 발행](https://docs.certi.life/guide/hospital/screens/issue-certificate)에 있고, 여기에는 `발행하기`를 누르기 전에 확인할 것만 모았습니다. 안과 병원처럼 엑셀로 여러 명을 한 번에 발행하는 경우는 마지막 절을 함께 보세요.
+인증서를 보내기 전에는 환자 정보, 시술·제품 정보, 전송 방식, 환자에게 말해 줄 것 네 가지를 눈으로 확인합니다. 진료를 마친 환자 한 명에게 데스크나 병동에서 발행해 보내기 직전에 보는 목록이며, 잘못된 환자에게 보내거나 틀린 시술·제품 정보를 담아 보내는 실수를 막습니다. 발행 화면의 실제 순서는 [인증서 발행](https://certi.life/docs/guide/hospital/screens/issue-certificate)에 있고, 여기에는 `발행하기`를 누르기 전에 확인할 것만 모았습니다. 안과 병원처럼 엑셀로 여러 명을 한 번에 발행하는 경우는 마지막 절을 함께 보세요.
 
 ## 목적
 
@@ -17,7 +17,7 @@
 
 - 환자의 이름과 휴대폰 번호, 그리고 환자가 인증서를 받을 채널
 - 카카오톡으로 보낼 때 환자의 개인정보 수집·제공 동의(병원 담당자 직접 동의 또는 환자 QR 동의)
-- 시술·제품 정보(치과는 제품 코드나 제조사·제품명, 그 밖의 진료과는 [인증서 설정](https://docs.certi.life/guide/hospital/screens/certificate-settings)에 만들어 둔 인증서)
+- 시술·제품 정보(치과는 제품 코드나 제조사·제품명, 그 밖의 진료과는 [인증서 설정](https://certi.life/docs/guide/hospital/screens/certificate-settings)에 만들어 둔 인증서)
 - 치료 후 주의사항과 병원 보증사항처럼 인증서에 들어갈 병원 추가사항
 - 위챗으로 보낼 때 환자가 서티라이프 위챗 공중계정을 팔로우하고 미니앱에 가입했는지 여부
 
@@ -25,7 +25,7 @@
 
 - [ ] 환자 이름과 휴대폰 번호가 접수 정보와 같습니다. 번호를 잘못 넣으면 다른 사람에게 시술 정보가 갑니다.
 - [ ] 환자가 인증서 수신에 동의했고, 카카오톡 발송이면 개인정보 수집·제공 동의를 받았습니다.
-- [ ] 같은 환자에게 같은 인증서를 이미 발행하지 않았습니다. 이미 발행했는데 알림만 안 갔다면 다시 발행하지 말고 [발행 내역](https://docs.certi.life/guide/hospital/screens/history#알림-다시-보내기)에서 알림만 다시 보냅니다.
+- [ ] 같은 환자에게 같은 인증서를 이미 발행하지 않았습니다. 이미 발행했는데 알림만 안 갔다면 다시 발행하지 말고 [발행 내역](https://certi.life/docs/guide/hospital/screens/history#알림-다시-보내기)에서 알림만 다시 보냅니다.
 
 ## 내용 체크리스트
 
@@ -40,7 +40,7 @@
 
 - [ ] 환자가 평소 쓰는 채널을 골랐습니다. 국내 환자는 대개 카카오톡입니다.
 - [ ] 위챗 발송이면 환자가 공중계정 팔로우와 미니앱 가입을 마쳤습니다. 마치지 않았다면 발행 화면의 QR을 보여 주고 가입을 마친 뒤 발행합니다.
-- [ ] 병원 이름의 카카오톡 채널로 보내는 병원이라면 [알림톡](https://docs.certi.life/guide/hospital/screens/alimtalk) 채널 등록과 템플릿 검수가 끝나 있습니다.
+- [ ] 병원 이름의 카카오톡 채널로 보내는 병원이라면 [알림톡](https://certi.life/docs/guide/hospital/screens/alimtalk) 채널 등록과 템플릿 검수가 끝나 있습니다.
 
 ## 환자에게 말해 줄 것
 
@@ -51,7 +51,7 @@
 
 > **보낸 뒤 틀린 것을 알았을 때**
 >
-> 연락처나 내용이 틀린 채로 보냈다면 다시 발행하지 말고 환자 상세에서 **회수**한 뒤 새로 발행합니다. 삭제는 같은 제품 코드로 다시 발행할 수 없고 취소할 수 없습니다. 다른 사람에게 시술 정보가 전달된 경우에는 병원의 개인정보 사고 대응 절차에 따라 기록하고 보고하세요. 절차는 [발행 내역](https://docs.certi.life/guide/hospital/screens/history#잘못-보낸-인증서-바로잡기)에 있습니다.
+> 연락처나 내용이 틀린 채로 보냈다면 다시 발행하지 말고 환자 상세에서 **회수**한 뒤 새로 발행합니다. 삭제는 같은 제품 코드로 다시 발행할 수 없고 취소할 수 없습니다. 다른 사람에게 시술 정보가 전달된 경우에는 병원의 개인정보 사고 대응 절차에 따라 기록하고 보고하세요. 절차는 [발행 내역](https://certi.life/docs/guide/hospital/screens/history#잘못-보낸-인증서-바로잡기)에 있습니다.
 
 ## 여러 명에게 한 번에 보낼 때
 
@@ -64,12 +64,12 @@
 - [ ] 발송 직전 대상 수와 제외 대상이 예상과 다르면 진행을 멈추고 원인을 확인합니다.
 - [ ] 연락처 일부만 보고 환자를 추정하거나 검수되지 않은 명단을 그대로 쓰지 않습니다.
 
-대량 발행의 화면 절차는 [확인서 대량 발행하기](https://docs.certi.life/guide/hospital/screens/issue-certificate#확인서-대량-발행하기), 캠페인 메시지의 점검 항목은 [CRM 메시징](https://docs.certi.life/guide/products/crm-messaging)을 확인하세요.
+대량 발행의 화면 절차는 [확인서 대량 발행하기](https://certi.life/docs/guide/hospital/screens/issue-certificate#확인서-대량-발행하기), 캠페인 메시지의 점검 항목은 [CRM 메시징](https://certi.life/docs/guide/products/crm-messaging)을 확인하세요.
 
 ## 다음 문서
 
-- [인증서 발행](https://docs.certi.life/guide/hospital/screens/issue-certificate)
-- [발행 내역](https://docs.certi.life/guide/hospital/screens/history)
-- [인증서 발송 채널](https://docs.certi.life/guide/products/certificate/channels)
-- [인증서](https://docs.certi.life/guide/products/certificate)
-- [개인정보 및 보안](https://docs.certi.life/guide/help/privacy-security)
+- [인증서 발행](https://certi.life/docs/guide/hospital/screens/issue-certificate)
+- [발행 내역](https://certi.life/docs/guide/hospital/screens/history)
+- [인증서 발송 채널](https://certi.life/docs/guide/products/certificate/channels)
+- [인증서](https://certi.life/docs/guide/products/certificate)
+- [개인정보 및 보안](https://certi.life/docs/guide/help/privacy-security)

@@ -2,7 +2,7 @@
 
 > Studio 설정의 자동메시지에서 고객 정보 수집, 상담 시작·완료 메시지, 상담원 배정 메시지, 운영 시간 외 메시지, AI 전화 콜백 문자를 설정하고 변수와 이미지를 넣는 방법, 카카오 상담톡에서 달라지는 점을 안내합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/studio/screens/org-settings/auto-messages)
+[사람이 읽는 원문](https://certi.life/docs/guide/studio/screens/org-settings/auto-messages)
 
 고객이 상담을 요청하면 "상담원을 연결하고 있습니다", 시간 외에는 "내일 오전에 답변드리겠습니다" 같은 안내가 자동으로 나가야 고객이 기다릴 수 있습니다. `자동메시지`에서는 **상담의 각 시점에 자동으로 나가는 문구**를 정합니다. 문구는 조직의 말투로 바꾸고, 고객이 언제 어떻게 답을 받을지 구체적으로 적는 것이 핵심입니다.
 
@@ -17,7 +17,7 @@
 |            | `상담 완료 메시지`    | 상담원이 상담을 완료할 때. 상태가 '완료'가 되는 경우와 '종료'가 되는 경우 모두 나갑니다                                                      |
 | `상담원 배정`   | `상담원 배정 메시지`   | 상담원이 배정되었을 때                                                                                              |
 |            | `상담원 비활성화 메시지` | 모든 상담원이 비활성화 상태일 때                                                                                        |
-| `운영 시간 외`  | `운영 시간 외 메시지`  | 설정된 [상담 시간](https://docs.certi.life/guide/studio/screens/org-settings/hours#채팅-상담-가능-시간-정하기) 외에 고객이 문의할 때 |
+| `운영 시간 외`  | `운영 시간 외 메시지`  | 설정된 [상담 시간](https://certi.life/docs/guide/studio/screens/org-settings/hours#채팅-상담-가능-시간-정하기) 외에 고객이 문의할 때 |
 | `AI 전화 콜백` | `콜백 문자`        | 콜봇 통화가 끝났을 때                                                                                              |
 
 ## 메시지 문구 바꾸기
@@ -30,7 +30,7 @@
 4. 필요하면 `이미지 첨부`로 이미지를 넣습니다. JPG, PNG, 최대 5MB이며 `2:1` 또는 `3:4` 비율로 잘립니다.
 5. 화면 아래 "변경사항이 있습니다" 저장 바의 `저장`을 누릅니다.
 
-`메시지 내용 *`의 `*`는 필수라는 뜻입니다. 내용을 비운 채 `저장`하면 저장되지 않고 "Request failed with status code 400"이 나옵니다. 어떤 메시지를 보내지 않으려면 내용을 지우지 말고, 그 메시지 제목 오른쪽의 스위치를 끈 뒤 `저장`합니다. 해결 순서는 [문제가 생기면](https://docs.certi.life/guide/studio/screens/org-settings/auto-messages#문제가-생기면)에 있습니다.
+`메시지 내용 *`의 `*`는 필수라는 뜻입니다. 내용을 비운 채 `저장`하면 저장되지 않고 "Request failed with status code 400"이 나옵니다. 어떤 메시지를 보내지 않으려면 내용을 지우지 말고, 그 메시지 제목 오른쪽의 스위치를 끈 뒤 `저장`합니다. 해결 순서는 [문제가 생기면](https://certi.life/docs/guide/studio/screens/org-settings/auto-messages#문제가-생기면)에 있습니다.
 
 > **변수는 직접 치지 말고 삽입 버튼을 쓰세요**
 >
@@ -56,9 +56,9 @@
 
 > **꼭 필요한 항목만 받으세요**
 >
-> 항목이 많을수록 고객이 입력을 포기합니다. 연락에 필요한 최소한만 받고, 주민등록번호나 상세한 증상 같은 민감한 정보는 받지 마세요. 기준은 [개인정보 및 보안](https://docs.certi.life/guide/help/privacy-security)을 참고하세요.
+> 항목이 많을수록 고객이 입력을 포기합니다. 연락에 필요한 최소한만 받고, 주민등록번호나 상세한 증상 같은 민감한 정보는 받지 마세요. 기준은 [개인정보 및 보안](https://certi.life/docs/guide/help/privacy-security)을 참고하세요.
 
-상담 중에 추가로 정보를 요청하려면 상담원이 [상담 화면에서 `정보 수집 메시지 발송`](https://docs.certi.life/guide/studio/screens/counsel/customer#대화-중에-고객-정보-요청하기)을 씁니다.
+상담 중에 추가로 정보를 요청하려면 상담원이 [상담 화면에서 `정보 수집 메시지 발송`](https://certi.life/docs/guide/studio/screens/counsel/customer#대화-중에-고객-정보-요청하기)을 씁니다.
 
 ## 콜봇 통화 뒤 알림톡 자동으로 보내기
 
@@ -81,7 +81,7 @@
 - 상담원 배정과 고객 정보 수집 메시지는 발송되지 않습니다.
 - 상담 완료와 상담원 비활성화 메시지는 그대로 발송됩니다.
 
-여기에 적은 문구를 카카오 채널에서도 그대로 쓰려면 `채널 설정에서 변경하기`를 눌러 [`카카오 상담톡 유료 메시지`](https://docs.certi.life/guide/studio/screens/org-settings/channels#카카오-상담톡-유료-메시지)를 켭니다.
+여기에 적은 문구를 카카오 채널에서도 그대로 쓰려면 `채널 설정에서 변경하기`를 눌러 [`카카오 상담톡 유료 메시지`](https://certi.life/docs/guide/studio/screens/org-settings/channels#카카오-상담톡-유료-메시지)를 켭니다.
 
 ## 문제가 생기면
 
@@ -97,6 +97,6 @@
 
 ## 함께 보기
 
-- [번역 설정](https://docs.certi.life/guide/studio/screens/org-settings/translation#자동-메시지도-번역하기): 자동메시지를 고객 언어로 보내기
-- [상담 시간](https://docs.certi.life/guide/studio/screens/org-settings/hours): 운영 시간 외의 기준이 되는 시간
-- [상담원 연결 정책](https://docs.certi.life/guide/products/ai-chatbot/handoff-policy)
+- [번역 설정](https://certi.life/docs/guide/studio/screens/org-settings/translation#자동-메시지도-번역하기): 자동메시지를 고객 언어로 보내기
+- [상담 시간](https://certi.life/docs/guide/studio/screens/org-settings/hours): 운영 시간 외의 기준이 되는 시간
+- [상담원 연결 정책](https://certi.life/docs/guide/products/ai-chatbot/handoff-policy)

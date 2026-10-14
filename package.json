@@ -6,7 +6,6 @@
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
     "build": "docusaurus build",
-    "build:subpath": "docusaurus build --config docusaurus.subpath.config.ts --out-dir build/docs",
     "serve": "docusaurus serve",
     "clear": "docusaurus clear",
     "deploy": "docusaurus deploy",

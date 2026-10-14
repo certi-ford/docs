@@ -2,7 +2,7 @@
 
 > 참여율, 공유 수, 전환률, 신규 고객 수를 함께 살펴보고 다음 캠페인을 개선합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/products/event-marketing/performance-review)
+[사람이 읽는 원문](https://certi.life/docs/guide/products/event-marketing/performance-review)
 
 이벤트가 끝난 뒤에는 단순 참여 건수만 보지 말고 처음 세운 목표와 참여 흐름을 함께 검토해야 합니다. CertiLife 이벤트 마케팅에서는 참여율, 공유 수, 전환률, 신규 고객 수를 성과 기준으로 살펴볼 수 있습니다. 각 지표는 서로 다른 질문에 답하므로, 하나의 수치만으로 캠페인의 전체 성과를 단정하지 않는 것이 중요합니다. 이 네 지표를 어느 화면에서 읽는지는 현재 공개 문서에서 확인되지 않았으므로, 집계 방법은 조직의 CertiLife 담당자에게 확인하세요.
 
@@ -49,13 +49,13 @@
 
 ## 다음 문서
 
-- [이벤트 캠페인 계획](https://docs.certi.life/guide/products/event-marketing/campaign-planning)
-- [이벤트 마케팅](https://docs.certi.life/guide/products/event-marketing)
-- [CRM 메시지 발송 전 체크리스트](https://docs.certi.life/guide/products/crm-messaging/message-checklist)
+- [이벤트 캠페인 계획](https://certi.life/docs/guide/products/event-marketing/campaign-planning)
+- [이벤트 마케팅](https://certi.life/docs/guide/products/event-marketing)
+- [CRM 메시지 발송 전 체크리스트](https://certi.life/docs/guide/products/crm-messaging/message-checklist)
 
 ## 함께 보기
 
 이벤트 마케팅 문서는 여기서 끝납니다. 이벤트 참여자에게 다음 안내를 보내려면 Studio CRM으로 이어 가세요.
 
-- [캠페인](https://docs.certi.life/guide/studio/screens/crm/campaigns): 발송 결과와 `캠페인 성과` 확인
-- [CRM 메시징](https://docs.certi.life/guide/products/crm-messaging): CRM 메시지의 성과 지표 이름과 확인 위치
+- [캠페인](https://certi.life/docs/guide/studio/screens/crm/campaigns): 발송 결과와 `캠페인 성과` 확인
+- [CRM 메시징](https://certi.life/docs/guide/products/crm-messaging): CRM 메시지의 성과 지표 이름과 확인 위치

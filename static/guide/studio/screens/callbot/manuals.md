@@ -2,7 +2,7 @@
 
 > Studio 콜봇의 매뉴얼 화면에서 트리거와 본문으로 상황별 응대 절차를 만들고(새 매뉴얼, 템플릿에서 시작), 실행 대기음을 정하고, 에이전트에 연결하는 방법과 반영 시점을 안내합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/studio/screens/callbot/manuals)
+[사람이 읽는 원문](https://certi.life/docs/guide/studio/screens/callbot/manuals)
 
 환불 요청, 예약 변경처럼 **정해진 순서로 응대해야 하는 상황**이 있습니다. 이런 절차를 프롬프트에 모두 넣으면 프롬프트가 길어지고 에이전트가 헷갈립니다. 매뉴얼로 떼어 두면 통화 중 그 상황이 왔을 때만 에이전트가 본문을 불러와 따릅니다.
 
@@ -37,7 +37,7 @@
 
 **위치:** 콜봇 > 에이전트 > (에이전트 선택) > 매뉴얼
 
-[에이전트 설정](https://docs.certi.life/guide/studio/screens/callbot/agent-settings#회사-정보로-답하게-하기) 화면의 `매뉴얼` 섹션에서 연결할 매뉴얼을 고른 뒤 `배포`를 누릅니다.
+[에이전트 설정](https://certi.life/docs/guide/studio/screens/callbot/agent-settings#회사-정보로-답하게-하기) 화면의 `매뉴얼` 섹션에서 연결할 매뉴얼을 고른 뒤 `배포`를 누릅니다.
 
 > **무엇이 언제 반영되나요?**
 >
@@ -46,7 +46,7 @@
 ## 권장 운영법
 
 - 매뉴얼 하나에는 상황 하나만 담습니다.
-- 본문에 "확인되지 않으면 상담사에게 전환한다"처럼 막혔을 때의 출구를 적어 둡니다. 전환하려면 에이전트에 [통화 전환 도구](https://docs.certi.life/guide/studio/screens/callbot/tools#상담사에게-전화를-넘기게-하기)가 있어야 합니다.
-- 의료진의 판단이 필요한 상황은 콜봇이 판단하지 않고 사람에게 넘기는 절차로 작성합니다. 기준은 [상담원 연결 정책](https://docs.certi.life/guide/products/ai-chatbot/handoff-policy)을 참고하세요.
+- 본문에 "확인되지 않으면 상담사에게 전환한다"처럼 막혔을 때의 출구를 적어 둡니다. 전환하려면 에이전트에 [통화 전환 도구](https://certi.life/docs/guide/studio/screens/callbot/tools#상담사에게-전화를-넘기게-하기)가 있어야 합니다.
+- 의료진의 판단이 필요한 상황은 콜봇이 판단하지 않고 사람에게 넘기는 절차로 작성합니다. 기준은 [상담원 연결 정책](https://certi.life/docs/guide/products/ai-chatbot/handoff-policy)을 참고하세요.
 - 저장한 뒤에는 에이전트 설정의 테스트 패널에서 트리거 상황을 직접 말해 보며 확인합니다.
-- 챗봇의 [매뉴얼](https://docs.certi.life/guide/studio/screens/chatbot/settings/manuals)과 개념은 같지만 목록은 따로 관리됩니다.
+- 챗봇의 [매뉴얼](https://certi.life/docs/guide/studio/screens/chatbot/settings/manuals)과 개념은 같지만 목록은 따로 관리됩니다.

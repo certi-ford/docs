@@ -2,7 +2,7 @@
 
 > Studio 상담 화면에서 바로 상담 시작으로 응대를 시작하고, 이관으로 다른 상담원에게 넘기고, 상담완료·상담종료와 내용 정리(상담사 정리, AI 초안)로 마무리하고, 메모를 남기고, 일괄 종료로 오래된 상담을 정리하는 방법을 안내합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/studio/screens/counsel/handle)
+[사람이 읽는 원문](https://certi.life/docs/guide/studio/screens/counsel/handle)
 
 상담 한 건은 **시작 → 응대 → (필요하면 이관) → 마무리** 순서로 흘러갑니다. 각 단계에서 누르는 버튼은 대화창 위쪽과 아래쪽에 있습니다. 특히 마무리 단계의 "내용 정리"는 나중에 이 고객을 다시 만날 다른 상담원을 위한 기록이므로 건너뛰지 마세요.
 
@@ -10,7 +10,7 @@
 
 ## 상담 시작하기
 
-1. [`대기` 탭](https://docs.certi.life/guide/studio/screens/counsel/inbox)에서 상담을 누릅니다.
+1. [`대기` 탭](https://certi.life/docs/guide/studio/screens/counsel/inbox)에서 상담을 누릅니다.
 2. 대화창의 시작 버튼을 누릅니다. 상담의 상태에 따라 `바로 상담 시작`, `상담 진행하기`, `추가 상담 시작` 중 하나가 표시됩니다. 다른 상담원이 응대 중인 상담에 함께 들어갈 때는 `상담 참여하기`를 누릅니다.
 3. 입력창에 답변을 쓰고 `전송`을 누릅니다. Ctrl+Enter(Mac은 Cmd+Enter)로도 보낼 수 있고, Enter는 줄바꿈입니다.
 
@@ -37,7 +37,7 @@
 
 **위치:** 상담 > 대화창 > 상담완료
 
-상담을 끝내는 방법은 두 가지입니다. 상담 한 건을 정리 기록과 함께 끝낼 때는 대화창 위쪽의 `상담완료`(또는 `상담종료`) 버튼을 씁니다. 답이 없는 상담 여러 건을 정리 기록 없이 한 번에 닫을 때는 상담 목록 위의 [`일괄 종료`](https://docs.certi.life/guide/studio/screens/counsel/handle#여러-상담을-한-번에-종료하기)를 씁니다.
+상담을 끝내는 방법은 두 가지입니다. 상담 한 건을 정리 기록과 함께 끝낼 때는 대화창 위쪽의 `상담완료`(또는 `상담종료`) 버튼을 씁니다. 답이 없는 상담 여러 건을 정리 기록 없이 한 번에 닫을 때는 상담 목록 위의 [`일괄 종료`](https://certi.life/docs/guide/studio/screens/counsel/handle#여러-상담을-한-번에-종료하기)를 씁니다.
 
 | 구분    | 한 건 끝내기                 | 여러 건 한 번에 닫기                                       |
 | ----- | ----------------------- | -------------------------------------------------- |
@@ -91,6 +91,6 @@
 
 ## 함께 보기
 
-- [빠르고 정확하게 답하기](https://docs.certi.life/guide/studio/screens/counsel/reply-tools)
-- [상담 내역](https://docs.certi.life/guide/studio/screens/conversation-history): 정리한 상담 결과 다시 보기
-- [상담 시나리오와 사람 연결](https://docs.certi.life/guide/studio/scenario-and-handoff)
+- [빠르고 정확하게 답하기](https://certi.life/docs/guide/studio/screens/counsel/reply-tools)
+- [상담 내역](https://certi.life/docs/guide/studio/screens/conversation-history): 정리한 상담 결과 다시 보기
+- [상담 시나리오와 사람 연결](https://certi.life/docs/guide/studio/scenario-and-handoff)

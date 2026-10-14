@@ -2,7 +2,7 @@
 
 > Studio 챗봇 상세의 통계 탭에서 통계 개요로 실패율을 확인하고, 실패 발화에 보강 답변을 저장해 학습자료에 반영하고, Q\&A 보강에서 직접 Q\&A를 등록하고 시험하는 방법을 목적별로 안내합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/studio/screens/chatbot/statistics)
+[사람이 읽는 원문](https://certi.life/docs/guide/studio/screens/chatbot/statistics)
 
 `통계` 탭은 챗봇이 **제대로 답하지 못한 질문을 찾아서 고치는 곳**입니다. 숫자를 보는 화면이기도 하지만, 핵심은 "실패한 질문 확인 → 올바른 답 입력 → 학습자료에 자동 반영"으로 이어지는 개선 작업입니다. 정기적으로 들여다보고 보강할수록 챗봇이 답할 수 있는 질문이 늘어납니다.
 
@@ -28,7 +28,7 @@
 | ------------ | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
 | `답변 부적절/비응답` | 답을 하긴 했지만 질문에 맞지 않거나 답을 피한 경우. AI 판정 기반 추정치입니다 | `실패 발화`에서 보강 답변을 넣습니다                                                                                        |
 | `시스템 오류`     | 기술적인 문제로 답을 만들지 못한 경우                          | 반복되면 CertiLife 담당자에게 문의합니다                                                                                   |
-| `학습자료 미연결`   | 챗봇에 학습자료가 없어 답하지 못한 경우                         | [`AI 학습자료 설정`](https://docs.certi.life/guide/studio/screens/chatbot/settings/training-materials)에서 자료를 연결합니다 |
+| `학습자료 미연결`   | 챗봇에 학습자료가 없어 답하지 못한 경우                         | [`AI 학습자료 설정`](https://certi.life/docs/guide/studio/screens/chatbot/settings/training-materials)에서 자료를 연결합니다 |
 
 유형 카드를 누르면 그 유형만 걸러진 `실패 발화` 목록으로 바로 이동합니다.
 
@@ -62,10 +62,10 @@
 2. `Q&A 등록`을 누르면 학습자료에 바로 추가됩니다.
 3. `챗봇에 테스트 질문`에 같은 질문을 넣고 `전송`을 눌러 챗봇이 실제로 그렇게 답하는지 확인합니다. 이 테스트는 통계에 집계되지 않습니다.
 
-`보강 학습 성과`에는 지금까지 보강한 질문과 해결 건수가 쌓이고, `보강 파일 보기`로 보강 내용 전체를 확인할 수 있습니다. 보강 내용은 [`AI 학습자료 설정`](https://docs.certi.life/guide/studio/screens/chatbot/settings/training-materials)의 파일 목록에 `보강 Q&A · 자동 관리`라는 파일로 나타나며, 그 화면에서는 직접 삭제할 수 없고 이 화면에서 관리합니다.
+`보강 학습 성과`에는 지금까지 보강한 질문과 해결 건수가 쌓이고, `보강 파일 보기`로 보강 내용 전체를 확인할 수 있습니다. 보강 내용은 [`AI 학습자료 설정`](https://certi.life/docs/guide/studio/screens/chatbot/settings/training-materials)의 파일 목록에 `보강 Q&A · 자동 관리`라는 파일로 나타나며, 그 화면에서는 직접 삭제할 수 없고 이 화면에서 관리합니다.
 
 ## 권장 운영법
 
 - 주 1회 `통계 개요`에서 실패율을 확인하고, `자주 실패한 발화`의 상위 질문부터 보강합니다.
-- 같은 주제의 실패가 계속 쌓이면 Q\&A를 하나씩 넣기보다 [학습자료](https://docs.certi.life/guide/studio/screens/chatbot/settings/training-materials) 자체를 보완합니다.
-- 운영시간이나 가격처럼 자주 바뀌는 정보는 보강 답변보다 원본 자료를 고치는 편이 관리하기 쉽습니다. 자료 관리 기준은 [상담 지식 관리](https://docs.certi.life/guide/studio/knowledge-management)를 참고하세요.
+- 같은 주제의 실패가 계속 쌓이면 Q\&A를 하나씩 넣기보다 [학습자료](https://certi.life/docs/guide/studio/screens/chatbot/settings/training-materials) 자체를 보완합니다.
+- 운영시간이나 가격처럼 자주 바뀌는 정보는 보강 답변보다 원본 자료를 고치는 편이 관리하기 쉽습니다. 자료 관리 기준은 [상담 지식 관리](https://certi.life/docs/guide/studio/knowledge-management)를 참고하세요.

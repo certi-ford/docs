@@ -2,7 +2,7 @@
 
 > Studio 챗봇 설정의 AI 설정에서 페르소나 선택, 커스텀 페르소나 설정(시스템 프롬프트 작성·버전 관리·이 내용으로 대화해보기), 학습자료로만 답변하기, 응답 버전(v1·v2), 챗봇 기본 언어와 다국어 응대 방식을 목적별로 안내합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/studio/screens/chatbot/settings/ai-settings)
+[사람이 읽는 원문](https://certi.life/docs/guide/studio/screens/chatbot/settings/ai-settings)
 
 `AI 설정`은 챗봇이 **어떤 말투로, 어디까지, 어떤 언어로** 답할지 정하는 화면입니다. 챗봇의 성격을 바꾸는 방법은 두 가지입니다. 준비된 페르소나 중에서 고르거나, `커스텀`을 골라 시스템 프롬프트를 직접 씁니다. 여기에 "자료에 있는 내용만 답하기"와 외국어 응대 방식을 더하면 AI 답변의 기본 설정이 끝납니다.
 
@@ -14,11 +14,11 @@
 
 | 하고 싶은 일                   | 이 페이지의 섹션                                                                                                                |
 | ------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| 챗봇 말투를 병원 분위기에 맞추고 싶어요    | [준비된 페르소나 고르기](https://docs.certi.life/guide/studio/screens/chatbot/settings/ai-settings#준비된-페르소나-고르기)                   |
-| 역할과 응대 규칙을 직접 써서 넣고 싶어요   | [프롬프트를 직접 써서 챗봇 성격 정하기](https://docs.certi.life/guide/studio/screens/chatbot/settings/ai-settings#프롬프트를-직접-써서-챗봇-성격-정하기) |
-| 챗봇이 없는 내용을 지어내지 않게 하고 싶어요 | [자료에 있는 내용만 답하게 하기](https://docs.certi.life/guide/studio/screens/chatbot/settings/ai-settings#자료에-있는-내용만-답하게-하기)         |
-| 도구·매뉴얼을 쓰려고 v2로 바꾸고 싶어요   | [응답 버전 바꾸기](https://docs.certi.life/guide/studio/screens/chatbot/settings/ai-settings#응답-버전-바꾸기)                         |
-| 외국인 고객 응대 방식을 정하고 싶어요     | [외국어로 문의한 고객 응대하기](https://docs.certi.life/guide/studio/screens/chatbot/settings/ai-settings#외국어로-문의한-고객-응대하기)           |
+| 챗봇 말투를 병원 분위기에 맞추고 싶어요    | [준비된 페르소나 고르기](https://certi.life/docs/guide/studio/screens/chatbot/settings/ai-settings#준비된-페르소나-고르기)                   |
+| 역할과 응대 규칙을 직접 써서 넣고 싶어요   | [프롬프트를 직접 써서 챗봇 성격 정하기](https://certi.life/docs/guide/studio/screens/chatbot/settings/ai-settings#프롬프트를-직접-써서-챗봇-성격-정하기) |
+| 챗봇이 없는 내용을 지어내지 않게 하고 싶어요 | [자료에 있는 내용만 답하게 하기](https://certi.life/docs/guide/studio/screens/chatbot/settings/ai-settings#자료에-있는-내용만-답하게-하기)         |
+| 도구·매뉴얼을 쓰려고 v2로 바꾸고 싶어요   | [응답 버전 바꾸기](https://certi.life/docs/guide/studio/screens/chatbot/settings/ai-settings#응답-버전-바꾸기)                         |
+| 외국인 고객 응대 방식을 정하고 싶어요     | [외국어로 문의한 고객 응대하기](https://certi.life/docs/guide/studio/screens/chatbot/settings/ai-settings#외국어로-문의한-고객-응대하기)           |
 
 `응답 버전`만 선택 즉시 적용되고, 나머지는 왼쪽 아래 `저장`을 눌러야 적용됩니다.
 
@@ -74,17 +74,17 @@
 
 `학습자료로만 답변하기`를 켜면 챗봇은 등록한 학습자료에 있는 내용만 답하고, 없는 내용은 답하지 않습니다. 끄면 학습자료에 일반 AI 지식을 더해 답합니다.
 
-병원이나 의료 관련 상담이라면 **켜 두는 것을 권장합니다.** AI가 일반 지식으로 그럴듯하게 답한 내용이 우리 조직의 실제 안내와 다를 수 있기 때문입니다. 대신 자료에 없는 질문에는 답하지 못하므로, [`AI 학습자료 설정`](https://docs.certi.life/guide/studio/screens/chatbot/settings/training-materials)에 자료를 충분히 넣고 [`통계` 탭](https://docs.certi.life/guide/studio/screens/chatbot/statistics)에서 답하지 못한 질문을 보강해 주세요.
+병원이나 의료 관련 상담이라면 **켜 두는 것을 권장합니다.** AI가 일반 지식으로 그럴듯하게 답한 내용이 우리 조직의 실제 안내와 다를 수 있기 때문입니다. 대신 자료에 없는 질문에는 답하지 못하므로, [`AI 학습자료 설정`](https://certi.life/docs/guide/studio/screens/chatbot/settings/training-materials)에 자료를 충분히 넣고 [`통계` 탭](https://certi.life/docs/guide/studio/screens/chatbot/statistics)에서 답하지 못한 질문을 보강해 주세요.
 
 ## 응답 버전 바꾸기
 
 **위치:** 챗봇 > 설정 > AI 설정 > 응답 버전
 
-화면 맨 위 `응답 버전`에서 고객에게 답변할 버전을 `v1`과 `v2` 중에서 고릅니다. 이 항목은 평소에 접혀 있어 `응답 버전`과 `현재 v2 사용 중`(또는 `현재 v1 사용 중`)이 적힌 한 줄만 보입니다. 그 줄을 눌러 펼쳐야 `v1`, `v2` 버튼과 `학습자료 동기화`가 나타납니다. [`도구`](https://docs.certi.life/guide/studio/screens/chatbot/settings/tools)와 [`매뉴얼`](https://docs.certi.life/guide/studio/screens/chatbot/settings/manuals)은 v2에서만 동작합니다.
+화면 맨 위 `응답 버전`에서 고객에게 답변할 버전을 `v1`과 `v2` 중에서 고릅니다. 이 항목은 평소에 접혀 있어 `응답 버전`과 `현재 v2 사용 중`(또는 `현재 v1 사용 중`)이 적힌 한 줄만 보입니다. 그 줄을 눌러 펼쳐야 `v1`, `v2` 버튼과 `학습자료 동기화`가 나타납니다. [`도구`](https://certi.life/docs/guide/studio/screens/chatbot/settings/tools)와 [`매뉴얼`](https://certi.life/docs/guide/studio/screens/chatbot/settings/manuals)은 v2에서만 동작합니다.
 
 |             | `v1`                                                                                                            | `v2`                                                                                                                |
 | ----------- | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| 학습자료를 넣는 방법 | [파일을 직접 올립니다](https://docs.certi.life/guide/studio/screens/chatbot/settings/training-materials#v1-파일을-올려-학습시키기) | [백과사전 문서를 연결합니다](https://docs.certi.life/guide/studio/screens/chatbot/settings/training-materials#v2-백과사전-문서를-연결하기) |
+| 학습자료를 넣는 방법 | [파일을 직접 올립니다](https://certi.life/docs/guide/studio/screens/chatbot/settings/training-materials#v1-파일을-올려-학습시키기) | [백과사전 문서를 연결합니다](https://certi.life/docs/guide/studio/screens/chatbot/settings/training-materials#v2-백과사전-문서를-연결하기) |
 | `도구`, `매뉴얼` | 동작하지 않습니다                                                                                                       | 동작합니다                                                                                                               |
 | 학습자료 동기화    | 누를 수 있습니다                                                                                                       | 누를 수 없습니다. v1로 전환한 뒤에 동기화합니다                                                                                        |
 
@@ -102,14 +102,14 @@ v2로 답하는 동안에는 `학습자료 동기화`를 누를 수 없습니다
 
 **위치:** 챗봇 > 설정 > AI 설정 > AI 답변 시나리오 사용하기
 
-AI가 만든 답변을 그대로 글로만 내보내지 않고 카드나 버튼을 덧붙이고 싶을 때 씁니다. `AI 답변 시나리오 사용하기`를 켜면 `AI 답변 시나리오 설정` 카드가 나타나고, `AI 답변 시나리오로 이동`을 누르면 [`시나리오` 탭](https://docs.certi.life/guide/studio/screens/chatbot/scenarios)의 `AI 답변 시나리오` 편집 화면이 열립니다.
+AI가 만든 답변을 그대로 글로만 내보내지 않고 카드나 버튼을 덧붙이고 싶을 때 씁니다. `AI 답변 시나리오 사용하기`를 켜면 `AI 답변 시나리오 설정` 카드가 나타나고, `AI 답변 시나리오로 이동`을 누르면 [`시나리오` 탭](https://certi.life/docs/guide/studio/screens/chatbot/scenarios)의 `AI 답변 시나리오` 편집 화면이 열립니다.
 
 ## AI 응답 제목과 안내 문구 바꾸기
 
 **위치:** 챗봇 > 설정 > AI 설정 > AI 응답 타이틀
 
 - `AI 응답 타이틀`: AI 답변 위에 표시되는 제목입니다.
-- `플로우 선택 안내 메시지`: 같은 태그를 가진 [플로우](https://docs.certi.life/guide/studio/screens/chatbot/flows)가 여러 개일 때 고객에게 "다음 중 어떤 항목을 확인하시겠습니까?"처럼 묻는 문구입니다.
+- `플로우 선택 안내 메시지`: 같은 태그를 가진 [플로우](https://certi.life/docs/guide/studio/screens/chatbot/flows)가 여러 개일 때 고객에게 "다음 중 어떤 항목을 확인하시겠습니까?"처럼 묻는 문구입니다.
 
 둘 다 비워 두고 저장하면 기본 안내 문구가 자동으로 사용됩니다.
 
@@ -135,9 +135,9 @@ AI가 만든 답변을 그대로 글로만 내보내지 않고 카드나 버튼�
 
 > **자동 번역의 한계**
 >
-> 시나리오 카드, 플로우, 버튼은 자동 번역되지 않고 운영자가 입력한 그대로 나갑니다. 또 학습자료가 번역되는 과정에서 뜻이 정확히 전달되지 않을 수 있습니다. 정확한 안내가 중요한 언어는 그 언어 전용 챗봇을 따로 만드는 것을 권장합니다. 전용 챗봇을 만든 뒤에는 [채널 설정](https://docs.certi.life/guide/studio/screens/chatbot/settings/channel-settings)에서 그 언어 고객이 들어오는 채널(예: LINE, WhatsApp, 별도 웹채팅)을 그 챗봇에 연결합니다.
+> 시나리오 카드, 플로우, 버튼은 자동 번역되지 않고 운영자가 입력한 그대로 나갑니다. 또 학습자료가 번역되는 과정에서 뜻이 정확히 전달되지 않을 수 있습니다. 정확한 안내가 중요한 언어는 그 언어 전용 챗봇을 따로 만드는 것을 권장합니다. 전용 챗봇을 만든 뒤에는 [채널 설정](https://certi.life/docs/guide/studio/screens/chatbot/settings/channel-settings)에서 그 언어 고객이 들어오는 채널(예: LINE, WhatsApp, 별도 웹채팅)을 그 챗봇에 연결합니다.
 
-상담원이 외국어 고객과 직접 대화할 때의 번역은 [상담 메시지 번역](https://docs.certi.life/guide/products/ai-chatbot/message-translation)을 참고하세요.
+상담원이 외국어 고객과 직접 대화할 때의 번역은 [상담 메시지 번역](https://certi.life/docs/guide/products/ai-chatbot/message-translation)을 참고하세요.
 
 ## 문제가 생기면
 
@@ -180,6 +180,6 @@ v2 학습자료 연결은 끝났고, 이전 자료를 정리하는 단계에서 
 | `확인 중`                     | 응답 버전을 읽고 있습니다                                                                                           |
 | `처리 중`                     | 버전을 바꾸거나 동기화하는 중입니다. 화면을 닫아도 현재 단계까지 저장됩니다                                                               |
 | `동기화 이어서 진행`               | 멈춘 동기화가 있습니다. 펼쳐서 `이어서 진행`을 누릅니다                                                                         |
-| `확인 필요`                    | 위의 [`확인 필요`](https://docs.certi.life/guide/studio/screens/chatbot/settings/ai-settings#확인-필요) 순서대로 확인합니다 |
+| `확인 필요`                    | 위의 [`확인 필요`](https://certi.life/docs/guide/studio/screens/chatbot/settings/ai-settings#확인-필요) 순서대로 확인합니다 |
 
-`응답 버전`을 뺀 나머지 항목은 왼쪽 아래 `저장`을 눌러야 적용됩니다. 저장하지 않고 다른 설정으로 이동하면 바꾼 내용이 사라지며, 저장 방식은 [설정 한눈에 보기](https://docs.certi.life/guide/studio/screens/chatbot/settings/menu#저장은-이렇게-됩니다)에 정리되어 있습니다.
+`응답 버전`을 뺀 나머지 항목은 왼쪽 아래 `저장`을 눌러야 적용됩니다. 저장하지 않고 다른 설정으로 이동하면 바꾼 내용이 사라지며, 저장 방식은 [설정 한눈에 보기](https://certi.life/docs/guide/studio/screens/chatbot/settings/menu#저장은-이렇게-됩니다)에 정리되어 있습니다.

@@ -5,7 +5,7 @@ import {buildFaqPage} from '../src/utils/docStructuredData.mjs';
 import {fetchWithRetry, loadDocFaqExpected, loadDocNavigationTitle, loadDocTitle, validateHtmlBody, verifyResponse} from './verify-production.mjs';
 
 const projectRoot = join(import.meta.dirname, '..');
-const socialMetadata = '<meta property="og:image" content="https://docs.certi.life/img/certilife-docs-og.png"><meta name="twitter:image" content="https://docs.certi.life/img/certilife-docs-og.png">';
+const socialMetadata = '<meta property="og:image" content="https://certi.life/docs/img/certilife-docs-og.png"><meta name="twitter:image" content="https://certi.life/docs/img/certilife-docs-og.png">';
 
 test('fetchWithRetry는 일시적 5xx만 제한 횟수 재시도하고 성공 응답을 반환한다', async () => {
   let attempts = 0;
@@ -16,7 +16,7 @@ test('fetchWithRetry는 일시적 5xx만 제한 횟수 재시도하고 성공 �
       headers: {'content-type': 'text/plain'},
     });
   };
-  const response = await fetchWithRetry('https://docs.certi.life/robots.txt', {fetchImpl, retries: 3, delayMs: 0});
+  const response = await fetchWithRetry('https://certi.life/docs/robots.txt', {fetchImpl, retries: 3, delayMs: 0});
   assert.equal(response.status, 200);
   assert.equal(attempts, 3);
 });
@@ -24,22 +24,22 @@ test('fetchWithRetry는 일시적 5xx만 제한 횟수 재시도하고 성공 �
 test('verifyResponse는 URL·expected·actual이 포함된 실패를 만든다', async () => {
   const response = new Response('wrong', {status: 200, headers: {'content-type': 'text/html'}});
   await assert.rejects(
-    verifyResponse('https://docs.certi.life/robots.txt', response, {status: 200, contentType: 'text/plain', body: 'expected'}),
-    /URL=https:\/\/docs\.certi\.life\/robots\.txt expected=content-type text\/plain actual=text\/html/,
+    verifyResponse('https://certi.life/docs/robots.txt', response, {status: 200, contentType: 'text/plain', body: 'expected'}),
+    /URL=https:\/\/certi\.life\/docs\/robots\.txt expected=content-type text\/plain actual=text\/html/,
   );
 });
 
 test('verifyResponse는 byte-exact body drift를 명확히 거부한다', async () => {
   const response = new Response('wrong', {status: 200, headers: {'content-type': 'text/plain'}});
   await assert.rejects(
-    verifyResponse('https://docs.certi.life/llms.txt', response, {status: 200, contentType: 'text/plain', body: 'expected'}),
-    /URL=https:\/\/docs\.certi\.life\/llms\.txt expected=body sha256 [a-f0-9]{64} actual=[a-f0-9]{64}/,
+    verifyResponse('https://certi.life/docs/llms.txt', response, {status: 200, contentType: 'text/plain', body: 'expected'}),
+    /URL=https:\/\/certi\.life\/docs\/llms\.txt expected=body sha256 [a-f0-9]{64} actual=[a-f0-9]{64}/,
   );
 });
 
 test('fetchWithRetry는 영구 404를 재시도하지 않고 그대로 반환한다', async () => {
   let attempts = 0;
-  const response = await fetchWithRetry('https://docs.certi.life/missing', {
+  const response = await fetchWithRetry('https://certi.life/docs/missing', {
     fetchImpl: async () => { attempts += 1; return new Response('missing', {status: 404}); },
     retries: 3,
     delayMs: 0,
@@ -50,7 +50,7 @@ test('fetchWithRetry는 영구 404를 재시도하지 않고 그대로 반환한
 
 test('fetchWithRetry는 Retry-After가 있는 429를 제한적으로 재시도한다', async () => {
   let attempts = 0;
-  const response = await fetchWithRetry('https://docs.certi.life/robots.txt', {
+  const response = await fetchWithRetry('https://certi.life/docs/robots.txt', {
     fetchImpl: async () => {
       attempts += 1;
       return new Response(attempts === 1 ? 'rate limited' : 'ok', {
@@ -67,7 +67,7 @@ test('fetchWithRetry는 Retry-After가 있는 429를 제한적으로 재시도�
 
 test('fetchWithRetry는 Retry-After 없는 429와 network error도 제한적으로 재시도한다', async () => {
   let rateAttempts = 0;
-  const rateResponse = await fetchWithRetry('https://docs.certi.life/robots.txt', {
+  const rateResponse = await fetchWithRetry('https://certi.life/docs/robots.txt', {
     fetchImpl: async () => {
       rateAttempts += 1;
       return new Response(rateAttempts === 1 ? 'rate limited' : 'ok', {status: rateAttempts === 1 ? 429 : 200});
@@ -79,7 +79,7 @@ test('fetchWithRetry는 Retry-After 없는 429와 network error도 제한적으�
   assert.equal(rateAttempts, 2);
 
   let networkAttempts = 0;
-  const networkResponse = await fetchWithRetry('https://docs.certi.life/robots.txt', {
+  const networkResponse = await fetchWithRetry('https://certi.life/docs/robots.txt', {
     fetchImpl: async () => {
       networkAttempts += 1;
       if (networkAttempts === 1) throw new TypeError('temporary network error');
@@ -93,13 +93,13 @@ test('fetchWithRetry는 Retry-After 없는 429와 network error도 제한적으�
 });
 
 test('HTML 검증은 서로 무관한 canonical·JSON-LD 문자열 우회를 거부한다', () => {
-  const url = 'https://docs.certi.life/guide/help/troubleshooting';
+  const url = 'https://certi.life/docs/guide/help/troubleshooting';
   const fake = `<html><head>${socialMetadata}</head><body><div>rel=canonical</div><a href=${url}>not canonical</a><h1>문제 해결</h1><p>TechArticle BreadcrumbList</p></body></html>`;
   assert.throws(() => validateHtmlBody(url, '문제 해결', fake), /canonical/);
 });
 
 test('HTML 검증은 실제 canonical·H1·TechArticle·BreadcrumbList의 연결 의미를 확인한다', () => {
-  const url = 'https://docs.certi.life/guide/help/troubleshooting';
+  const url = 'https://certi.life/docs/guide/help/troubleshooting';
   const articleExpected = {description: '공식 로그인 문제를 점검합니다.', dateModified: '2026-07-31T02:04:46.000Z'};
   const article = {'@context': 'https://schema.org', '@type': 'TechArticle', headline: '문제 해결', url, mainEntityOfPage: url, inLanguage: 'ko-KR', ...articleExpected};
   const breadcrumbs = {'@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{'@type': 'ListItem', position: 1, name: '문제 해결', item: url}]};
@@ -117,7 +117,7 @@ test('HTML 검증은 실제 canonical·H1·TechArticle·BreadcrumbList의 연결
 });
 
 test('HTML 검증은 FAQ 문서에서만 화면 문답과 동일한 FAQPage를 허용한다', () => {
-  const url = 'https://docs.certi.life/guide/getting-started/buyer-faq';
+  const url = 'https://certi.life/docs/guide/getting-started/buyer-faq';
   const title = '병원 도입 구매 FAQ';
   const articleExpected = {description: '병원 도입 FAQ입니다.', dateModified: '2026-08-05T07:00:00.000Z'};
   const article = {'@context': 'https://schema.org', '@type': 'TechArticle', headline: title, url, mainEntityOfPage: url, inLanguage: 'ko-KR', ...articleExpected};
@@ -130,7 +130,7 @@ test('HTML 검증은 FAQ 문서에서만 화면 문답과 동일한 FAQPage를 �
 });
 
 test('HTML 검증은 FAQPage 답변이 화면 전체 답변의 일부만 담으면 거부한다', () => {
-  const url = 'https://docs.certi.life/guide/getting-started/buyer-faq';
+  const url = 'https://certi.life/docs/guide/getting-started/buyer-faq';
   const title = '병원 도입 구매 FAQ';
   const articleExpected = {description: '병원 도입 FAQ입니다.', dateModified: '2026-08-05T07:00:00.000Z'};
   const article = {'@context': 'https://schema.org', '@type': 'TechArticle', headline: title, url, mainEntityOfPage: url, inLanguage: 'ko-KR', ...articleExpected};

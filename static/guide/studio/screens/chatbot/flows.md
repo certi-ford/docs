@@ -2,7 +2,7 @@
 
 > Studio 챗봇 상세의 플로우 탭에서 새 플로우 만들기, 시나리오 추가와 연결, 시작 시나리오 지정, 플로우 설정과 AI 참조 토픽 관리까지 단계형 안내를 만드는 방법을 목적별로 안내합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/studio/screens/chatbot/flows)
+[사람이 읽는 원문](https://certi.life/docs/guide/studio/screens/chatbot/flows)
 
 플로우는 여러 시나리오를 버튼으로 이어 붙인 **단계형 안내**입니다. "예약 문의 → 지점 선택 → 예약 방법 안내"처럼 고객이 버튼을 누르며 따라오는 흐름이 필요할 때 만듭니다. 왼쪽 `플로우` 목록에서 플로우를 고르면 가운데에 흐름도가 열리고, 여기서 시나리오를 추가하고 선으로 연결합니다. 바꾼 내용은 왼쪽 아래 `저장`을 눌러야 적용됩니다.
 
@@ -16,7 +16,7 @@
 | 안내 순서가 중요합니다 (예약 절차, 준비물 안내)            | 시나리오를 순서대로 연결해 빠짐없이 안내합니다              |
 | AI가 답하더라도 정확한 고정 안내로 이어 주고 싶습니다         | `AI 참조`를 켜 두면 AI가 관련 질문에서 이 플로우를 참조합니다 |
 
-한두 문장으로 끝나는 질문은 플로우보다 [AI 학습자료](https://docs.certi.life/guide/studio/screens/chatbot/settings/training-materials)에 넣는 편이 관리하기 쉽습니다.
+한두 문장으로 끝나는 질문은 플로우보다 [AI 학습자료](https://certi.life/docs/guide/studio/screens/chatbot/settings/training-materials)에 넣는 편이 관리하기 쉽습니다.
 
 ## 새 플로우 만들기
 
@@ -31,9 +31,9 @@
 **위치:** 챗봇 > 플로우 > (플로우 선택) > 시나리오 추가
 
 1. 흐름도 위쪽의 `시나리오 추가`를 누르고 `새 시나리오 추가` 창에서 `시나리오 이름`을 입력합니다.
-2. 흐름도에 생긴 시나리오를 누르면 편집 패널이 열립니다. 메시지 블럭과 버튼은 [시나리오 탭](https://docs.certi.life/guide/studio/screens/chatbot/scenarios#첫-인사-메시지-바꾸기)과 같은 방식으로 만듭니다.
+2. 흐름도에 생긴 시나리오를 누르면 편집 패널이 열립니다. 메시지 블럭과 버튼은 [시나리오 탭](https://certi.life/docs/guide/studio/screens/chatbot/scenarios#첫-인사-메시지-바꾸기)과 같은 방식으로 만듭니다.
 3. 시나리오의 버튼에서 다음 시나리오로 선을 끌어 연결합니다. 고객이 그 버튼을 누르면 연결된 시나리오로 넘어갑니다.
-4. **시작점에서 첫 시나리오로 선을 끌어 연결합니다.** 이렇게 연결된 시나리오가 이 플로우의 `시작 시나리오`가 됩니다. 플로우의 `시작 시나리오`는 고객이 이 플로우에 들어왔을 때 처음 보는 시나리오입니다. [시나리오 탭](https://docs.certi.life/guide/studio/screens/chatbot/scenarios)의 `시작 시나리오` 태그(챗봇 첫 인사)와는 다른 것입니다. 시작점을 연결하지 않고 저장했을 때 플로우가 어떻게 동작하는지는 확인되지 않았으므로, 저장 전에 시작점 연결을 확인하세요.
+4. **시작점에서 첫 시나리오로 선을 끌어 연결합니다.** 이렇게 연결된 시나리오가 이 플로우의 `시작 시나리오`가 됩니다. 플로우의 `시작 시나리오`는 고객이 이 플로우에 들어왔을 때 처음 보는 시나리오입니다. [시나리오 탭](https://certi.life/docs/guide/studio/screens/chatbot/scenarios)의 `시작 시나리오` 태그(챗봇 첫 인사)와는 다른 것입니다. 시작점을 연결하지 않고 저장했을 때 플로우가 어떻게 동작하는지는 확인되지 않았으므로, 저장 전에 시작점 연결을 확인하세요.
 5. 연결을 지우려면 연결선을 누르고 `연결 삭제`를 고릅니다.
 6. 왼쪽 아래 `저장`을 누릅니다.
 
@@ -63,7 +63,7 @@
 1. `플로우 설정` 창의 `기본 정보`에서 `AI 참조 활성화`를 켭니다. 목록의 플로우에 `AI 참조` 표시가 붙습니다.
 2. `AI 참조 토픽 관리`에 이 플로우가 다루는 주제를 키워드로 추가합니다(예: 진료시간, 주차안내). 최대 10개까지 넣을 수 있습니다. 이 토픽은 같은 창의 `태그 관리`에 넣는 구분용 태그와 다른 항목입니다.
 
-같은 태그를 가진 플로우가 여러 개면 고객에게 어느 것을 볼지 묻는 안내가 나갑니다. 이 문구는 [`AI 설정`의 `플로우 선택 안내 메시지`](https://docs.certi.life/guide/studio/screens/chatbot/settings/ai-settings#ai-응답-제목과-안내-문구-바꾸기)에서 바꿉니다.
+같은 태그를 가진 플로우가 여러 개면 고객에게 어느 것을 볼지 묻는 안내가 나갑니다. 이 문구는 [`AI 설정`의 `플로우 선택 안내 메시지`](https://certi.life/docs/guide/studio/screens/chatbot/settings/ai-settings#ai-응답-제목과-안내-문구-바꾸기)에서 바꿉니다.
 
 ## 플로우 복사와 삭제
 
@@ -77,5 +77,5 @@
 
 ## 함께 보기
 
-- [시나리오 탭](https://docs.certi.life/guide/studio/screens/chatbot/scenarios): 블럭과 퀵 리플라이 만드는 법
-- [상담 시나리오와 사람 연결](https://docs.certi.life/guide/studio/scenario-and-handoff): 흐름을 설계할 때의 운영 기준
+- [시나리오 탭](https://certi.life/docs/guide/studio/screens/chatbot/scenarios): 블럭과 퀵 리플라이 만드는 법
+- [상담 시나리오와 사람 연결](https://certi.life/docs/guide/studio/scenario-and-handoff): 흐름을 설계할 때의 운영 기준

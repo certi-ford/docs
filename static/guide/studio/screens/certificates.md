@@ -2,7 +2,7 @@
 
 > Studio 인증서 메뉴가 누구에게 보이는지, 이 메뉴에서 열리는 병원 관리 화면으로 인증서 업무를 보는 방법, 연결이 끊겼을 때 다시 로그인·다시 연결하는 방법을 안내합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/studio/screens/certificates)
+[사람이 읽는 원문](https://certi.life/docs/guide/studio/screens/certificates)
 
 `인증서` 메뉴는 새로운 기능이 아니라 **병원 관리 화면(Hospital)으로 가는 창**입니다. 상담을 하다가 인증서 업무를 보려고 Hospital에 따로 로그인할 필요 없이, Studio 안에서 병원 관리 화면을 그대로 열어 줍니다. 그래서 이 메뉴 안의 화면 구성과 버튼은 Hospital과 같습니다.
 
@@ -10,7 +10,7 @@
 
 ## 누구에게 보이나요?
 
-`인증서` 메뉴는 **병원 계정으로 Studio에 직접 로그인했을 때만** 보입니다. 제조사 계정이거나, 다른 조직의 업무를 대신 보는 상태에서는 보이지 않습니다. 메뉴가 없는 계정이 주소로 직접 들어오면 [챗봇](https://docs.certi.life/guide/studio/screens/chatbot/overview) 화면으로 이동합니다.
+`인증서` 메뉴는 **병원 계정으로 Studio에 직접 로그인했을 때만** 보입니다. 제조사 계정이거나, 다른 조직의 업무를 대신 보는 상태에서는 보이지 않습니다. 메뉴가 없는 계정이 주소로 직접 들어오면 [챗봇](https://certi.life/docs/guide/studio/screens/chatbot/overview) 화면으로 이동합니다.
 
 ## 인증서 업무 보기
 
@@ -20,17 +20,17 @@
 2. "병원 화면에 연결하고 있습니다."가 잠깐 보인 뒤 병원 관리 화면이 열립니다.
 3. 열린 화면의 왼쪽 메뉴에서 업무를 고릅니다. 화면별 사용법은 아래 표의 Hospital 안내를 참고하세요.
 
-인증서를 발행하는 순서는 진료과 이름이 붙은 `인증서 발행` 메뉴(예: `치과 인증서 발행`)에서 환자와 시술 정보를 넣고, `전송 방식 선택`이 보이면 전송 방식을 고른 뒤 `발행하기`를 누르는 것입니다. 단계별 설명은 [인증서 발행](https://docs.certi.life/guide/hospital/screens/issue-certificate)에 있습니다.
+인증서를 발행하는 순서는 진료과 이름이 붙은 `인증서 발행` 메뉴(예: `치과 인증서 발행`)에서 환자와 시술 정보를 넣고, `전송 방식 선택`이 보이면 전송 방식을 고른 뒤 `발행하기`를 누르는 것입니다. 단계별 설명은 [인증서 발행](https://certi.life/docs/guide/hospital/screens/issue-certificate)에 있습니다.
 
 | 하려는 일                     | Hospital 화면 안내                                                                                                                             |
 | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| 어떤 메뉴가 있는지 보기             | [Hospital 메뉴 한눈에 보기](https://docs.certi.life/guide/hospital/screens/overview)                                                              |
-| 환자에게 인증서 발행하기             | [인증서 발행](https://docs.certi.life/guide/hospital/screens/issue-certificate)                                                                 |
-| 주의사항과 보증사항 미리 넣어 두기       | [인증서 설정](https://docs.certi.life/guide/hospital/screens/certificate-settings)                                                              |
-| 알림 다시 보내기, 잘못 보낸 인증서 회수하기 | [발행 내역과 환자 관리](https://docs.certi.life/guide/hospital/screens/history)                                                                     |
-| 병원 정보와 직원 계정 관리하기         | [병원 정보 관리](https://docs.certi.life/guide/hospital/screens/hospital-info), [계정 관리](https://docs.certi.life/guide/hospital/screens/accounts) |
+| 어떤 메뉴가 있는지 보기             | [Hospital 메뉴 한눈에 보기](https://certi.life/docs/guide/hospital/screens/overview)                                                              |
+| 환자에게 인증서 발행하기             | [인증서 발행](https://certi.life/docs/guide/hospital/screens/issue-certificate)                                                                 |
+| 주의사항과 보증사항 미리 넣어 두기       | [인증서 설정](https://certi.life/docs/guide/hospital/screens/certificate-settings)                                                              |
+| 알림 다시 보내기, 잘못 보낸 인증서 회수하기 | [발행 내역과 환자 관리](https://certi.life/docs/guide/hospital/screens/history)                                                                     |
+| 병원 정보와 직원 계정 관리하기         | [병원 정보 관리](https://certi.life/docs/guide/hospital/screens/hospital-info), [계정 관리](https://certi.life/docs/guide/hospital/screens/accounts) |
 
-인증서를 준비하고 전달하는 전체 절차는 [인증서 발행·전달 가이드](https://docs.certi.life/guide/hospital/certificate-workflow)와 [인증서 전달 전 체크리스트](https://docs.certi.life/guide/products/certificate/delivery-checklist)에 있습니다.
+인증서를 준비하고 전달하는 전체 절차는 [인증서 발행·전달 가이드](https://certi.life/docs/guide/hospital/certificate-workflow)와 [인증서 전달 전 체크리스트](https://certi.life/docs/guide/products/certificate/delivery-checklist)에 있습니다.
 
 > **작성 중에 다른 메뉴로 이동하면**
 >
@@ -63,7 +63,7 @@
 
 ## 함께 보기
 
-- [Hospital 메뉴 한눈에 보기](https://docs.certi.life/guide/hospital/screens/overview)
-- [Hospital 운영 가이드](https://docs.certi.life/guide/hospital/overview)
-- [Hospital 계정과 로그인](https://docs.certi.life/guide/hospital/account-access)
-- [인증서 소개](https://docs.certi.life/guide/products/certificate)
+- [Hospital 메뉴 한눈에 보기](https://certi.life/docs/guide/hospital/screens/overview)
+- [Hospital 운영 가이드](https://certi.life/docs/guide/hospital/overview)
+- [Hospital 계정과 로그인](https://certi.life/docs/guide/hospital/account-access)
+- [인증서 소개](https://certi.life/docs/guide/products/certificate)

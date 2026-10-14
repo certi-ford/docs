@@ -2,11 +2,11 @@
 
 > 업무시간과 문의 유형에 따라 AI 상담을 상담원 또는 담당자에게 전달하는 기준을 세웁니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/products/ai-chatbot/handoff-policy)
+[사람이 읽는 원문](https://certi.life/docs/guide/products/ai-chatbot/handoff-policy)
 
 상담원 연결 정책은 AI가 계속 안내할 상황과 사람이 확인할 상황을 미리 구분하는 운영 기준입니다. 이 문서는 채팅 채널의 정책입니다. 이 문서에서 **상담원**은 업무시간에 채팅을 이어받아 답하는 사람이고, **담당자**는 업무 외 시간에 들어온 문의를 다음 업무시간에 확인하는 사람입니다. 두 역할을 같은 사람이 맡아도 됩니다. 어떤 채널을 쓰더라도 고객이 현재 상태와 다음 응답 시점을 이해할 수 있어야 합니다.
 
-정책을 정한 뒤 실제로 입력하는 Studio 화면은 세 곳입니다. 챗봇이 쉬는 시간과 그때 나가는 `미작동 시나리오`는 [작동시간](https://docs.certi.life/guide/studio/screens/chatbot/settings/operating-hours), 고객이 누르는 `상담사 연결` 버튼은 [블럭과 버튼](https://docs.certi.life/guide/studio/screens/chatbot/blocks#버튼-동작-정하기), 특정 채널을 챗봇 없이 처음부터 사람이 받게 하는 `상담원 바로 연결`은 [채널 설정](https://docs.certi.life/guide/studio/screens/chatbot/settings/channel-settings#챗봇-없이-바로-상담원에게-연결하기)입니다. 넘어온 상담을 받는 화면은 [상담](https://docs.certi.life/guide/studio/screens/counsel/overview)입니다. 전화를 콜봇에서 상담사에게 넘기는 조작(`상담사 전환`)은 이 문서가 아니라 [전화상담](https://docs.certi.life/guide/studio/screens/phone-counsel)과 [콜봇 도구](https://docs.certi.life/guide/studio/screens/callbot/tools)를 보세요.
+정책을 정한 뒤 실제로 입력하는 Studio 화면은 세 곳입니다. 챗봇이 쉬는 시간과 그때 나가는 `미작동 시나리오`는 [작동시간](https://certi.life/docs/guide/studio/screens/chatbot/settings/operating-hours), 고객이 누르는 `상담사 연결` 버튼은 [블럭과 버튼](https://certi.life/docs/guide/studio/screens/chatbot/blocks#버튼-동작-정하기), 특정 채널을 챗봇 없이 처음부터 사람이 받게 하는 `상담원 바로 연결`은 [채널 설정](https://certi.life/docs/guide/studio/screens/chatbot/settings/channel-settings#챗봇-없이-바로-상담원에게-연결하기)입니다. 넘어온 상담을 받는 화면은 [상담](https://certi.life/docs/guide/studio/screens/counsel/overview)입니다. 전화를 콜봇에서 상담사에게 넘기는 조작(`상담사 전환`)은 이 문서가 아니라 [전화상담](https://certi.life/docs/guide/studio/screens/phone-counsel)과 [콜봇 도구](https://certi.life/docs/guide/studio/screens/callbot/tools)를 보세요.
 
 ## 목적
 
@@ -56,15 +56,15 @@
 
 > **주의**
 >
-> 개별 의학적 판단이 필요한 내용은 자동 답변으로 확정하지 말고 병원의 책임 있는 담당자가 확인하도록 하세요. “곧 답변”처럼 기준 없는 약속보다 실제 운영 가능한 확인 시간을 안내해야 합니다. 정한 정책을 입력하는 화면은 [작동시간](https://docs.certi.life/guide/studio/screens/chatbot/settings/operating-hours), [블럭과 버튼](https://docs.certi.life/guide/studio/screens/chatbot/blocks), [채널 설정](https://docs.certi.life/guide/studio/screens/chatbot/settings/channel-settings)입니다.
+> 개별 의학적 판단이 필요한 내용은 자동 답변으로 확정하지 말고 병원의 책임 있는 담당자가 확인하도록 하세요. “곧 답변”처럼 기준 없는 약속보다 실제 운영 가능한 확인 시간을 안내해야 합니다. 정한 정책을 입력하는 화면은 [작동시간](https://certi.life/docs/guide/studio/screens/chatbot/settings/operating-hours), [블럭과 버튼](https://certi.life/docs/guide/studio/screens/chatbot/blocks), [채널 설정](https://certi.life/docs/guide/studio/screens/chatbot/settings/channel-settings)입니다.
 
 ## 다음 문서
 
-- [AI 상담 지식 준비](https://docs.certi.life/guide/products/ai-chatbot/knowledge-preparation)
-- [AI 상담 개요](https://docs.certi.life/guide/products/ai-chatbot)
-- [상담 시나리오와 사람 연결](https://docs.certi.life/guide/studio/scenario-and-handoff)
-- [작동시간](https://docs.certi.life/guide/studio/screens/chatbot/settings/operating-hours)
-- [블럭과 버튼](https://docs.certi.life/guide/studio/screens/chatbot/blocks)
-- [채널 설정](https://docs.certi.life/guide/studio/screens/chatbot/settings/channel-settings)
-- [상담 - 채팅 상담 화면 한눈에 보기](https://docs.certi.life/guide/studio/screens/counsel/overview)
-- [개인정보 및 보안](https://docs.certi.life/guide/help/privacy-security)
+- [AI 상담 지식 준비](https://certi.life/docs/guide/products/ai-chatbot/knowledge-preparation)
+- [AI 상담 개요](https://certi.life/docs/guide/products/ai-chatbot)
+- [상담 시나리오와 사람 연결](https://certi.life/docs/guide/studio/scenario-and-handoff)
+- [작동시간](https://certi.life/docs/guide/studio/screens/chatbot/settings/operating-hours)
+- [블럭과 버튼](https://certi.life/docs/guide/studio/screens/chatbot/blocks)
+- [채널 설정](https://certi.life/docs/guide/studio/screens/chatbot/settings/channel-settings)
+- [상담 - 채팅 상담 화면 한눈에 보기](https://certi.life/docs/guide/studio/screens/counsel/overview)
+- [개인정보 및 보안](https://certi.life/docs/guide/help/privacy-security)

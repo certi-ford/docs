@@ -2,7 +2,7 @@
 
 > Hospital 발행/환자 관리의 발행 내역에서 인증서를 검색하고 인증서 상태(카톡 전송됨, 발송 실패, 지갑 저장됨, 회수됨, 삭제됨)를 확인하며 알림을 재발송하는 방법과, 환자 관리의 환자 상세에서 잘못 보낸 인증서를 회수하거나 삭제하고 환자 정보를 수정하는 방법을 안내합니다. 환자가 카톡이 안 왔다고 할 때 재발송·회수·삭제 중 무엇을 고를지도 정리합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/hospital/screens/history)
+[사람이 읽는 원문](https://certi.life/docs/guide/hospital/screens/history)
 
 `발행/환자 관리`에는 메뉴가 두 개 있습니다. **`발행 내역`은 인증서를 기준으로**, **`환자 관리`는 환자를 기준으로** 찾아보는 곳입니다. 환자가 "카톡이 안 왔어요"라고 하면 `발행 내역`에서 알림을 다시 보내고, 잘못 보낸 인증서는 환자 상세에서 회수합니다.
 
@@ -14,12 +14,12 @@
 
 | 하려는 일                              | 가는 곳                                                                                          |
 | ---------------------------------- | --------------------------------------------------------------------------------------------- |
-| 환자가 "카톡이 안 왔어요", "인증서 안 왔어요"라고 할 때 | [알림 다시 보내기](https://docs.certi.life/guide/hospital/screens/history#알림-다시-보내기)                 |
-| 연락처가 틀렸을 때 회수할지 고칠지 정하기            | [연락처가 틀렸을 때 고르는 기준](https://docs.certi.life/guide/hospital/screens/history#연락처가-틀렸을-때-고르는-기준) |
-| 인증서가 제대로 갔는지 확인하기                  | [인증서 상태 읽기](https://docs.certi.life/guide/hospital/screens/history#인증서-상태-읽기)                 |
-| 내용이 틀린 인증서를 보냈을 때                  | [잘못 보낸 인증서 바로잡기](https://docs.certi.life/guide/hospital/screens/history#잘못-보낸-인증서-바로잡기)       |
-| 환자 이름이나 연락처 고치기                    | [환자 정보 고치기](https://docs.certi.life/guide/hospital/screens/history#환자-정보-고치기)                 |
-| 발행 내역을 파일로 받기                      | [엑셀로 내려받기](https://docs.certi.life/guide/hospital/screens/history#엑셀로-내려받기)                   |
+| 환자가 "카톡이 안 왔어요", "인증서 안 왔어요"라고 할 때 | [알림 다시 보내기](https://certi.life/docs/guide/hospital/screens/history#알림-다시-보내기)                 |
+| 연락처가 틀렸을 때 회수할지 고칠지 정하기            | [연락처가 틀렸을 때 고르는 기준](https://certi.life/docs/guide/hospital/screens/history#연락처가-틀렸을-때-고르는-기준) |
+| 인증서가 제대로 갔는지 확인하기                  | [인증서 상태 읽기](https://certi.life/docs/guide/hospital/screens/history#인증서-상태-읽기)                 |
+| 내용이 틀린 인증서를 보냈을 때                  | [잘못 보낸 인증서 바로잡기](https://certi.life/docs/guide/hospital/screens/history#잘못-보낸-인증서-바로잡기)       |
+| 환자 이름이나 연락처 고치기                    | [환자 정보 고치기](https://certi.life/docs/guide/hospital/screens/history#환자-정보-고치기)                 |
+| 발행 내역을 파일로 받기                      | [엑셀로 내려받기](https://certi.life/docs/guide/hospital/screens/history#엑셀로-내려받기)                   |
 
 ## 발행한 인증서 찾기
 
@@ -41,7 +41,7 @@
 | `카톡 전송됨`, `위챗 전송됨`, `이메일 전송됨`, `문자 전송됨` | 알림이 환자에게 전송되었습니다                                                                                                                                                                                                 |
 | `지갑 저장됨`                                | 환자가 인증서를 자기 지갑에 저장했습니다                                                                                                                                                                                           |
 | `발송 대기`, `발송 보류`                        | 아직 전송되지 않았습니다. 목록을 다시 조회해 상태가 바뀌는지 봅니다. 얼마나 기다려야 하는지는 화면에서 확인되지 않았습니다                                                                                                                                            |
-| `발송 실패`                                 | 전송에 실패했습니다. 연락처가 맞으면 [알림 다시 보내기](https://docs.certi.life/guide/hospital/screens/history#알림-다시-보내기)를 누르고, 틀리면 [연락처가 틀렸을 때 고르는 기준](https://docs.certi.life/guide/hospital/screens/history#연락처가-틀렸을-때-고르는-기준)을 따릅니다 |
+| `발송 실패`                                 | 전송에 실패했습니다. 연락처가 맞으면 [알림 다시 보내기](https://certi.life/docs/guide/hospital/screens/history#알림-다시-보내기)를 누르고, 틀리면 [연락처가 틀렸을 때 고르는 기준](https://certi.life/docs/guide/hospital/screens/history#연락처가-틀렸을-때-고르는-기준)을 따릅니다 |
 | `회수됨`                                   | 병원이 회수한 인증서입니다                                                                                                                                                                                                   |
 | `삭제됨`                                   | 병원이 삭제한 인증서입니다                                                                                                                                                                                                   |
 
@@ -53,7 +53,7 @@
 
 **위치:** 발행/환자 관리 > 발행 내역 > 알림 발송
 
-환자가 "카톡이 안 왔어요"라고 하면 먼저 [인증서 상태](https://docs.certi.life/guide/hospital/screens/history#인증서-상태-읽기)와 연락처를 확인한 뒤 알림만 다시 보냅니다. 인증서를 다시 발행하지 마세요.
+환자가 "카톡이 안 왔어요"라고 하면 먼저 [인증서 상태](https://certi.life/docs/guide/hospital/screens/history#인증서-상태-읽기)와 연락처를 확인한 뒤 알림만 다시 보냅니다. 인증서를 다시 발행하지 마세요.
 
 1. 발행 내역에서 인증서를 찾습니다.
 2. `알림 발송` 열에 있는 버튼을 누릅니다.
@@ -65,8 +65,8 @@
 
 ### 연락처가 틀렸을 때 고르는 기준
 
-- **알림이 이미 다른 번호로 전송되었으면(상태가 `카톡 전송됨`, `문자 전송됨` 등) 회수합니다.** 다른 사람이 인증서를 볼 수 있는 상태이므로 [잘못 보낸 인증서 바로잡기](https://docs.certi.life/guide/hospital/screens/history#잘못-보낸-인증서-바로잡기)에서 회수한 뒤, 맞는 연락처로 다시 발행합니다.
-- **아직 환자에게 가지 않았으면(상태가 `발송 실패`, `발송 대기`, `발송 보류`) 연락처를 고칩니다.** [환자 정보 고치기](https://docs.certi.life/guide/hospital/screens/history#환자-정보-고치기)에서 연락처를 고친 뒤 `알림톡 재발송`을 누릅니다.
+- **알림이 이미 다른 번호로 전송되었으면(상태가 `카톡 전송됨`, `문자 전송됨` 등) 회수합니다.** 다른 사람이 인증서를 볼 수 있는 상태이므로 [잘못 보낸 인증서 바로잡기](https://certi.life/docs/guide/hospital/screens/history#잘못-보낸-인증서-바로잡기)에서 회수한 뒤, 맞는 연락처로 다시 발행합니다.
+- **아직 환자에게 가지 않았으면(상태가 `발송 실패`, `발송 대기`, `발송 보류`) 연락처를 고칩니다.** [환자 정보 고치기](https://certi.life/docs/guide/hospital/screens/history#환자-정보-고치기)에서 연락처를 고친 뒤 `알림톡 재발송`을 누릅니다.
 
 ## 잘못 보낸 인증서 바로잡기
 
@@ -83,9 +83,9 @@
 >
 > 삭제 확인 창에도 '재발행을 원하신다면 "회수" 버튼을 클릭하세요.'라고 나옵니다. 확실하지 않으면 회수를 고르세요. 제품 코드 없이 발행한 인증서("간편발행", 치과·안과가 아닌 진료과)도 삭제는 취소할 수 없습니다.
 
-회수한 뒤 다시 발행하는 버튼이 환자 상세에 있는지는 화면에서 확인되지 않았습니다. 진료과 이름 > [인증서 발행](https://docs.certi.life/guide/hospital/screens/issue-certificate)에서 처음부터 다시 입력해 발행하는 방법은 언제나 쓸 수 있습니다.
+회수한 뒤 다시 발행하는 버튼이 환자 상세에 있는지는 화면에서 확인되지 않았습니다. 진료과 이름 > [인증서 발행](https://certi.life/docs/guide/hospital/screens/issue-certificate)에서 처음부터 다시 입력해 발행하는 방법은 언제나 쓸 수 있습니다.
 
-다른 사람에게 시술 정보가 전달된 경우에는 회수만으로 끝내지 말고, 병원의 개인정보 사고 대응 절차에 따라 기록하고 보고하세요. 기준은 [Hospital 안전한 운영 가이드](https://docs.certi.life/guide/hospital/safe-operation)를 참고하세요.
+다른 사람에게 시술 정보가 전달된 경우에는 회수만으로 끝내지 말고, 병원의 개인정보 사고 대응 절차에 따라 기록하고 보고하세요. 기준은 [Hospital 안전한 운영 가이드](https://certi.life/docs/guide/hospital/safe-operation)를 참고하세요.
 
 ## 환자 정보 고치기
 
@@ -93,7 +93,7 @@
 
 `환자 관리`는 인증서를 받은 환자의 목록입니다. `검색어`(`환자명`, `전화번호`), `조회 기간`(환자 등록일 기준), `지갑 연동 상태`(`연동`, `미연동`), 인증서 종류로 찾습니다. 목록에서는 환자별 인증서 개수와 최근 발행일을 볼 수 있습니다.
 
-환자를 누르면 환자 상세가 열리고, 여기에서 환자 정보를 수정하거나 `알림톡 재발송`을 할 수 있습니다. 연락처를 고치기 전에 알림이 이미 다른 번호로 갔는지 [연락처가 틀렸을 때 고르는 기준](https://docs.certi.life/guide/hospital/screens/history#연락처가-틀렸을-때-고르는-기준)으로 확인하세요. 위챗 고객의 정보는 이 화면에서 수정하거나 삭제할 수 없습니다.
+환자를 누르면 환자 상세가 열리고, 여기에서 환자 정보를 수정하거나 `알림톡 재발송`을 할 수 있습니다. 연락처를 고치기 전에 알림이 이미 다른 번호로 갔는지 [연락처가 틀렸을 때 고르는 기준](https://certi.life/docs/guide/hospital/screens/history#연락처가-틀렸을-때-고르는-기준)으로 확인하세요. 위챗 고객의 정보는 이 화면에서 수정하거나 삭제할 수 없습니다.
 
 `지갑 연동 상태`가 `미연동`인 환자는 아직 인증서를 자기 지갑에 저장하지 않은 환자입니다. 내원했을 때 알림톡을 확인하도록 안내해 주세요.
 
@@ -105,6 +105,6 @@
 
 ## 함께 보기
 
-- [인증서 발행](https://docs.certi.life/guide/hospital/screens/issue-certificate)
-- [인증서 발행·전달 가이드](https://docs.certi.life/guide/hospital/certificate-workflow)
-- [인증서 전달 전 체크리스트](https://docs.certi.life/guide/products/certificate/delivery-checklist)
+- [인증서 발행](https://certi.life/docs/guide/hospital/screens/issue-certificate)
+- [인증서 발행·전달 가이드](https://certi.life/docs/guide/hospital/certificate-workflow)
+- [인증서 전달 전 체크리스트](https://certi.life/docs/guide/products/certificate/delivery-checklist)

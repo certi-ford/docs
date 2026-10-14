@@ -2,9 +2,9 @@
 
 > AI 챗봇이 참고할 공개 자료를 선별하고 최신성·정확성·개인정보 기준을 유지하는 운영 가이드입니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/studio/knowledge-management)
+[사람이 읽는 원문](https://certi.life/docs/guide/studio/knowledge-management)
 
-Studio의 AI 챗봇은 등록한 자료를 기반으로 상담합니다. 따라서 좋은 답변을 만들기 위한 첫 단계는 많은 자료를 넣는 것이 아니라, 고객에게 공개해도 되는 정확한 자료를 선별하고 책임 있게 갱신하는 것입니다. 자료를 올리고 연결하는 화면의 메뉴와 버튼은 [AI 학습자료 설정 화면](https://docs.certi.life/guide/studio/screens/chatbot/settings/training-materials)에서 확인하고, 아래 절차는 어떤 자료를 넣을지 정하는 운영 기준으로 사용하세요.
+Studio의 AI 챗봇은 등록한 자료를 기반으로 상담합니다. 따라서 좋은 답변을 만들기 위한 첫 단계는 많은 자료를 넣는 것이 아니라, 고객에게 공개해도 되는 정확한 자료를 선별하고 책임 있게 갱신하는 것입니다. 자료를 올리고 연결하는 화면의 메뉴와 버튼은 [AI 학습자료 설정 화면](https://certi.life/docs/guide/studio/screens/chatbot/settings/training-materials)에서 확인하고, 아래 절차는 어떤 자료를 넣을지 정하는 운영 기준으로 사용하세요.
 
 ## 1. 자료 범위를 정하기
 
@@ -23,7 +23,7 @@ Studio의 AI 챗봇은 등록한 자료를 기반으로 상담합니다. 따라�
 
 같은 운영시간이나 예약 정책이 여러 문서에 다르게 적혀 있으면 AI가 일관된 답을 하기 어렵습니다. 중복 자료를 찾고, 책임자가 최신 기준 하나를 정하도록 합니다. 오래된 안내는 단순히 남겨 두지 말고 사용 중지 여부를 명확히 표시하거나 조직의 절차에 따라 제외하세요. 숫자, 날짜, 지점명, 연락 방법처럼 오해가 큰 항목은 원본과 대조하고 다른 담당자가 교차 검토합니다.
 
-의료 시술이나 치료에 관한 자료는 사실 소개와 개인별 의학적 판단을 분리해야 합니다. 일반적인 서비스 설명을 제공하더라도 고객의 증상, 적합성, 결과를 판단하는 답변은 지식 범위에 넣지 않습니다. 의료진의 확인이 필요한 질문은 [상담 시나리오와 사람 연결](https://docs.certi.life/guide/studio/scenario-and-handoff)에서 정한 상담원 연결 기준에 따라 사람에게 넘어가도록 준비합니다.
+의료 시술이나 치료에 관한 자료는 사실 소개와 개인별 의학적 판단을 분리해야 합니다. 일반적인 서비스 설명을 제공하더라도 고객의 증상, 적합성, 결과를 판단하는 답변은 지식 범위에 넣지 않습니다. 의료진의 확인이 필요한 질문은 [상담 시나리오와 사람 연결](https://certi.life/docs/guide/studio/scenario-and-handoff)에서 정한 상담원 연결 기준에 따라 사람에게 넘어가도록 준비합니다.
 
 ## 3. 개인정보와 민감정보 제거
 
@@ -43,7 +43,7 @@ Studio의 AI 챗봇은 등록한 자료를 기반으로 상담합니다. 따라�
 
 ## 함께 보기
 
-- [Studio 계정 접속](https://docs.certi.life/guide/studio/account-access)
-- [상담 시나리오와 사람 연결](https://docs.certi.life/guide/studio/scenario-and-handoff)
-- [출시 체크리스트](https://docs.certi.life/guide/studio/launch-checklist)
-- [Studio 운영 가이드](https://docs.certi.life/guide/studio/overview)
+- [Studio 계정 접속](https://certi.life/docs/guide/studio/account-access)
+- [상담 시나리오와 사람 연결](https://certi.life/docs/guide/studio/scenario-and-handoff)
+- [출시 체크리스트](https://certi.life/docs/guide/studio/launch-checklist)
+- [Studio 운영 가이드](https://certi.life/docs/guide/studio/overview)

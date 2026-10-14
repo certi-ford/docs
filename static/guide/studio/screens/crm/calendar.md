@@ -2,23 +2,23 @@
 
 > Studio CRM의 캘린더에서 일정 추가와 서티 예약으로 일정을 만들고, 일·주·월과 캘린더·칸반·타임라인·목록 보기를 바꾸고, 캘린더 관리에서 캘린더를 만들고 알림과 고객 저장 옵션을 정하는 방법을 안내합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/studio/screens/crm/calendar)
+[사람이 읽는 원문](https://certi.life/docs/guide/studio/screens/crm/calendar)
 
-`캘린더`는 상담 약속, 콜백, 방문 예약처럼 **날짜가 걸린 일**을 한곳에서 관리하는 화면입니다. 일정을 만드는 방법은 두 가지입니다. 자유롭게 만드는 `일정 추가`와, 환자 정보와 진료 항목을 함께 받는 `서티 예약`입니다. 상담 중에 고객 카드의 [`일정 잡기`](https://docs.certi.life/guide/studio/screens/counsel/customer#다음-행동으로-이어가기)를 누르면 이 화면으로 와서 그 고객의 일정을 만듭니다.
+`캘린더`는 상담 약속, 콜백, 방문 예약처럼 **날짜가 걸린 일**을 한곳에서 관리하는 화면입니다. 일정을 만드는 방법은 두 가지입니다. 자유롭게 만드는 `일정 추가`와, 환자 정보와 진료 항목을 함께 받는 `서티 예약`입니다. 상담 중에 고객 카드의 [`일정 잡기`](https://certi.life/docs/guide/studio/screens/counsel/customer#다음-행동으로-이어가기)를 누르면 이 화면으로 와서 그 고객의 일정을 만듭니다.
 
 **위치:** CRM > 캘린더 (Studio 위쪽의 `캘린더` 버튼으로도 열 수 있습니다)
 
-일정은 반드시 캘린더 하나에 담깁니다. 그래서 처음 쓸 때는 [캘린더를 먼저 만들고](https://docs.certi.life/guide/studio/screens/crm/calendar#처음-캘린더-만들기) 그다음 일정을 만듭니다.
+일정은 반드시 캘린더 하나에 담깁니다. 그래서 처음 쓸 때는 [캘린더를 먼저 만들고](https://certi.life/docs/guide/studio/screens/crm/calendar#처음-캘린더-만들기) 그다음 일정을 만듭니다.
 
 ## 이럴 때 사용하세요
 
 | 하고 싶은 일                   | 섹션                                                                                     |
 | ------------------------- | -------------------------------------------------------------------------------------- |
-| 처음 들어왔는데 일정을 넣을 수 없어요     | [처음 캘린더 만들기](https://docs.certi.life/guide/studio/screens/crm/calendar#처음-캘린더-만들기)     |
-| 상담 약속이나 방문 예약을 넣고 싶어요     | [일정 만들기](https://docs.certi.life/guide/studio/screens/crm/calendar#일정-만들기)             |
-| 잡아 둔 일정이나 예약의 시간을 바꾸고 싶어요 | [일정·예약 시간 바꾸기](https://docs.certi.life/guide/studio/screens/crm/calendar#일정예약-시간-바꾸기)  |
-| 오늘 일정만 보고 싶어요             | [보기 바꾸기](https://docs.certi.life/guide/studio/screens/crm/calendar#보기-바꾸기)             |
-| 용도별로 캘린더를 나누고 알림을 정하고 싶어요 | [캘린더 나누어 관리하기](https://docs.certi.life/guide/studio/screens/crm/calendar#캘린더-나누어-관리하기) |
+| 처음 들어왔는데 일정을 넣을 수 없어요     | [처음 캘린더 만들기](https://certi.life/docs/guide/studio/screens/crm/calendar#처음-캘린더-만들기)     |
+| 상담 약속이나 방문 예약을 넣고 싶어요     | [일정 만들기](https://certi.life/docs/guide/studio/screens/crm/calendar#일정-만들기)             |
+| 잡아 둔 일정이나 예약의 시간을 바꾸고 싶어요 | [일정·예약 시간 바꾸기](https://certi.life/docs/guide/studio/screens/crm/calendar#일정예약-시간-바꾸기)  |
+| 오늘 일정만 보고 싶어요             | [보기 바꾸기](https://certi.life/docs/guide/studio/screens/crm/calendar#보기-바꾸기)             |
+| 용도별로 캘린더를 나누고 알림을 정하고 싶어요 | [캘린더 나누어 관리하기](https://certi.life/docs/guide/studio/screens/crm/calendar#캘린더-나누어-관리하기) |
 
 ## 처음 캘린더 만들기
 
@@ -94,7 +94,7 @@
 
 - `캘린더 관리`, `일정 만들기`, `서티 예약 잡기` 창은 `저장`을 누르기 전에 `닫기`나 X로 닫으면 확인 창 없이 입력한 내용이 사라집니다. 다시 열면 `캘린더 관리`는 캘린더 목록부터 보이고, 나머지 두 창은 처음 상태로 열립니다.
 - 일정의 메모와 환자 요청에는 개인정보가 들어갈 수 있습니다. 필요한 내용만 적고, 화면을 공유할 때 주의하세요.
-- 예약 확정이나 변경 안내를 고객에게 보내려면 [상담 화면의 알림톡 발송](https://docs.certi.life/guide/studio/screens/counsel/customer#상담-중에-알림톡-보내기)이나 [시나리오 자동화](https://docs.certi.life/guide/studio/screens/crm/automation)를 함께 쓰세요.
+- 예약 확정이나 변경 안내를 고객에게 보내려면 [상담 화면의 알림톡 발송](https://certi.life/docs/guide/studio/screens/counsel/customer#상담-중에-알림톡-보내기)이나 [시나리오 자동화](https://certi.life/docs/guide/studio/screens/crm/automation)를 함께 쓰세요.
 
 ## 문제가 생기면
 
@@ -106,7 +106,7 @@
 2. `저장`을 누릅니다.
 3. `일정 추가`를 다시 누릅니다.
 
-자세한 순서는 [처음 캘린더 만들기](https://docs.certi.life/guide/studio/screens/crm/calendar#처음-캘린더-만들기)에 있습니다. 그래도 창이 열리지 않으면 화면의 문구와 발생 시각을 적어 조직의 CertiLife 담당자에게 알립니다.
+자세한 순서는 [처음 캘린더 만들기](https://certi.life/docs/guide/studio/screens/crm/calendar#처음-캘린더-만들기)에 있습니다. 그래도 창이 열리지 않으면 화면의 문구와 발생 시각을 적어 조직의 CertiLife 담당자에게 알립니다.
 
 ### `이름을 입력해 주세요.`
 

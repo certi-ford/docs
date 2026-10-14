@@ -2,23 +2,23 @@
 
 > Studio 챗봇 설정의 채팅창 설정에서 상담 유도 메시지(말풍선), 화면 맥락 전달(고객이 보던 페이지 알려 주기), 디자인 설정(헤더·테마 색상·제목), 창 크기, 채팅창 테두리/그림자, 플로팅 버튼, 커스텀 메뉴를 바꿔 웹채팅 창을 꾸미는 방법을 안내합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/studio/screens/chatbot/settings/chat-window-settings)
+[사람이 읽는 원문](https://certi.life/docs/guide/studio/screens/chatbot/settings/chat-window-settings)
 
 웹사이트에 붙인 채팅 버튼과 채팅창은 기본 파란색으로 나옵니다. `채팅창 설정`에서 우리 브랜드 색과 문구로 바꿀 수 있습니다. 바꾸는 즉시 오른쪽 `실시간 미리보기`에 반영되니 결과를 보면서 조정하고, 마음에 들면 왼쪽 아래 `저장`을 누르세요. **`저장`을 눌러야 실제 웹사이트의 채팅창이 바뀝니다.**
 
 **위치:** 챗봇 > (챗봇 선택) > 설정 > 채팅창 설정
 
-이 설정은 웹채팅에만 적용됩니다. 카카오톡이나 네이버 톡톡 같은 메신저 채널의 모양은 각 메신저가 정합니다. 웹채팅을 사이트에 붙이는 방법은 [`채널 설정`](https://docs.certi.life/guide/studio/screens/chatbot/settings/channel-settings#홈페이지에-채팅-버튼-달기)을 보세요.
+이 설정은 웹채팅에만 적용됩니다. 카카오톡이나 네이버 톡톡 같은 메신저 채널의 모양은 각 메신저가 정합니다. 웹채팅을 사이트에 붙이는 방법은 [`채널 설정`](https://certi.life/docs/guide/studio/screens/chatbot/settings/channel-settings#홈페이지에-채팅-버튼-달기)을 보세요.
 
 ## 이럴 때 사용하세요
 
 | 하고 싶은 일                                      | 섹션                                                                                                                                |
 | -------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| 채팅 버튼 위에 "도움이 필요하신가요?" 말풍선을 띄우고 싶어요          | [방문자에게 먼저 말 걸기](https://docs.certi.life/guide/studio/screens/chatbot/settings/chat-window-settings#방문자에게-먼저-말-걸기)                 |
-| 고객이 "이거 얼마예요?"라고 물으면 어느 페이지 얘기인지 챗봇이 알았으면 해요 | [고객이 보던 페이지를 챗봇에 알려 주기](https://docs.certi.life/guide/studio/screens/chatbot/settings/chat-window-settings#고객이-보던-페이지를-챗봇에-알려-주기) |
-| 채팅창을 브랜드 색으로 바꾸고 제목을 넣고 싶어요                  | [채팅창 색과 제목 바꾸기](https://docs.certi.life/guide/studio/screens/chatbot/settings/chat-window-settings#채팅창-색과-제목-바꾸기)                 |
-| 채팅 버튼이 사이트의 다른 버튼과 겹쳐요                       | [채팅 버튼 모양과 위치 바꾸기](https://docs.certi.life/guide/studio/screens/chatbot/settings/chat-window-settings#채팅-버튼-모양과-위치-바꾸기)           |
-| 채팅창 아래에 "오시는 길", "연락하기" 바로가기를 넣고 싶어요         | [바로가기 메뉴 넣기](https://docs.certi.life/guide/studio/screens/chatbot/settings/chat-window-settings#바로가기-메뉴-넣기)                       |
+| 채팅 버튼 위에 "도움이 필요하신가요?" 말풍선을 띄우고 싶어요          | [방문자에게 먼저 말 걸기](https://certi.life/docs/guide/studio/screens/chatbot/settings/chat-window-settings#방문자에게-먼저-말-걸기)                 |
+| 고객이 "이거 얼마예요?"라고 물으면 어느 페이지 얘기인지 챗봇이 알았으면 해요 | [고객이 보던 페이지를 챗봇에 알려 주기](https://certi.life/docs/guide/studio/screens/chatbot/settings/chat-window-settings#고객이-보던-페이지를-챗봇에-알려-주기) |
+| 채팅창을 브랜드 색으로 바꾸고 제목을 넣고 싶어요                  | [채팅창 색과 제목 바꾸기](https://certi.life/docs/guide/studio/screens/chatbot/settings/chat-window-settings#채팅창-색과-제목-바꾸기)                 |
+| 채팅 버튼이 사이트의 다른 버튼과 겹쳐요                       | [채팅 버튼 모양과 위치 바꾸기](https://certi.life/docs/guide/studio/screens/chatbot/settings/chat-window-settings#채팅-버튼-모양과-위치-바꾸기)           |
+| 채팅창 아래에 "오시는 길", "연락하기" 바로가기를 넣고 싶어요         | [바로가기 메뉴 넣기](https://certi.life/docs/guide/studio/screens/chatbot/settings/chat-window-settings#바로가기-메뉴-넣기)                       |
 
 ## 방문자에게 먼저 말 걸기
 
@@ -97,4 +97,4 @@
 
 화면 맨 아래 `설정 초기화`를 누르면 모든 채팅창 설정이 초기값으로 돌아갑니다. 초기화도 `저장`을 누르기 전까지는 실제 채팅창에 반영되지 않으므로, 잘못 눌렀다면 저장하지 않고 화면을 벗어나면 됩니다.
 
-저장하지 않고 다른 설정 메뉴로 옮기면 `저장하지 않은 변경사항이 있습니다` 창이 뜹니다. `이동`을 누르면 바꾼 내용이 사라지고, `취소`를 누르면 이 화면에 그대로 머뭅니다. 챗봇 상세 화면을 떠날 때 뜨는 창은 버튼이 `취소`와 `나가기`이며, 창마다 다른 문구는 [설정 한눈에 보기](https://docs.certi.life/guide/studio/screens/chatbot/settings/menu#문제가-생기면)에 있습니다.
+저장하지 않고 다른 설정 메뉴로 옮기면 `저장하지 않은 변경사항이 있습니다` 창이 뜹니다. `이동`을 누르면 바꾼 내용이 사라지고, `취소`를 누르면 이 화면에 그대로 머뭅니다. 챗봇 상세 화면을 떠날 때 뜨는 창은 버튼이 `취소`와 `나가기`이며, 창마다 다른 문구는 [설정 한눈에 보기](https://certi.life/docs/guide/studio/screens/chatbot/settings/menu#문제가-생기면)에 있습니다.

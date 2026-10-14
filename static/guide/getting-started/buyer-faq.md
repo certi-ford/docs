@@ -2,7 +2,7 @@
 
 > 병원·치과·한의원 등 의료기관 원장과 상담실장이 CertiLife의 가격, AI 상담 채널, 사람 연결, 도입 준비와 메디컬 인증서를 검토할 때 자주 묻는 질문입니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/getting-started/buyer-faq)
+[사람이 읽는 원문](https://certi.life/docs/guide/getting-started/buyer-faq)
 
 병원·치과·한의원 등 의료기관 원장과 상담실장이 도입 전에 확인하는 질문을 모았습니다.
 공개된 서비스와 가격 정보만 직접 답하며,
@@ -13,14 +13,14 @@
 ## CertiLife는 어떤 서비스인가요?
 
 CertiLife는 메디컬 인증서를 기반으로 AI 상담, CRM 메시징과 이벤트 마케팅을 함께 제공하는 병원 고객관리 플랫폼입니다.
-전체 제품 관계는 [5분 둘러보기](https://docs.certi.life/guide/getting-started/quick-tour)에서 확인할 수 있습니다.
+전체 제품 관계는 [5분 둘러보기](https://certi.life/docs/guide/getting-started/quick-tour)에서 확인할 수 있습니다.
 
 ## AI 상담, CRM 메시징과 인증서는 무엇이 다른가요?
 
 AI 상담은 반복 문의 응대,
 CRM 메시징은 진료 전후 안내와 재방문 관리,
 인증서는 시술·제품 정보를 환자에게 전달하는 기능입니다.
-자세한 제품별 역할은 [제품 둘러보기](https://docs.certi.life/guide/getting-started/quick-tour)를 확인하세요.
+자세한 제품별 역할은 [제품 둘러보기](https://certi.life/docs/guide/getting-started/quick-tour)를 확인하세요.
 
 ## 한 가지 서비스만 먼저 도입할 수 있나요?
 
@@ -38,9 +38,9 @@ CRM 메시징은 진료 전후 안내와 재방문 관리,
 
 준비 순서는 다음과 같습니다.
 
-1. [인증서 설정](https://docs.certi.life/guide/hospital/screens/certificate-settings)에서 인증서 양식을 먼저 만듭니다.
-2. 카카오톡으로 보내려면 환자의 개인정보 수집·제공 동의를 받습니다. 방법은 [인증서 발행](https://docs.certi.life/guide/hospital/screens/issue-certificate#환자-동의-받기)에 있습니다.
-3. 병원 이름의 카카오톡 채널로 알림톡을 보내려면 [알림톡](https://docs.certi.life/guide/hospital/screens/alimtalk) 메뉴에서 채널 등록, 발신프로필 인증, 템플릿 검수를 마칩니다.
+1. [인증서 설정](https://certi.life/docs/guide/hospital/screens/certificate-settings)에서 인증서 양식을 먼저 만듭니다.
+2. 카카오톡으로 보내려면 환자의 개인정보 수집·제공 동의를 받습니다. 방법은 [인증서 발행](https://certi.life/docs/guide/hospital/screens/issue-certificate#환자-동의-받기)에 있습니다.
+3. 병원 이름의 카카오톡 채널로 알림톡을 보내려면 [알림톡](https://certi.life/docs/guide/hospital/screens/alimtalk) 메뉴에서 채널 등록, 발신프로필 인증, 템플릿 검수를 마칩니다.
 
 ## 가격은 얼마인가요?
 
@@ -59,9 +59,9 @@ CRM 메시징은 진료 전후 안내와 재방문 관리,
 ## AI 상담은 어떤 채널에서 사용할 수 있나요?
 
 웹챗, 카카오톡, 네이버 톡톡에 더해
-Studio의 [채널 연동](https://docs.certi.life/guide/studio/screens/org-settings/channels)에서 Instagram, LINE, WhatsApp을 연결할 수 있습니다.
+Studio의 [채널 연동](https://certi.life/docs/guide/studio/screens/org-settings/channels)에서 Instagram, LINE, WhatsApp을 연결할 수 있습니다.
 위챗은 인증서 발송에만 쓰고, 상담 채널로는 화면에 `준비중`으로 표시됩니다.
-병원에 적용할 채널은 [AI 상담 안내](https://docs.certi.life/guide/products/ai-chatbot)와
+병원에 적용할 채널은 [AI 상담 안내](https://certi.life/docs/guide/products/ai-chatbot)와
 [도입 문의](https://certi.life/contact)에서 확인하세요.
 
 ## AI 채팅봇과 AI 음성봇은 어떻게 다른가요?
@@ -75,13 +75,13 @@ AI 음성봇은 점심시간·휴일·업무시간 외 전화 문의 대응을 �
 
 병원이 고객에게 공개할 수 있도록 제공하고 확인한 최신 안내 자료와
 질문·답변을 바탕으로 답변 범위를 구성합니다.
-자료를 준비하는 순서는 [AI 상담 지식 준비](https://docs.certi.life/guide/products/ai-chatbot/knowledge-preparation)를 확인하세요.
+자료를 준비하는 순서는 [AI 상담 지식 준비](https://certi.life/docs/guide/products/ai-chatbot/knowledge-preparation)를 확인하세요.
 
 ## AI가 답하지 못하는 문의는 어떻게 처리하나요?
 
 등록 자료로 확인할 수 없거나 의료진의 판단과 담당자 확인이 필요한 문의는
 AI가 임의로 답하지 않고 사람 확인으로 이어지게 해야 합니다.
-문의 유형별 기준은 [상담원 연결 정책](https://docs.certi.life/guide/products/ai-chatbot/handoff-policy)에서 정리할 수 있습니다.
+문의 유형별 기준은 [상담원 연결 정책](https://certi.life/docs/guide/products/ai-chatbot/handoff-policy)에서 정리할 수 있습니다.
 
 ## 환자가 사람 상담을 요청하면 전환할 수 있나요?
 
@@ -117,7 +117,7 @@ AI 음성봇은 점심시간·휴일·업무시간 외 전화 문의 대응을 �
 
 웹챗봇과 병원 채널 기반 AI 채팅봇 구성이 가능합니다.
 병원 카카오톡 채널을 연결하려면 **카카오톡 채널 관리자로 등록된 휴대폰 번호**로 인증해야 하므로,
-채널 관리자 권한을 가진 사람이 필요합니다. 절차는 [채널 연동](https://docs.certi.life/guide/studio/screens/org-settings/channels)에 있습니다.
+채널 관리자 권한을 가진 사람이 필요합니다. 절차는 [채널 연동](https://certi.life/docs/guide/studio/screens/org-settings/channels)에 있습니다.
 실제 연결 범위는 기존 채널의 권한과 기술 조건을 확인해 정합니다.
 
 ## 계약·해지·연동 조건은 어디서 확인하나요?

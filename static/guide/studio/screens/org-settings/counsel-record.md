@@ -2,9 +2,9 @@
 
 > Studio 설정의 상담 기록 설정에서 상담 메모 양식 항목과 단일 선택·복수 선택 필드를 만들어 전화상담 기록 양식을 조직에 맞게 정의하고, AI 자동 선택을 켜고 끄는 방법과 주의사항을 안내합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/studio/screens/org-settings/counsel-record)
+[사람이 읽는 원문](https://certi.life/docs/guide/studio/screens/org-settings/counsel-record)
 
-통화가 끝나면 상담사는 "무슨 문의였고 어떻게 처리했는지"를 기록합니다. 기록 양식이 조직의 업무와 맞지 않으면 기록이 제각각이 되어 나중에 통계로 쓸 수 없습니다. `상담 기록 설정`에서는 **기록에 담을 항목을 조직에 맞게 직접 정의**합니다. 여기서 만든 필드는 [전화상담](https://docs.certi.life/guide/studio/screens/phone-counsel) 화면의 `상담 기록`과 통화 기록 상세에 그대로 나타납니다.
+통화가 끝나면 상담사는 "무슨 문의였고 어떻게 처리했는지"를 기록합니다. 기록 양식이 조직의 업무와 맞지 않으면 기록이 제각각이 되어 나중에 통계로 쓸 수 없습니다. `상담 기록 설정`에서는 **기록에 담을 항목을 조직에 맞게 직접 정의**합니다. 여기서 만든 필드는 [전화상담](https://certi.life/docs/guide/studio/screens/phone-counsel) 화면의 `상담 기록`과 통화 기록 상세에 그대로 나타납니다.
 
 **위치:** 설정 > 상담 기록 설정
 
@@ -40,7 +40,7 @@
 
 > **필드는 적을수록 좋습니다**
 >
-> 화면에도 안내되어 있듯 필드가 많으면 상담사의 입력이 느려집니다. 통계로 실제로 볼 분류만 남기세요. 어떤 필드를 둘지 설계하는 방법은 [상담 기록 필드 설정](https://docs.certi.life/guide/studio/consultation-records)에 자세히 있습니다.
+> 화면에도 안내되어 있듯 필드가 많으면 상담사의 입력이 느려집니다. 통계로 실제로 볼 분류만 남기세요. 어떤 필드를 둘지 설계하는 방법은 [상담 기록 필드 설정](https://certi.life/docs/guide/studio/consultation-records)에 자세히 있습니다.
 
 ## AI가 기록을 대신 채우게 하기
 
@@ -54,5 +54,5 @@
 
 ## 함께 보기
 
-- [전화상담](https://docs.certi.life/guide/studio/screens/phone-counsel#통화-내용-확인하고-기록-남기기): 상담사가 기록을 남기는 화면
-- [상담 기록 필드 설정](https://docs.certi.life/guide/studio/consultation-records): 필드 설계 기준과 운영 방법
+- [전화상담](https://certi.life/docs/guide/studio/screens/phone-counsel#통화-내용-확인하고-기록-남기기): 상담사가 기록을 남기는 화면
+- [상담 기록 필드 설정](https://certi.life/docs/guide/studio/consultation-records): 필드 설계 기준과 운영 방법

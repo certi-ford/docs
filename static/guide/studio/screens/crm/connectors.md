@@ -2,13 +2,13 @@
 
 > Studio CRM의 데이터 연동에서 NFT 인증서 커넥터와 EMR 고객 데이터 연동을 설정해 고객 데이터를 CRM으로 계속 가져오고, 동기화 상태를 확인하고, 커넥터 설정을 바꾸거나 삭제하는 방법을 안내합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/studio/screens/crm/connectors)
+[사람이 읽는 원문](https://certi.life/docs/guide/studio/screens/crm/connectors)
 
 CSV 업로드는 한 번 올리면 끝이지만, `데이터 연동`은 **다른 시스템의 고객 데이터를 CRM으로 계속 가져옵니다.** 인증서를 발급받은 고객이나 EMR에 등록된 환자가 자동으로 CRM 고객이 되므로 명단을 손으로 옮길 필요가 없습니다. 연동할 수 있는 소스는 `NFT 인증서 커넥터`와 `EMR 고객 데이터 연동` 두 가지입니다.
 
 **위치:** CRM > 데이터 연동
 
-화면에도 안내되어 있듯 CSV는 연동 커넥터가 아니라 고객을 일괄 추가하는 수단입니다. CSV는 [고객 목록의 `고객 추가`](https://docs.certi.life/guide/studio/screens/crm/customers#고객-넣기)에서 올립니다.
+화면에도 안내되어 있듯 CSV는 연동 커넥터가 아니라 고객을 일괄 추가하는 수단입니다. CSV는 [고객 목록의 `고객 추가`](https://certi.life/docs/guide/studio/screens/crm/customers#고객-넣기)에서 올립니다.
 
 ## 새 연동 만들기
 
@@ -42,5 +42,5 @@ EMR을 연동하면 `자동 제공 고객 속성`이 CRM 고객 속성으로 등
 ## 알아 둘 점
 
 - 연동으로 들어온 고객도 광고성 메시지를 받으려면 마케팅 수신 동의가 있어야 합니다. 환자 데이터가 들어왔다고 해서 광고를 보낼 수 있는 것은 아닙니다.
-- EMR 데이터에는 민감한 정보가 들어 있습니다. 조직의 개인정보 처리 기준과 환자 동의 범위 안에서 연동하세요. 기준은 [개인정보 및 보안](https://docs.certi.life/guide/help/privacy-security)을 참고하세요.
-- 같은 사람이 여러 경로로 들어오면 고객이 중복될 수 있습니다. [중복된 고객 합치기](https://docs.certi.life/guide/studio/screens/crm/customers#중복된-고객-합치기)로 정리합니다.
+- EMR 데이터에는 민감한 정보가 들어 있습니다. 조직의 개인정보 처리 기준과 환자 동의 범위 안에서 연동하세요. 기준은 [개인정보 및 보안](https://certi.life/docs/guide/help/privacy-security)을 참고하세요.
+- 같은 사람이 여러 경로로 들어오면 고객이 중복될 수 있습니다. [중복된 고객 합치기](https://certi.life/docs/guide/studio/screens/crm/customers#중복된-고객-합치기)로 정리합니다.

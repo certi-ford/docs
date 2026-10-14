@@ -2,7 +2,7 @@
 
 > 디지털 인증서의 전달 방식, 보관 경험, 유형 선택 기준을 한눈에 살펴봅니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/products/certificate)
+[사람이 읽는 원문](https://certi.life/docs/guide/products/certificate)
 
 CertiLife 인증서는 시술 또는 제품과 관련된 정보를 고객에게 디지털 형태로 전달하고, 이후에도 다시 확인할 수 있도록 돕는 서비스입니다. 고객은 별도 앱을 설치하지 않고 전달받은 안내에서 인증서를 확인할 수 있으며, 모바일에 영구 보관할 수 있습니다. 종이 문서를 건네는 순간에 끝나지 않고 고객이 필요할 때 정보를 다시 찾을 수 있는 접점을 만드는 데 목적이 있습니다.
 
@@ -40,8 +40,8 @@ CertiLife는 실물 인증서와 커스텀 인증서를 지원합니다. 커스�
 
 ## 다음 문서
 
-- [인증서 발행](https://docs.certi.life/guide/hospital/screens/issue-certificate) (Hospital 화면의 실제 발행 순서)
-- [인증서 발송 채널](https://docs.certi.life/guide/products/certificate/channels)
-- [인증서 전달 전 체크리스트](https://docs.certi.life/guide/products/certificate/delivery-checklist)
-- [CRM 메시징 알아보기](https://docs.certi.life/guide/products/crm-messaging)
+- [인증서 발행](https://certi.life/docs/guide/hospital/screens/issue-certificate) (Hospital 화면의 실제 발행 순서)
+- [인증서 발송 채널](https://certi.life/docs/guide/products/certificate/channels)
+- [인증서 전달 전 체크리스트](https://certi.life/docs/guide/products/certificate/delivery-checklist)
+- [CRM 메시징 알아보기](https://certi.life/docs/guide/products/crm-messaging)
 - [도입 문의](https://certi.life/contact)

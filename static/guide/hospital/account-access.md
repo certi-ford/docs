@@ -2,11 +2,11 @@
 
 > Hospital 공식 로그인 화면에서 로그인하고 아이디·비밀번호 문제를 해결하는 절차를 안내합니다.
 
-[사람이 읽는 원문](https://docs.certi.life/guide/hospital/account-access)
+[사람이 읽는 원문](https://certi.life/docs/guide/hospital/account-access)
 
 Hospital을 이용할 때는 [Hospital 공식 로그인 화면](https://hospital.certi.life/signin)(주소 `hospital.certi.life/signin`)으로 이동하세요. 공개 로그인 화면의 제목은 **병원 관리자 로그인**이며, **아이디**(안내 문구 "관리자 아이디를 입력하세요.")와 **비밀번호** 입력란, **로그인** 버튼이 있습니다. 같은 화면에서 **제휴 문의**, **회원가입**, **아이디 찾기**, **비밀번호 재설정** 경로도 이용할 수 있습니다.
 
-직원용 서브계정은 회원가입하지 않습니다. 병원의 관리자 계정이 [계정 관리](https://docs.certi.life/guide/hospital/screens/accounts)에서 만들어 줍니다. 병원의 첫 계정이 아직 없으면 [병원 관리자 계정을 처음 만드는 경우](https://docs.certi.life/guide/hospital/account-access#병원-관리자-계정을-처음-만드는-경우)로 가세요.
+직원용 서브계정은 회원가입하지 않습니다. 병원의 관리자 계정이 [계정 관리](https://certi.life/docs/guide/hospital/screens/accounts)에서 만들어 줍니다. 병원의 첫 계정이 아직 없으면 [병원 관리자 계정을 처음 만드는 경우](https://certi.life/docs/guide/hospital/account-access#병원-관리자-계정을-처음-만드는-경우)로 가세요.
 
 ## 기존 계정으로 로그인하기
 
@@ -37,7 +37,7 @@ Hospital을 이용할 때는 [Hospital 공식 로그인 화면](https://hospital
 
 > **직원은 이 절을 건너뜁니다**
 >
-> 직원용 서브계정은 회원가입하지 않습니다. 병원 관리자 계정이 [계정 관리](https://docs.certi.life/guide/hospital/screens/accounts)에서 만들어 줍니다. 이 절은 병원의 첫 관리자 계정을 만드는 원장이나 관리자를 위한 내용입니다.
+> 직원용 서브계정은 회원가입하지 않습니다. 병원 관리자 계정이 [계정 관리](https://certi.life/docs/guide/hospital/screens/accounts)에서 만들어 줍니다. 이 절은 병원의 첫 관리자 계정을 만드는 원장이나 관리자를 위한 내용입니다.
 
 로그인 화면의 **회원가입** 경로를 이용할 수 있습니다. 가입 전에 조직에서 누가 관리자 계정을 사용할지, 어떤 업무를 맡을지 먼저 정하세요. 서비스 도입 또는 제휴 상담이 먼저 필요한 경우에는 로그인 화면의 **제휴 문의** 또는 [도입 문의](https://certi.life/contact)를 이용합니다. 가입 과정에서 실제 업무에 필요하지 않은 개인정보를 별도로 기록하거나 전달하지 마세요.
 
@@ -50,10 +50,10 @@ Hospital을 이용할 때는 [Hospital 공식 로그인 화면](https://hospital
 
 완료 화면에 "회원가입 신청이 완료되었습니다. 관리자 승인 후 이용 가능합니다."가 나오면 승인을 기다린 뒤 로그인합니다. 승인에 걸리는 시간과 승인 완료를 알려 주는 방법은 확인되지 않았으므로 [도입 문의](https://certi.life/contact)에서 확인하세요. 기공소나 제조사는 가입 중에 나오는 안내 창에서 `기공소/제조사로 가입하기`를 골라 다른 가입 화면으로 이동합니다.
 
-로그인한 뒤 직원용 계정을 만드는 방법은 [계정 관리](https://docs.certi.life/guide/hospital/screens/accounts)를, 비밀번호를 바꾸는 방법은 [병원 정보 관리](https://docs.certi.life/guide/hospital/screens/hospital-info#비밀번호-바꾸기)를 참고하세요.
+로그인한 뒤 직원용 계정을 만드는 방법은 [계정 관리](https://certi.life/docs/guide/hospital/screens/accounts)를, 비밀번호를 바꾸는 방법은 [병원 정보 관리](https://certi.life/docs/guide/hospital/screens/hospital-info#비밀번호-바꾸기)를 참고하세요.
 
 ## 다음 단계
 
-- [Hospital 운영 가이드](https://docs.certi.life/guide/hospital/overview)
-- [인증서 발행·전달 가이드](https://docs.certi.life/guide/hospital/certificate-workflow)
-- [Hospital 안전한 운영 가이드](https://docs.certi.life/guide/hospital/safe-operation)
+- [Hospital 운영 가이드](https://certi.life/docs/guide/hospital/overview)
+- [인증서 발행·전달 가이드](https://certi.life/docs/guide/hospital/certificate-workflow)
+- [Hospital 안전한 운영 가이드](https://certi.life/docs/guide/hospital/safe-operation)
