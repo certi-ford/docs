@@ -1,5 +1,6 @@
 import type {ReactNode} from 'react';
 import Link from '@docusaurus/Link';
+import {useBaseUrlUtils} from '@docusaurus/useBaseUrl';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
@@ -67,6 +68,8 @@ const connectedPaths = [
 ];
 
 export default function Home(): ReactNode {
+  // Plain <img> does not get baseUrl like <Link> does; the /docs/ build needs it.
+  const {withBaseUrl} = useBaseUrlUtils();
   return (
     <Layout
       title="CertiLife 사용 가이드"
@@ -90,7 +93,7 @@ export default function Home(): ReactNode {
 
             <figure className={styles.heroProduct}>
               <img
-                src="/img/product-certificate-visual.jpg"
+                src={withBaseUrl('/img/product-certificate-visual.jpg')}
                 alt="정품 인증서와 모바일 인증서 화면"
                 width="890"
                 height="840"
@@ -118,7 +121,7 @@ export default function Home(): ReactNode {
                 >
                   <div className={styles.productImage}>
                     <img
-                      src={product.image}
+                      src={withBaseUrl(product.image)}
                       alt={product.imageAlt}
                       width={product.width}
                       height={product.height}
